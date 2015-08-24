@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-24 05:30+0200\n"
-"PO-Revision-Date: 2015-08-24 22:27+0800\n"
+"PO-Revision-Date: 2015-08-24 22:30+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -2479,7 +2479,7 @@ msgstr "无法获得明确的证书主题名称，gnutls_x509_get_dn 失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:900
 msgid "Could not get full remote path."
-msgstr "无法得到完整远程路径。"
+msgstr "无法得到完整的远程路径。"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:257
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:271
