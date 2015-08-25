@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-24 05:30+0200\n"
-"PO-Revision-Date: 2015-08-24 22:30+0800\n"
+"PO-Revision-Date: 2015-08-25 15:54+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -599,7 +599,7 @@ msgstr "继承系统的文件类型关联(&I)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:109
 msgid "&Install new version"
-msgstr "安装新版本 (&I)"
+msgstr "安装新版 (&I)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3144
 msgid "&Keep remote path structure relative to search root"
@@ -692,7 +692,7 @@ msgstr "新站点(&N)"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1688
 msgid "&New version available!"
-msgstr "有新版本了！(&N)"
+msgstr "有新版了！(&N)"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:26
 msgid "&Next >"
@@ -863,11 +863,11 @@ msgstr "运行命令(&R)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:76
 msgid "&Run configuration wizard now..."
-msgstr "现在运行配置向导(&R)..."
+msgstr "运行配置向导(&R)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2084
 msgid "&Run update check now..."
-msgstr "现在检查更新(&R)..."
+msgstr "检查更新(&R)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:468
 msgid "&SITE"
@@ -956,7 +956,7 @@ msgstr "立即开始传输(&S)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1299
 msgid "&Swap local and remote panes"
-msgstr "交换本地和远程面板(&S)"
+msgstr "交换本地面板和远程面板(&S)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:440
 msgid "&TLS Ciphers"
@@ -1436,9 +1436,9 @@ msgid ""
 "expected and might even damage your system. Use beta versions and nightly "
 "builds at your own risk."
 msgstr ""
-"建议: 如果不是想测试新功能，请坚持使用稳定版本。Beta 版本和每日编译版本是用于"
-"测试目的的开发版本。每日编译版本的 FileZilla 可能工作不正常，甚至破坏您的系"
-"统。使用 Beta 和每日编译版本的风险由您自己承担。"
+"建议: 如果不想测试新功能，请选择仅稳定版。Beta 版和每日编译版是用于测试目的的"
+"开发版本。每日编译版的 FileZilla 可能工作不正常，甚至破坏您的系统。使用 Beta "
+"版和每日编译版的风险由您自己承担。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3500
 msgid "Al&ways perform this action"
@@ -5111,11 +5111,11 @@ msgstr "尚未初始化，需要调用 WSAStartup"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:637
 msgid "Note that this feature is only supported using the FTP protocol."
-msgstr "注意这个功能只在使用 FTP 协议时才支持。"
+msgstr "注意这个功能只支持使用 FTP 协议。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:595
 msgid "Note: This only works with plain, unencrypted FTP connections."
-msgstr "注意: 这只能工作于一般未加密的 FTP 连接。"
+msgstr "注意: 只适用于未加密的 FTP 连接。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:794
 msgid "Note: Using a generic proxy forces passive mode on FTP connections."
@@ -5478,7 +5478,7 @@ msgstr "请为新过滤器命名。"
 
 #: ../../source/FileZilla3/locales/../src/interface/filteredit.cpp:243
 msgid "Please enter a new name for the copied filter."
-msgstr "请为过滤器复件输入新名称。"
+msgstr "请为复制的过滤器输入新名称。"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:389
 #, c-format
@@ -5487,7 +5487,7 @@ msgstr "请为过滤器“%s”输入新名称。"
 
 #: ../../source/FileZilla3/locales/../src/interface/filteredit.cpp:196
 msgid "Please enter a new name for the filter."
-msgstr "请为过滤器输入新名称。"
+msgstr "请为该过滤器输入新名称。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:112
 msgid ""
@@ -5508,7 +5508,7 @@ msgstr "请输入 1 到 10 之间的数字来设置并发传输任务数。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:258
 msgid "Please enter a password for this server:"
-msgstr "请为这个服务器输入一个密码:"
+msgstr "请为该服务器输入密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2120
 msgid ""
@@ -5528,11 +5528,11 @@ msgstr "请输入介于 10 和 9999 之间的超时秒数，或输入 0 禁用�
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:333
 msgid "Please enter a unique name for this filter set"
-msgstr "请为这个过滤器集合输入一个唯一的名称"
+msgstr "请为该过滤器集合输入一个唯一的名称"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:265
 msgid "Please enter a username for this server:"
-msgstr "请为这个服务器输入用户名:"
+msgstr "请为该服务器输入用户名:"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:197
 msgid "Please enter a valid portrange."
@@ -5569,7 +5569,7 @@ msgstr "请输入将要创建的文件名:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:272
 msgid "Please enter username and password for this server:"
-msgstr "请为这个服务器输入用户名和密码:"
+msgstr "请为该服务器输入用户名和密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:157
 msgid "Please enter your external IP address"
@@ -5582,21 +5582,20 @@ msgid ""
 "wizard. In case you have a dynamic address or don't know your external "
 "address, use the external resolver option."
 msgstr ""
-"请在本向导的主动模式页输入您的外部 IP 地址。如果是动态地址或不知道外部地址，"
-"请使用外部解析器选项。"
+"请在本向导的主动模式页输入您的外部 IP 地址。如果是动态地址或者您不知道外部地"
+"址，请使用外部解析器选项。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:16
 msgid ""
 "Please follow the instructions carefully, as wrong configuration will "
 "prevent successful FTP connections."
-msgstr "请认真按照提示进行，因为错误的配置将会阻止正确的 FTP 连接。"
+msgstr "请认真按照提示进行，因为错误的配置将会阻止 FTP 连接。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:632
 msgid ""
 "Please make sure FileZilla is allowed to establish outgoing connections and "
 "make sure you typed the address of the address resolver correctly."
-msgstr ""
-"请确保 FileZilla 被允许建立向外的连接并且确保您输入了被正确解析的地址。"
+msgstr "请确保 FileZilla 被允许建立向外的连接并且输入了正确的已解析地址。"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:136
 msgid "Please make sure the requested locale is installed on your system."
@@ -5609,8 +5608,8 @@ msgid ""
 "manual port forwarding. Don't run your router in the so called 'DMZ mode' or "
 "'game mode'."
 msgstr ""
-"请确保您的路由器使用可用的最新固件。还有您的路由器是否已被正确配置。必须要用"
-"手动端口转发，不要让您的路由器运行在所谓的“DMZ 模式”或才“Game 模式”下。"
+"请确保您的路由器使用了最新的固件，并检查您的路由器是否已正确配置。请手工设置"
+"端口转发，不要让您的路由器运行在所谓的“DMZ 模式”或者“Game 模式”下。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:131
 msgid ""
@@ -5635,7 +5634,7 @@ msgstr ""
 msgid ""
 "Please note that some servers might ban you if you try to reconnect too "
 "often or in too short intervals."
-msgstr "请注意，如果您过于频繁的尝试连接，或者间隔过短，某些服务器会阻止您。"
+msgstr "请注意如果您过于频繁的尝试连接，或者间隔过短，某些服务器会阻止您。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:585
 msgid ""
@@ -5643,8 +5642,8 @@ msgid ""
 "in case you suddenly encounter problems with servers that did work "
 "previously."
 msgstr ""
-"当网络环境发生改变，或者突然发生之前能用的服务器无法使用的问题时，请再次运行"
-"本向导。"
+"当网络环境发生改变，或者突然发生之前能用的服务器无法连接的问题，请再次运行本"
+"向导。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3221
 msgid "Please select an action:"
@@ -5748,7 +5747,8 @@ msgid ""
 "Privacy policy: Only your version of FileZilla, your used operating system "
 "and your CPU architecture will be submitted to the server."
 msgstr ""
-"隐私政策: 只有您所使用的 FileZilla、操作系统版本及 CPU 架构会被发送到服务器。"
+"隐私策略: 只有您所使用的 FileZilla 版本、操作系统及 CPU 架构会被发送到服务"
+"器。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:629
 msgid "Private &keys:"
@@ -6483,7 +6483,7 @@ msgid ""
 "Use site-specific bookmarks for this server."
 msgstr ""
 "所选择的全局书签和当前服务器使用了不同的服务器类型。\n"
-"为这个服务器使用站点特定书签。"
+"为该服务器使用站点特定书签。"
 
 #: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:291
 msgid "Selected port usually in use by a different protocol."
@@ -6790,14 +6790,14 @@ msgstr "地址集不支持此套接字类型"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1148
 msgid "Some files are still being edited or need to be uploaded."
-msgstr "部分文件正被编辑或是需要上传。"
+msgstr "部分文件正被编辑或者需要上传。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:147
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:415
 msgid ""
 "Some misconfigured remote servers which are behind a router, may reply with "
 "their local IP address."
-msgstr "一些配置错误的远程服务器放在了路由器后面，可能会返回它们的本地地址。"
+msgstr "一些处于路由器后面的远程服务器使用了错误的配置，可能会返回其本地地址。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1735
 msgid "Sort directories inline"
@@ -6851,15 +6851,15 @@ msgstr "速度限制已启用，点击修改。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2067
 msgid "Stable and beta versions"
-msgstr "稳定和 Beta 版本"
+msgstr "稳定版和 Beta 版"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2066
 msgid "Stable versions only"
-msgstr "仅稳定版本"
+msgstr "仅稳定版"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2068
 msgid "Stable, beta and nightly versions"
-msgstr "稳定，Beta 及 Nightly (每日构建) 版本"
+msgstr "稳定，Beta 及每日编译版 (Nightly)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2557
 msgid "Start transfer &immediately"
@@ -7083,7 +7083,7 @@ msgstr "无法清除该书签。"
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:464
 msgid "The connection is encrypted. Click icon for details."
-msgstr "这个连接是加密的。点击图标显示细节。"
+msgstr "该连接是加密的。点击图标显示细节。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:75
 msgid ""
@@ -7488,7 +7488,7 @@ msgstr "两边的目录树必须同时显示或隐藏才能执行此动作。"
 msgid ""
 "To support public key authentication, FileZilla needs to know the private "
 "keys to use."
-msgstr "为了支持进行公钥认证，FileZilla 需要知道使用的私钥。"
+msgstr "为了支持进行公钥认证，FileZilla 需要知道所使用的私钥。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/toolbar.xrc:75
 msgid ""
@@ -7851,7 +7851,8 @@ msgstr "使用服务器的外部地址来代替"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:358
 msgid ""
 "Use this if you're behind a router and have a static external IP address."
-msgstr "使用这个选项，如果您在路由器后面，并且有一个静态外部 IP 地址。"
+msgstr ""
+"如果您的计算机处于路由器后面，并且有一个静态外部 IP 地址，请使用这个选项。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:240
 msgid ""
@@ -7944,9 +7945,9 @@ msgid ""
 "\n"
 "Do you really want to check for nightly builds?"
 msgstr ""
-"警告，使用每日编译的版本您风险自担。\n"
-"每日编译的版本没有技术支持。\n"
-"每日编译的版本可能不会像您期望的那样工作，它也许会破坏您的系统。\n"
+"警告，使用每日编译版您风险自担。\n"
+"每日编译版没有技术支持。\n"
+"每日编译版可能不会像您期望的那样工作，它也许会破坏您的系统。\n"
 "\n"
 "您真的要检查每日编译版吗？"
 
@@ -7981,7 +7982,7 @@ msgstr "启用后，下载这种文件时，文件名中本地操作系统不支
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1375
 msgid "When st&arting a new connection while already connected:"
-msgstr "已经连接的情况下，仍然创建一个新的连接(&A):"
+msgstr "已连接服务器的情况下，需要创建一个新的连接(&A):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1287
 msgid "Widescreen"
@@ -8109,11 +8110,11 @@ msgstr "您的防火墙或路由器似乎错误地更改了传输的数据。"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:56
 msgid "You need to enter a name for the bookmark."
-msgstr "请为该书签输入一个名字。"
+msgstr "请为该书签命名。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:67
 msgid "You need to enter a name for the log file."
-msgstr "请为日志文件输入一个名字。"
+msgstr "请为日志文件输入文件名。"
 
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1473
 msgid "You need to enter a properly quoted command."
