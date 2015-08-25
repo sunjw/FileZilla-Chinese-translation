@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-24 05:30+0200\n"
-"PO-Revision-Date: 2015-08-25 10:03+0800\n"
+"PO-Revision-Date: 2015-08-25 15:54+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -5111,7 +5111,7 @@ msgstr "尚未初始化，需要调用 WSAStartup"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:637
 msgid "Note that this feature is only supported using the FTP protocol."
-msgstr "注意这个功能只在使用 FTP 协议时才支持。"
+msgstr "注意这个功能只支持使用 FTP 协议。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:595
 msgid "Note: This only works with plain, unencrypted FTP connections."
@@ -5478,7 +5478,7 @@ msgstr "请为新过滤器命名。"
 
 #: ../../source/FileZilla3/locales/../src/interface/filteredit.cpp:243
 msgid "Please enter a new name for the copied filter."
-msgstr "请为过滤器复件输入新名称。"
+msgstr "请为复制的过滤器输入新名称。"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:389
 #, c-format
@@ -5487,7 +5487,7 @@ msgstr "请为过滤器“%s”输入新名称。"
 
 #: ../../source/FileZilla3/locales/../src/interface/filteredit.cpp:196
 msgid "Please enter a new name for the filter."
-msgstr "请为过滤器输入新名称。"
+msgstr "请为该过滤器输入新名称。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:112
 msgid ""
@@ -5508,7 +5508,7 @@ msgstr "请输入 1 到 10 之间的数字来设置并发传输任务数。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:258
 msgid "Please enter a password for this server:"
-msgstr "请为这个服务器输入一个密码:"
+msgstr "请为该服务器输入密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2120
 msgid ""
@@ -5528,11 +5528,11 @@ msgstr "请输入介于 10 和 9999 之间的超时秒数，或输入 0 禁用�
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:333
 msgid "Please enter a unique name for this filter set"
-msgstr "请为这个过滤器集合输入一个唯一的名称"
+msgstr "请为该过滤器集合输入一个唯一的名称"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:265
 msgid "Please enter a username for this server:"
-msgstr "请为这个服务器输入用户名:"
+msgstr "请为该服务器输入用户名:"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:197
 msgid "Please enter a valid portrange."
@@ -5569,7 +5569,7 @@ msgstr "请输入将要创建的文件名:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:272
 msgid "Please enter username and password for this server:"
-msgstr "请为这个服务器输入用户名和密码:"
+msgstr "请为该服务器输入用户名和密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:157
 msgid "Please enter your external IP address"
@@ -6483,7 +6483,7 @@ msgid ""
 "Use site-specific bookmarks for this server."
 msgstr ""
 "所选择的全局书签和当前服务器使用了不同的服务器类型。\n"
-"为这个服务器使用站点特定书签。"
+"为该服务器使用站点特定书签。"
 
 #: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:291
 msgid "Selected port usually in use by a different protocol."
@@ -7083,7 +7083,7 @@ msgstr "无法清除该书签。"
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:464
 msgid "The connection is encrypted. Click icon for details."
-msgstr "这个连接是加密的。点击图标显示细节。"
+msgstr "该连接是加密的。点击图标显示细节。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:75
 msgid ""
@@ -7851,7 +7851,8 @@ msgstr "使用服务器的外部地址来代替"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:358
 msgid ""
 "Use this if you're behind a router and have a static external IP address."
-msgstr "使用这个选项，如果您在路由器后面，并且有一个静态外部 IP 地址。"
+msgstr ""
+"如果您的计算机处于路由器后面，并且有一个静态外部 IP 地址，请使用这个选项。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:240
 msgid ""
@@ -8109,11 +8110,11 @@ msgstr "您的防火墙或路由器似乎错误地更改了传输的数据。"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:56
 msgid "You need to enter a name for the bookmark."
-msgstr "请为该书签输入一个名字。"
+msgstr "请为该书签命名。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:67
 msgid "You need to enter a name for the log file."
-msgstr "请为日志文件输入一个名字。"
+msgstr "请为日志文件输入文件名。"
 
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1473
 msgid "You need to enter a properly quoted command."
