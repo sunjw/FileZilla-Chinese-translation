@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-24 05:30+0200\n"
-"PO-Revision-Date: 2015-08-25 15:54+0800\n"
+"POT-Creation-Date: 2015-08-26 05:30+0200\n"
+"PO-Revision-Date: 2015-08-24 17:46+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -387,6 +387,18 @@ msgstr "删除符号链接(&D)"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:70
 msgid "&Directory comparison"
 msgstr "目录比较(&D)"
+
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:889
+#, fuzzy
+msgid ""
+"&Disable synchronized browsing and continue changing the local directory"
+msgstr "关闭同步浏览并且继续修改本地目录？"
+
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:960
+#, fuzzy
+msgid ""
+"&Disable synchronized browsing and continue changing the remote directory"
+msgstr "关闭同步浏览并且继续修改本地目录？"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1809
 msgid "&Discard local file then download and edit file anew"
@@ -1233,9 +1245,9 @@ msgstr "该名称的书签已经存在。请输入一个未使用的名字。"
 msgid "A default editor needs to be set."
 msgstr "需要设置默认编辑器。"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:740
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:157
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:118
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:742
 msgid "A directory cannot be dragged into one of its subdirectories."
 msgstr "目录无法被拖入其子目录中。"
 
@@ -1292,7 +1304,7 @@ msgid ""
 "you need this."
 msgstr "正常的服务器是不需要这项的，如果您需要的话请联系服务器管理员。"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:256
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:257
 msgid ""
 "A remote operation is in progress and synchronized browsing is enabled.\n"
 "Disable synchronized browsing and continue changing the local directory?"
@@ -1534,7 +1546,7 @@ msgstr "目标位置已存在与所拖拽项目同名的文件。"
 msgid "Anonymous"
 msgstr "匿名"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:914
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:939
 msgid ""
 "Another remote operation is already in progress, cannot change directory now."
 msgstr "另一个远程操作正在进行，现在无法更改目录。"
@@ -1782,6 +1794,7 @@ msgstr "无法将数据写入文件: %s"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3186
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3256
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3518
+#: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3738
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:604
 msgid "Cancel"
 msgstr "取消"
@@ -2395,7 +2408,7 @@ msgstr "无法接受连接: %s"
 msgid "Could not add connection to Site Manager"
 msgstr "无法添加当前连接到站点管理器"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:755
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:757
 msgid "Could not complete operation"
 msgstr "完成操作"
 
@@ -2477,7 +2490,7 @@ msgid ""
 "failed"
 msgstr "无法获得明确的证书主题名称，gnutls_x509_get_dn 失败"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:900
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:925
 msgid "Could not get full remote path."
 msgstr "无法得到完整的远程路径。"
 
@@ -2520,7 +2533,7 @@ msgstr "无法加载密钥文件"
 msgid "Could not load private key"
 msgstr "无法加载私钥"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:922
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:947
 #, c-format
 msgid ""
 "Could not obtain corresponding local directory for the remote directory "
@@ -2530,7 +2543,7 @@ msgstr ""
 "无法获得远程目录“%s”对应的本地目录。\n"
 "关闭同步浏览并且继续修改本地目录？"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:359
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:361
 #, c-format
 msgid ""
 "Could not obtain corresponding local directory for the remote directory "
@@ -2540,7 +2553,7 @@ msgstr ""
 "无法获得远程目录“%s”对应的本地目录。\n"
 "同步浏览已经被禁用。"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:265
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:266
 #, c-format
 msgid ""
 "Could not obtain corresponding remote directory for the local directory "
@@ -2674,6 +2687,16 @@ msgstr "国家:"
 msgid "Crea&te new file"
 msgstr "创建新文件(&T)"
 
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:959
+#, fuzzy
+msgid "Create &missing local directory and enter it"
+msgstr "创建目录并进入(&Y)"
+
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:888
+#, fuzzy
+msgid "Create &missing remote directory and enter it"
+msgstr "创建目录并进入(&Y)"
+
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:265
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:305
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:499
@@ -2737,7 +2760,7 @@ msgstr "严重文件传输错误"
 msgid "Critical file transfer error after transferring %s in %s"
 msgstr "传输了 %s (用时 %s) 后出现严重文件传输错误"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:350
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:352
 #, c-format
 msgid ""
 "Current remote directory (%s) is not below the synchronization root (%s).\n"
@@ -3022,7 +3045,7 @@ msgstr "列出目录成功"
 msgid "Disa&ble all"
 msgstr "全部禁用(&B)"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:929
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:954
 msgid ""
 "Disable synchronized browsing and continue changing the remote directory?"
 msgstr "关闭同步浏览并且继续修改本地目录？"
@@ -5088,8 +5111,8 @@ msgstr "正常"
 msgid "Not all items could be requeued for transfer."
 msgstr "并非所有项目都可被重新列队以传输。"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:178
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:480
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:179
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:482
 msgid "Not connected"
 msgstr "未连接"
 
@@ -6939,23 +6962,24 @@ msgid ""
 "deleted."
 msgstr "指向文件的符号链接不受该选择的影响，这种符号链接总是被删除。"
 
+#: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3693
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/toolbar.xrc:82
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:237
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:251
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:257
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:267
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:353
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:361
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:369
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:901
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:909
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:915
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:924
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:930
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:238
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:252
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:258
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:268
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:355
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:363
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:371
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:926
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:934
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:940
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:949
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:973
 msgid "Synchronized browsing"
 msgstr "同步浏览"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:368
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:370
 msgid "Synchronized browsing has been disabled."
 msgstr "同步浏览已经被关闭。"
 
@@ -7278,7 +7302,17 @@ msgstr ""
 msgid "The limit needs to be between 1 and 2000 MiB"
 msgstr "限制必须在 1 到 2000 MiB 之间。"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:248
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:973
+#, fuzzy, c-format
+msgid "The local directory '%s' could not be created."
+msgstr "文件“%s”无法加载。"
+
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:958
+#, fuzzy, c-format
+msgid "The local directory '%s' does not exist."
+msgstr "所选的编辑器不存在。"
+
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:249
 #, c-format
 msgid ""
 "The local directory '%s' is not below the synchronization root (%s).\n"
@@ -7305,7 +7339,12 @@ msgstr "新版本已经被保存在您的 下载 文件夹。"
 msgid "The queue will not be saved."
 msgstr "队列将不会被保存。"
 
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:906
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:887
+#, fuzzy, c-format
+msgid "The remote directory '%s' does not exist."
+msgstr "所选的编辑器不存在。"
+
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:931
 #, c-format
 msgid ""
 "The remote directory '%s' is not below the synchronization root (%s).\n"
