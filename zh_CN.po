@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 05:30+0200\n"
-"PO-Revision-Date: 2015-08-26 13:02+0800\n"
+"PO-Revision-Date: 2015-08-26 13:12+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -159,7 +159,7 @@ msgid ""
 "Please download FileZilla again. If this problem persists, please submit a "
 "bug report."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，SFTP 将无法工作。\n"
+"未找到 %s。缺少该 FileZilla 组件，SFTP 无法工作。\n"
 "\n"
 "请重新下载 FileZilla。如果该问题仍然存在，请提交一份问题报告。"
 
@@ -173,7 +173,7 @@ msgid ""
 "- Make sure %s is in a directory listed in your PATH environment variable.\n"
 "- Set the full path to %s in the FZ_FZSFTP environment variable."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，SFTP 将无法工作。\n"
+"未找到 %s。缺少该 FileZilla 组件，SFTP 无法工作。\n"
 "\n"
 "可能的解决方法:\n"
 "- 确保 %s 目录已列在您的 PATH 环境变量中。\n"
@@ -1525,8 +1525,8 @@ msgid ""
 "An error occurred saving the transfer queue to \"%s\".\n"
 "Some queue items might not have been saved."
 msgstr ""
-"在将传输队列保存到“%s”时发生了一个错误。\n"
-"队列中的一些项可能没有恢复。"
+"在保存传输队列到“%s”时发生了一个错误。\n"
+"队列中的一些项可能没有保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:2030
 msgid ""
@@ -1551,15 +1551,15 @@ msgstr "另一个远程操作正在进行，现在无法更改目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:808
 msgid "Any changes made in the Site Manager could not be saved."
-msgstr "任何对于站点管理器的更改都无法保存。"
+msgstr "站点管理器的任何更改都无法保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:212
 msgid "Any changes made to the filters could not be saved."
-msgstr "任何对过滤器的更改都无法保存。"
+msgstr "过滤器的任何更改都无法保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:969
 msgid "Any changes made to the filters will not be saved."
-msgstr "任何对过滤器的更改都将不被保存。"
+msgstr "过滤器的任何更改都无法保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:555
 msgid "App&ly to directories only"
@@ -1812,7 +1812,7 @@ msgstr "无法访问“%s”，没有媒介插入或者驱动器未准备好。"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:551
 msgid "Cannot add server to Site Manager"
-msgstr "无法将服务器添加到站点管理器"
+msgstr "无法添加服务器到站点管理器"
 
 #: ../../source/FileZilla3/locales/../src/engine/socket.cpp:1112
 msgid "Cannot assign requested address"
@@ -2521,7 +2521,7 @@ msgid ""
 "Any changes made in the Site Manager will not be saved."
 msgstr ""
 "无法加载“%s”，请确认文件有效并且有权访问。\n"
-"任何对于站点管理器的更改都无法保存。"
+"站点管理器的任何更改都无法保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:53
 msgid "Could not load key file"
@@ -2623,7 +2623,7 @@ msgstr "无法启动传输"
 msgid ""
 "Could not write \"%s\", any changes to the Site Manager could not be saved: "
 "%s"
-msgstr "无法写入“%s”，任何对站点管理器的更改都无法保存: %s"
+msgstr "无法写入“%s”，站点管理器的任何更改都无法保存: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:812
 #, c-format
@@ -4037,7 +4037,7 @@ msgstr "您至少需要指定 10 个端口才能保证可靠性。"
 msgid ""
 "For this session the default settings will be used. Any changes to the "
 "settings will not be saved."
-msgstr "当前会话将使用默认设置，并且任何设置的修改都不被保存。"
+msgstr "当前会话将使用默认设置，并且任何设置的修改都不会被保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:523
 msgid "Force &UTF-8"
@@ -7069,7 +7069,7 @@ msgid ""
 "then."
 msgstr ""
 "站点管理器已经在另一个 FileZilla 3 实例中打开。\n"
-"您想继续吗？任何对于站点管理器的更改都无法保存。"
+"您想继续吗？站点管理器的任何更改都无法保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/clearprivatedata.cpp:103
 msgid ""
@@ -7077,7 +7077,7 @@ msgid ""
 "Please close it or the data cannot be deleted."
 msgstr ""
 "站点管理器已经在另一个 FileZilla 3 中打开。\n"
-"请将其关闭，否则数据将不会被删除。"
+"请将其关闭，否则数据将无法删除。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:633
 #, c-format
@@ -7547,7 +7547,7 @@ msgid ""
 "If enabled, navigating the local directory hierarchy will also change the "
 "directory on the server accordingly and vice versa."
 msgstr ""
-"开/关同步浏览。\n"
+"启用/停止同步浏览。\n"
 "如果启用，导航本地目录时将相应的修改服务器目录，反之亦然。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/toolbar.xrc:46
