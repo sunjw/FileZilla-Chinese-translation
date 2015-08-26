@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 05:30+0200\n"
-"PO-Revision-Date: 2015-08-24 17:46+0800\n"
+"PO-Revision-Date: 2015-08-26 13:02+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -389,16 +389,14 @@ msgid "&Directory comparison"
 msgstr "目录比较(&D)"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:889
-#, fuzzy
 msgid ""
 "&Disable synchronized browsing and continue changing the local directory"
-msgstr "关闭同步浏览并且继续修改本地目录？"
+msgstr "停止同步浏览并且继续修改本地目录(&D)？"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:960
-#, fuzzy
 msgid ""
 "&Disable synchronized browsing and continue changing the remote directory"
-msgstr "关闭同步浏览并且继续修改本地目录？"
+msgstr "停止同步浏览并且继续修改远程目录(&D)？"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1809
 msgid "&Discard local file then download and edit file anew"
@@ -2688,14 +2686,12 @@ msgid "Crea&te new file"
 msgstr "创建新文件(&T)"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:959
-#, fuzzy
 msgid "Create &missing local directory and enter it"
-msgstr "创建目录并进入(&Y)"
+msgstr "创建缺失的本地目录并进入该目录(&M)"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:888
-#, fuzzy
 msgid "Create &missing remote directory and enter it"
-msgstr "创建目录并进入(&Y)"
+msgstr "创建缺失的远程目录并进入该目录(&M)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:265
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:305
@@ -7303,14 +7299,14 @@ msgid "The limit needs to be between 1 and 2000 MiB"
 msgstr "限制必须在 1 到 2000 MiB 之间。"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:973
-#, fuzzy, c-format
+#, c-format
 msgid "The local directory '%s' could not be created."
-msgstr "文件“%s”无法加载。"
+msgstr "无法创建本地目录“%s”。"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:958
-#, fuzzy, c-format
+#, c-format
 msgid "The local directory '%s' does not exist."
-msgstr "所选的编辑器不存在。"
+msgstr "本地目录“%s”不存在。"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:249
 #, c-format
@@ -7340,9 +7336,9 @@ msgid "The queue will not be saved."
 msgstr "队列将不会被保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:887
-#, fuzzy, c-format
+#, c-format
 msgid "The remote directory '%s' does not exist."
-msgstr "所选的编辑器不存在。"
+msgstr "远程目录“%s”不存在。"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:931
 #, c-format
