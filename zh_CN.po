@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-05 05:30+0200\n"
-"PO-Revision-Date: 2015-08-24 17:46+0800\n"
+"PO-Revision-Date: 2015-09-05 20:18+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -389,13 +389,11 @@ msgid "&Directory comparison"
 msgstr "目录比较(&D)"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:893
-#, fuzzy
 msgid ""
 "&Disable synchronized browsing and continue changing the local directory"
 msgstr "停止同步浏览并且继续修改本地目录(&D)？"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:966
-#, fuzzy
 msgid ""
 "&Disable synchronized browsing and continue changing the remote directory"
 msgstr "停止同步浏览并且继续修改远程目录(&D)？"
@@ -2688,12 +2686,10 @@ msgid "Crea&te new file"
 msgstr "创建新文件(&T)"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:965
-#, fuzzy
 msgid "Create &missing local directory and enter it"
 msgstr "创建缺失的本地目录并进入该目录(&M)"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:892
-#, fuzzy
 msgid "Create &missing remote directory and enter it"
 msgstr "创建缺失的远程目录并进入该目录(&M)"
 
@@ -3419,13 +3415,13 @@ msgstr ""
 "- ftpes:// FTP over TLS (显式)"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:110
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Enter the password for the file '%s'.\n"
 "The converted file will be protected with the same password."
 msgstr ""
 "为文件“%s”输入密码。\n"
-"请注意转换后的文件将失去密码保护。"
+"请注意转换后的文件仍使用该密码。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/quickconnectbar.xrc:82
 msgid ""
@@ -7177,6 +7173,7 @@ msgid ""
 "The file '%s' contains an SSH1 key. The SSH1 protocol has been deprecated, "
 "FileZilla only supports SSH2 keys."
 msgstr ""
+"文件“%s”包含 SSH1 密钥。SSH1 协议已经过时，FileZilla 仅支持 SSH2 协议的密钥。"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:57
 #, c-format
@@ -7288,12 +7285,12 @@ msgid "The limit needs to be between 1 and 2000 MiB"
 msgstr "限制必须在 1 到 2000 MiB 之间。"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:979
-#, fuzzy, c-format
+#, c-format
 msgid "The local directory '%s' could not be created."
 msgstr "无法创建本地目录“%s”。"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:964
-#, fuzzy, c-format
+#, c-format
 msgid "The local directory '%s' does not exist."
 msgstr "本地目录“%s”不存在。"
 
@@ -7325,7 +7322,7 @@ msgid "The queue will not be saved."
 msgstr "队列将不会被保存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:891
-#, fuzzy, c-format
+#, c-format
 msgid "The remote directory '%s' does not exist."
 msgstr "远程目录“%s”不存在。"
 
