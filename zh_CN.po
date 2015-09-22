@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-22 05:30+0200\n"
-"PO-Revision-Date: 2015-09-05 20:18+0800\n"
+"PO-Revision-Date: 2015-09-22 17:06+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -8038,7 +8038,7 @@ msgstr "您似乎正在使用纯 IPv6 主机。此向导不支持这种环境。
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:241
 msgid "You are using the latest version of FileZilla."
-msgstr "您使用的是最新版本的 FileZilla ."
+msgstr "您使用的是最新版本的 FileZilla。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3432
 msgid "You can always open this dialog again through the help menu."
