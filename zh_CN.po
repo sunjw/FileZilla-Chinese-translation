@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-09 16:26+0200\n"
-"PO-Revision-Date: 2015-09-10 10:17+0800\n"
+"POT-Creation-Date: 2015-09-22 05:30+0200\n"
+"PO-Revision-Date: 2015-09-05 20:18+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -2125,7 +2125,7 @@ msgstr "命令执行失败"
 msgid "Command not supported"
 msgstr "不支持该命令"
 
-#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:212
+#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:211
 msgid "Command not supported by this protocol"
 msgstr "命令不被该协议支持"
 
@@ -2294,8 +2294,8 @@ msgstr "尝试连接“%s”失败，正在尝试下一个地址。"
 msgid "Connection attempt failed with \"%s\"."
 msgstr "尝试连接“%s”失败。"
 
-#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:681
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:183
+#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:680
 msgid "Connection attempt interrupted by user"
 msgstr "尝试连接被用户终止"
 
@@ -2587,7 +2587,7 @@ msgstr "无法解析服务器地址:"
 msgid "Could not read from socket: %s"
 msgstr "无法读取套接字: %s"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:466
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:468
 msgid "Could not read server item."
 msgstr "无法读取服务器项。"
 
@@ -2617,8 +2617,8 @@ msgstr "无法开始代理握手: %s"
 msgid "Could not start transfer"
 msgstr "无法启动传输"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:608
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:829
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:610
 #, c-format
 msgid ""
 "Could not write \"%s\", any changes to the Site Manager could not be saved: "
@@ -2644,9 +2644,9 @@ msgstr ""
 "无法写入“%s”，不能保存队列。\n"
 "%s"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:718
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:772
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:2223
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:720
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:774
 #, c-format
 msgid "Could not write \"%s\", the selected sites could not be exported: %s"
 msgstr "无法写入“%s”，不能导出所选择的站点: %s"
@@ -2922,7 +2922,7 @@ msgid ""
 "Delay between failed connection attempts has to be between 1 and 999 seconds."
 msgstr "在失败的登陆请求之间的延迟必须在 1 和 999 秒之间。"
 
-#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:522
+#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:521
 #, c-format
 msgid ""
 "Delaying connection for %d second due to previously failed connection "
@@ -2946,12 +2946,12 @@ msgstr "删除所选的目录"
 msgid "Delete selected files and directories"
 msgstr "删除选定的文件和目录"
 
-#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:365
+#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:364
 #, c-format
 msgid "Deleting \"%s\""
 msgstr "正在删除“%s”"
 
-#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:368
+#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:367
 #, c-format
 msgid "Deleting %u files from \"%s\""
 msgstr "正在从“%2$s”删除 %1$u 个文件"
@@ -3456,12 +3456,6 @@ msgstr "加载队列出错"
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:778
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:106
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:293
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:16
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:434
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:515
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:565
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:664
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:741
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:822
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:841
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:213
@@ -3470,6 +3464,12 @@ msgstr "加载队列出错"
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:751
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:809
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1833
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:16
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:436
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:517
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:567
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:666
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:743
 msgid "Error loading xml file"
 msgstr "导入 XML 文件出错"
 
@@ -3484,13 +3484,13 @@ msgstr "启动程序出错"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:318
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:813
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:609
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:719
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:773
 #: ../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:147
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:830
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:2224
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1851
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:611
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:721
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:775
 msgid "Error writing xml file"
 msgstr "写入 XML 文件出错"
 
@@ -4544,18 +4544,18 @@ msgstr "无效的响应码"
 msgid "Invalid search conditions: %s"
 msgstr "无效的搜索条件: %s"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:409
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:426
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:440
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:446
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:452
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:466
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:507
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:525
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:675
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:681
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:752
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:758
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:411
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:428
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:442
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:448
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:454
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:468
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:509
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:527
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:677
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:683
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:754
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:760
 msgid "Invalid site path"
 msgstr "无效的站点路径"
 
@@ -4875,9 +4875,9 @@ msgstr "我的电脑"
 msgid "My Documents"
 msgstr "我的文档"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:269
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:739
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:741
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:271
 msgid "My Sites"
 msgstr "我的站点"
 
@@ -4896,7 +4896,7 @@ msgid "Name already exists"
 msgstr "名称已经存在"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:790
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:693
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:695
 msgid "Name of bookmark already exists."
 msgstr "该名称的书签已经存在。"
 
@@ -4966,8 +4966,8 @@ msgstr "新建书签(&M)"
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:535
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:555
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:790
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:693
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:2180
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:695
 msgid "New bookmark"
 msgstr "新建书签"
 
@@ -4990,9 +4990,9 @@ msgstr "新过滤器"
 msgid "New folder"
 msgstr "新文件夹"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:583
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:595
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:2156
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:585
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:597
 msgid "New site"
 msgstr "新站点"
 
@@ -5064,7 +5064,7 @@ msgstr "无法连通主机"
 msgid "No search results"
 msgstr "没有搜索结果"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:278
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:280
 msgid "No sites available"
 msgstr "没有站点可用"
 
@@ -5728,8 +5728,8 @@ msgstr "下载前预分配空间(&A)"
 msgid "Preallocation"
 msgstr "预分配"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:268
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1901
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:270
 msgid "Predefined Sites"
 msgstr "预定义的站点"
 
@@ -6504,7 +6504,7 @@ msgstr ""
 "所选择的全局书签和当前服务器使用了不同的服务器类型。\n"
 "为该服务器使用站点特定书签。"
 
-#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:291
+#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:290
 msgid "Selected port usually in use by a different protocol."
 msgstr "选择的端口通常是被其他协议使用。"
 
@@ -6718,23 +6718,23 @@ msgstr "站点管理器 - 无效数据"
 msgid "Site Manager already open"
 msgstr "站点管理器已经打开"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:426
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:440
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:452
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:507
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:681
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:758
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:428
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:442
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:454
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:509
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:683
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:760
 msgid "Site does not exist."
 msgstr "站点不存在。"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:409
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:411
 msgid "Site path has to begin with 0 or 1."
 msgstr "站点路径必须以 0 或 1 开始。"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:446
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:525
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:675
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:752
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:448
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:527
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:677
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:754
 msgid "Site path is malformed."
 msgstr "站点路径格式错误。"
 
@@ -7093,11 +7093,11 @@ msgid "The ai_socktype member is not supported"
 msgstr "不支持 ai_socktype 成员"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:777
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:663
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:665
 msgid "The bookmark could not be added."
 msgstr "无法添加该书签。"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:740
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:742
 msgid "The bookmarks could not be cleared."
 msgstr "无法清除该书签。"
 
@@ -7364,7 +7364,7 @@ msgstr ""
 "这很危险，可能会破坏您的系统。\n"
 "您真的要继续吗？"
 
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:564
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:566
 msgid "The server could not be added."
 msgstr "无法添加该服务器。"
 
@@ -7950,7 +7950,7 @@ msgstr "等待密码"
 msgid "Waiting for transfer to be cancelled"
 msgstr "等待传输取消"
 
-#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:229
+#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:228
 msgid "Waiting to retry..."
 msgstr "正在等待重试..."
 
