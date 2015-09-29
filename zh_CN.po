@@ -1243,9 +1243,9 @@ msgstr "该名称的书签已经存在。请输入一个未使用的名字。"
 msgid "A default editor needs to be set."
 msgstr "需要设置默认编辑器。"
 
+#: ../../source/FileZilla3/locales/../src/interface/state.cpp:742
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:157
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:118
-#: ../../source/FileZilla3/locales/../src/interface/state.cpp:742
 msgid "A directory cannot be dragged into one of its subdirectories."
 msgstr "目录无法被拖入其子目录中。"
 
@@ -1837,9 +1837,9 @@ msgid "Cannot create new filter"
 msgstr "无法创建新过滤器"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1700
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:712
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1574
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1622
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:712
 msgid "Cannot edit file"
 msgstr "无法编辑文件"
 
@@ -2218,9 +2218,9 @@ msgstr "确认删除"
 #: ../../source/FileZilla3/locales/../src/engine/local_filesys.cpp:129
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1664
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1394
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:724
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1038
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1586
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:724
 msgid "Confirmation needed"
 msgstr "需要确认"
 
@@ -2258,15 +2258,15 @@ msgstr "正在连接"
 msgid "Connecting to %s"
 msgstr "连接到 %s"
 
-#: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:4240
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1048
+#: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:4240
 #, c-format
 msgid "Connecting to %s through %s proxy"
 msgstr "连接到 %s，通过代理 %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:243
-#: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:369
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:956
+#: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:369
 #, c-format
 msgid "Connecting to %s..."
 msgstr "正在连接 %s..."
@@ -2307,8 +2307,8 @@ msgstr "连接尝试超时"
 msgid "Connection closed"
 msgstr "连接关闭"
 
-#: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:217
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1015
+#: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:217
 msgid "Connection closed by server"
 msgstr "连接被服务器关闭"
 
@@ -2497,8 +2497,8 @@ msgstr "无法得到完整的远程路径。"
 msgid "Could not get reply from fzputtygen."
 msgstr "无法得到 fzputtygen 的回应。"
 
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:712
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1574
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:712
 msgid "Could not get temporary directory to download file into."
 msgstr "找不到放置下载文件所需的临时目录。"
 
@@ -2719,8 +2719,8 @@ msgid "Create director&y and enter it"
 msgstr "创建目录并进入(&Y)"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:897
-#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1297
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1123
+#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1297
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1212
 msgid "Create directory"
 msgstr "创建目录"
@@ -3058,10 +3058,10 @@ msgstr "从服务器断开"
 
 #: ../../source/FileZilla3/locales/../src/engine/httpcontrolsocket.cpp:879
 #: ../../source/FileZilla3/locales/../src/engine/httpcontrolsocket.cpp:881
-#: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:210
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:79
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:881
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:986
+#: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:210
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:325
 msgid "Disconnected from server"
 msgstr "已从服务器断开"
@@ -3072,8 +3072,8 @@ msgstr "已从服务器断开"
 msgid "Disconnected from server: %s"
 msgstr "已从服务器断开: %s"
 
-#: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:237
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:324
+#: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:237
 msgid "Disconnecting from previous server"
 msgstr "正在从上一个服务器断开连接"
 
@@ -3208,8 +3208,8 @@ msgid "Downloading update..."
 msgstr "正在下载更新......"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:103
-#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:102
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:109
+#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:102
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:89
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:87
 msgid ""
@@ -3218,8 +3218,8 @@ msgid ""
 msgstr "在不同的 FileZilla 的实例间拖放还未被实现。"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:109
-#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:108
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:115
+#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:108
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:95
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:100
 msgid "Drag&drop between different servers has not been implemented yet."
@@ -3448,7 +3448,6 @@ msgstr "导入出错"
 msgid "Error loading queue"
 msgstr "加载队列出错"
 
-#: ../../source/FileZilla3/locales/../src/interface/Options.cpp:243
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:164
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:286
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:695
@@ -3456,20 +3455,21 @@ msgstr "加载队列出错"
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:778
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:106
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:293
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:822
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:841
-#: ../../source/FileZilla3/locales/../src/interface/filter.cpp:213
-#: ../../source/FileZilla3/locales/../src/interface/filter.cpp:970
-#: ../../source/FileZilla3/locales/../src/interface/wrapengine.cpp:938
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:751
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:809
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1833
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:16
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:436
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:517
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:567
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:666
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:743
+#: ../../source/FileZilla3/locales/../src/interface/filter.cpp:213
+#: ../../source/FileZilla3/locales/../src/interface/filter.cpp:970
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:822
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:841
+#: ../../source/FileZilla3/locales/../src/interface/wrapengine.cpp:938
+#: ../../source/FileZilla3/locales/../src/interface/Options.cpp:243
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1833
 msgid "Error loading xml file"
 msgstr "导入 XML 文件出错"
 
@@ -3484,13 +3484,13 @@ msgstr "启动程序出错"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:318
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:813
-#: ../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:147
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:830
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:2224
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1851
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:611
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:721
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:775
+#: ../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:147
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1851
 msgid "Error writing xml file"
 msgstr "写入 XML 文件出错"
 
@@ -3889,11 +3889,11 @@ msgid "Filelist status &bars"
 msgstr "文件列表状态栏(&B)"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:33
-#: ../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:130
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:274
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:373
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:108
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1084
+#: ../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:130
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:108
 msgid "Filename"
 msgstr "文件名"
 
@@ -3934,9 +3934,9 @@ msgstr "文件名不能包含以下任何字符: / \\ : * ? \" < > |"
 msgid "Files currently being edited"
 msgstr "正在编辑的文件"
 
-#: ../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:135
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:275
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:374
+#: ../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:135
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:110
 msgid "Filesize"
 msgstr "文件大小"
@@ -4971,8 +4971,8 @@ msgstr "新建书签(&M)"
 msgid "New bookmark"
 msgstr "新建书签"
 
-#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1310
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1126
+#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1310
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1225
 msgid "New directory"
 msgstr "创建目录"
@@ -5576,8 +5576,8 @@ msgstr ""
 "使用原始的 ftp 命令将会清空目录缓存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:897
-#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1297
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1123
+#: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1297
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1212
 msgid "Please enter the name of the directory which should be created:"
 msgstr "请输入将要创建的目录名:"
@@ -5984,12 +5984,12 @@ msgstr "递归处理子目录(&U)"
 msgid "Received TLS alert from the server: %s (%d)"
 msgstr "收到服务器的 TLS 警告: %s (%d)"
 
-#: ../../source/FileZilla3/locales/../src/engine/directorylistingparser.cpp:2965
+#: ../../source/FileZilla3/locales/../src/engine/directorylistingparser.cpp:2958
 msgid "Received a directory listing which appears to be encoded in EBCDIC."
 msgstr "收到了一个疑似使用 EBCDIC 编码的目录列表。"
 
-#: ../../source/FileZilla3/locales/../src/engine/directorylistingparser.cpp:1993
-#: ../../source/FileZilla3/locales/../src/engine/directorylistingparser.cpp:2007
+#: ../../source/FileZilla3/locales/../src/engine/directorylistingparser.cpp:1992
+#: ../../source/FileZilla3/locales/../src/engine/directorylistingparser.cpp:2006
 msgid "Received a line exceeding 10000 characters, aborting."
 msgstr "接收到超过 1000 个字符的行，中止。"
 
@@ -6913,8 +6913,8 @@ msgstr "启动给定路径下的本地站点"
 msgid "State or province:"
 msgstr "州或省:"
 
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1087
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:1204
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1087
 msgid "Status"
 msgstr "状态"
 
@@ -7610,8 +7610,8 @@ msgstr "传输连接被打断: %s"
 msgid "Transferred data got tainted."
 msgstr "已传输的数据被损坏。"
 
-#: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:246
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:333
+#: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:246
 msgid "Transferring"
 msgstr "正在传输"
 
@@ -8078,8 +8078,8 @@ msgstr "您没有输入该文件的新的名字。要覆盖这个文件吗？"
 msgid "You have selected at least one symbolic link."
 msgstr "您选择了至少一个符号链接。"
 
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:725
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1587
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:725
 msgid ""
 "You have selected more than 10 files for editing, do you really want to "
 "continue?"
@@ -8324,10 +8324,10 @@ msgstr "所有者可读"
 msgid "owner writeable"
 msgstr "所有者可写"
 
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:84
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1105
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1116
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1131
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:84
 #: ../../source/FileZilla3/locales/../src/interface/sftp_crypt_info_dlg.cpp:38
 msgid "unknown"
 msgstr "未知"
