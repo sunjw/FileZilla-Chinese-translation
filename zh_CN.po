@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-19 16:21+0100\n"
-"PO-Revision-Date: 2016-01-02 20:32+0800\n"
+"PO-Revision-Date: 2016-01-20 11:46+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:56
@@ -2233,9 +2233,9 @@ msgid "Connect bypassing proxy settings"
 msgstr "绕过代理设置连接"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:216
-#, fuzzy, c-format
+#, c-format
 msgid "Connect failed: %s"
-msgstr "代理请求失败: %s"
+msgstr "连接失败: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1383
 msgid "Connect in current tab"
@@ -2327,9 +2327,8 @@ msgid "Connection established, sending HTTP request"
 msgstr "连接已建立，正在发送 HTTP 请求"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:333
-#, fuzzy
 msgid "Connection established, waiting for welcome message."
-msgstr "连接建立，等待欢迎消息..."
+msgstr "连接建立，等待欢迎消息。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:413
 msgid "Connection established, waiting for welcome message..."
@@ -2517,9 +2516,9 @@ msgid "Could not import peer certificates, gnutls_x509_crt_import failed"
 msgstr "无法导入对等认证，gnutls_x509_crt_import 失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:108
-#, fuzzy, c-format
+#, c-format
 msgid "Could not initialize Winsock (%d): %s"
-msgstr "无法写入套接字: %s"
+msgstr "无法初始化 Winsock (%d): %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:876
 msgid ""
@@ -2598,9 +2597,8 @@ msgid "Could not parse server address:"
 msgstr "无法解析服务器地址:"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:977
-#, fuzzy
 msgid "Could not read from data socket."
-msgstr "无法读取套接字: %s"
+msgstr "无法读取数据套接字。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:211
 #, c-format
@@ -2612,9 +2610,8 @@ msgid "Could not read server item."
 msgstr "无法读取服务器项。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:344
-#, fuzzy
 msgid "Could not receive data from server."
-msgstr "无法连接到服务器"
+msgstr "无法从服务器接收数据。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:2596
 #, c-format
@@ -3317,9 +3314,8 @@ msgstr "空目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation.cpp:377
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation.cpp:412
-#, fuzzy
 msgid "Empty dirs to visit"
-msgstr "空目录列表"
+msgstr "空目录"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit_associations.cpp:52
 msgid "Empty file extension."
@@ -3664,9 +3660,8 @@ msgid "Failed to initialize TLS."
 msgstr "TLS 初始化失败。"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:109
-#, fuzzy
 msgid "Failed to initialize networking"
-msgstr "FTP 引擎初始化失败"
+msgstr "网络初始化失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:146
 msgid "Failed to load panels, invalid resource files?"
