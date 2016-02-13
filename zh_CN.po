@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 05:30+0100\n"
-"PO-Revision-Date: 2016-02-05 16:24+0800\n"
+"POT-Creation-Date: 2016-02-13 05:30+0100\n"
+"PO-Revision-Date: 2016-01-02 20:32+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1430,7 +1430,7 @@ msgstr "添加选中的文件和文件夹到传输队列"
 msgid "Add to queue"
 msgstr "添加到队列"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:528
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:530
 msgid "Address type not supported"
 msgstr "不支持该地址类型"
 
@@ -1883,7 +1883,7 @@ msgstr "无法重命名记录"
 msgid "Cannot rename file"
 msgstr "无法重命名文件"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:172
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:174
 msgid "Cannot resolve hostname to IPv4 address for use with SOCKS4 proxy."
 msgstr "无法将主机名解析为 IPv4 地址以用于 SOCKS4 代理。"
 
@@ -2103,7 +2103,7 @@ msgstr "关闭当前标签"
 msgid "Co&mments:"
 msgstr "注释(&M):"
 
-#: ../../source/FileZilla3/locales/../src/interface/listctrlex.cpp:756
+#: ../../source/FileZilla3/locales/../src/interface/listctrlex.cpp:747
 msgid "Column properties"
 msgstr "栏目属性"
 
@@ -2121,7 +2121,7 @@ msgstr "命令与其参数需要正确的引号包裹。"
 msgid "Command failed"
 msgstr "命令执行失败"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:525
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:527
 msgid "Command not supported"
 msgstr "不支持该命令"
 
@@ -2266,8 +2266,8 @@ msgid "Connecting to %s through %s proxy"
 msgstr "连接到 %s，通过代理 %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:355
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:266
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:959
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:268
 #, c-format
 msgid "Connecting to %s..."
 msgstr "正在连接 %s..."
@@ -2284,8 +2284,8 @@ msgstr "连接中止"
 msgid "Connection attempt failed"
 msgstr "连接尝试失败"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:240
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:923
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:242
 #, c-format
 msgid "Connection attempt failed with \"%s\", trying next address."
 msgstr "尝试连接“%s”失败，正在尝试下一个地址。"
@@ -2334,11 +2334,11 @@ msgstr "连接建立，等待欢迎消息..."
 msgid "Connection lost"
 msgstr "连接丢失"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:510
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:512
 msgid "Connection not allowed by ruleset"
 msgstr "规则设定不允许该连接"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:519
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:521
 msgid "Connection refused"
 msgstr "连接被拒绝"
 
@@ -2368,7 +2368,7 @@ msgstr "连接超时。"
 msgid "Connection to server lost."
 msgstr "与服务器的连接丢失。"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:249
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:251
 msgid "Connection with proxy established, performing handshake..."
 msgstr "与代理连接建立，进行握手..."
 
@@ -3018,7 +3018,7 @@ msgstr "目录"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:365
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/toolbar.xrc:76
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2167
-#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:465
+#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:464
 msgid "Directory comparison"
 msgstr "比较目录"
 
@@ -3086,8 +3086,8 @@ msgstr "已从服务器断开"
 msgid "Disconnected from server: %s"
 msgstr "已从服务器断开: %s"
 
-#: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:237
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:330
+#: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:237
 msgid "Disconnecting from previous server"
 msgstr "正在从上一个服务器断开连接"
 
@@ -3346,7 +3346,7 @@ msgstr "加密"
 msgid "Encryption details"
 msgstr "加密细节"
 
-#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:467
+#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:466
 msgid "End comparison and change sorting order?"
 msgstr "结束对比并改变排序？"
 
@@ -3463,6 +3463,8 @@ msgstr "加载队列出错"
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:971
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:106
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:293
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:802
+#: ../../source/FileZilla3/locales/../src/interface/search.cpp:821
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:16
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:436
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:517
@@ -3474,8 +3476,6 @@ msgstr "加载队列出错"
 #: ../../source/FileZilla3/locales/../src/interface/wrapengine.cpp:939
 #: ../../source/FileZilla3/locales/../src/interface/Options.cpp:244
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1824
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:802
-#: ../../source/FileZilla3/locales/../src/interface/search.cpp:821
 msgid "Error loading xml file"
 msgstr "导入 XML 文件出错"
 
@@ -3817,9 +3817,9 @@ msgid "File lists"
 msgstr "文件列表"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:124
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1550
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:618
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:703
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1550
 msgid "File not found"
 msgstr "文件未找到"
 
@@ -3870,9 +3870,9 @@ msgstr "文件将以 ASCII 的数据类型传送。"
 msgid "File would transfer with binary data type."
 msgstr "文件将以二进制的数据类型传送。"
 
+#: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:429
 #: ../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:66
 #: ../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:204
-#: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:429
 msgid "FileZilla Error"
 msgstr "FileZilla 错误"
 
@@ -4083,7 +4083,7 @@ msgstr "更多文档"
 msgid "General"
 msgstr "常规"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:507
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:509
 msgid "General SOCKS server failure"
 msgstr "常规 SOCKS 服务器故障"
 
@@ -4193,7 +4193,7 @@ msgstr "主机密钥不匹配"
 msgid "Host starts with '[' but no closing bracket found."
 msgstr "主机名以“[”开始，但没有结束符“]”。"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:516
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:518
 msgid "Host unreachable"
 msgstr "无法连接主机"
 
@@ -4212,7 +4212,7 @@ msgstr "小时，"
 msgid "I&SO 8601 (example: 15:47)"
 msgstr "I&SO 8601 (示例: 15:47)"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:153
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:155
 msgid "IPv6 addresses are not supported with SOCKS4 proxy"
 msgstr "SOCKS4 代理不支持 IPv6 地址"
 
@@ -4951,7 +4951,7 @@ msgid ""
 "family"
 msgstr "在请求的地址集中，网络主机没有任何网络地址"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:513
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:515
 #: ../../source/FileZilla3/locales/../src/engine/socket.cpp:1050
 msgid "Network unreachable"
 msgstr "无法连接网络"
@@ -5089,7 +5089,7 @@ msgstr "没有搜索结果"
 msgid "No sites available"
 msgstr "没有站点可用"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:484
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:486
 msgid "No supported SOCKS5 auth method"
 msgstr "不支持 SOCKS5 认证方式"
 
@@ -5117,9 +5117,9 @@ msgstr "名字解析中有无法恢复的错误"
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:154
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:179
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:540
-#: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1309
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:909
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:996
+#: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1309
 msgid "Normal"
 msgstr "正常"
 
@@ -5839,7 +5839,7 @@ msgstr "代理端口(&P):"
 msgid "Proxy &user:"
 msgstr "代理用户(&U):"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:494
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:496
 msgid "Proxy authentication failed"
 msgstr "代理认证失败"
 
@@ -5853,22 +5853,22 @@ msgstr "代理握手失败: %s"
 msgid "Proxy host starts with '[' but no closing bracket found."
 msgstr "代理主机以“[”开始，但没有闭合括号。"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:352
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:354
 #, c-format
 msgid "Proxy reply: %s"
 msgstr "代理回复: %s"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:535
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:537
 #, c-format
 msgid "Proxy request failed. Reply from proxy: %s"
 msgstr "代理请求失败。代理服务器返回: %s"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:407
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:409
 #, c-format
 msgid "Proxy request failed: %s"
 msgstr "代理请求失败: %s"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:559
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:561
 msgid "Proxy request failed: Unknown address type in CONNECT reply"
 msgstr "代理请求失败: CONNECT 回复了未知的地址类型"
 
@@ -6193,16 +6193,16 @@ msgstr "“%s”改名为“%s”"
 msgid "Reporting bugs and feature requests"
 msgstr "报告错误以及请求功能"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:398
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:400
 msgid ""
 "Request failed - client is not running identd (or not reachable from server)"
 msgstr "请求失败 - 客户端未运行 identd (或从服务器端无法连通)"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:401
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:403
 msgid "Request failed - client's identd could not confirm the user ID string"
 msgstr "请求失败 - 客户端的 identd 无法确认用户标识字符串"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:395
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:397
 msgid "Request rejected or failed"
 msgstr "请求被拒或失败"
 
@@ -6305,7 +6305,7 @@ msgstr "SFTP"
 msgid "SOC&KS 4"
 msgstr "SOC&KS 4"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:177
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:179
 #, c-format
 msgid "SOCKS4 proxy will connect to: %s"
 msgstr "SOCKS4 代理将连接到: %s"
@@ -6847,7 +6847,7 @@ msgstr "一些处于路由器后面的远程服务器使用了错误的配置，
 msgid "Sort directories inline"
 msgstr "在原位置排序目录列表"
 
-#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:466
+#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:465
 msgid "Sort order cannot be changed if comparing directories."
 msgstr "对比目录时不能改变目录排序。"
 
@@ -7051,7 +7051,7 @@ msgstr "TLS 连接建立，等待欢迎消息..."
 msgid "TLS connection established."
 msgstr "TLS 连接已建立。"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:522
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:524
 msgid "TTL expired"
 msgstr "TTL 超时"
 
@@ -7267,11 +7267,11 @@ msgstr ""
 "由于储存格式上的不同，只有主机地址、端口、使用者名称与密码能导入。\n"
 "要继续导入吗？"
 
-#: ../../source/FileZilla3/locales/../src/interface/listctrlex.cpp:756
+#: ../../source/FileZilla3/locales/../src/interface/listctrlex.cpp:747
 msgid "The filename column can neither be hidden nor moved."
 msgstr "不能隐藏或移动文件名栏。"
 
-#: ../../source/FileZilla3/locales/../src/interface/listctrlex.cpp:809
+#: ../../source/FileZilla3/locales/../src/interface/listctrlex.cpp:800
 msgid "The filename column cannot be hidden."
 msgstr "不能隐藏文件名栏。"
 
@@ -7635,8 +7635,8 @@ msgstr "传输连接被打断: %s"
 msgid "Transferred data got tainted."
 msgstr "已传输的数据被损坏。"
 
-#: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:246
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:339
+#: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:246
 msgid "Transferring"
 msgstr "正在传输"
 
@@ -7715,8 +7715,8 @@ msgstr "为当前语言使用系统默认设置(&S)"
 msgid "USER@&HOST"
 msgstr "USER@&HOST"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:404
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:531
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:406
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:533
 #, c-format
 msgid "Unassigned error code %d"
 msgstr "未知错误代码 %d"
@@ -7734,7 +7734,7 @@ msgstr "未知"
 msgid "Unknown FTP proxy type, cannot generate login sequence."
 msgstr "未知 FTP 代理服务器类型，无法生成登录过程。"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:452
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:454
 #, c-format
 msgid "Unknown SOCKS protocol version: %d"
 msgstr "未知 SOCKS 协议版本: %d"
@@ -7747,7 +7747,7 @@ msgstr "未知证书"
 msgid "Unknown host key"
 msgstr "未定义的快捷键"
 
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:460
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:462
 #, c-format
 msgid ""
 "Unknown protocol version of SOCKS Username/Password Authentication "
@@ -8263,10 +8263,10 @@ msgstr "结束于"
 msgid "equals"
 msgstr "相等"
 
-#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:531
-#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:550
-#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:577
-#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:593
+#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:530
+#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:549
+#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:576
+#: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:592
 msgid "file"
 msgstr "文件"
 
@@ -8348,10 +8348,10 @@ msgstr "所有者可读"
 msgid "owner writeable"
 msgstr "所有者可写"
 
+#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:98
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1191
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1202
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1217
-#: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:96
 #: ../../source/FileZilla3/locales/../src/interface/sftp_crypt_info_dlg.cpp:38
 msgid "unknown"
 msgstr "未知"
