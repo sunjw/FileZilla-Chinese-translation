@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-20 05:30+0100\n"
-"PO-Revision-Date: 2016-01-02 20:32+0800\n"
+"PO-Revision-Date: 2016-02-20 22:57+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -854,7 +854,7 @@ msgstr "报告问题(&R)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:385
 msgid "&Request attention"
-msgstr ""
+msgstr "请求用户注意(&R)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:449
 msgid "&Reset and requeue all"
@@ -2590,7 +2590,6 @@ msgid "Could not parse server address:"
 msgstr "无法解析服务器地址:"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:979
-#, fuzzy
 msgid "Could not read from data socket."
 msgstr "无法读取数据套接字。"
 
@@ -4743,9 +4742,8 @@ msgid "Log file"
 msgstr "日志文件"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:904
-#, fuzzy
 msgid "Logged in"
-msgstr "日志"
+msgstr "已登录"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2111
 #: ../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:115
@@ -5906,7 +5904,6 @@ msgid "Queueing:"
 msgstr "列队中:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:402
-#, fuzzy
 msgid "R&eboot system once"
 msgstr "重启系统(&E)"
 
@@ -6273,7 +6270,6 @@ msgid "S&how the Site Manager on startup"
 msgstr "启动时显示站点管理器(&H)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:406
-#, fuzzy
 msgid "S&hutdown system once"
 msgstr "关闭系统(&H)"
 
@@ -6282,7 +6278,6 @@ msgid "S&top"
 msgstr "停止(&T)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:410
-#, fuzzy
 msgid "S&uspend system once"
 msgstr "挂起系统(&U)"
 
@@ -6670,7 +6665,7 @@ msgstr "设置文件目录:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:381
 msgid "Sh&ow notification bubble"
-msgstr ""
+msgstr "显示气泡通知(&O)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2273
 msgid "Show &raw directory listing"
@@ -7073,9 +7068,8 @@ msgid "Temporary failure in name resolution"
 msgstr "名字解析中临时出错"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:576
-#, fuzzy
 msgid "Test finished successfully"
-msgstr "文件传输成功"
+msgstr "测试成功"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:370
 msgid "Test results"
