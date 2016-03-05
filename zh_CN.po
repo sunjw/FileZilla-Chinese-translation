@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-05 05:30+0100\n"
-"PO-Revision-Date: 2016-03-05 14:53+0800\n"
+"PO-Revision-Date: 2016-03-05 14:56+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -5583,7 +5583,7 @@ msgid ""
 msgstr ""
 "请输入完整的程序路径和命令行参数。命令将会在队列中按顺序执行。\n"
 "例如 MS Windows 下的 c:\\somePath\\file.exe 或 Unix 下的 /somePath/file。\n"
-"如果命令中有空格，请使用双引号。"
+"如果路径或参数中有空格，请使用双引号。"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1120
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1293
