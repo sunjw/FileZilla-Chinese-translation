@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-20 05:30+0100\n"
-"PO-Revision-Date: 2016-02-20 22:57+0800\n"
+"POT-Creation-Date: 2016-03-05 05:30+0100\n"
+"PO-Revision-Date: 2016-02-13 22:03+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -77,7 +77,7 @@ msgid "%d file. Total size: At least %s"
 msgid_plural "%d files. Total size: At least %s"
 msgstr[0] "%d 个文件。大小总共: 至少 %s"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2767
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2764
 #, c-format
 msgid "%d files added to queue"
 msgstr "%d 个文件已加入队列"
@@ -1455,7 +1455,7 @@ msgstr "总是进行该操作(&W)"
 msgid "Algorithm:"
 msgstr "算法:"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2930
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2927
 msgid "All files have been successfully transferred"
 msgstr "所有文件都已经成功传输"
 
@@ -1463,7 +1463,7 @@ msgstr "所有文件都已经成功传输"
 msgid "All ports in the given range have to be between 1024 and 65535."
 msgstr "所有指定的端口范围必须在 1024 和 65535 之间。"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2926
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2923
 #, c-format
 msgid "All transfers have finished. %d file could not be transferred."
 msgid_plural "All transfers have finished. %d files could not be transferred."
@@ -1687,8 +1687,8 @@ msgid "Blackboard"
 msgstr "黑板"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:261
-#: ../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:304
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:418
+#: ../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:304
 msgid "Bookmark"
 msgstr "书签"
 
@@ -1833,10 +1833,10 @@ msgstr "无法比较目录，本地与远程目录使用了不同的过滤器"
 msgid "Cannot create new filter"
 msgstr "无法创建新过滤器"
 
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1574
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1622
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:696
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1705
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1574
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1622
 msgid "Cannot edit file"
 msgstr "无法编辑文件"
 
@@ -2214,10 +2214,10 @@ msgstr "确认删除"
 
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1390
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1041
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1586
 #: ../../source/FileZilla3/locales/../src/interface/file_utils.h:45
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:708
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1669
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1586
 msgid "Confirmation needed"
 msgstr "需要确认"
 
@@ -2292,8 +2292,8 @@ msgstr "尝试连接“%s”失败，正在尝试下一个地址。"
 msgid "Connection attempt failed with \"%s\"."
 msgstr "尝试连接“%s”失败。"
 
-#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:681
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:185
+#: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:681
 msgid "Connection attempt interrupted by user"
 msgstr "尝试连接被用户终止"
 
@@ -2499,8 +2499,8 @@ msgstr "无法得到完整的远程路径。"
 msgid "Could not get reply from fzputtygen."
 msgstr "无法得到 fzputtygen 的回应。"
 
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1574
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:696
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1574
 msgid "Could not get temporary directory to download file into."
 msgstr "找不到放置下载文件所需的临时目录。"
 
@@ -3014,8 +3014,8 @@ msgstr "目录"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1770
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:365
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/toolbar.xrc:76
-#: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2167
 #: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:464
+#: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2167
 msgid "Directory comparison"
 msgstr "比较目录"
 
@@ -3285,7 +3285,7 @@ msgstr "编辑搜索结果"
 msgid "Email:"
 msgstr "电子邮件:"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2111
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2104
 msgid "Empty command"
 msgstr "空命令"
 
@@ -3351,7 +3351,7 @@ msgstr "输入自定义命令(&C)..."
 msgid "Enter 0 for unlimited speed."
 msgstr "输入 0 表示无速度限制。"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2101
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2098
 msgid "Enter command"
 msgstr "输入命令"
 
@@ -3466,9 +3466,9 @@ msgstr "加载队列出错"
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:743
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:751
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:809
-#: ../../source/FileZilla3/locales/../src/interface/wrapengine.cpp:939
 #: ../../source/FileZilla3/locales/../src/interface/Options.cpp:245
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1821
+#: ../../source/FileZilla3/locales/../src/interface/wrapengine.cpp:939
 msgid "Error loading xml file"
 msgstr "导入 XML 文件出错"
 
@@ -3893,10 +3893,10 @@ msgstr "文件列表状态栏(&B)"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:33
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:373
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1084
 #: ../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:130
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:108
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:276
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1084
 msgid "Filename"
 msgstr "文件名"
 
@@ -5025,7 +5025,7 @@ msgstr "节点名称没有关联地址"
 msgid "No category to export selected"
 msgstr "没有选定要导出的分类目录"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2111
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2104
 msgid "No command given, aborting."
 msgstr "没有给出命令，中止。"
 
@@ -5244,10 +5244,10 @@ msgstr "打开 FileZilla 的设置对话框"
 msgid "Opened as:"
 msgstr "打开为:"
 
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1616
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1733
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1700
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1712
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1616
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1733
 msgid "Opening failed"
 msgstr "打开失败"
 
@@ -5538,17 +5538,6 @@ msgstr "请输入 1 到 10 之间的数字来设置并发传输任务数。"
 msgid "Please enter a password for this server:"
 msgstr "请为该服务器输入密码:"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2101
-msgid ""
-"Please enter a path and executable to run.\n"
-"E.g. c:\\somePath\\file.exe under MS Windows or /somePath/file under Unix.\n"
-"You can also optionally specify program arguments."
-msgstr ""
-"请输入要执行的路径和程序。\n"
-"例如 MS Windows 下的 c:\\somePath\\file.exe 或者是 Unix 下的 /somePath/"
-"file。\n"
-"您也可以指定一些程序参数。"
-
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:46
 msgid ""
 "Please enter a timeout between 10 and 9999 seconds or 0 to disable timeouts."
@@ -5583,6 +5572,20 @@ msgid ""
 msgstr ""
 "请输入原始 FTP 命令。\n"
 "使用原始的 ftp 命令将会清空目录缓存。"
+
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2098
+#, fuzzy
+msgid ""
+"Please enter the complete path of a program and its arguments. This command "
+"will be executed when the queue has finished processing.\n"
+"E.g. c:\\somePath\\file.exe under MS Windows or /somePath/file under Unix.\n"
+"You need to properly quote commands and their arguments if they contain "
+"spaces."
+msgstr ""
+"请输入要执行的路径和程序。\n"
+"例如 MS Windows 下的 c:\\somePath\\file.exe 或者是 Unix 下的 /somePath/"
+"file。\n"
+"您也可以指定一些程序参数。"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1120
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1293
@@ -5876,7 +5879,7 @@ msgstr "公钥算法:"
 msgid "Public permissions"
 msgstr "公共权限"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3037
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3038
 msgid "Queue has been fully processed"
 msgstr "队列已全部处理"
 
@@ -5984,7 +5987,7 @@ msgstr "真的要从您的计算机上删除所有选定的文件和/或目录�
 msgid "Reason"
 msgstr "原因"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3030
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3031
 msgid "Reboot now"
 msgstr "马上重启"
 
@@ -6695,7 +6698,7 @@ msgstr "显示可用的 TLS 密码"
 msgid "Shows this help dialog"
 msgstr "显示这个帮助对话框"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3026
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3027
 msgid "Shutdown now"
 msgstr "马上关闭系统"
 
@@ -6965,7 +6968,7 @@ msgstr "成功的传输"
 msgid "Summary of test results:"
 msgstr "测试结果总结:"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3034
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3035
 msgid "Suspend now"
 msgstr "马上暂停"
 
@@ -7001,13 +7004,13 @@ msgstr "同步浏览已经被关闭。"
 msgid "Syntax error"
 msgstr "语法错误"
 
-#: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2282
-#: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2324
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:76
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:82
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:88
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:97
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:103
+#: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2282
+#: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2324
 msgid "Syntax error in command line"
 msgstr "命令行语法错误"
 
@@ -7176,8 +7179,8 @@ msgstr ""
 "文件 %s 已经存在。\n"
 "请输入一个新的名字:"
 
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1621
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1704
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1621
 #, c-format
 msgid ""
 "The file '%s' cannot be opened:\n"
@@ -7206,8 +7209,8 @@ msgstr "文件“%s”无法加载或者不含私钥。"
 msgid "The file '%s' could not be loaded."
 msgstr "文件“%s”无法加载。"
 
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1616
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1700
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1616
 #, c-format
 msgid ""
 "The file '%s' could not be opened:\n"
@@ -7216,8 +7219,8 @@ msgstr ""
 "无法打开文件“%s”:\n"
 "系统中没有设置此类型文件关联的程序。"
 
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1733
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1712
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1733
 #, c-format
 msgid ""
 "The file '%s' could not be opened:\n"
@@ -7436,11 +7439,11 @@ msgstr "不支持指定的地址集"
 msgid "The specified network name is no longer available"
 msgstr "指定的网络名称已不可用"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3029
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3030
 msgid "The system will soon reboot unless you click Cancel."
 msgstr "除非您按下取消，否则系统将会马上重启。"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3025
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3026
 msgid "The system will soon shut down unless you click Cancel."
 msgstr "除非您按下取消，否则系统将会马上关闭。"
 
@@ -7640,7 +7643,7 @@ msgstr "正在传输"
 msgid "Transfers"
 msgstr "传输"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2922
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2919
 msgid "Transfers finished"
 msgstr "传输完成"
 
@@ -8098,8 +8101,8 @@ msgstr "您没有输入该文件的新的名字。要覆盖这个文件吗？"
 msgid "You have selected at least one symbolic link."
 msgstr "您选择了至少一个符号链接。"
 
-#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1587
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:709
+#: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1587
 msgid ""
 "You have selected more than 10 files for editing, do you really want to "
 "continue?"
@@ -8212,7 +8215,7 @@ msgid ""
 "should work properly."
 msgstr "连接到其它服务应该没有问题，文件传输也能正常工作了。"
 
-#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3033
+#: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3034
 msgid "Your computer will suspend unless you click Cancel."
 msgstr "如果不按下 取消，系统将会马上挂起。"
 
@@ -8374,18 +8377,18 @@ msgstr "wxWidgets:"
 #~ msgid "&Show message"
 #~ msgstr "显示消息(&S)"
 
-#~ msgid "Connected"
-#~ msgstr "已连接"
-
 #~ msgid "Do &nothing"
 #~ msgstr "什么都不做(&N)"
+
+#~ msgid "No more files in the queue!"
+#~ msgstr "队列里已没有文件！"
+
+#~ msgid "Connected"
+#~ msgstr "已连接"
 
 #, fuzzy
 #~ msgid "Empty dirs to visit"
 #~ msgstr "空目录列表"
-
-#~ msgid "No more files in the queue!"
-#~ msgstr "队列里已没有文件！"
 
 #~ msgid "Deleting directories"
 #~ msgstr "正在删除目录"
