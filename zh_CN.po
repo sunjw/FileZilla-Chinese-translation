@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-18 05:30+0100\n"
-"PO-Revision-Date: 2016-02-13 22:03+0800\n"
+"PO-Revision-Date: 2016-03-18 17:52+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:56
@@ -849,7 +849,7 @@ msgstr "报告问题(&R)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:385
 msgid "&Request attention"
-msgstr "请求用户注意(&R)"
+msgstr "操作完成通知(&R)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:449
 msgid "&Reset and requeue all"
