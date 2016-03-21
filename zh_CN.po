@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-18 05:30+0100\n"
-"PO-Revision-Date: 2016-03-18 17:52+0800\n"
+"PO-Revision-Date: 2016-03-21 21:14+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:56
@@ -5577,8 +5577,8 @@ msgid ""
 "You need to properly quote commands and their arguments if they contain "
 "spaces."
 msgstr ""
-"请输入完整的程序路径和命令行参数。命令将会在队列中按顺序执行。\n"
-"例如 MS Windows 下的 c:\\somePath\\file.exe 或 Unix 下的 /somePath/file。\n"
+"请输入完整的程序路径和命令行参数。命令将会在队列中逐个执行。\n"
+"例如 MS Windows 的 c:\\somePath\\file.exe 或 Unix 的 /somePath/file。\n"
 "如果路径或参数中有空格，请使用双引号。"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:900
@@ -7057,7 +7057,6 @@ msgid "Temporary failure in name resolution"
 msgstr "名字解析中临时出错"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:590
-#, fuzzy
 msgid "Test finished successfully"
 msgstr "测试成功"
 
