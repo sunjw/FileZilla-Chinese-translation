@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-22 05:30+0200\n"
-"PO-Revision-Date: 2016-03-28 20:15+0800\n"
+"PO-Revision-Date: 2016-05-22 16:34+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -534,11 +534,10 @@ msgid "&Finish editing and delete local file"
 msgstr "结束编辑并删除本地文件(&F)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3278
-#, fuzzy
 msgid ""
 "&Flatten local paths, upload all contained files directly into target "
 "directory"
-msgstr "展开远程路径，将所有包含的文件下载到目标目录(&F)"
+msgstr "展开本地路径，将所有包含的文件上传到目标目录(&F)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3183
 msgid ""
@@ -640,9 +639,8 @@ msgid "&Local directory:"
 msgstr "本地目录(&L):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3010
-#, fuzzy
 msgid "&Local search"
-msgstr "文件搜索"
+msgstr "本地搜索(&L)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2122
 msgid "&Log to file"
@@ -823,9 +821,8 @@ msgid "&Remote path:"
 msgstr "远程路径(&R):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3017
-#, fuzzy
 msgid "&Remote search"
-msgstr "远程文件搜索"
+msgstr "远程搜索(&R)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1117
 msgid "&Remove"
@@ -1022,14 +1019,12 @@ msgid "&Upload"
 msgstr "上传(&U)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3248
-#, fuzzy
 msgid "&Upload to:"
-msgstr "上传(&U):"
+msgstr "上传至(&U):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:611
-#, fuzzy
 msgid "&Upload..."
-msgstr "上传(&U)"
+msgstr "上传(&U)…"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1420
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1200
@@ -1765,9 +1760,8 @@ msgstr "复制 URL 到剪贴板(&O)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:332
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:523
-#, fuzzy
 msgid "C&opy URL(s) with password to clipboard"
-msgstr "复制 URL 到剪贴板(&O)"
+msgstr "将 URL 和密码一起复制到到剪贴板(&O)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1507
 msgid "C&ustom"
@@ -2427,9 +2421,8 @@ msgstr "复制 %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:333
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:524
-#, fuzzy
 msgid "Copy the URLs of the selected items to clipboard, including password."
-msgstr "复制选中项的 URL 到剪贴板。"
+msgstr "复制选中项的 URL 和密码到剪贴板。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:329
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:520
@@ -4766,18 +4759,16 @@ msgid "Local file is not a valid filename."
 msgstr "本地文件不是一个有效的文件名。"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:642
-#, fuzzy
 msgid "Local file search"
-msgstr "远程文件搜索"
+msgstr "本地文件搜索"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1079
 msgid "Local filters:"
 msgstr "本地过滤器:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3266
-#, fuzzy
 msgid "Local path handling:"
-msgstr "远程路径处理:"
+msgstr "本地路径处理:"
 
 #: ../../source/FileZilla3/locales/../src/interface/viewheader.cpp:334
 msgid "Local site:"
@@ -4976,9 +4967,8 @@ msgid "Need to enter filter name"
 msgstr "需要输入过滤器名"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:642
-#, fuzzy
 msgid "Need to enter valid local path"
-msgstr "需要输入正确的远程路径"
+msgstr "需要输入正确的本地路径"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:663
 msgid "Need to enter valid remote path"
@@ -5630,7 +5620,6 @@ msgstr ""
 "使用原始的 ftp 命令将会清空目录缓存。"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1730
-#, fuzzy
 msgid ""
 "Please enter the complete path of a program and its arguments. This command "
 "will be executed when the queue has finished processing.\n"
@@ -6390,9 +6379,8 @@ msgid "Search server for files"
 msgstr "在服务器上搜索文件"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3001
-#, fuzzy
 msgid "Search type:"
-msgstr "搜索目录(&D):"
+msgstr "搜索类型:"
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:502
 msgid "Security information"
@@ -7858,9 +7846,8 @@ msgstr "上传限制: 无"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3236
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:863
-#, fuzzy
 msgid "Upload search results"
-msgstr "下载搜索结果"
+msgstr "上传搜索结果"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:556
 msgid "Upload selected directory"
@@ -8181,9 +8168,8 @@ msgid "You have to enter a local directory."
 msgstr "请输入一个本地目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:863
-#, fuzzy
 msgid "You have to enter a remote directory."
-msgstr "请输入一个本地目录。"
+msgstr "您输入了一个远程目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:91
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:158
