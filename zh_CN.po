@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2016-07-05 16:48+0200\n"
-"PO-Revision-Date: 2016-05-22 16:37+0800\n"
+"PO-Revision-Date: 2016-07-06 11:35+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -265,7 +265,7 @@ msgstr "自动检测(&A)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:275
 msgid "&Background color:"
-msgstr ""
+msgstr "背景颜色(&B)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:148
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:602
@@ -613,9 +613,8 @@ msgid "&Install new version"
 msgstr "安装新版 (&I)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3271
-#, fuzzy
 msgid "&Keep local path structure relative to search root"
-msgstr "保持远程目录路径相对于搜索的根目录(&K)"
+msgstr "保持本地目录路径相对于搜索的根目录(&K)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3176
 msgid "&Keep remote path structure relative to search root"
@@ -1716,7 +1715,7 @@ msgstr "黑板"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:19
 msgid "Blue"
-msgstr ""
+msgstr "蓝色"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:259
 #: ../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:291
@@ -2856,7 +2855,7 @@ msgstr "自定义服务器"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:21
 msgid "Cyan"
-msgstr ""
+msgstr "青色"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2508
 msgid "D&ata type"
@@ -3479,9 +3478,8 @@ msgstr ""
 "FTP 的默认值是 21，SFTP 的默认值是 22。"
 
 #: ../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:70
-#, fuzzy
 msgid "Enter username"
-msgstr "输入过滤器名称"
+msgstr "输入用户名"
 
 #: ../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:77
 msgid "Enter username and password"
@@ -4179,7 +4177,7 @@ msgstr "GnuTLS:"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:18
 msgid "Green"
-msgstr ""
+msgstr "绿色"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:436
 msgid "Group permissions"
@@ -4855,7 +4853,7 @@ msgstr "MAC:"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:22
 msgid "Magenta"
-msgstr ""
+msgstr "洋红"
 
 #: ../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:44
 msgid "Make sure the file can be accessed and is a well-formed XML document."
@@ -5347,7 +5345,7 @@ msgstr "不支持该操作"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:23
 msgid "Orange"
-msgstr ""
+msgstr "橙色"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:244
 msgid "Organization:"
@@ -6126,9 +6124,8 @@ msgid "Recursively deleting files and directories."
 msgstr "递归删除文件和文件夹。"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:17
-#, fuzzy
 msgid "Red"
-msgstr "读取(&R)"
+msgstr "红色"
 
 #: ../../source/FileZilla3/locales/../src/engine/httpcontrolsocket.cpp:639
 #, c-format
@@ -8117,7 +8114,7 @@ msgstr "错误的行结尾"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:20
 msgid "Yellow"
-msgstr ""
+msgstr "黄色"
 
 #: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:844
 msgid "Yes"
