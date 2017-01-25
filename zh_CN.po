@@ -3622,7 +3622,7 @@ msgstr "错误:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2024
 msgid "Example: png \"c:\\program files\\viewer\\viewer.exe\" -open"
-msgstr "示例: png “c:\\program files\\viewer\\viewer.exe”-open"
+msgstr "示例: png \"c:\\program files\\viewer\\viewer.exe\" -open"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1674
 msgid "Examples"
@@ -6990,7 +6990,7 @@ msgstr "跳过下载 %s"
 #: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:309
 #, c-format
 msgid "Skipping non-existing key file \"%s\""
-msgstr "跳过不存在的密匙文件 “%s”"
+msgstr "跳过不存在的密匙文件“%s”"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1161
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1178
