@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-01-24 05:30+0100\n"
-"PO-Revision-Date: 2016-07-14 11:27+0800\n"
+"PO-Revision-Date: 2017-01-25 11:38+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:114
 msgid ""
@@ -536,9 +536,8 @@ msgid "&Filter sets:"
 msgstr "过滤器集合(&F):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1660
-#, fuzzy
 msgid "&Filters"
-msgstr "过滤器(&F):"
+msgstr "过滤器(&F)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1227
 msgid "&Filters:"
@@ -2118,9 +2117,8 @@ msgid "Clear &layout cache"
 msgstr "清空布局缓存(&L)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:447
-#, fuzzy
 msgid "Clear auto&update data"
-msgstr "清除个人信息"
+msgstr "清除自动更新数据(&U)"
 
 #: ../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:200
 msgid "Clear history"
@@ -2482,14 +2480,13 @@ msgid "Could not accept connection: %s"
 msgstr "无法接受连接: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:101
-#, fuzzy, c-format
+#, c-format
 msgid "Could not access path %s"
-msgstr "无法接受连接: %s"
+msgstr "无法访问路径 %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1310
-#, fuzzy
 msgid "Could not add certificate to temporary trust list"
-msgstr "根证书不被信任"
+msgstr "无法将证书加入临时信任列表"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:103
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:573
@@ -2718,9 +2715,8 @@ msgid "Could not receive data from server."
 msgstr "无法从服务器接收数据。"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:116
-#, fuzzy
 msgid "Could not restore directory access"
-msgstr "无法解析服务器地址:"
+msgstr "无法恢复访问目录"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:2694
 #, c-format
@@ -3655,9 +3651,8 @@ msgid "Explorer"
 msgstr "浏览器"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1601
-#, fuzzy
 msgid "Export &Filters"
-msgstr "过滤器(&F):"
+msgstr "导出过滤器(&F)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1596
 msgid "Export &Queue"
@@ -4168,7 +4163,6 @@ msgstr "指纹(SHA-256):"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:869
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:990
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2077
-#, fuzzy
 msgid "Fingerprints:"
 msgstr "指纹:"
 
@@ -4219,9 +4213,9 @@ msgid "Found new %s %s\n"
 msgstr "发现了新的 %s %s\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:49
-#, fuzzy, c-format
+#, c-format
 msgid "Function %s failed"
-msgstr "认证失败。"
+msgstr "函数 %s 失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3598
 msgid "Further documentation"
@@ -4354,9 +4348,8 @@ msgstr "主机:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:859
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:980
-#, fuzzy
 msgid "Hostkey algorithm:"
-msgstr "公钥算法:"
+msgstr "主机密匙算法:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:424
 msgid "Hours,"
@@ -4665,9 +4658,9 @@ msgid "Invalid host, after closing bracket only colon and port may follow."
 msgstr "无效主机名，在闭合括号之后只能是冒号加端口号。"
 
 #: ../../source/FileZilla3/locales/../src/engine/httpcontrolsocket.cpp:641
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid hostname: %s"
-msgstr "无效文件名"
+msgstr "无效的主机名: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:107
 msgid "Invalid input"
@@ -5937,9 +5930,8 @@ msgid "Preserving file timestamps"
 msgstr "保留文件时间戳"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1482
-#, fuzzy
 msgid "Preview"
-msgstr "预览:"
+msgstr "预览"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1359
 msgid "Primary connection and data connection certificates don't match."
@@ -6488,7 +6480,7 @@ msgstr "SFTP"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:579
 msgid "SFTP support"
-msgstr ""
+msgstr "支持 SFTP"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:729
 msgid "SOC&KS 4"
@@ -6599,9 +6591,8 @@ msgid "Select file for exported data"
 msgstr "选择用于导出数据的文件"
 
 #: ../../source/FileZilla3/locales/../src/interface/export.cpp:45
-#, fuzzy
 msgid "Select file for exported filters"
-msgstr "选择用于导出站点的文件"
+msgstr "选择用于导出过滤器的文件"
 
 #: ../../source/FileZilla3/locales/../src/interface/export.cpp:39
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:1427
@@ -6785,7 +6776,7 @@ msgstr "服务器不支持续传大于 4 GB 的文件。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2060
 msgid "Server host key"
-msgstr ""
+msgstr "服务器主机密匙"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:4253
 #, c-format
@@ -7177,7 +7168,7 @@ msgstr ""
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:585
 msgid "Storj support"
-msgstr ""
+msgstr "支持 storj"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:251
 msgid "Street:"
@@ -7227,9 +7218,8 @@ msgid "Synchronized browsing has been disabled."
 msgstr "同步浏览已经被关闭。"
 
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:110
-#, fuzzy
 msgid "Synchronizing directories."
-msgstr "正在删除目录"
+msgstr "正在同步目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:121
 #: ../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:165
@@ -7980,14 +7970,14 @@ msgstr "未知证书"
 
 #: ../../source/FileZilla3/locales/../src/engine/misc.cpp:125
 #: ../../source/FileZilla3/locales/../src/engine/misc.cpp:138
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown error %d"
-msgstr "GnuTLS 错误 %d"
+msgstr "未知错误 %d"
 
 #: ../../source/FileZilla3/locales/../src/engine/misc.cpp:102
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown error %u"
-msgstr "未定义的快捷键"
+msgstr "未知错误 %u"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:816
 msgid "Unknown host key"
@@ -8541,21 +8531,19 @@ msgstr ""
 
 #: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:374
 msgid "fzsftp belongs to a different version of FileZilla"
-msgstr "fzsftp 是其他 FileZilla 版本里的命令"
+msgstr "fzsftp 与当前 FileZilla 版本不匹配"
 
 #: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:1383
 msgid "fzsftp could not be started"
 msgstr "fzsftp 无法启动"
 
 #: ../../source/FileZilla3/locales/../src/engine/storjcontrolsocket.cpp:279
-#, fuzzy
 msgid "fzstorj belongs to a different version of FileZilla"
-msgstr "fzsftp 是其他 FileZilla 版本里的命令"
+msgstr "fzstorj 与当前 FileZilla 版本不匹配"
 
 #: ../../source/FileZilla3/locales/../src/engine/storjcontrolsocket.cpp:864
-#, fuzzy
 msgid "fzstorj could not be started"
-msgstr "fzsftp 无法启动"
+msgstr "fzstorj 无法启动"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1217
 msgid "gnutls_certificate_get_peers returned no certificates"
@@ -8606,9 +8594,8 @@ msgid "matches regex"
 msgstr "匹配正则表达式 (regex)"
 
 #: ../../source/FileZilla3/locales/../src/interface/asyncrequestqueue.cpp:293
-#, fuzzy
 msgid "new name"
-msgstr "重命名(&R)"
+msgstr "新名称"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:86
 msgid "owner executable"
