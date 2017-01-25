@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-01-24 05:30+0100\n"
-"PO-Revision-Date: 2017-01-25 11:38+0800\n"
+"PO-Revision-Date: 2017-01-25 13:20+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:114
 msgid ""
@@ -152,7 +152,7 @@ msgid_plural "%s bytes"
 msgstr[0] "%s 字节"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:600
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s could not be found. Without this component of FileZilla, %s will not "
 "work.\n"
@@ -160,12 +160,12 @@ msgid ""
 "Please download FileZilla again. If this problem persists, please submit a "
 "bug report."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，SFTP 无法工作。\n"
+"未找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
 "\n"
 "请重新下载 FileZilla。如果该问题仍然存在，请提交一份问题报告。"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:690
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s could not be found. Without this component of FileZilla, %s will not "
 "work.\n"
@@ -174,11 +174,11 @@ msgid ""
 "- Make sure %s is in a directory listed in your PATH environment variable.\n"
 "- Set the full path to %s in the %s environment variable."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，SFTP 无法工作。\n"
+"未找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
 "\n"
 "可能的解决方法:\n"
-"- 确保 %s 目录已列在您的 PATH 环境变量中。\n"
-"- 在 FZ_FZSFTP 环境变量中设置到 %s 的完整路径。"
+"- 确保 %s 目录已列在您的环境变量 PATH 中。\n"
+"- 在环境变量 %s 中设置到 %s 的完整路径。"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:59
 #, c-format
@@ -1390,9 +1390,8 @@ msgid "Above the file lists"
 msgstr "在文件列表上面"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:113
-#, fuzzy
 msgid "Access to some local directories could not be restored:"
-msgstr "无法创建本地目录“%s”。"
+msgstr "无法恢复访问某些本地目录:"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:913
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:934
@@ -2531,9 +2530,9 @@ msgid "Could not copy data"
 msgstr "无法复制数据"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:158
-#, fuzzy, c-format
+#, c-format
 msgid "Could not create CFURL from path %s"
-msgstr "无法读取套接字: %s"
+msgstr "无法从路径 %s 生成 CFURL"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:489
 #, c-format
@@ -2595,14 +2594,12 @@ msgid "Could not get full remote path."
 msgstr "无法得到完整的远程路径。"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:95
-#, fuzzy
 msgid "Could not get native path from CFURL"
-msgstr "无法从服务器接收数据。"
+msgstr "无法从 CFURL 获得原始路径"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:173
-#, fuzzy
 msgid "Could not get path from URL"
-msgstr "无法得到 fzputtygen 的回应。"
+msgstr "无法从 URL 获得路径"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:232
 msgid "Could not get reply from fzputtygen."
@@ -3148,9 +3145,8 @@ msgid "Directory containing the logfile does not exist or filename is invalid."
 msgstr "保存日志文件的目录不存在或文件名无效。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:66
-#, fuzzy
 msgid "Directory listing &filters..."
-msgstr "目录列表过滤器"
+msgstr "目录列表过滤器…(&F)"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:186
 msgid "Directory listing aborted by user"
@@ -3512,7 +3508,6 @@ msgid "Enter selected directory"
 msgstr "进入所选的目录"
 
 #: ../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:53
-#, fuzzy
 msgid ""
 "Enter the address of the server. To specify the server protocol, prepend the "
 "host with the protocol identifier. If no protocol is specified, the default "
@@ -3526,11 +3521,9 @@ msgid ""
 "- ftps:// for FTP over TLS (implicit)\n"
 "- ftpes:// for FTP over TLS (explicit)"
 msgstr ""
-"输入服务器地址。\n"
-"要指定服务器的协议类型，在前面加上主机协议标示符。如果没有指定协议，会使用默"
-"认协议(ftp://)。\n"
-"您也可以输入完整的 URL 地址，使用如下格式 protocol://user:pass@host:port，这"
-"样其他相应字段的值会被覆盖。\n"
+"输入服务器地址。要指定服务器的协议类型，在前面加上主机协议标示符。如果没有指"
+"定协议，会使用默认协议(ftp://)。您也可以输入完整的 URL 地址，使用如下格式 "
+"protocol://user:pass@host:port，这样其他相应字段的值会被覆盖。\n"
 "\n"
 "支持的协议有:\n"
 "- ftp:// 普通 FTP，可加密\n"
@@ -3548,13 +3541,10 @@ msgstr ""
 "请注意转换后的文件仍使用该密码。"
 
 #: ../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:66
-#, fuzzy
 msgid ""
 "Enter the port on which the server listens. The default for FTP is 21, the "
 "default for SFTP is 22."
-msgstr ""
-"输入服务器监听的端口。\n"
-"FTP 的默认值是 21，SFTP 的默认值是 22。"
+msgstr "输入服务器的监听端口。FTP 的默认值是 21，SFTP 的默认值是 22。"
 
 #: ../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:73
 msgid "Enter username"
@@ -3734,9 +3724,8 @@ msgid "Failed to change language"
 msgstr "切换语言失败"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:1272
-#, fuzzy
 msgid "Failed to convert command to 8 bit charset"
-msgstr "无法将命令转换成服务器的编码"
+msgstr "转换命令到 8 bit 编码失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:2082
 msgid "Failed to copy or move sites"
@@ -3747,9 +3736,8 @@ msgid "Failed to create backup copy of xml file"
 msgstr "创建 XML 文件的备件副本失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:808
-#, fuzzy
 msgid "Failed to create listen socket, aborting."
-msgstr "创建监听套接字失败，正在中止"
+msgstr "创建监听套接字失败，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:4167
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:4171
@@ -3824,18 +3812,16 @@ msgid "Failed to retrieve directory listing"
 msgstr "读取目录列表失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:737
-#, fuzzy
 msgid "Failed to retrieve external ip address, aborting."
-msgstr "无法获取外部 IP 地址，中止"
+msgstr "无法获取外部 IP 地址，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:3849
 msgid "Failed to retrieve external ip address, using local address"
 msgstr "无法获取外部 IP 地址，使用本地地址。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:712
-#, fuzzy
 msgid "Failed to retrieve local ip address, aborting."
-msgstr "无法获取本地 IP 地址。中止"
+msgstr "无法获取本地 IP 地址，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:3868
 msgid "Failed to retrieve local ip address."
@@ -4125,9 +4111,8 @@ msgid "Filter out items matching none of the following"
 msgstr "滤除不匹配以下任一条件的项目"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1306
-#, fuzzy
 msgid "Filter out items matching not all of the following"
-msgstr "滤除匹配以下所有条件的项目"
+msgstr "滤除不匹配以下所有条件的项目"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:236
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:292
@@ -4923,9 +4908,8 @@ msgstr ""
 "登录数据包含非 ASCII 字符而且服务器可能无法识别 UTF-8。尝试使用本地编码。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:884
-#, fuzzy
 msgid "Login sequence fully executed yet not logged in, aborting."
-msgstr "登录过程已完全执行，但依然无法登录。正在终止。"
+msgstr "登录过程已完全执行，但依然无法登录，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:103
 msgid "Logontype has to be either 'ask' or 'interactive' (without the quotes)."
@@ -5003,12 +4987,11 @@ msgstr "匹配以下任意一个"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3110
 msgid "Match none of the following"
-msgstr "不匹配以下内容"
+msgstr "不匹配以下任何内容"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3111
-#, fuzzy
 msgid "Match not all of the following"
-msgstr "匹配以下所有"
+msgstr "不匹配以下所有内容"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:822
 msgid "Maximum simultaneous &transfers:"
@@ -5198,7 +5181,7 @@ msgstr "没有选定要导出的分类目录"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1831
 msgid "No command given, aborting."
-msgstr "没有给出命令，中止。"
+msgstr "没有给出命令，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:3821
 msgid "No external IP address set, trying default."
@@ -5845,7 +5828,7 @@ msgstr "请注意如果您过于频繁的尝试连接，或者间隔过短，某
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:115
 msgid "Please re-add local data directories in the settings dialog."
-msgstr ""
+msgstr "请在设置对话框中重新添加本地数据目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:592
 msgid ""
@@ -6188,7 +6171,7 @@ msgstr "收到了一个疑似使用 EBCDIC 编码的目录列表。"
 #: ../../source/FileZilla3/locales/../src/engine/directorylistingparser.cpp:1984
 #: ../../source/FileZilla3/locales/../src/engine/directorylistingparser.cpp:2001
 msgid "Received a line exceeding 10000 characters, aborting."
-msgstr "接收到超过 1000 个字符的行，中止。"
+msgstr "接收到超过 1000 个字符的行，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1342
 #, c-format
@@ -6494,7 +6477,7 @@ msgstr "SOCKS4 代理将连接到: %s"
 #: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:170
 msgid ""
 "SOCKS5 does not support usernames or passwords longer than 255 characters."
-msgstr ""
+msgstr "SOCKS5 不支持用户名或密码长度超过 255 个字符。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:715
 msgid "SQLite:"
@@ -6826,7 +6809,7 @@ msgstr "服务器发送了意外的回应。"
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:1254
 msgid ""
 "Server sent unsorted certificate chain in violation of the TLS specifications"
-msgstr ""
+msgstr "服务器发送了不符合 TLS 规范的未排序证书链"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2133
 msgid "Server to client MAC:"
@@ -7007,7 +6990,7 @@ msgstr "跳过下载 %s"
 #: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:309
 #, c-format
 msgid "Skipping non-existing key file \"%s\""
-msgstr ""
+msgstr "跳过不存在的密匙文件 “%s”"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1161
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1178
