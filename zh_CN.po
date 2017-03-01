@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-03-01 05:30+0100\n"
-"PO-Revision-Date: 2017-01-25 13:37+0800\n"
+"PO-Revision-Date: 2017-03-01 14:03+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:114
 msgid ""
@@ -152,7 +152,7 @@ msgid_plural "%s bytes"
 msgstr[0] "%s 字节"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:588
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s could not be found. Without this component of FileZilla, SFTP will not "
 "work.\n"
@@ -160,12 +160,12 @@ msgid ""
 "Please download FileZilla again. If this problem persists, please submit a "
 "bug report."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
+"未找到 %s。缺少该 FileZilla 组件，SFTP 无法工作。\n"
 "\n"
 "请重新下载 FileZilla。如果该问题仍然存在，请提交一份问题报告。"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:673
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s could not be found. Without this component of FileZilla, SFTP will not "
 "work.\n"
@@ -174,11 +174,11 @@ msgid ""
 "- Make sure %s is in a directory listed in your PATH environment variable.\n"
 "- Set the full path to %s in the FZ_FZSFTP environment variable."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
+"未找到 %s。缺少该 FileZilla 组件，SFTP 无法工作。\n"
 "\n"
 "可能的解决方法:\n"
 "- 确保 %s 目录已列在您的环境变量 PATH 中。\n"
-"- 在环境变量 %s 中设置到 %s 的完整路径。"
+"- 在环境变量 FZ_FZSFTP 中设置 %s 的完整路径。"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:59
 #, c-format
@@ -2525,9 +2525,8 @@ msgid "Could not create CFURL from path %s"
 msgstr "无法从路径 %s 生成 CFURL"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:30
-#, fuzzy
 msgid "Could not create URI for this transfer."
-msgstr "无法从路径 %s 生成 CFURL"
+msgstr "无法基于此次传输生成 URI。"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:489
 #, c-format
@@ -2717,9 +2716,8 @@ msgstr "无法找到文件中的 %s 偏移"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:119
 #: ../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:174
-#, fuzzy
 msgid "Could not seek to the beginning of the file"
-msgstr "无法搜索到文件尾"
+msgstr "无法搜索到文件头"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:90
 #: ../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:98
@@ -4979,7 +4977,7 @@ msgstr "错误的回应，服务器没有发送正确的行结尾"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:453
 msgid "Malformed response: Server sent too much data."
-msgstr ""
+msgstr "错误的响应：服务器发送了过多的数据。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2633
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:298
@@ -5385,9 +5383,8 @@ msgid "Only use plain FTP (insecure)"
 msgstr "只使用普通 FTP (不安全)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1970
-#, fuzzy
 msgid "Op&en file"
-msgstr "打开文件(&P)"
+msgstr "打开文件(&E)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:568
 msgid "Open directory in system's file manager"
@@ -6510,9 +6507,8 @@ msgid "Saving of passwords has been disabled by you."
 msgstr "您禁止了保存密码。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1462
-#, fuzzy
 msgid "Scale factor:"
-msgstr "本地目录(&L):"
+msgstr "放大倍数:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3101
 msgid "Search &conditions:"
@@ -6858,9 +6854,9 @@ msgid "Set permissions of '%s' to '%s'"
 msgstr "修改“%s”的权限为“%s”"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:625
-#, fuzzy, c-format
+#, c-format
 msgid "Setting permissions of '%s' to '%s'"
-msgstr "修改“%s”的权限为“%s”"
+msgstr "正在将“%s”的权限修改为“%s”"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:3
 msgid "Settings"
@@ -7296,9 +7292,8 @@ msgid "Testing resume capabilities of server"
 msgstr "正在检测服务器能否续传"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1928
-#, fuzzy
 msgid "The &following files are currently being edited:"
-msgstr "正在编辑以下文件:"
+msgstr "以下文件已被编辑(&F):"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:761
 msgid "The Site Manager cannot be used unless the file gets repaired."
@@ -7984,7 +7979,7 @@ msgstr "未知的根元素，该文件似乎不是由 FileZilla 生成的。"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:320
 msgid "Unknown transfer encoding"
-msgstr ""
+msgstr "未知的传输编码方式"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:618
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:629
