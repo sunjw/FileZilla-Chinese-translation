@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-03-26 05:30+0200\n"
-"PO-Revision-Date: 2017-01-25 13:37+0800\n"
+"PO-Revision-Date: 2017-03-26 12:08+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,13 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:114
 msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -4656,7 +4658,7 @@ msgstr "无效输入"
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:304
 #, fuzzy
 msgid "Invalid line"
-msgstr "无效输入"
+msgstr "无效的输入"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:65
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:186
@@ -4964,22 +4966,22 @@ msgid "Malformed chunk data: %s"
 msgstr "错误的块数据: %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:29
-#, fuzzy, c-format
+#, c-format
 msgid "Malformed request header: %s"
-msgstr "错误的头: %s"
+msgstr "错误的请求头: %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:476
-#, fuzzy, c-format
+#, c-format
 msgid "Malformed response body: %s"
-msgstr "错误的头: %s"
+msgstr "错误的响应数据: %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:225
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:304
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:343
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:351
-#, fuzzy, c-format
+#, c-format
 msgid "Malformed response header: %s"
-msgstr "错误的头: %s"
+msgstr "错误的响应头: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2633
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:298
@@ -6785,9 +6787,8 @@ msgid ""
 msgstr "服务器可能需要帐号。请尝试在站点管理器里指定一个帐号"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:225
-#, fuzzy
 msgid "Server not sending proper line endings"
-msgstr "错误的回应，服务器没有发送正确的行结尾"
+msgstr "服务器没有发送正确的行结尾"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:340
 msgid "Server returned empty path."
@@ -6811,7 +6812,7 @@ msgstr "服务器发回了不可路由的地址。使用服务器地址代替。
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:476
 msgid "Server sent too much data."
-msgstr ""
+msgstr "服务器发送了过多的数据。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:428
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:434
@@ -6861,7 +6862,7 @@ msgstr "设定优先级(&P)"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:625
 #: ../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:605
-#, fuzzy, c-format
+#, c-format
 msgid "Setting permissions of '%s' to '%s'"
 msgstr "正在将“%s”的权限修改为“%s”"
 
