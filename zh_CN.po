@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-05-07 05:30+0200\n"
-"PO-Revision-Date: 2017-03-26 12:08+0800\n"
+"PO-Revision-Date: 2017-05-07 12:34+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -2533,8 +2533,9 @@ msgid "Could not create logging mutex: %s"
 msgstr "无法创建日志锁 (logging mutex): %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:167
+#, fuzzy
 msgid "Could not create security-scoped bookmark from URL:"
-msgstr ""
+msgstr "无法从 URL 创建安全书签:"
 
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2209
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:860
@@ -3808,22 +3809,18 @@ msgid "Failed to retrieve directory listing"
 msgstr "读取目录列表失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:737
-#, fuzzy
 msgid "Failed to retrieve external IP address, aborting."
 msgstr "无法获取外部 IP 地址，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:678
-#, fuzzy
 msgid "Failed to retrieve external IP address, using local address"
 msgstr "无法获取外部 IP 地址，使用本地地址。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:712
-#, fuzzy
 msgid "Failed to retrieve local IP address, aborting."
 msgstr "无法获取本地 IP 地址，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:696
-#, fuzzy
 msgid "Failed to retrieve local IP address."
 msgstr "无法获取本地 IP 地址。"
 
