@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-05-28 05:30+0200\n"
-"PO-Revision-Date: 2017-05-07 12:34+0800\n"
+"PO-Revision-Date: 2017-05-28 12:08+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -813,9 +813,8 @@ msgid "&Refresh"
 msgstr "刷新(&R)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:462
-#, fuzzy
 msgid "&Remember master password until FileZilla is closed"
-msgstr "在 FileZilla 关闭前记住密码(&R)"
+msgstr "在 FileZilla 关闭前记住主密码(&R)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:354
 msgid "&Remember password until FileZilla is closed"
@@ -1319,7 +1318,7 @@ msgstr ""
 msgid ""
 "A lost master password cannot be recovered! Please thorougly memorize your "
 "password."
-msgstr ""
+msgstr "主密码一旦丢失无法恢复！请牢记您的密码。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:55
 msgid "A new version of FileZilla is available:"
@@ -2575,9 +2574,8 @@ msgstr "无法生成自定义登录过程。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:114
 #: ../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:53
-#, fuzzy
 msgid "Could not generate key"
-msgstr "无法转换私钥"
+msgstr "无法生成密钥"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket_impl.cpp:1085
 msgid ""
@@ -3503,9 +3501,8 @@ msgstr "输入过滤器名称"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:384
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:492
-#, fuzzy
 msgid "Enter master password"
-msgstr "输入密码"
+msgstr "输入主密码"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:220
 msgid "Enter name for filterset"
@@ -3573,9 +3570,8 @@ msgstr "输入用户名和密码"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:114
 #: ../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:53
-#, fuzzy
 msgid "Error"
-msgstr "错误:"
+msgstr "错误"
 
 #: ../../source/FileZilla3/locales/../src/interface/export.cpp:30
 msgid "Error exporting settings"
@@ -3769,9 +3765,8 @@ msgid "Failed to create listening socket for active mode transfer"
 msgstr "为主动模式传输创建监听套接字失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:113
-#, fuzzy
 msgid "Failed to decrypt server password."
-msgstr "无法解析返回的路径。"
+msgstr "无法解密服务器密码。"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:636
 msgid "Failed to get 'My Documents' path"
@@ -4373,7 +4368,7 @@ msgstr "小时，"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:537
 msgid ""
 "I &forgot my master password. Delete all passwords stored with this key."
-msgstr ""
+msgstr "我确实忘记了主密码。删除保存在该主密码下的所有密码。(&F)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1630
 msgid "I&SO 8601 (example: 15:47)"
@@ -4804,9 +4799,8 @@ msgstr "密钥文件"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:431
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:506
-#, fuzzy
 msgid "Key identifier:"
-msgstr "密钥文件(&K):"
+msgstr "密钥标识:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:374
 msgid "L&owest"
@@ -4834,7 +4828,7 @@ msgstr "布局"
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:64
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1734
 msgid "Leave empty to keep existing password."
-msgstr ""
+msgstr "不输入以保持现有密码不变。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:843
 msgid "Limit for concurrent &downloads:"
@@ -5044,15 +5038,13 @@ msgstr "手动传输"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:442
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:517
-#, fuzzy
 msgid "Master &Password:"
-msgstr "密码(&P):"
+msgstr "主密码(&P):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4038
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1301
-#, fuzzy
 msgid "Master password:"
-msgstr "输入密码"
+msgstr "主密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3286
 msgid "Match all of the following"
@@ -5653,9 +5645,8 @@ msgid "Password required"
 msgstr "要求提供密码"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1270
-#, fuzzy
 msgid "Passwords"
-msgstr "密码(&P):"
+msgstr "密码"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:117
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:155
@@ -5848,7 +5839,7 @@ msgstr "请为该服务器输入用户名和密码:"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:497
 msgid ""
 "Please enter your current master password to to change the password settings."
-msgstr ""
+msgstr "请输入您的主密码以更改密码设置。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:150
 msgid "Please enter your external IP address"
@@ -5865,10 +5856,9 @@ msgstr ""
 "址，请使用外部解析器选项。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:389
-#, fuzzy
 msgid ""
 "Please enter your master password to decrypt the password for this server:"
-msgstr "请为该服务器输入用户名和密码:"
+msgstr "请输入您的主密码，以解密该服务器的密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:16
 msgid ""
@@ -6445,9 +6435,8 @@ msgstr "“%s”改名为“%s”"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4050
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1313
-#, fuzzy
 msgid "Repeat password:"
-msgstr "记住密码(&R)"
+msgstr "再次输入密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3733
 msgid "Reporting bugs and feature requests"
@@ -6582,13 +6571,12 @@ msgstr "SQLite:"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4027
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1290
 msgid "Sa&ve passwords protected by a master password"
-msgstr ""
+msgstr "保存主密码保护的密码(&V)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4017
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1280
-#, fuzzy
 msgid "Sav&e passwords"
-msgstr "记住密码(&R)"
+msgstr "保存密码(&E)"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:862
 msgid "Save settings?"
@@ -7481,9 +7469,8 @@ msgstr "您输入的过滤器名称已经存在，请另选一个名称。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:197
 #: ../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:41
-#, fuzzy
 msgid "The entered passwords are not the same."
-msgstr "请为该服务器输入密码:"
+msgstr "输入的密码不同。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_filetype.cpp:153
 #, c-format
@@ -7653,7 +7640,7 @@ msgstr "最低的可用端口必须小于或等于最高的。"
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:206
 #: ../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:46
 msgid "The master password needs to be at least 8 characters long."
-msgstr ""
+msgstr "主密码至少需要 8 个字符。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:122
 msgid "The new version could not be downloaded, please retry later."
@@ -8391,11 +8378,11 @@ msgstr "错误的行结尾"
 msgid ""
 "Wrong master password entered, it cannot be used to decrypt the stored "
 "passwords."
-msgstr ""
+msgstr "输入了错误的主密码，无法解密保存的密码。"
 
 #: ../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:108
 msgid "Wrong master password entered, it cannot be used to decrypt this item."
-msgstr ""
+msgstr "输入了错误的主密码，无法解密该项。"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:21
 msgid "Yellow"
@@ -8509,9 +8496,8 @@ msgid ""
 msgstr "您的防火墙或路由器似乎错误地更改了传输的数据。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:202
-#, fuzzy
 msgid "You need to enter a master password."
-msgstr "请输入一个代理主机。"
+msgstr "请输入主密码。"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:60
 msgid "You need to enter a name for the bookmark."
