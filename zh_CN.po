@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-06-10 05:30+0200\n"
-"PO-Revision-Date: 2017-05-07 12:34+0800\n"
+"PO-Revision-Date: 2017-06-10 20:37+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -5044,7 +5044,6 @@ msgstr "主密码(&P):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4038
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1302
-#, fuzzy
 msgid "Master password:"
 msgstr "主密码:"
 
@@ -5647,7 +5646,6 @@ msgid "Password required"
 msgstr "要求提供密码"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1271
-#, fuzzy
 msgid "Passwords"
 msgstr "密码"
 
@@ -5840,7 +5838,6 @@ msgid "Please enter username and password for this server:"
 msgstr "请为该服务器输入用户名和密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:497
-#, fuzzy
 msgid ""
 "Please enter your current master password to change the password settings."
 msgstr "请输入您的主密码以更改密码设置。"
@@ -6439,7 +6436,6 @@ msgstr "“%s”改名为“%s”"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4050
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1314
-#, fuzzy
 msgid "Repeat password:"
 msgstr "再次输入密码:"
 
@@ -6580,7 +6576,6 @@ msgstr "保存主密码保护的密码(&V)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4017
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1281
-#, fuzzy
 msgid "Sav&e passwords"
 msgstr "保存密码(&E)"
 
@@ -8502,9 +8497,8 @@ msgid ""
 msgstr "您的防火墙或路由器似乎错误地更改了传输的数据。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:206
-#, fuzzy
 msgid "You need to enter a master password."
-msgstr "请输入主密码。"
+msgstr "请输入一个主密码。"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:60
 msgid "You need to enter a name for the bookmark."
