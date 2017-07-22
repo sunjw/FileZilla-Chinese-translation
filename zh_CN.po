@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-07-21 05:30+0200\n"
-"PO-Revision-Date: 2017-05-07 12:34+0800\n"
+"PO-Revision-Date: 2017-07-22 10:44+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -146,7 +146,7 @@ msgid_plural "%s bytes"
 msgstr[0] "%s 字节"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:617
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s could not be found. Without this component of FileZilla, %s will not "
 "work.\n"
@@ -154,12 +154,12 @@ msgid ""
 "Please download FileZilla again. If this problem persists, please submit a "
 "bug report."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，SFTP 无法工作。\n"
+"未找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
 "\n"
 "请重新下载 FileZilla。如果该问题仍然存在，请提交一份问题报告。"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:707
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s could not be found. Without this component of FileZilla, %s will not "
 "work.\n"
@@ -168,11 +168,11 @@ msgid ""
 "- Make sure %s is in a directory listed in your PATH environment variable.\n"
 "- Set the full path to %s in the %s environment variable."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，SFTP 无法工作。\n"
+"未找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
 "\n"
 "可能的解决方法:\n"
 "- 确保 %s 目录已列在您的环境变量 PATH 中。\n"
-"- 在环境变量 FZ_FZSFTP 中设置 %s 的完整路径。"
+"- 将 %s 的完整路径设置在环境变量 %s 中。"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:59
 #, c-format
@@ -813,7 +813,6 @@ msgid "&Refresh"
 msgstr "刷新(&R)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:475
-#, fuzzy
 msgid "&Remember master password until FileZilla is closed"
 msgstr "在 FileZilla 关闭前记住主密码(&R)"
 
@@ -1757,7 +1756,7 @@ msgstr "浏览..."
 #: ../../source/FileZilla3/locales/../src/engine/storj/resolve.cpp:291
 #, fuzzy
 msgid "Bucket not found"
-msgstr "文件未找到"
+msgstr "Bucket 未找到"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:851
 msgid "Build date:"
@@ -2746,9 +2745,8 @@ msgid "Could not send command to fzputtygen."
 msgstr "无法将命令发送到 fzputtygen。"
 
 #: ../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:95
-#, fuzzy
 msgid "Could not send command to fzstorj."
-msgstr "无法将命令发送到 fzputtygen。"
+msgstr "无法将命令发送到 fzstorj。"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket_impl.cpp:1283
 msgid "Could not sort peer certificates"
@@ -3481,14 +3479,12 @@ msgid "Encryption"
 msgstr "加密"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:269
-#, fuzzy
 msgid "Encryption &Key:"
-msgstr "加密(&E):"
+msgstr "加密密钥(&K):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:347
-#, fuzzy
 msgid "Encryption &key:"
-msgstr "加密(&E):"
+msgstr "加密密钥(&K):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2197
 msgid "Encryption details"
@@ -3526,7 +3522,6 @@ msgstr "输入过滤器名称"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:397
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:505
-#, fuzzy
 msgid "Enter master password"
 msgstr "输入主密码"
 
@@ -4116,7 +4111,6 @@ msgid "Files currently being edited"
 msgstr "正在编辑的文件"
 
 #: ../../source/FileZilla3/locales/../src/engine/storj/resolve.cpp:313
-#, fuzzy
 msgid "Files not found"
 msgstr "文件未找到"
 
@@ -4274,9 +4268,8 @@ msgid "General SOCKS server failure"
 msgstr "常规 SOCKS 服务器故障"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:288
-#, fuzzy
 msgid "Generate..."
-msgstr "常规"
+msgstr "生成..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:707
 #: ../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:98
@@ -4734,9 +4727,8 @@ msgstr "无效的输入"
 #: ../../source/FileZilla3/locales/../src/engine/storj/list.cpp:21
 #: ../../source/FileZilla3/locales/../src/engine/storj/mkd.cpp:22
 #: ../../source/FileZilla3/locales/../src/engine/storj/rmd.cpp:24
-#, fuzzy
 msgid "Invalid path"
-msgstr "无效数据"
+msgstr "无效的路径"
 
 #: ../../source/FileZilla3/locales/../src/interface/serverdata.cpp:13
 #: ../../source/FileZilla3/locales/../src/interface/serverdata.cpp:136
@@ -4844,7 +4836,6 @@ msgstr "密钥文件"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:444
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:519
-#, fuzzy
 msgid "Key identifier:"
 msgstr "密钥标识:"
 
@@ -5076,6 +5067,7 @@ msgid ""
 "Malformed response: Server sent response body with a request verb or "
 "response code that disallows a response body."
 msgstr ""
+"错误的响应: 服务器发送的响应数据带有请求指令或者响应数据对当前的请求无效。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2824
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:288
@@ -5091,7 +5083,6 @@ msgstr "手动传输"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:455
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:530
-#, fuzzy
 msgid "Master &Password:"
 msgstr "主密码(&P):"
 
@@ -5420,9 +5411,8 @@ msgid "Note that this feature is only supported using the FTP protocol."
 msgstr "注意这个功能只支持使用 FTP 协议。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/storj.xrc:27
-#, fuzzy
 msgid "Note: A lost key cannot be recovered."
-msgstr "无法删除该过滤器集合。"
+msgstr "请注意: 密钥丢失将无法恢复。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:596
 msgid "Note: This only works with plain, unencrypted FTP connections."
@@ -5702,7 +5692,7 @@ msgstr "被动模式已经被设为默认传输模式。"
 #: ../../source/FileZilla3/locales/../src/engine/storj/connect.cpp:82
 #: ../../source/FileZilla3/locales/../src/engine/storj/connect.cpp:93
 msgid "Password or encryption key is not set"
-msgstr ""
+msgstr "未设置密码或加密密钥"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:95
 msgid "Password required"
@@ -5901,7 +5891,6 @@ msgid "Please enter username and password for this server:"
 msgstr "请为该服务器输入用户名和密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:510
-#, fuzzy
 msgid ""
 "Please enter your current master password to change the password settings."
 msgstr "请输入您的主密码以更改密码设置。"
@@ -5921,7 +5910,6 @@ msgstr ""
 "址，请使用外部解析器选项。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:402
-#, fuzzy
 msgid ""
 "Please enter your master password to decrypt the password for this server:"
 msgstr "请输入您的主密码，以解密该服务器的密码:"
@@ -5994,7 +5982,7 @@ msgstr ""
 msgid ""
 "Please save this key in a secure location. Without the correct key your "
 "uploaded files cannot be accessed."
-msgstr ""
+msgstr "请将该密钥保存在安全的地方。没有正确的密钥将无法访问您上传的文件。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3593
 msgid "Please select an action:"
@@ -7076,7 +7064,7 @@ msgstr "签名算法:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:159
 msgid "Signup"
-msgstr ""
+msgstr "注册"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1833
 msgid "Site &Manager entries"
@@ -7091,9 +7079,8 @@ msgid "Site Manager - Cannot remember password"
 msgstr "站点管理器 - 无法记住密码"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/storj.xrc:51
-#, fuzzy
 msgid "Site Manager - Generated key"
-msgstr "站点管理器条目(&S)"
+msgstr "站点管理器 - 生成的密钥"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:982
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:995
@@ -7339,7 +7326,7 @@ msgstr "停止递归操作"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:28
 msgid "Storj - Decentralized Cloud Storage"
-msgstr ""
+msgstr "Storj - 去中心化的云端存储"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:601
 msgid "Storj support"
@@ -7530,7 +7517,7 @@ msgstr "无法清除该书签。"
 msgid ""
 "The certificate requires the server to include an OCSP status in its "
 "response, but the OCSP status is missing."
-msgstr ""
+msgstr "该证书要求服务器在响应中包含 OCSP 状态，但是未收到。"
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:475
 msgid "The connection is encrypted. Click icon for details."
@@ -7702,7 +7689,7 @@ msgstr "免费且开源的 FTP 解决方案"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/storj.xrc:10
 msgid "The generated encryption key is:"
-msgstr ""
+msgstr "生成的加密密钥:"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:295
 msgid "The global bookmarks could not be saved."
@@ -8533,7 +8520,7 @@ msgstr "您可以在任何地方使用 x 来保持原先文件的权限。"
 msgid ""
 "You cannot change password and encryption key individually if using a master "
 "password."
-msgstr ""
+msgstr "使用主密码时，您不能单独修改密码或加密密钥。"
 
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:29
 msgid "You cannot import settings from FileZilla's own settings directory."
@@ -8547,9 +8534,8 @@ msgstr ""
 "您不能用另一个无效字符替换无效字符。请输入一个可以在文件名中使用的字符。"
 
 #: ../../source/FileZilla3/locales/../src/engine/storj/file_transfer.cpp:34
-#, fuzzy
 msgid "You cannot upload files into the root directory."
-msgstr "您输入了一个远程目录。"
+msgstr "您无法将文件上传到根目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/asyncrequestqueue.cpp:313
 msgid "You did not enter a new name for the file. Overwrite the file instead?"
@@ -8587,7 +8573,7 @@ msgstr "请输入一个本地目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:896
 msgid "You have to enter a remote directory."
-msgstr "您输入了一个远程目录。"
+msgstr "请输入一个远程目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:91
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:156
@@ -8595,9 +8581,8 @@ msgid "You have to enter a valid IPv4 address."
 msgstr "请输入正确的 IPv4 地址。"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1126
-#, fuzzy
 msgid "You have to enter a valid encryption key"
-msgstr "请输入一个本地目录。"
+msgstr "请输入一个正确的加密密钥。"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:887
 msgid "You have to enter a writable local directory."
@@ -8752,7 +8737,7 @@ msgid ""
 "FileZilla executable."
 msgstr ""
 "fzputtygen 无法启动。\n"
-"请确认其执行程序和 FileZilla 执行程序在相同的目录内。"
+"请确认该执行程序和 FileZilla 执行程序在相同的目录内。"
 
 #: ../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:101
 msgid "fzsftp belongs to a different version of FileZilla"
@@ -8772,14 +8757,13 @@ msgstr "fzstorj 无法启动"
 
 #: ../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:62
 #: ../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:77
-#, fuzzy
 msgid ""
 "fzstorj could not be started.\n"
 "Please make sure this executable exists in the same directory as the main "
 "FileZilla executable."
 msgstr ""
-"fzputtygen 无法启动。\n"
-"请确认其执行程序和 FileZilla 执行程序在相同的目录内。"
+"fzstorj 无法启动。\n"
+"请确认该执行程序和 FileZilla 执行程序在相同的目录内。"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket_impl.cpp:1239
 msgid "gnutls_certificate_get_peers returned no certificates"
