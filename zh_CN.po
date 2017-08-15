@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-07-21 05:30+0200\n"
-"PO-Revision-Date: 2017-07-22 10:44+0800\n"
+"PO-Revision-Date: 2017-08-15 09:45+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.13\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -218,7 +218,7 @@ msgstr "添加文件到队列(&A)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:646
 msgid "&Add key file..."
-msgstr "添加密钥文件(&A)…"
+msgstr "添加密钥文件(&A)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:498
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:561
@@ -1033,7 +1033,7 @@ msgstr "上传至(&U):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:613
 msgid "&Upload..."
-msgstr "上传(&U)…"
+msgstr "上传(&U)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1625
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1201
@@ -2063,7 +2063,7 @@ msgstr "检查正确的外部 IP 地址"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:191
 msgid "Checking for updates..."
-msgstr "正在检查更新......"
+msgstr "正在检查更新..."
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:755
 #, c-format
@@ -3169,7 +3169,7 @@ msgstr "保存日志文件的目录不存在或文件名无效。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:66
 msgid "Directory listing &filters..."
-msgstr "目录列表过滤器…(&F)"
+msgstr "目录列表过滤器...(&F)"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:183
 msgid "Directory listing aborted by user"
@@ -3347,7 +3347,7 @@ msgstr "正在下载 %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:86
 msgid "Downloading update..."
-msgstr "正在下载更新......"
+msgstr "正在下载更新..."
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:113
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:117
@@ -3392,7 +3392,7 @@ msgstr "退出(&X)"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:465
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:488
 msgid "E&xport..."
-msgstr "导出(&X)…"
+msgstr "导出(&X)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:252
 msgid "E-Mail:"
