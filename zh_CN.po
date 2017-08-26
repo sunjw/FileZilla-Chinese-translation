@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-08-25 05:30+0200\n"
-"PO-Revision-Date: 2017-05-07 12:34+0800\n"
+"PO-Revision-Date: 2017-08-26 11:06+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.13\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -146,7 +146,7 @@ msgid_plural "%s bytes"
 msgstr[0] "%s 字节"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:616
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s could not be found. Without this component of FileZilla, %s will not "
 "work.\n"
@@ -154,12 +154,12 @@ msgid ""
 "Please download FileZilla again. If this problem persists, please submit a "
 "bug report."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
+"无法找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
 "\n"
 "请重新下载 FileZilla。如果该问题仍然存在，请提交一份问题报告。"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:706
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s could not be found. Without this component of FileZilla, %s will not "
 "work.\n"
@@ -168,10 +168,10 @@ msgid ""
 "- Make sure %s is in a directory listed in your PATH environment variable.\n"
 "- Set the full path to %s in the %s environment variable."
 msgstr ""
-"未找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
+"无法找到 %s。缺少该 FileZilla 组件，%s 无法工作。\n"
 "\n"
 "可能的解决方法:\n"
-"- 确保 %s 目录已列在您的环境变量 PATH 中。\n"
+"- 确保 %s 路径已列在您的环境变量 PATH 中。\n"
 "- 将 %s 的完整路径设置在环境变量 %s 中。"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:59
@@ -212,9 +212,8 @@ msgid "&Add bookmark..."
 msgstr "添加书签(&A)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4207
-#, fuzzy
 msgid "&Add directory..."
-msgstr "%d 个目录"
+msgstr "添加目录(&A)…"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:249
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:295
@@ -324,7 +323,6 @@ msgid "&Close FileZilla"
 msgstr "关闭 FileZilla(&C)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:409
-#, fuzzy
 msgid "&Close FileZilla once"
 msgstr "关闭 FileZilla(&C)"
 
@@ -395,9 +393,8 @@ msgid "&Delete symlink"
 msgstr "删除符号链接(&D)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:58
-#, fuzzy
 msgid "&Directory access permisssions..."
-msgstr "文件权限(&F)..."
+msgstr "目录访问权限(&D)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:74
 msgid "&Directory comparison"
@@ -1770,7 +1767,6 @@ msgstr "浏览..."
 #: ../../source/FileZilla3/locales/../src/engine/storj/resolve.cpp:150
 #: ../../source/FileZilla3/locales/../src/engine/storj/resolve.cpp:218
 #: ../../source/FileZilla3/locales/../src/engine/storj/resolve.cpp:291
-#, fuzzy
 msgid "Bucket not found"
 msgstr "Bucket 未找到"
 
@@ -1897,7 +1893,7 @@ msgstr "无法分配请求的地址"
 msgid ""
 "Cannot change directory, there already is a synchronized browsing operation "
 "in progress."
-msgstr ""
+msgstr "无法修改目录，当前有一个同步浏览操作正在进行。"
 
 #: ../../source/FileZilla3/locales/../src/interface/context_control.cpp:353
 msgid ""
@@ -3168,18 +3164,16 @@ msgid "Direction"
 msgstr "方向"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4193
-#, fuzzy
 msgid "Directories:"
-msgstr "目录(&C)"
+msgstr "目录:"
 
 #: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:269
 msgid "Directory"
 msgstr "目录"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4236
-#, fuzzy
 msgid "Directory access permissions"
-msgstr "比较目录"
+msgstr "目录访问权限"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3025
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:541
@@ -3200,7 +3194,6 @@ msgid "Directory containing the logfile does not exist or filename is invalid."
 msgstr "保存日志文件的目录不存在或文件名无效。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:70
-#, fuzzy
 msgid "Directory listing &filters..."
 msgstr "目录列表过滤器...(&F)"
 
@@ -3812,9 +3805,9 @@ msgid "Failed to create backup copy of xml file"
 msgstr "创建 XML 文件的备件副本失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:812
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create listen socket on port %d, aborting."
-msgstr "创建监听套接字失败，中止操作。"
+msgstr "在端口 %d 创建监听套接字失败，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/rawtransfer.cpp:217
 #: ../../source/FileZilla3/locales/../src/engine/ftp/rawtransfer.cpp:220
@@ -4145,9 +4138,8 @@ msgid "Files currently being edited"
 msgstr "正在编辑的文件"
 
 #: ../../source/FileZilla3/locales/../src/interface/toolbar.cpp:50
-#, fuzzy
 msgid "Files matching a filter rule are removed from directory listings."
-msgstr "读取目录列表失败"
+msgstr "匹配过滤器的文件已从目录列表中移除。"
 
 #: ../../source/FileZilla3/locales/../src/engine/storj/resolve.cpp:313
 msgid "Files not found"
@@ -4759,9 +4751,8 @@ msgid "Invalid input"
 msgstr "无效输入"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:334
-#, fuzzy
 msgid "Invalid line"
-msgstr "无效的输入"
+msgstr "无效的行"
 
 #: ../../source/FileZilla3/locales/../src/engine/storj/list.cpp:21
 #: ../../source/FileZilla3/locales/../src/engine/storj/mkd.cpp:22
@@ -5553,7 +5544,7 @@ msgstr "打开站点管理器。右击查看站点列表。"
 msgid ""
 "Open the directory access permissions dialog to configure the local "
 "directories FileZilla has access to."
-msgstr ""
+msgstr "打开目录访问权限对话框调整 FileZilla 的本地目录权限。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:260
 msgid "Open the file."
@@ -5793,9 +5784,8 @@ msgid "Platform:"
 msgstr "平台:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4185
-#, fuzzy
 msgid "Please add the local directories you want to use FileZilla with."
-msgstr "请在设置对话框中重新添加本地数据目录。"
+msgstr "请添加 FileZilla 本地目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:574
 msgid ""
@@ -5806,10 +5796,11 @@ msgstr ""
 "检查您的设置。"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:116
+#, fuzzy
 msgid ""
 "Please check the granted permissions and re-add any missing local "
 "directories you are working with in the dialog that follows."
-msgstr ""
+msgstr "请确认目录权限的授予情况，并将缺失的目录重新加入对话框。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:123
 msgid ""
@@ -8706,7 +8697,7 @@ msgstr "您需要输入本地和远程路径来为这个站点启用同步浏览
 msgid ""
 "You need to grant FileZilla access to the directories you want to download "
 "files into or to upload files from."
-msgstr ""
+msgstr "您需要授予 FileZilla 访问下载目录和上传目录的权限。"
 
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:294
 msgid "You need to specify a local file."
