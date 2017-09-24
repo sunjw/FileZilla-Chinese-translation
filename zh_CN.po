@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-09-22 12:11+0200\n"
-"PO-Revision-Date: 2017-08-26 11:06+0800\n"
+"PO-Revision-Date: 2017-09-24 13:51+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -393,7 +393,6 @@ msgid "&Delete symlink"
 msgstr "删除符号链接(&D)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:58
-#, fuzzy
 msgid "&Directory access permissions..."
 msgstr "目录访问权限(&D)..."
 
@@ -1133,9 +1132,9 @@ msgid "'%s' is not a directory."
 msgstr "“%s”不是目录。"
 
 #: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:543
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a supported protocol."
-msgstr "“%s”不是目录。"
+msgstr "不支持“%s”协议。"
 
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:419
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:995
