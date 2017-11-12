@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-11-12 05:30+0100\n"
-"PO-Revision-Date: 2017-09-24 13:51+0800\n"
+"PO-Revision-Date: 2017-11-12 16:55+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -180,9 +180,9 @@ msgid "%s with %d bits"
 msgstr "%s，有 %d 位"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:164
-#, fuzzy, c-format
+#, c-format
 msgid "%s:%d - Hostname does not match certificate"
-msgstr "服务器的主机名与证书的主机名不匹配"
+msgstr "%s:%d - 服务器主机名与证书不匹配"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:510
 #, c-format
@@ -403,7 +403,7 @@ msgstr "目录访问权限(&D)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:74
 msgid "&Directory comparison"
-msgstr "目录比较(&D)"
+msgstr "目录对比(&D)"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:1030
 msgid ""
@@ -1917,7 +1917,7 @@ msgstr ""
 msgid ""
 "Cannot compare directories, different filters for local and remote "
 "directories are enabled"
-msgstr "无法比较目录，本地与远程目录使用了不同的过滤器"
+msgstr "无法对比目录，本地与远程目录使用了不同的过滤器"
 
 #: ../../source/FileZilla3/locales/../src/interface/filteredit.cpp:143
 msgid "Cannot create new filter"
@@ -1993,7 +1993,6 @@ msgid "Cannot view/edit selected file"
 msgstr "无法查看/编辑所选的文件"
 
 #: ../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:184
-#, fuzzy
 msgid "Case Insensitive"
 msgstr "不分大小写"
 
@@ -2177,9 +2176,8 @@ msgid "Client to server cipher:"
 msgstr "本地至服务器密码:"
 
 #: ../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:61
-#, fuzzy
 msgid "Close"
-msgstr "关闭 (&C)"
+msgstr "关闭"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:644
 msgid "Close &all other tabs"
@@ -2196,9 +2194,8 @@ msgid "Close all running instances of FileZilla"
 msgstr "关闭所有运行的 FileZilla 实例"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2310
-#, fuzzy
 msgid "Close quick search and continue comparing?"
-msgstr "要显示两边的目录树并进行比较吗？"
+msgstr "关闭快速搜索，继续对比？"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:23
 msgid "Closes current tab"
@@ -3012,7 +3009,7 @@ msgstr "删除(&E)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2946
 msgid "D&irectory comparison"
-msgstr "目录比较(&D)"
+msgstr "目录对比(&D)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1302
 msgid "D&isable all"
@@ -3210,11 +3207,11 @@ msgstr "目录访问权限"
 #: ../../source/FileZilla3/locales/../src/interface/toolbar.cpp:51
 #: ../../source/FileZilla3/locales/../src/interface/view.cpp:109
 msgid "Directory comparison"
-msgstr "比较目录"
+msgstr "目录对比"
 
 #: ../../source/FileZilla3/locales/../src/interface/listingcomparison.cpp:74
 msgid "Directory comparison failed"
-msgstr "比较目录失败"
+msgstr "目录对比失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:71
 msgid "Directory containing the logfile does not exist or filename is invalid."
@@ -3548,9 +3545,8 @@ msgid "End comparison and change sorting order?"
 msgstr "结束对比并改变排序？"
 
 #: ../../source/FileZilla3/locales/../src/interface/view.cpp:111
-#, fuzzy
 msgid "End comparison and open quick search?"
-msgstr "结束对比并改变排序？"
+msgstr "结束对比并打开快速搜索？"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:199
 msgid "Enter &custom command..."
@@ -4311,7 +4307,7 @@ msgstr "格式: 扩展名后跟随正确的指令和参数。"
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:701
 #, c-format
 msgid "Found new %s %s\n"
-msgstr "发现了新的 %s %s\n"
+msgstr "发现了新的版本 %s %s\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:50
 #, c-format
@@ -4858,9 +4854,8 @@ msgid "Invalid value for hints"
 msgstr "提示的值无效"
 
 #: ../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:187
-#, fuzzy
 msgid "Invert Filter"
-msgstr "导出过滤器(&F)"
+msgstr "反转过滤器"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:260
 msgid "Jurisdiction country:"
@@ -5493,9 +5488,8 @@ msgstr "注意: 使用代理将强制使用被动模式进行 FTP 连接。"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:236
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:420
-#, fuzzy
 msgid "Null character in line"
-msgstr "过滤器的文件名称有无效字符"
+msgstr "行中有空字符"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1718
 msgid "Number of decimal places:"
@@ -5641,7 +5635,7 @@ msgstr "不支持该操作"
 
 #: ../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:55
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:24
 msgid "Orange"
@@ -6309,14 +6303,12 @@ msgid "Queueing:"
 msgstr "列队中:"
 
 #: ../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:42
-#, fuzzy
 msgid "Quick Search:"
-msgstr "搜索(&S)"
+msgstr "快速搜索:"
 
 #: ../../source/FileZilla3/locales/../src/interface/view.cpp:110
-#, fuzzy
 msgid "Quick search cannot be opened if comparing directories."
-msgstr "对比目录时不能改变目录排序。"
+msgstr "快速搜索无法在目录对比时使用。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:413
 msgid "R&eboot system once"
@@ -7138,7 +7130,7 @@ msgstr "显示欢迎对话框(&W)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2328
 msgid "Show both directory trees and continue comparing?"
-msgstr "要显示两边的目录树并进行比较吗？"
+msgstr "要显示两边的目录树并进行对比吗？"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:147
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:239
@@ -8027,13 +8019,12 @@ msgid "Title:"
 msgstr "标题:"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2309
-#, fuzzy
 msgid "To compare directories quick search must be closed."
-msgstr "两边的文件列表必须排列整齐才能比较目录。"
+msgstr "对比目录必须关闭快速搜索。"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2326
 msgid "To compare directories, both file lists have to be aligned."
-msgstr "两边的文件列表必须排列整齐才能比较目录。"
+msgstr "两边的文件列表必须排列整齐才能对比目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2327
 msgid "To do this, the directory trees need to be both shown or both hidden."
@@ -8054,7 +8045,7 @@ msgid ""
 "Green: File is newer than the unmarked file on other side\n"
 "Red: File sizes different"
 msgstr ""
-"开/关目录比较。右击改变比较模式。\n"
+"开/关目录对比。右击改变对比模式。\n"
 "\n"
 "颜色:\n"
 "黄: 文件只在一边存在\n"
@@ -8386,9 +8377,8 @@ msgid "Use &synchronized browsing"
 msgstr "使用同步浏览(&S)"
 
 #: ../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:186
-#, fuzzy
 msgid "Use Regular Expressions"
-msgstr "无效的正则表达式"
+msgstr "使用正则表达式"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:580
 msgid "Use UTF-8 if the server supports it, else use local charset."
