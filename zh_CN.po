@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2017-12-11 05:30+0100\n"
-"PO-Revision-Date: 2017-09-24 13:51+0800\n"
+"PO-Revision-Date: 2017-12-11 17:01+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.13\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -2194,7 +2194,6 @@ msgid "Close all running instances of FileZilla"
 msgstr "关闭所有运行的 FileZilla 实例"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2308
-#, fuzzy
 msgid "Close quick search and continue comparing?"
 msgstr "关闭快速搜索，继续对比？"
 
@@ -8024,7 +8023,6 @@ msgid "Title:"
 msgstr "标题:"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2307
-#, fuzzy
 msgid "To compare directories quick search must be closed."
 msgstr "对比目录必须关闭快速搜索。"
 
