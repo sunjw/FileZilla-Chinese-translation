@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-01-05 05:30+0100\n"
-"PO-Revision-Date: 2018-01-05 13:13+0800\n"
+"PO-Revision-Date: 2018-01-05 13:20+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -2729,14 +2729,14 @@ msgstr ""
 "同步浏览已经被禁用。"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:725
-#, fuzzy, c-format
+#, c-format
 msgid "Could not obtain size of '%s'"
-msgstr "无法打开日志文件: %s"
+msgstr "无法获取“%s”的大小"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:739
-#, fuzzy, c-format
+#, c-format
 msgid "Could not open '%s'"
-msgstr "无法打开日志文件: %s"
+msgstr "无法打开“%s”"
 
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2579
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1427
@@ -2763,9 +2763,9 @@ msgid "Could not parse server address:"
 msgstr "无法解析服务器地址:"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:748
-#, fuzzy, c-format
+#, c-format
 msgid "Could not read from '%s'"
-msgstr "无法读取套接字: %s"
+msgstr "无法读取“%s”"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:1002
 msgid "Could not read from data socket."
@@ -2791,9 +2791,9 @@ msgstr "无法恢复访问目录"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:132
 #: ../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:174
-#, fuzzy, c-format
+#, c-format
 msgid "Could not seek to offset %d within file"
-msgstr "无法找到文件中的 %s 偏移"
+msgstr "无法找到文件中的 %d 偏移"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:119
 #: ../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:174
@@ -5053,7 +5053,7 @@ msgstr "本地站点:"
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:729
 #, c-format
 msgid "Local size of '%s' does not match expected size: %d != %d"
-msgstr ""
+msgstr "“%s”的本地大小与期望的大小不匹配: %d != %d"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:254
 msgid "Locality:"
@@ -5518,7 +5518,6 @@ msgstr "注意: 使用代理将强制使用被动模式进行 FTP 连接。"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:247
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:444
-#, fuzzy
 msgid "Null character in line"
 msgstr "行中有空字符"
 
@@ -5532,7 +5531,7 @@ msgstr "重试的次数必须在 0 和 99 之间。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:635
 msgid "O&pen"
-msgstr ""
+msgstr "打开(&P)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/certificate.xrc:263
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:233
@@ -5876,7 +5875,6 @@ msgstr ""
 "检查您的设置。"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:121
-#, fuzzy
 msgid ""
 "Please check the granted permissions and re-add any missing local "
 "directories you are working with in the dialog that follows."
@@ -7179,9 +7177,8 @@ msgid "Show details about custom date and time formats"
 msgstr "显示有关自定义日期时间格式的详细信息"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:638
-#, fuzzy
 msgid "Show in file &manager"
-msgstr "站点管理器"
+msgstr "在文件管理器中打开(&M)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:451
 msgid "Shows available TLS ciphers"
