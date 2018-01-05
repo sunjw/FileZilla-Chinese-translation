@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-01-05 05:30+0100\n"
-"PO-Revision-Date: 2017-12-11 17:01+0800\n"
+"PO-Revision-Date: 2018-01-05 13:13+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -321,7 +321,7 @@ msgstr "清除个人信息(&C)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:28
 msgid "&Close"
-msgstr "关闭 (&C)"
+msgstr "关闭(&C)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:397
 msgid "&Close FileZilla"
@@ -628,7 +628,7 @@ msgstr "继承系统的文件类型关联(&I)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:114
 msgid "&Install new version"
-msgstr "安装新版 (&I)"
+msgstr "安装新版(&I)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3516
 msgid "&Keep local path structure relative to search root"
