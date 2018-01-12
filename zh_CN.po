@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-01-12 05:30+0100\n"
-"PO-Revision-Date: 2017-12-11 17:01+0800\n"
+"PO-Revision-Date: 2018-01-12 15:31+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -2734,7 +2734,7 @@ msgid "Could not obtain size of '%s'"
 msgstr "无法获取“%s”的大小"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:755
-#, fuzzy, c-format
+#, c-format
 msgid "Could not open '%s'"
 msgstr "无法打开“%s”"
 
@@ -2763,7 +2763,7 @@ msgid "Could not parse server address:"
 msgstr "无法解析服务器地址:"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:764
-#, fuzzy, c-format
+#, c-format
 msgid "Could not read from '%s'"
 msgstr "无法读取“%s”"
 
@@ -4786,9 +4786,9 @@ msgid "Invalid filename"
 msgstr "无效文件名"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:704
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid hash: %s\n"
-msgstr "无效的主机名: %s"
+msgstr "无效的散列值: %s\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/serverdata.cpp:108
 msgid "Invalid host, after closing bracket only colon and port may follow."
