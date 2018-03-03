@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-03-03 05:30+0100\n"
-"PO-Revision-Date: 2017-12-11 17:01+0800\n"
+"PO-Revision-Date: 2018-03-03 18:58+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.13\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -1035,7 +1035,7 @@ msgstr "把点文件作为 ASCII 文件对待(&T)"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/certificate.xrc:247
 #, fuzzy
 msgid "&Trust this certificate on the listed alternative hostnames."
-msgstr "信任该证书并继续连接?"
+msgstr "信任该证书所列的主机备用名(&T)。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2140
 msgid "&Unedit"
@@ -5528,7 +5528,6 @@ msgstr "注意: 使用代理将强制使用被动模式进行 FTP 连接。"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:247
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:446
-#, fuzzy
 msgid "Null character in line"
 msgstr "行中有空字符"
 
