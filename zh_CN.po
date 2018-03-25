@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-03-25 05:30+0200\n"
-"PO-Revision-Date: 2018-03-03 18:58+0800\n"
+"PO-Revision-Date: 2018-03-25 22:45+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1033,9 +1033,8 @@ msgid "&Treat dotfiles as ASCII files"
 msgstr "把点文件作为 ASCII 文件对待(&T)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/certificate.xrc:247
-#, fuzzy
 msgid "&Trust this certificate on the listed alternative hostnames."
-msgstr "信任该证书所列的主机备用名(&T)。"
+msgstr "信任该证书所列的备用主机名(&T)。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2140
 msgid "&Unedit"
@@ -3830,9 +3829,8 @@ msgid ""
 msgstr "FTP 使用另一些连接来传输数据。这些额外的连接有两种方法来建立。"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:100
-#, fuzzy
 msgid "FTP: File Types"
-msgstr "文件类型"
+msgstr "FTP: 文件类型"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:26
 msgid "FTPES - FTP over explicit TLS"
@@ -5169,9 +5167,9 @@ msgstr "错误的响应头: %s"
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:418
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:436
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:780
-#, fuzzy, c-format
+#, c-format
 msgid "Malformed response: %s"
-msgstr "错误的响应数据: %s"
+msgstr "错误的响应: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2824
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:288
@@ -6402,7 +6400,7 @@ msgstr "只读"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/httpcontrolsocket.cpp:44
 msgid "Reading from local file failed"
-msgstr ""
+msgstr "读取本地文件失败"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1114
 msgid "Really cancel current operation?"
@@ -7083,14 +7081,14 @@ msgid "Server not sending proper line endings"
 msgstr "服务器没有发送正确的行结尾"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/digest.cpp:279
-#, c-format
+#, fuzzy, c-format
 msgid "Server requested unsupported digest authentication algorithm: %s"
-msgstr ""
+msgstr "服务器请求不支持的摘要认证算法: %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/digest.cpp:287
-#, c-format
+#, fuzzy, c-format
 msgid "Server requested unsupported quality-of-protection: %s"
-msgstr ""
+msgstr "服务器请求不支持的 quality-of-protection (QoP): %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:347
 msgid "Server returned empty path."
@@ -7103,8 +7101,9 @@ msgid ""
 msgstr "服务器传送了一个附加的登录提示。您需要使用交互式的登录方式。"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:307
+#, fuzzy
 msgid "Server sent data even before request headers were sent"
-msgstr ""
+msgstr "服务器在请求头发送前发送了数据"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/rawtransfer.cpp:347
 msgid "Server sent passive reply with unroutable address. Passive mode failed."
