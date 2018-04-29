@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-04-29 05:31+0200\n"
-"PO-Revision-Date: 2018-03-03 18:58+0800\n"
+"PO-Revision-Date: 2018-04-29 18:32+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -3250,7 +3250,6 @@ msgid "Directory containing the logfile does not exist or filename is invalid."
 msgstr "保存日志文件的目录不存在或文件名无效。"
 
 #: ../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:83
-#, fuzzy
 msgid "Directory listing &filters..."
 msgstr "目录列表过滤器...(&F)"
 
@@ -5168,7 +5167,7 @@ msgstr "错误的响应头: %s"
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:420
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:438
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:783
-#, fuzzy, c-format
+#, c-format
 msgid "Malformed response: %s"
 msgstr "错误的响应: %s"
 
