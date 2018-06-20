@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-06-20 05:30+0200\n"
-"PO-Revision-Date: 2018-05-18 12:29+0800\n"
+"PO-Revision-Date: 2018-06-20 13:58+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -204,7 +204,7 @@ msgstr "关于(&A)..."
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:275
 msgid "&Access key ID:"
-msgstr ""
+msgstr "访问密钥 ID (&A):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2729
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:303
@@ -1425,7 +1425,7 @@ msgstr "在文件列表上面"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:283
 msgid "Access &Key:"
-msgstr ""
+msgstr "访问密钥(&K):"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:119
 msgid "Access to some local directories could not be restored:"
@@ -3489,9 +3489,8 @@ msgid "E&xport..."
 msgstr "导出(&X)..."
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:340
-#, fuzzy
 msgid "E-&mail account:"
-msgstr "帐号(&A):"
+msgstr "电子邮件账号(&M):"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:442
 msgid "E-Mail:"
@@ -4484,7 +4483,7 @@ msgstr "主机密钥不匹配"
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:292
 msgid "Host name of identity service"
-msgstr ""
+msgstr "认证服务主机名"
 
 #: ../../source/FileZilla3/locales/../src/interface/serverdata.cpp:98
 msgid "Host starts with '[' but no closing bracket found."
@@ -4527,13 +4526,12 @@ msgstr "SOCKS4 代理不支持 IPv6 地址"
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:290
 msgid "Identity &host:"
-msgstr ""
+msgstr "认证主机(&H):"
 
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:344
-#, fuzzy
 msgid "Identity service path:"
-msgstr "无效的站点路径"
+msgstr "认证服务路径:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:118
 msgid ""
@@ -4995,9 +4993,8 @@ msgid "Layout"
 msgstr "布局"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:874
-#, fuzzy
 msgid "Leave empty to keep existing data."
-msgstr "不输入以保持现有密码不变。"
+msgstr "不输入以保持现有信息不变。"
 
 #. @translator: Keep this string as short as possible
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:67
@@ -5883,7 +5880,7 @@ msgstr "路径未找到:"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:800
 msgid "Path of identity service"
-msgstr ""
+msgstr "认证服务路径"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2889
 msgid "Paths"
@@ -6268,13 +6265,14 @@ msgid "Private &keys:"
 msgstr "私钥(&K):"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:286
+#, fuzzy
 msgid "Pro&ject ID:"
-msgstr ""
+msgstr "项目 ID (&J):"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:293
 #, fuzzy
 msgid "Pro&ject:"
-msgstr "协议(&T):"
+msgstr "项目(&J):"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:142
 msgid "Pro&tocol:"
@@ -6302,8 +6300,9 @@ msgstr "已处理 %s 个文件， %s 个目录。"
 
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:295
+#, fuzzy
 msgid "Project (or tenant) name or ID"
-msgstr ""
+msgstr "项目 (或租赁人) 名称或 ID"
 
 #: ../../source/FileZilla3/locales/../src/engine/socket.cpp:1068
 msgid "Protocol not supported"
@@ -6884,7 +6883,7 @@ msgstr "搜索类型:"
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:277
 msgid "Secret Access &Key:"
-msgstr ""
+msgstr "秘密访问密钥(&K):"
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:516
 msgid "Security information"
@@ -7143,14 +7142,14 @@ msgid "Server not sending proper line endings"
 msgstr "服务器没有发送正确的行结尾"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/digest.cpp:279
-#, fuzzy, c-format
+#, c-format
 msgid "Server requested unsupported digest authentication algorithm: %s"
-msgstr "服务器请求不支持的摘要认证算法: %s"
+msgstr "服务器请求使用不支持的摘要认证算法: %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/digest.cpp:287
-#, fuzzy, c-format
+#, c-format
 msgid "Server requested unsupported quality-of-protection: %s"
-msgstr "服务器请求不支持的 quality-of-protection (QoP): %s"
+msgstr "服务器请求使用不支持的 quality-of-protection (QoP): %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:347
 msgid "Server returned empty path."
@@ -7553,9 +7552,8 @@ msgstr "停止递归操作"
 
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:282
-#, fuzzy
 msgid "Storage &account:"
-msgstr "帐号(&A):"
+msgstr "存储帐号(&A):"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:28
 msgid "Storj - Decentralized Cloud Storage"
@@ -8875,9 +8873,8 @@ msgid "You need to enter a proxy port in the range from 1 to 65535"
 msgstr "请输入一个代理服务器端口 (从 1 到 65535)"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:661
-#, fuzzy
 msgid "You need to enter a value."
-msgstr "请输入一个主密码。"
+msgstr "请输入一个值。"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:79
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:460
