@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-08-12 05:30+0200\n"
-"PO-Revision-Date: 2018-06-20 13:58+0800\n"
+"PO-Revision-Date: 2018-08-13 10:25+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.13\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -1350,7 +1350,6 @@ msgstr ""
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3885
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:169
-#, fuzzy
 msgid ""
 "A lost master password cannot be recovered! Please thoroughly memorize your "
 "password."
@@ -1695,7 +1694,6 @@ msgid "Ask your operating system for the external IP address"
 msgstr "向您的操作系统询问外部 IP 地址"
 
 #: ../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:98
-#, fuzzy
 msgid "Asking questions in the FileZilla Forums"
 msgstr "在 FileZilla 论坛里提问"
 
@@ -3264,7 +3262,7 @@ msgstr "保存日志文件的目录不存在或文件名无效。"
 
 #: ../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:83
 msgid "Directory listing &filters..."
-msgstr "目录列表过滤器...(&F)"
+msgstr "目录列表过滤器(&F)..."
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:185
 msgid "Directory listing aborted by user"
@@ -5259,9 +5257,8 @@ msgid "Message log"
 msgstr "消息日志"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:133
-#, fuzzy
 msgid "Message log positio&n:"
-msgstr "消息日志位置"
+msgstr "消息日志位置(&N)："
 
 #: ../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:60
 msgid "Message too large"
@@ -5616,9 +5613,8 @@ msgid "OS version:"
 msgstr "操作系统版本:"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:150
-#, fuzzy
 msgid "On startup of FileZilla:"
-msgstr "打开 FileZilla 的设置对话框"
+msgstr "FileZilla 启动时:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:103
 msgid ""
@@ -6752,7 +6748,7 @@ msgstr "响应:"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:153
 msgid "Restore ta&bs and reconnect"
-msgstr ""
+msgstr "恢复打开的标签并重新连接(&B)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3362
 msgid "Results:"
@@ -6804,7 +6800,7 @@ msgstr "关闭系统(&H)"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:151
 msgid "S&tart normally"
-msgstr ""
+msgstr "正常启动(&T)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3286
 msgid "S&top"
@@ -8686,12 +8682,11 @@ msgid "What's new:"
 msgstr "更新:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3829
-#, fuzzy
 msgid ""
 "When allowing FileZilla to remember passwords, you can reconnect without "
 "having to re-enter a password after restarting FileZilla."
 msgstr ""
-"若让 FileZilla 记住密码，在重启 FileZilla 进行连接时就无须重新输入您的密码。"
+"若允许 FileZilla 记住密码，在重启 FileZilla 后可以无须重新输入密码进行重连。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:992
 msgid ""
