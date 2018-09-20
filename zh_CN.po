@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-09-20 05:30+0200\n"
-"PO-Revision-Date: 2018-08-13 10:34+0800\n"
+"PO-Revision-Date: 2018-09-20 15:07+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -245,7 +245,7 @@ msgstr "调整服务器时区(&A):"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:764
 msgid "&Always allow insecure plain FTP for this server."
-msgstr ""
+msgstr "总是允许不安全的明文 FTP 连接这台服务器(&A)。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/certificate.xrc:256
 msgid "&Always trust certificate in future sessions."
@@ -1046,7 +1046,7 @@ msgstr "把点文件作为 ASCII 文件对待(&T)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/certificate.xrc:261
 msgid "&Trust this certificate on the listed alternative hostnames."
-msgstr "信任该证书所列的备用主机名(&T)。"
+msgstr "信任该证书所列的可选主机名(&T)。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2140
 msgid "&Unedit"
@@ -2267,7 +2267,7 @@ msgstr "注释"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:591
 msgid "Common name:"
-msgstr "公用名:"
+msgstr "一般名称:"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:450
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:463
@@ -4765,7 +4765,7 @@ msgstr "初始化 TLS 中..."
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:736
 msgid "Insecure FTP connection"
-msgstr ""
+msgstr "不安全的 FTP 连接"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:452
 msgid "Insecure algorithm!"
@@ -6219,9 +6219,8 @@ msgstr ""
 "式”或“Game 模式”下。还要停用类似协议检查或协议修正之类的选项"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:761
-#, fuzzy
 msgid "Port:"
-msgstr "端口(&P):"
+msgstr "端口:"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:599
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:600
@@ -6282,12 +6281,10 @@ msgid "Private &keys:"
 msgstr "私钥(&K):"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:289
-#, fuzzy
 msgid "Pro&ject ID:"
 msgstr "项目 ID (&J):"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:296
-#, fuzzy
 msgid "Pro&ject:"
 msgstr "项目(&J):"
 
@@ -6317,7 +6314,6 @@ msgstr "已处理 %s 个文件， %s 个目录。"
 
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:298
-#, fuzzy
 msgid "Project (or tenant) name or ID"
 msgstr "项目 (或租赁人) 名称或 ID"
 
