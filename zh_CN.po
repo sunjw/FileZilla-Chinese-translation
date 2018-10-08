@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-09-20 05:30+0200\n"
-"PO-Revision-Date: 2018-10-08 10:35+0800\n"
+"PO-Revision-Date: 2018-10-08 10:38+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.13\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
