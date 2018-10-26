@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-10-25 05:30+0200\n"
-"PO-Revision-Date: 2018-09-20 15:07+0800\n"
+"PO-Revision-Date: 2018-10-26 11:22+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.13\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -240,9 +240,8 @@ msgid "&Add to queue"
 msgstr "添加到队列(&A)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:546
-#, fuzzy
 msgid "&Adjust server time, offset by:"
-msgstr "调整服务器时区(&A):"
+msgstr "调整服务器时区，时差(&A):"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:766
 msgid "&Always allow insecure plain FTP for this server."
@@ -4618,14 +4617,13 @@ msgstr "如果这个问题仍然存在，请联系您的路由器制造商。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1661
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1240
-#, fuzzy
 msgid ""
 "If using 'overwrite if newer', your system time has to be synchronized with "
 "the server. If the time differs (e.g. different timezone), specify a time "
 "offset in the site manager."
 msgstr ""
-"要是选择“如果较新就覆盖”，您的系统时间需要与服务器同步。若时间不同 (例如不同"
-"的时区)，请在站点管理器中选择一个时区。"
+"要是选择“如果较新就覆盖”，您系统的时间将会与服务器同步。如果时间不同 (例如不"
+"同的时区)，请在站点管理器中填入时差。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1635
 msgid ""
@@ -4653,7 +4651,7 @@ msgstr "如果关闭 FileZilla，您所做的改变将会丢失。"
 msgid ""
 "If you continue, your password and files will be sent in clear over the "
 "internet."
-msgstr ""
+msgstr "如果继续，您的密码和文件将会明文在互联网上发送。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1128
 msgid ""
@@ -5455,9 +5453,8 @@ msgid "No command given, aborting."
 msgstr "没有给出命令，中止操作。"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:278
-#, fuzzy
 msgid "No directory added"
-msgstr "创建目录"
+msgstr "没有添加目录"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:658
 msgid "No external IP address set, trying default."
@@ -5941,11 +5938,10 @@ msgid "Platform:"
 msgstr "平台:"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:278
-#, fuzzy
 msgid ""
 "Please add at least one directory you want to download files into or to "
 "upload files from."
-msgstr "您需要授予 FileZilla 访问下载目录和上传目录的权限。"
+msgstr "请至少添加一个您希望用于下载或者上传文件的目录。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3991
 msgid "Please add the local directories you want to use FileZilla with."
@@ -8164,6 +8160,8 @@ msgid ""
 "This may be the result of a downgrade attack, only continue after you have "
 "spoken to the server administrator or server hosting provider."
 msgstr ""
+"可能发生了降级攻击 (downgrade attack)，请和系统管理员或服务提供商确认后再继续"
+"操作。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:598
 msgid ""
@@ -8178,9 +8176,8 @@ msgid ""
 msgstr "只有您不在路由器后面的时候才会可用，否则您的系统会只返回您的内部地址。"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:754
-#, fuzzy
 msgid "This server does not support FTP over TLS."
-msgstr "不安全的服务器，不支持 FTP over TLS。"
+msgstr "此服务器不支持 FTP over TLS。"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:8
 msgid ""
@@ -8696,6 +8693,8 @@ msgid ""
 "Warning! You have previously connected to this server using FTP over TLS, "
 "yet the server has now rejected FTP over TLS."
 msgstr ""
+"警告！您之前通过 FTP over TLS 连接了这台服务器，但现在该服务器拒绝 FTP over "
+"TLS。"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:984
 msgid "Warning, ignoring data connection from wrong IP."
