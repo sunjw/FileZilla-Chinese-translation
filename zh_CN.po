@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2018-09-20 05:30+0200\n"
-"PO-Revision-Date: 2018-10-08 10:38+0800\n"
+"PO-Revision-Date: 2018-11-16 16:26+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.13\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -6315,7 +6315,7 @@ msgstr "已处理 %s 个文件， %s 个目录。"
 #. @translator: Keep short
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:298
 msgid "Project (or tenant) name or ID"
-msgstr "项目 (或租赁人) 名称或 ID"
+msgstr "项目 (或租户) 名称或 ID"
 
 #: ../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:44
 msgid "Protocol not supported"
