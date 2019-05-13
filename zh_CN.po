@@ -2041,9 +2041,8 @@ msgid "Certificate issuer"
 msgstr "证书颁发者"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket_impl.cpp:1288
-#, fuzzy
 msgid "Certificate of connection does not match expected certificate."
-msgstr "%s:%d - 服务器主机名与证书不匹配"
+msgstr "连接所用证书与预期的证书不匹配。"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket_impl.cpp:1133
 msgid "Certificate signature verification failed"
@@ -2629,15 +2628,13 @@ msgid "Could not establish connection to server"
 msgstr "无法建立到服务器的连接"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:467
-#, fuzzy
 msgid ""
 "Could not find the resource files for FileZilla, closing FileZilla.\n"
 "You can specify the data directory of FileZilla by setting the FZ_DATADIR "
 "environment variable."
 msgstr ""
 "无法加载 FileZilla 资源文件，正在关闭 FileZilla 。\n"
-"您可以通过从命令行用“ --datadir <路径>”参数启动，或者设置 FZ_DATADIR 环境变量"
-"来设置 FileZilla的数据目录。"
+"您可以通过设置 FZ_DATADIR 环境变量来指定 FileZilla 的数据目录。"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:752
 msgid "Could not generate custom login sequence."
@@ -4785,9 +4782,8 @@ msgid ""
 msgstr "收到无效字节，将禁用 UTF-8 编码。请在站点管理器中强制选择 UTF-8 编码。"
 
 #: ../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:94
-#, fuzzy
 msgid "Invalid characters in hostname"
-msgstr "过滤器的文件名称有无效字符"
+msgstr "主机名中有无效字符"
 
 #: ../../source/FileZilla3/locales/../src/engine/http/request.cpp:699
 msgid "Invalid chunk size"
@@ -5903,7 +5899,6 @@ msgid "Platform:"
 msgstr "平台:"
 
 #: ../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:280
-#, fuzzy
 msgid ""
 "Please add at least one directory you want to download files into or to "
 "upload files from."
@@ -6348,8 +6343,9 @@ msgid "Proxy request failed: Unknown address type in CONNECT reply"
 msgstr "代理请求失败: CONNECT 回复了未知的地址类型"
 
 #: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:356
+#, fuzzy
 msgid "Proxy sent data while we haven't sent out request yet"
-msgstr ""
+msgstr "代理在我们还未发送请求前发送了数据"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:90
 msgid "Proxy set but proxy host or port invalid"
@@ -7688,9 +7684,8 @@ msgid "Target filename already exists, really continue?"
 msgstr "目标文件名已经存在，是否继续？"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:650
-#, fuzzy
 msgid "Telephone number:"
-msgstr "序列号:"
+msgstr "电话:"
 
 #: ../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:70
 msgid "Temporary failure in name resolution"
@@ -8118,7 +8113,6 @@ msgid "This filter set cannot be renamed."
 msgstr "无法重命名该过滤器集合。"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:727
-#, fuzzy
 msgid ""
 "This may be the result of a downgrade attack, only continue after you have "
 "spoken to the server administrator or server hosting provider."
