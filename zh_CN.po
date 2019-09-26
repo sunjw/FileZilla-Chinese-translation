@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2019-09-26 05:30+0200\n"
-"PO-Revision-Date: 2019-09-26 19:36+0800\n"
+"PO-Revision-Date: 2019-09-26 19:44+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -948,11 +948,11 @@ msgstr "搜索远程文件(&S)..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:294
 msgid "&Select a key:"
-msgstr ""
+msgstr "选择一个密钥(&S):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:342
 msgid "&Select entry:"
-msgstr ""
+msgstr "选择记录(&S):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1669
 msgid "&Select language:"
@@ -6486,7 +6486,7 @@ msgstr "在版本信息中收到了无效字符"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:106
 msgid "Received too long response line from server, closing connection."
-msgstr ""
+msgstr "从服务器收到太长的响应行，断开连接。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/updater.cpp:611
 msgid "Received version information is too large"
@@ -6830,7 +6830,7 @@ msgstr "搜索目录(&D):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1398
 msgid "Search for entries containing the entered text."
-msgstr ""
+msgstr "搜索包含所输入文字的记录。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/toolbar.cpp:53
 msgid "Search for files recursively."
@@ -6838,7 +6838,7 @@ msgstr "递归搜索文件。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1429
 msgid "Search result"
-msgstr ""
+msgstr "搜索结果"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:146
 msgid "Search server for files"
@@ -6846,7 +6846,7 @@ msgstr "在服务器上搜索文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1398
 msgid "Search sites"
-msgstr ""
+msgstr "搜索站点"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2585
 msgid "Search type:"
@@ -7061,11 +7061,11 @@ msgstr "序列号:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:202
 msgid "Server &type:"
-msgstr ""
+msgstr "服务器类型(&T):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:284
 msgid "Server Side Encryption:"
-msgstr ""
+msgstr "服务器端加密:"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:410
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:470
@@ -8316,7 +8316,7 @@ msgstr "未知错误代码 %d"
 
 #: ../../../source/FileZilla3/locales/../src/interface/update_dialog.cpp:170
 msgid "Unfortunately information about the new update could not be retrieved."
-msgstr ""
+msgstr "无法获取版本更新信息。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:644
 msgid "Unit:"
@@ -8379,7 +8379,7 @@ msgstr "未知的传输编码方式"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1793
 msgid "Unknown version"
-msgstr ""
+msgstr "未知版本"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:609
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:619
@@ -8543,20 +8543,20 @@ msgstr "用户名不能是一系列的空格"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:267
 msgid "Uses UTF-8 if the server supports it, else uses local charset."
-msgstr ""
+msgstr "如果服务器支持，使用 UTF-8，否则使用本地字符集。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:64
 msgid "Using insecure HTTP"
-msgstr ""
+msgstr "使用不安全的 HTTP"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:758
 #, c-format
 msgid "Using plain %s is insecure."
-msgstr ""
+msgstr "使用明文 %s 是不安全的。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:63
 msgid "Using secure HTTPS"
-msgstr ""
+msgstr "使用安全的 HTTPS"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:275
 msgid ""
@@ -8621,7 +8621,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:750
 msgid "Warning! You have previously connected to this server using TLS."
-msgstr ""
+msgstr "警告！您之前通过 TLS 连接过这台服务器。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:971
 msgid "Warning, ignoring data connection from wrong IP."
@@ -8651,7 +8651,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:39
 msgid "WebDAV using HTTP (insecure)"
-msgstr ""
+msgstr "WebDAV using HTTP (不安全)"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:29
 msgid "WebDAV using HTTPS"
