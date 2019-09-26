@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2019-09-26 05:30+0200\n"
-"PO-Revision-Date: 2019-05-13 10:59+0800\n"
+"PO-Revision-Date: 2019-09-26 19:36+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -37,7 +37,7 @@ msgstr "剩余 %H:%M:%S"
 msgid ""
 "%a - Account (Lines containing this will be omitted if not using Account "
 "logontype)"
-msgstr "%a - 帐号 (如果不是使用帐号登录的方式，该行就会被忽略)"
+msgstr "%a - 帐号(如果不是使用帐号登录的方式，该行就会被忽略)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:51
 #: ../../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:63
@@ -182,7 +182,7 @@ msgstr "%w - 代理服务器密码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:288
 msgid "&AWS S3 encryption"
-msgstr ""
+msgstr "AWS S3 加密(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3017
 msgid "&Abort previous connection and connect in current tab"
@@ -242,7 +242,7 @@ msgstr "调整服务器时间，时间差值(&A):"
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:771
 #, c-format
 msgid "&Always allow insecure plain %s for this server."
-msgstr ""
+msgstr "总是允许在这台服务器上执行不安全的明文 %s (&A)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/certificate.xrc:256
 msgid "&Always trust certificate in future sessions."
@@ -618,7 +618,7 @@ msgstr "主机(&H):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1418
 msgid "&IEC binary prefixes (e.g. 1 KiB = 1024 bytes)"
-msgstr "&IEC 式二进制前缀 (例如 1 KiB = 1024 bytes)"
+msgstr "&IEC 式二进制前缀(例如 1 KiB = 1024 bytes)(&I)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1304
 msgid "&ISO 8601 (example: 2007-09-15)"
@@ -731,7 +731,7 @@ msgstr "新建(&N)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:351
 msgid "&New site"
-msgstr ""
+msgstr "新站点(&N)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1799
 msgid "&New version available!"
@@ -989,7 +989,7 @@ msgstr "在消息日志中显示时间戳(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1226
 msgid "&Site Manager entries"
-msgstr "站点管理器条目(&S)"
+msgstr "站点管理器记录(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:49
 msgid "&Site Manager..."
@@ -1175,7 +1175,7 @@ msgstr "“正常”和“帐户”登录类型不可用。请使用“询问密
 msgid ""
 "'Normal' and 'Account' logontypes are not available. Your entry has been "
 "changed to 'Ask for password'."
-msgstr "“正常”和“帐户”登录类型不可用。您的登录入口已更改为“询问密码”。"
+msgstr "“正常”和“帐户”登录类型不可用。您的记录已更改为“询问密码”。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:643
 msgid ""
@@ -1416,7 +1416,7 @@ msgstr "ASCII"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:290
 msgid "AWS &KMS encryption"
-msgstr ""
+msgstr "AWS KMS 加密(&K)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:266
 msgid "About FileZilla"
@@ -1842,7 +1842,7 @@ msgstr "自定义(&U)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:299
 msgid "C&ustom KMS ARN:"
-msgstr ""
+msgstr "自定义 KMS ARN (&U):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1798
 msgid "C&ustom filetype associations:"
@@ -2367,7 +2367,7 @@ msgstr "在新标签中连接"
 
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:8
 msgid "Connect to specified Site Manager site"
-msgstr "连接至指定的“站点管理器”站点"
+msgstr "连接至指定的站点管理器站点"
 
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:353
 msgid "Connecting"
@@ -2948,7 +2948,7 @@ msgstr "传输了 %s (用时 %s) 后出现严重文件传输错误"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:302
 msgid "Cu&stomer encryption"
-msgstr ""
+msgstr "自定义加密(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:404
 #, c-format
@@ -2982,11 +2982,11 @@ msgstr "自定义(&T)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:306
 msgid "Cus&tomer Key:"
-msgstr ""
+msgstr "自定义密钥(&T):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:297
 msgid "Custom KMS ARN"
-msgstr ""
+msgstr "自定义 KMS ARN"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter.cpp:135
 msgid "Custom filter set"
@@ -3007,7 +3007,7 @@ msgstr "数据类型(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1428
 msgid "D&ecimal prefixes using SI symbols (e.g. 1 KB = 1000 bytes)"
-msgstr "使用 SI 式十进制前缀 (例如 1 KB = 1000 bytes)(&E)"
+msgstr "使用 SI 式十进制前缀(例如 1 KB = 1000 bytes)(&E)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:246
 msgid "D&efault"
@@ -3089,11 +3089,11 @@ msgstr "默认本地目录(&L):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:296
 msgid "Default (AWS/S3)"
-msgstr ""
+msgstr "默认(AWS/S3)"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:55
 msgid "Default (Autodetect)"
-msgstr "默认 (自动检测)"
+msgstr "默认(自动检测)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:81
 msgid "Default editor not properly quoted."
@@ -3150,7 +3150,7 @@ msgstr[0] "由于上一次尝试连接失败，将推迟连接 %d 秒..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1083
 msgid "Delete Site Manager entries"
-msgstr ""
+msgstr "删除站点管理器记录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1121
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:927
@@ -3322,24 +3322,24 @@ msgstr "您真的要关闭 FileZilla？"
 #: ../../../source/FileZilla3/locales/../src/interface/clearprivatedata.cpp:38
 msgid ""
 "Do you really want to delete all Site Manager entries and the transfer queue?"
-msgstr "您真的想删除所有站点管理器里的记录和传输队列？"
+msgstr "您真的要删除站点管理器里的所有记录和传输队列？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/clearprivatedata.cpp:50
 msgid "Do you really want to delete all Site Manager entries?"
-msgstr "您真的想删除所有站点管理器里的记录？"
+msgstr "您真的要删除站点管理器里的所有记录？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1085
 msgid "Do you really want to delete the selected entries?"
-msgstr ""
+msgstr "您真的要删除选定的记录？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/clearprivatedata.cpp:44
 msgid "Do you really want to delete the transfer queue?"
-msgstr "您真的想删除传输队列？"
+msgstr "您真的要删除传输队列？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:644
 #, c-format
 msgid "Do you really want to send '%s' to the server?"
-msgstr "您真的想发送“%s”给服务器吗?"
+msgstr "您真的要发送“%s”给服务器吗?"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1584
 msgid "Do you want to reopen this file?"
@@ -3498,7 +3498,7 @@ msgstr "编辑搜索结果"
 msgid ""
 "Either you or your system administrator has disabled checking for updates. "
 "Please re-enable checking for updates to obtain more information."
-msgstr ""
+msgstr "您或您的系统管理员已禁止检查更新。请重新启用检查更新从而了解更多信息。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1242
 msgid "Email:"
@@ -4287,7 +4287,7 @@ msgstr "当前会话将使用默认设置，并且任何设置的修改都不会
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:268
 msgid "Force &UTF-8"
-msgstr "强制 &UTF-8"
+msgstr "强制 UTF-8 (&U)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:148
 msgid "Force showing &hidden files"
@@ -4448,7 +4448,7 @@ msgstr "小时，"
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:49
 msgid ""
 "I &forgot my master password. Delete all passwords stored with this key."
-msgstr "我确实忘记了主密码。删除保存在该主密码下的所有密码。(&F)"
+msgstr "我确实忘记了主密码。删除保存在该主密码下的所有密码(&F)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1353
 msgid "I&SO 8601 (example: 15:47)"
@@ -4550,8 +4550,8 @@ msgid ""
 "the server. If the time differs (e.g. different timezone), specify a time "
 "offset in the site manager."
 msgstr ""
-"要是选择“如果较新就覆盖”，您的系统时间需要与服务器同步。若时间不同 (例如不同"
-"的时区)，请在站点管理器中设置调整时间。"
+"要是选择“如果较新就覆盖”，您的系统时间需要与服务器同步。若时间不同(例如不同的"
+"时区)，请在站点管理器中设置调整时间。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1579
 msgid ""
@@ -4696,7 +4696,7 @@ msgstr "初始化 TLS 中..."
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:733
 #, c-format
 msgid "Insecure %s connection"
-msgstr ""
+msgstr "不安全的 %s 连接"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:454
 msgid "Insecure algorithm!"
@@ -4819,8 +4819,8 @@ msgstr ""
 "指定的协议无效。有效的协议有:\n"
 "ftp:// 普通 FTP， 可加密\n"
 "sftp:// SSH 文件传输协议，\n"
-"ftps:// 通过 TLS 传输的 FTP (隐式)以及\n"
-"ftpes:// 通过 TLS 传输的 FTP (显式)。"
+"ftps:// FTP over TLS (隐式) 以及\n"
+"ftpes:// FTP over TLS (显式)。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:69
 msgid ""
@@ -5237,7 +5237,7 @@ msgstr "我的站点"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:286
 msgid "N&o encryption"
-msgstr ""
+msgstr "不加密(&O)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_themes.cpp:197
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_themes.cpp:200
@@ -5305,7 +5305,7 @@ msgstr "从不"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:352
 msgid "New &folder"
-msgstr ""
+msgstr "新文件夹(&F)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:53
 msgid "New &tab"
@@ -5387,7 +5387,7 @@ msgstr "没有创建目录"
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1429
 #, c-format
 msgid "No entries found matching '%s'."
-msgstr ""
+msgstr "没有找到匹配‘%s’的记录。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:640
 msgid "No external IP address set, trying default."
@@ -5772,7 +5772,7 @@ msgstr "PORT 命令已受路由器或防火墙影响。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:147
 msgid "Pa&ssive (recommended)"
-msgstr "被动 (推荐)(&S)"
+msgstr "被动(推荐)(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2548
 msgid "Parameter not a valid URL"
@@ -5792,7 +5792,7 @@ msgstr "密码(&W):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:73
 msgid "Passive (recommended)"
-msgstr "被动 (推荐)"
+msgstr "被动(推荐)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:354
 #: ../../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:121
@@ -5866,7 +5866,7 @@ msgstr "权限"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:126
 msgid "Plain FTP is insecure. Please switch to FTP over TLS."
-msgstr ""
+msgstr "明文 FTP 不安全。请切换到 FTP over TLS。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:446
 msgid "Platform:"
@@ -6261,7 +6261,7 @@ msgstr "已处理 %s 个文件， %s 个目录。"
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:573
 msgid "Project (or tenant) name or ID"
-msgstr "项目 (或租户) 名称或 ID"
+msgstr "项目(或租户)名称或 ID"
 
 #: ../../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:44
 msgid "Protocol not supported"
@@ -7259,7 +7259,7 @@ msgstr "注册"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1337
 msgid "Site &Manager entries"
-msgstr "站点管理器(&M)"
+msgstr "站点管理器记录(&M)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:324
 msgid "Site Manager"
@@ -7460,7 +7460,7 @@ msgstr "仅稳定版"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1870
 msgid "Stable, beta and nightly versions"
-msgstr "稳定，Beta 及每日编译版 (Nightly)"
+msgstr "稳定，Beta 及每日编译版(Nightly)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2303
 msgid "Start transfer &immediately"
@@ -8866,7 +8866,7 @@ msgstr "请输入一个代理主机。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_proxy.cpp:88
 msgid "You need to enter a proxy port in the range from 1 to 65535"
-msgstr "请输入一个代理服务器端口 (从 1 到 65535)"
+msgstr "请输入一个代理服务器端口(从 1 到 65535)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:951
 msgid "You need to enter a value."
