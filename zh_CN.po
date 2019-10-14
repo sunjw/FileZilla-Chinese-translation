@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2019-09-26 05:30+0200\n"
-"PO-Revision-Date: 2019-09-26 19:44+0800\n"
+"PO-Revision-Date: 2019-10-14 12:33+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -413,12 +413,12 @@ msgstr "目录对比(&D)"
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:1085
 msgid ""
 "&Disable synchronized browsing and continue changing the local directory"
-msgstr "停止同步浏览并且继续修改本地目录(&D)？"
+msgstr "停止同步浏览并且继续修改本地目录(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:1163
 msgid ""
 "&Disable synchronized browsing and continue changing the remote directory"
-msgstr "停止同步浏览并且继续修改远程目录(&D)？"
+msgstr "停止同步浏览并且继续修改远程目录(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1529
 msgid "&Discard local file then download and edit file anew"
@@ -2956,8 +2956,8 @@ msgid ""
 "Current remote directory (%s) is not below the synchronization root (%s).\n"
 "Synchronized browsing has been disabled."
 msgstr ""
-"当前目录“%s”不在同步根目录(%s)下面。\n"
-"关闭同步浏览并且继续修改本地目录？"
+"当前远程目录“%s”不在同步根目录(%s)下面。\n"
+"同步浏览已关闭。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:409
 msgid "Current transfer type is set to ASCII."
@@ -3312,7 +3312,7 @@ msgstr "不使用默认编辑器(&N)"
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1536
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1591
 msgid "Do the same with &all selected files already being edited"
-msgstr "对所有正在编辑的选中文件执行相同操作(&A):"
+msgstr "对所有正在编辑的选中文件执行相同操作(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1253
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1276
@@ -3483,7 +3483,7 @@ msgstr "使用设置的编辑器编辑文件并上传修改后的文件到服务
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1198
 msgid "Editing directories is not supported"
-msgstr "不支持编辑目录。"
+msgstr "不支持编辑目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1754
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1763
@@ -3931,7 +3931,7 @@ msgstr "无法获取外部 IP 地址，中止操作。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:667
 msgid "Failed to retrieve external IP address, using local address"
-msgstr "无法获取外部 IP 地址，使用本地地址。"
+msgstr "无法获取外部 IP 地址，使用本地地址"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:695
 msgid "Failed to retrieve local IP address, aborting."
@@ -3952,7 +3952,7 @@ msgstr "发送命令失败。"
 #: ../../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:185
 #, c-format
 msgid "Failed to set language to %s (%s), using default system language"
-msgstr "无法将语言设置为 %s (%s)，将使用系统默认语言。"
+msgstr "无法将语言设置为 %s (%s)，将使用系统默认语言"
 
 #: ../../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:162
 #, c-format
@@ -6944,7 +6944,7 @@ msgstr "选择如何打开这些文件。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:915
 msgid "Select target download directory"
-msgstr "选择下载目标文件夹。"
+msgstr "选择下载目标文件夹"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:235
 msgid "Select target filename"
@@ -7012,11 +7012,11 @@ msgstr "所选的编辑器不存在。"
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1495
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1562
 msgid "Selected file already being edited"
-msgstr "已在编辑所选的文件。"
+msgstr "所选文件正在被编辑"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:126
 msgid "Selected file is already loaded"
-msgstr "所选的文件已经加载。"
+msgstr "所选的文件已经加载"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1804
 msgid "Selected file is already opened"
@@ -7891,7 +7891,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:78
 msgid "The limit needs to be between 1 and 2000 MiB"
-msgstr "限制必须在 1 到 2000 MiB 之间。"
+msgstr "限制必须在 1 到 2000 MiB 之间"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:1176
 #, c-format
@@ -8804,7 +8804,7 @@ msgstr "请输入一个主机名称。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:871
 msgid "You have to enter a key file path"
-msgstr "请输入一个密钥文件路径。"
+msgstr "请输入一个密钥文件路径"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:927
 msgid "You have to enter a local directory."
@@ -8821,7 +8821,7 @@ msgstr "请输入正确的 IPv4 地址。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:905
 msgid "You have to enter a valid encryption key"
-msgstr "请输入一个正确的加密密钥。"
+msgstr "请输入一个正确的加密密钥"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:932
 msgid "You have to enter a writable local directory."
@@ -8835,7 +8835,7 @@ msgstr "请输入账户名称"
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:476
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:838
 msgid "You have to specify a user name"
-msgstr "请输入一个用户名。"
+msgstr "请输入一个用户名"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:633
 msgid ""
