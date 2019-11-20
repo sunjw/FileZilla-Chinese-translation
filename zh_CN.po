@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2019-11-20 05:30+0100\n"
-"PO-Revision-Date: 2019-05-13 10:59+0800\n"
+"PO-Revision-Date: 2019-11-21 01:11+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -387,7 +387,7 @@ msgstr "对已存在文件的默认操作(&D)..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:100
 msgid "&Delay between failed login attempts:"
-msgstr "登陆重试延时(&D):"
+msgstr "登录重试延时(&D):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:770
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:939
@@ -2658,7 +2658,7 @@ msgstr "找不到放置下载文件所需的临时目录。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:397
 msgid "Could not list directory contents"
-msgstr ""
+msgstr "无法列出目录内容"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:923
 #, c-format
@@ -3140,7 +3140,7 @@ msgstr "默认: http://ip.filezilla-project.org/ip.php"
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:41
 msgid ""
 "Delay between failed connection attempts has to be between 1 and 999 seconds."
-msgstr "在失败的登陆请求之间的延迟必须在 1 和 999 秒之间。"
+msgstr "失败的连接请求之间的延迟必须在 1 和 999 秒之间。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:538
 #, c-format
@@ -5062,7 +5062,7 @@ msgstr "日志"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:624
 msgid "Login (optional):"
-msgstr ""
+msgstr "登录(可选的):"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:316
 msgid ""
@@ -5266,7 +5266,7 @@ msgstr "该名称的书签已经存在。"
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:891
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:910
 msgid "Name or email address"
-msgstr ""
+msgstr "名称或电子邮件地址"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:654
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:91
@@ -8791,7 +8791,7 @@ msgstr "您没有输入该文件的新的名字。要覆盖这个文件吗？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:394
 msgid "You do not have permission to list this directory"
-msgstr ""
+msgstr "您没有权限列出该目录内容"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2925
 msgid "You have selected at least one symbolic link."
