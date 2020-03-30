@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-03-30 05:30+0200\n"
-"PO-Revision-Date: 2019-11-21 01:11+0800\n"
+"PO-Revision-Date: 2020-03-30 17:28+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -219,7 +219,7 @@ msgstr "添加书签(&A)..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2527
 msgid "&Add directory..."
-msgstr "添加目录(&A)…"
+msgstr "添加目录(&A)..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1064
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:808
@@ -403,7 +403,7 @@ msgstr "删除符号链接(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter.cpp:143
 msgid "&Delete..."
-msgstr ""
+msgstr "删除(&D)..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:74
 msgid "&Directory access permissions..."
@@ -2287,7 +2287,7 @@ msgstr "比较文件大小(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:690
 msgid "Compare:"
-msgstr ""
+msgstr "比较:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1155
 msgid "Comparison &threshold (in minutes):"
@@ -8734,11 +8734,11 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:39
 msgid "WebDAV using HTTP (insecure)"
-msgstr "WebDAV using HTTP (不安全)"
+msgstr "通过 HTTP 的 WebDAV (不安全)"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:29
 msgid "WebDAV using HTTPS"
-msgstr ""
+msgstr "通过 HTTPS 的 WebDAV"
 
 #: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:50
 msgid "Welcome to FileZilla"
