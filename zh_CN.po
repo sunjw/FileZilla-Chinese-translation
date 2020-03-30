@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-03-30 05:30+0200\n"
-"PO-Revision-Date: 2020-03-30 17:28+0800\n"
+"PO-Revision-Date: 2020-03-30 17:33+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -2008,7 +2008,7 @@ msgstr "无法选择过滤器"
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1671
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1698
 msgid "Cannot set file association"
-msgstr "无法设置文件格式关联"
+msgstr "无法设置文件关联"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1170
 msgid "Cannot show dialog"
@@ -4030,7 +4030,7 @@ msgstr "退回主动模式"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:691
 msgid "Fil&e sizes"
-msgstr ""
+msgstr "文件大小(&E)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1452
 msgid "Fil&e:"
@@ -5065,7 +5065,7 @@ msgstr "本地路径处理:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:705
 msgid "Local results:"
-msgstr ""
+msgstr "本地结果:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/viewheader.cpp:342
 msgid "Local site:"
@@ -5252,7 +5252,7 @@ msgstr "分钟"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:692
 msgid "Modification tim&e"
-msgstr ""
+msgstr "修改时间(&E)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1311
 msgid "Move &down"
@@ -6663,7 +6663,7 @@ msgstr "远程路径:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:706
 msgid "Remote results:"
-msgstr ""
+msgstr "远程结果:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/viewheader.cpp:534
 msgid "Remote site:"
@@ -7860,7 +7860,7 @@ msgid ""
 msgstr ""
 "文件“%s”无法打开:\n"
 "关联的程序(%s)没有找到。\n"
-"请检查您操作系统的文件关联。"
+"请检查您操作系统的文件格式关联。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:34
 #, c-format
@@ -8488,7 +8488,7 @@ msgstr "上传"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:59
 msgid "Upload &limit:"
-msgstr ""
+msgstr "上传限制(&L):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1206
 msgid "Upload failed"
@@ -8584,7 +8584,7 @@ msgstr "为当前语言使用系统默认设置(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1559
 msgid "Use system association"
-msgstr ""
+msgstr "使用系统关联"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:194
 msgid "Use the following IP address:"
