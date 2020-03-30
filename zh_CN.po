@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-03-30 05:30+0200\n"
-"PO-Revision-Date: 2020-03-30 17:49+0800\n"
+"PO-Revision-Date: 2020-03-30 17:52+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -6543,11 +6543,11 @@ msgstr "在版本信息中收到了无效字符"
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:108
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/list.cpp:129
 msgid "Received too long response line from server, closing connection."
-msgstr "从服务器收到太长的响应行，断开连接。"
+msgstr "从服务器收到过长的响应行，断开连接。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:446
 msgid "Received too long response line, closing connection."
-msgstr ""
+msgstr "收到过长的响应行，断开连接。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/updater.cpp:610
 msgid "Received version information is too large"
@@ -7164,7 +7164,7 @@ msgstr "服务器主机密匙"
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:76
 #, c-format
 msgid "Server instructed us to wait %d seconds before sending next request"
-msgstr ""
+msgstr "服务器要求等待 %d 秒后再发起请求"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:279
 #, c-format
@@ -8258,7 +8258,7 @@ msgstr "开/关传输队列显示"
 
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:478
 msgid "Too long header line"
-msgstr "标题行太长"
+msgstr "标题行过长"
 
 #: ../../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:145
 msgid "Too many redirects"
