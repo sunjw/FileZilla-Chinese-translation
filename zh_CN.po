@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-03-30 05:30+0200\n"
-"PO-Revision-Date: 2020-03-30 17:33+0800\n"
+"PO-Revision-Date: 2020-03-30 17:49+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1829,7 +1829,7 @@ msgstr "全部清除(&C)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:656
 msgid "C&omparative search"
-msgstr ""
+msgstr "对比搜索"
 
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1079
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:929
@@ -2615,7 +2615,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1923
 msgid "Could not create temporary file name."
-msgstr ""
+msgstr "无法创建临时文件名。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2321
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:900
@@ -3010,7 +3010,7 @@ msgstr "自定义 KMS ARN"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1381
 msgid "Custom KMS ARN id cannot be empty."
-msgstr ""
+msgstr "自定义 KMS ARN id 不能为空。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter.cpp:145
 msgid "Custom filter set"
@@ -3018,11 +3018,11 @@ msgstr "自定义过滤器集合"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1393
 msgid "Custom key cannot be empty."
-msgstr ""
+msgstr "自定义密钥不能为空。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1407
 msgid "Custom key length must be 256-bit."
-msgstr ""
+msgstr "自定义密钥长度必须为 256-bit。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1530
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1544
@@ -3386,7 +3386,7 @@ msgstr "本地连接不使用外部 IP 地址(&L)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:855
 msgid "Dotfiles are filenames starting with a dot, e.g. .htaccess"
-msgstr "文件名是以一个点开始的，例如: .htaccess"
+msgstr "点文件的文件名是以一个点开始的，例如: .htaccess"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1179
 msgid "Double-click action"
@@ -5434,7 +5434,7 @@ msgstr "没有创建目录"
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1432
 #, c-format
 msgid "No entries found matching '%s'."
-msgstr "没有找到匹配‘%s’的记录。"
+msgstr "没有找到匹配“%s”的记录。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:612
 msgid "No external IP address set, trying default."
@@ -5469,11 +5469,11 @@ msgstr "文件格式没有关联程序"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1532
 msgid "No program has been associated to edit dotfiles."
-msgstr ""
+msgstr "点文件没有关联程序。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1529
 msgid "No program has been associated to edit extensionless files."
-msgstr ""
+msgstr "无扩展名文件没有关联程序。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1535
 #, c-format
@@ -7779,12 +7779,12 @@ msgstr "不支持 ai_socktype 成员"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1698
 msgid "The associated program could not be found."
-msgstr ""
+msgstr "无法找到关联的程序。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1562
 #, c-format
 msgid "The associated program is '%s'."
-msgstr ""
+msgstr "关联的程序为“%s”。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:886
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:638
