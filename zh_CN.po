@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-04-18 05:30+0200\n"
-"PO-Revision-Date: 2019-11-21 01:11+0800\n"
+"PO-Revision-Date: 2020-04-18 13:26+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -565,7 +565,7 @@ msgstr "过滤器(&F):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:778
 msgid "&Finish editing"
-msgstr ""
+msgstr "结束编辑(&F)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:782
 msgid "&Finish editing and delete local file"
@@ -2254,7 +2254,7 @@ msgstr "栏目设置"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:77
 msgid "Command and its arguments need to be properly quoted."
-msgstr ""
+msgstr "命令及其参数需要正确的使用引号。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:95
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:117
@@ -3140,7 +3140,7 @@ msgstr "默认(自动检测)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:157
 msgid "Default editor not properly quoted."
-msgstr "没有正确引用默认编辑器。"
+msgstr "默认编辑器命令格式不正确。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:496
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:566
@@ -4336,7 +4336,7 @@ msgstr "格式规定:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit_associations.cpp:29
 msgid "Format: Extension followed by properly quoted command and arguments."
-msgstr "格式: 扩展名后跟随正确的指令和参数。"
+msgstr "格式: 扩展名后跟随正确格式的命令和参数。"
 
 #. @translator: Two examples: Found new nightly 2014-04-03\n, Found new release 3.9.0.1\n
 #: ../../../source/FileZilla3/locales/../src/interface/updater.cpp:817
@@ -7117,7 +7117,7 @@ msgstr "选择的端口通常是被其他协议使用。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:185
 msgid "Send FTP &keep-alive commands"
-msgstr "发出 FTP 保持连接指令(&K)"
+msgstr "发出 FTP 保持连接命令(&K)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:147
 msgid "Send custom command to the server otherwise not available"
@@ -7125,7 +7125,7 @@ msgstr "发送自定义命令到服务器，如果可用的话"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:717
 msgid "Sending keep-alive command"
-msgstr "发出保持连接指令"
+msgstr "发出保持连接命令"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/certificate.xrc:65
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:653
@@ -7823,11 +7823,11 @@ msgstr "无法建立数据连接: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1745
 msgid "The default editor for text files is:"
-msgstr ""
+msgstr "文本文件的默认编辑器:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1732
 msgid "The default editor for this file type is:"
-msgstr ""
+msgstr "此类型文件的默认编辑器:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:221
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:292
@@ -8939,7 +8939,7 @@ msgstr "请为日志文件输入文件名。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1822
 msgid "You need to enter a properly quoted command."
-msgstr "请输入一个合适的引用命令。"
+msgstr "请输入一个正确格式的命令。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:82
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_proxy.cpp:79
