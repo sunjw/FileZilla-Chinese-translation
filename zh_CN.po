@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-04-18 05:30+0200\n"
-"PO-Revision-Date: 2020-04-18 13:26+0800\n"
+"PO-Revision-Date: 2020-04-18 13:30+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -258,7 +258,7 @@ msgstr "总是使用默认编辑器(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1746
 msgid "&Always use selection for all unassociated files"
-msgstr ""
+msgstr "总是对未设置关联的文件类型使用该选择"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:93
 msgid "&Always use this action"
@@ -471,7 +471,7 @@ msgstr "下载(&D):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:102
 msgid "&Duplicate"
-msgstr ""
+msgstr "复制(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:68
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:818
@@ -4316,7 +4316,7 @@ msgstr "当前会话将使用默认设置，并且任何设置的修改都不会
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1113
 msgid "Forbidden character in file extension."
-msgstr ""
+msgstr "文件扩展名中禁止使用的字符。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1083
 msgid "Force &UTF-8"
@@ -6435,7 +6435,7 @@ msgstr "快速搜索无法在目录对比时使用。"
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit_associations.cpp:33
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1761
 msgid "Quoting rules"
-msgstr ""
+msgstr "引号规则"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1810
 msgid "R&eboot system once"
