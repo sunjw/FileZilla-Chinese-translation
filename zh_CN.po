@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-05-26 05:30+0200\n"
-"PO-Revision-Date: 2020-04-20 17:07+0800\n"
+"PO-Revision-Date: 2020-05-26 18:24+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -2057,7 +2057,7 @@ msgstr "需要清除的分类"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:585
 msgid "Certificate"
-msgstr ""
+msgstr "证书"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:526
 msgid "Certificate and session data are not available yet."
@@ -2065,7 +2065,7 @@ msgstr "证书和会话数据目前不可用。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:525
 msgid "Certificate details"
-msgstr ""
+msgstr "证书细节"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:214
 msgid "Challenge:"
@@ -4354,7 +4354,7 @@ msgstr "发现了新的版本 %s %s\n"
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:400
 #, c-format
 msgid "From %s to %s"
-msgstr ""
+msgstr "从 %s 到 %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:52
 #, c-format
@@ -4763,7 +4763,7 @@ msgstr "界面"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:572
 msgid "Intermediate certificate"
-msgstr ""
+msgstr "中级证书"
 
 #: ../../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:50
 msgid "Interrupted by signal"
@@ -6836,7 +6836,7 @@ msgstr "从 %s 得到外部 IP 地址"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:569
 msgid "Root certificate"
-msgstr ""
+msgstr "根证书"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:61
 msgid "S&how files currently being edited..."
@@ -7148,7 +7148,7 @@ msgstr "选择的端口通常是被其他协议使用。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:562
 msgid "Self-signed server certificate"
-msgstr ""
+msgstr "自签名服务器证书"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_ftp.cpp:63
 msgid "Send FTP &keep-alive commands"
@@ -7180,7 +7180,7 @@ msgstr "服务器端加密:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:565
 msgid "Server certificate"
-msgstr ""
+msgstr "服务器证书"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:411
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:471
