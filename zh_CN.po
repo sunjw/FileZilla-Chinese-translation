@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-05-26 05:30+0200\n"
-"PO-Revision-Date: 2020-05-26 18:24+0800\n"
+"PO-Revision-Date: 2020-05-26 19:36+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -3785,7 +3785,7 @@ msgstr "程序未包含版本信息，无法检查更新。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:408
 msgid "Expired!"
-msgstr ""
+msgstr "已过期！"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:128
 msgid "Explorer"
@@ -4916,7 +4916,7 @@ msgstr "反转过滤器"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:628
 msgid "Issuer"
-msgstr ""
+msgstr "颁发者"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:829
 msgid "Jurisdiction country:"
@@ -5575,7 +5575,7 @@ msgstr "尚未初始化，需要调用 WSAStartup"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:404
 msgid "Not yet valid!"
-msgstr ""
+msgstr "尚未生效！"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:718
 msgid "Note that this feature is only supported using the FTP protocol."
@@ -7657,7 +7657,7 @@ msgstr "街道:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:616
 msgid "Subject"
-msgstr ""
+msgstr "主题"
 
 #: ../../../source/FileZilla3/locales/../src/interface/queueview_successful.cpp:14
 msgid "Successful transfers"
@@ -8686,7 +8686,7 @@ msgstr "使用错误的字符集可能导致文件名显示不正确。"
 #. @translator: Period as in a span of time with a start and end date
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:610
 msgid "Validity period:"
-msgstr ""
+msgstr "有效期:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:17
 msgid "Verbose log messages from wxWidgets"
@@ -9221,9 +9221,6 @@ msgstr "wxWidgets:"
 
 #~ msgid "Certificate issuer"
 #~ msgstr "证书颁发者"
-
-#~ msgid "MAC:"
-#~ msgstr "MAC:"
 
 #~ msgid "Subject of certificate"
 #~ msgstr "证书主题"
