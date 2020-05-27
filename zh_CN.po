@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-05-26 05:30+0200\n"
-"PO-Revision-Date: 2020-05-26 19:36+0800\n"
+"PO-Revision-Date: 2020-05-27 14:53+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -237,7 +237,7 @@ msgstr "总是允许在这台服务器上执行不安全的明文 %s (&A)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:694
 msgid "&Always trust this certificate in future sessions."
-msgstr ""
+msgstr "在以后的会话中信任该证书(&A)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:346
 msgid "&Always trust this host, add this key to the cache"
@@ -310,7 +310,7 @@ msgstr "取消(&C)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:556
 msgid "&Certificate in chain:"
-msgstr ""
+msgstr "证书链(&C):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:70
 msgid "&Clear private data..."
@@ -2301,7 +2301,7 @@ msgstr "比较文件大小(&S)"
 msgid ""
 "Compare the displayed fingerprint with the certificate fingerprint you have "
 "received from your server adminstrator or server hosting provider."
-msgstr ""
+msgstr "比较您的系统管理员或服务提供商给出的证书序列号与这里显示的证书序列号。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:691
 msgid "Compare:"
@@ -6899,7 +6899,7 @@ msgstr "保存主密码保护的密码(&V)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:461
 msgid "Same as subject, certificate is self-signed"
-msgstr ""
+msgstr "与主题相同，该证书是自签名的"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1956
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:177
@@ -7168,7 +7168,7 @@ msgstr "序列号:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:646
 msgid "Serial:"
-msgstr ""
+msgstr "序列号:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:912
 msgid "Server &type:"
@@ -8376,7 +8376,7 @@ msgstr "信任该新密钥并继续连接？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:692
 msgid "Trust the server certificate and carry on connecting?"
-msgstr ""
+msgstr "信任该服务器证书并继续？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:339
 msgid "Trust this host and carry on connecting?"
