@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-06-28 05:30+0200\n"
-"PO-Revision-Date: 2020-04-20 17:07+0800\n"
+"PO-Revision-Date: 2020-06-28 12:20+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -8402,7 +8402,7 @@ msgstr "可以的话使用文件格式关联(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:207
 msgid "USER@&HOST"
-msgstr "USER@&HOST"
+msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:334
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:463
@@ -9004,7 +9004,7 @@ msgstr "您需要输入本地和远程路径来为这个站点启用同步浏览
 msgid ""
 "You need to grant FileZilla acess to the directories you want to download "
 "files into or to upload files from."
-msgstr ""
+msgstr "您需要授权 FileZilla 访问下载或上传文件的目录。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:297
 msgid "You need to specify a local file."
@@ -9189,7 +9189,7 @@ msgstr "全体可写"
 
 #: ../../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:74
 msgid "wxWidgets:"
-msgstr "wxWidgets:"
+msgstr ""
 
 #~ msgid "%s - Certificate expired!"
 #~ msgstr "%s - 证书已过期！"
