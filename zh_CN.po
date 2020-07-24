@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-07-24 05:30+0200\n"
-"PO-Revision-Date: 2020-07-24 15:14+0800\n"
+"PO-Revision-Date: 2020-07-24 15:25+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -288,7 +288,7 @@ msgstr "书签(&B)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:92
 msgid "&Browse"
-msgstr ""
+msgstr "浏览(&B)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:873
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:967
@@ -442,7 +442,7 @@ msgstr "本地连接不使用外部 IP 地址(&D)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_filelists.cpp:84
 msgid "&Double-click action on directories:"
-msgstr ""
+msgstr "双击目录操作(&D):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_filelists.cpp:77
 msgid "&Double-click action on files:"
@@ -1396,7 +1396,7 @@ msgstr "添加(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_fileexists.cpp:61
 msgid "A&llow resuming of ASCII files"
-msgstr ""
+msgstr "允许续传 ASCII 文件(&L)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:150
 msgid "A&pply only to downloads"
@@ -3667,11 +3667,11 @@ msgstr "输入用户名和密码"
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:163
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:268
 msgid "Entered file would transfer as ASCII"
-msgstr ""
+msgstr "输入的文件将会以 ASCII 模式传输"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:271
 msgid "Entered file would transfer as binary"
-msgstr ""
+msgstr "输入的文件将会以二进制模式传输"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:99
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:53
@@ -3768,7 +3768,7 @@ msgstr "已过期！"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:46
 msgid "Explorer"
-msgstr "浏览器"
+msgstr "文件浏览器"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:528
 msgid "Export &Filters"
@@ -5013,7 +5013,7 @@ msgstr "本地"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1186
 msgid "Local &directory:"
-msgstr ""
+msgstr "本地目录(&D):"
 
 #: ../../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:35
 msgid "Local address in use"
@@ -8517,7 +8517,7 @@ msgstr "正上传并放弃修改"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:62
 msgid "Us&e system defaults for current language"
-msgstr ""
+msgstr "使用系统默认语言为当前语言(&E)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1088
 msgid "Use &custom charset"
