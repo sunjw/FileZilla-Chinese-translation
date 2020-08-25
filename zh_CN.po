@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-08-25 05:30+0200\n"
-"PO-Revision-Date: 2020-06-28 12:20+0800\n"
+"PO-Revision-Date: 2020-08-25 14:33+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -89,7 +89,7 @@ msgstr "%h - 主机"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:71
 msgid "%h - Username"
-msgstr ""
+msgstr "%h - 用户名"
 
 #: ../../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:122
 #, c-format
@@ -1802,6 +1802,8 @@ msgid ""
 "active mode. If you want to limit FileZilla to use only a small range of "
 "ports, please enter the port range below."
 msgstr ""
+"默认情况下 FileZilla 的主动模式使用本地任意可用的端口建立传输。如果你希望限"
+"制 FileZilla 只使用小范围的端口，请在下面输入端口范围。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:139
 msgid "C&ancel current operation"
@@ -2274,7 +2276,7 @@ msgstr "比较文件大小(&S)"
 msgid ""
 "Compare the displayed fingerprint with the certificate fingerprint you have "
 "received from your server administrator or server hosting provider."
-msgstr ""
+msgstr "比较这里显示的指纹与您的服务器管理员或服务提供商提供的证书指纹。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:691
 msgid "Compare:"
@@ -3546,7 +3548,7 @@ msgstr "启用无效字符过滤(&F)"
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:357
 msgid "Encr&yption Passphrase:"
-msgstr ""
+msgstr "加密密码(&Y):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:78
 msgid "Encrypted"
@@ -3566,7 +3568,7 @@ msgstr "加密细节"
 
 #: ../../../source/FileZilla3/locales/../src/engine/storj/connect.cpp:58
 msgid "Encryption passphrase is not set"
-msgstr ""
+msgstr "未设置加密密码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:484
 msgid "End comparison and change sorting order?"
@@ -5324,7 +5326,7 @@ msgstr "需要指定字符编码"
 
 #: ../../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:81
 msgid "Neither nodename nor servname provided, or not known"
-msgstr "未提供，或不知道节点名或服务名"
+msgstr "未提供或未知的节点名或服务名"
 
 #: ../../../source/FileZilla3/locales/../src/engine/socket_errors.cpp:68
 msgid ""
@@ -5551,7 +5553,7 @@ msgstr "注意这个功能只支持使用 FTP 协议。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:91
 msgid "Note: This only works with plain, unencrytped FTP connections."
-msgstr ""
+msgstr "注意: 只能工作于未加密的明文 FTP 连接。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_proxy.cpp:75
 msgid "Note: Using a generic proxy forces passive mode on FTP connections."
@@ -7677,7 +7679,7 @@ msgstr "TTL 超时"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:28
 msgid "Tardigrade - Decentralized Cloud Storage"
-msgstr ""
+msgstr "Tardigrade - 去中心化的云存储"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:36
 msgid "Target file already exists"
@@ -8850,7 +8852,7 @@ msgstr "请输入一个远程目录。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:180
 msgid "You have to enter a resolver."
-msgstr ""
+msgstr "您输入了一个解析器。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:175
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:165
