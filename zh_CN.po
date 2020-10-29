@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2020-10-29 05:30+0100\n"
-"PO-Revision-Date: 2020-08-25 14:33+0800\n"
+"PO-Revision-Date: 2020-10-29 14:32+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -698,7 +698,7 @@ msgstr "手动传输(&M)..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:49
 msgid "&Master password:"
-msgstr ""
+msgstr "主密码(&M):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1102
 msgid "&Maximum number of connections:"
@@ -900,7 +900,7 @@ msgstr "重新打开本地文件(&R)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:52
 msgid "&Repeat password:"
-msgstr ""
+msgstr "再次输入密码(&R):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:115
 msgid "&Replace invalid characters with:"
@@ -1223,7 +1223,7 @@ msgstr "(已设置为与 %d.%d 版本兼容)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:73
 msgid "(example: %H-%M-%S)"
-msgstr ""
+msgstr "(示例: %H-%M-%S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:58
 msgid "(example: %Y-%m-%d)"
@@ -8517,6 +8517,7 @@ msgid ""
 "When allowing FileZilla to remember passwords, you can reconnect without "
 "having to re-enter the password after restarting FileZilla."
 msgstr ""
+"如果允许 FileZilla 记住密码，重启 FileZilla 后重新连接无需再次输入密码。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:112
 msgid ""
