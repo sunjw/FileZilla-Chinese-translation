@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
-"POT-Creation-Date: 2020-10-29 05:30+0100\n"
-"PO-Revision-Date: 2020-10-29 14:32+0800\n"
+"POT-Creation-Date: 2020-11-16 11:33+0100\n"
+"PO-Revision-Date: 2020-08-25 14:33+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -320,11 +320,11 @@ msgstr "清除个人信息(&C)..."
 msgid "&Close"
 msgstr "关闭(&C)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1828
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1836
 msgid "&Close FileZilla"
 msgstr "关闭 FileZilla(&C)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1831
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1839
 msgid "&Close FileZilla once"
 msgstr "关闭 FileZilla(&C)"
 
@@ -372,8 +372,8 @@ msgstr "消息记录中的调试信息(&D):"
 msgid "&Default editor:"
 msgstr "默认编辑器(&D):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1813
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:114
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1821
 msgid "&Default file exists action..."
 msgstr "对已存在文件的默认操作(&D)..."
 
@@ -609,7 +609,7 @@ msgstr "帮助(&H)"
 msgid "&Hide identical files"
 msgstr "隐藏相同的文件(&H)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1817
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1825
 msgid "&Highest"
 msgstr "最高(&H)"
 
@@ -684,7 +684,7 @@ msgstr "日志文件(&L)"
 msgid "&Logon Type:"
 msgstr "登录类型(&L):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1820
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1828
 msgid "&Low"
 msgstr "低(&L)"
 
@@ -751,11 +751,11 @@ msgstr "否(&N)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:49
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_proxy.cpp:48
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1825
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1833
 msgid "&None"
 msgstr "无(&N)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1819
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1827
 msgid "&Normal"
 msgstr "正常(&N)"
 
@@ -800,7 +800,7 @@ msgstr "被动(&P)"
 msgid "&Password:"
 msgstr "密码(&P):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1830
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1838
 msgid "&Play sound"
 msgstr "播放声音(&P)"
 
@@ -875,8 +875,8 @@ msgstr "移除(&R)"
 msgid "&Remove key"
 msgstr "移除密钥(&R)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1812
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:302
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1820
 msgid "&Remove selected"
 msgstr "移除选定(&R)"
 
@@ -910,7 +910,7 @@ msgstr "将无效字符替换为(&R):"
 msgid "&Report a bug..."
 msgstr "报告问题(&R)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1827
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1835
 msgid "&Request attention"
 msgstr "请求用户注意(&R)"
 
@@ -926,7 +926,7 @@ msgstr "重新开始向导(&R)"
 msgid "&Resume"
 msgstr "续传(&R)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1829
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1837
 msgid "&Run command..."
 msgstr "运行命令(&R)..."
 
@@ -1459,7 +1459,7 @@ msgstr "无法恢复访问某些本地目录:"
 msgid "Account"
 msgstr "帐号"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1824
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1832
 msgid "Action after queue &completion"
 msgstr "队列完成后执行动作(&C)"
 
@@ -1555,7 +1555,7 @@ msgstr "总是进行该操作(&W)"
 msgid "Algorithm:"
 msgstr "算法:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2716
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2724
 msgid "All files have been successfully transferred"
 msgstr "所有文件都已经成功传输"
 
@@ -1563,7 +1563,7 @@ msgstr "所有文件都已经成功传输"
 msgid "All ports in the given range have to be between 1024 and 65535."
 msgstr "所有指定的端口范围必须在 1024 和 65535 之间。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2712
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2720
 #, c-format
 msgid "All transfers have finished. %d file could not be transferred."
 msgid_plural "All transfers have finished. %d files could not be transferred."
@@ -1607,7 +1607,7 @@ msgid ""
 "website:"
 msgstr "或者，从 FileZilla 网站下载最新的版本:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1663
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1671
 #, c-format
 msgid ""
 "An error occurred loading the transfer queue from \"%s\".\n"
@@ -1616,7 +1616,7 @@ msgstr ""
 "在从“%s”加载传输队列时发生了一个错误。\n"
 "队列中的一些项可能没有恢复。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1555
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1563
 #, c-format
 msgid ""
 "An error occurred saving the transfer queue to \"%s\".\n"
@@ -1720,7 +1720,7 @@ msgstr "至此，所有必须的信息都已经收集成功。"
 msgid "Attribute"
 msgstr "属性"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:187
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:191
 msgid "Authentication failed."
 msgstr "认证失败。"
 
@@ -1853,20 +1853,13 @@ msgstr "CPU 特性:"
 msgid "Calculating timezone offset of server..."
 msgstr "计算服务器时差..."
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:648
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:631
 msgid "Can't read from file"
 msgstr "无法读取文件"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:625
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:696
-msgid "Can't write data to file."
-msgstr "无法将数据写入文件。"
-
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:628
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:699
-#, c-format
-msgid "Can't write data to file: %s"
-msgstr "无法将数据写入文件: %s"
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:611
+msgid "Can't write to file"
+msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:186
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:295
@@ -2391,7 +2384,7 @@ msgstr "连接到 %s"
 msgid "Connecting to %s through %s proxy"
 msgstr "连接到 %s，通过代理 %s"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:19
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:44
 #: ../../../source/FileZilla3/locales/../src/engine/storj/connect.cpp:20
 #: ../../../source/FileZilla3/locales/../src/engine/controlsocket.cpp:800
 #, c-format
@@ -2512,7 +2505,7 @@ msgstr "复制选中项的 URL 和密码到剪贴板。"
 msgid "Copy the URLs of the selected items to clipboard."
 msgstr "复制选中项的 URL 到剪贴板。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:163
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:157
 #, c-format
 msgid "Could not accept connection: %s"
 msgstr "无法接受连接: %s"
@@ -2540,9 +2533,9 @@ msgstr "无法连接到服务器"
 msgid "Could not connect to server: %s"
 msgstr "无法连接到服务器: %s"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:78
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:99
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:320
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:348
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:85
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:106
 #: ../../../source/FileZilla3/locales/../src/engine/storj/storjcontrolsocket.cpp:218
 msgid "Could not convert command to server encoding"
 msgstr "无法将命令转换成服务器的编码"
@@ -2765,8 +2758,6 @@ msgstr "无法从服务器接收数据。"
 msgid "Could not restore directory access"
 msgstr "无法恢复访问目录"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:135
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:177
 #: ../../../source/FileZilla3/locales/../src/engine/http/httpcontrolsocket.cpp:79
 #, c-format
 msgid "Could not seek to offset %d within file"
@@ -2778,7 +2769,6 @@ msgstr "无法找到文件中的 %d 偏移"
 msgid "Could not seek to the beginning of the file"
 msgstr "无法搜索到文件头"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:93
 #: ../../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:111
 msgid "Could not seek to the end of the file"
 msgstr "无法搜索到文件尾"
@@ -2790,10 +2780,6 @@ msgstr "无法将命令发送到 fzputtygen。"
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:95
 msgid "Could not send command to fzstorj."
 msgstr "无法将命令发送到 fzstorj。"
-
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:205
-msgid "Could not spawn IO thread"
-msgstr "无法生成 IO 线程"
 
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:355
 msgid "Could not start transfer"
@@ -2817,7 +2803,7 @@ msgstr "无法写入“%s”，不能添加该书签: %s"
 msgid "Could not write \"%s\", the global bookmarks could no be saved: %s"
 msgstr "无法写入“%s”，不能添加该全局书签: %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1586
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1594
 #, c-format
 msgid ""
 "Could not write \"%s\", the queue could not be saved.\n"
@@ -3413,9 +3399,9 @@ msgstr "正在下载更新..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:117
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:123
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:98
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:117
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:99
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:98
 msgid ""
 "Drag&drop between different instances of FileZilla has not been implemented "
 "yet."
@@ -3423,9 +3409,9 @@ msgstr "在不同的 FileZilla 的实例间拖放还未被实现。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:122
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:129
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:112
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:122
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:104
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:112
 msgid "Drag&drop between different servers has not been implemented yet."
 msgstr "在不同服务器之间拖放还未实现。"
 
@@ -3450,9 +3436,9 @@ msgstr "执行(&X)"
 msgid "E&xit"
 msgstr "退出(&X)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1838
 #: ../../../source/FileZilla3/locales/../src/interface/queueview_failed.cpp:38
 #: ../../../source/FileZilla3/locales/../src/interface/queueview_successful.cpp:34
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1846
 msgid "E&xport..."
 msgstr "导出(&X)..."
 
@@ -3496,7 +3482,7 @@ msgstr "您或您的系统管理员已禁止检查更新。请重新启用检查
 msgid "Email:"
 msgstr "电子邮件:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1918
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1926
 msgid "Empty command"
 msgstr "空命令"
 
@@ -3567,7 +3553,7 @@ msgstr "输入自定义命令(&C)..."
 msgid "Enter 0 for unlimited speed."
 msgstr "输入 0 表示无速度限制。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1912
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1920
 msgid "Enter command"
 msgstr "输入命令"
 
@@ -3677,12 +3663,11 @@ msgstr "导出设置错误"
 msgid "Error importing"
 msgstr "导入出错"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1664
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1672
 msgid "Error loading queue"
 msgstr "加载队列出错"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:195
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1567
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:177
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:339
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:795
@@ -3704,10 +3689,11 @@ msgstr "加载队列出错"
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:743
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:803
 #: ../../../source/FileZilla3/locales/../src/interface/wrapengine.cpp:943
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1575
 msgid "Error loading xml file"
 msgstr "导入 XML 文件出错"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1556
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1564
 msgid "Error saving queue"
 msgstr "保存队列出错"
 
@@ -3718,7 +3704,6 @@ msgstr "保存队列出错"
 msgid "Error starting program"
 msgstr "启动程序出错"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1587
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:375
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:930
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:581
@@ -3727,6 +3712,7 @@ msgstr "启动程序出错"
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:826
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1964
 #: ../../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:160
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1595
 msgid "Error writing xml file"
 msgstr "写入 XML 文件出错"
 
@@ -3894,17 +3880,12 @@ msgstr "导入面板失败，无效资源文件？"
 msgid "Failed to load private key: %s"
 msgstr "加载私钥: %s 失败"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:84
-#, c-format
-msgid "Failed to open \"%s\" for appending/writing"
-msgstr "打开“%s”追加/写入失败"
-
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:144
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:180
 #, c-format
 msgid "Failed to open \"%s\" for reading"
 msgstr "打开“%s”读取失败"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:110
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:171
 #: ../../../source/FileZilla3/locales/../src/engine/http/filetransfer.cpp:104
 #, c-format
 msgid "Failed to open \"%s\" for writing"
@@ -3926,7 +3907,7 @@ msgstr "读取目录列表失败"
 msgid "Failed to retrieve external IP address, aborting."
 msgstr "无法获取外部 IP 地址，中止操作。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:642
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:644
 msgid "Failed to retrieve external IP address, using local address"
 msgstr "无法获取外部 IP 地址，使用本地地址"
 
@@ -3934,7 +3915,7 @@ msgstr "无法获取外部 IP 地址，使用本地地址"
 msgid "Failed to retrieve local IP address, aborting."
 msgstr "无法获取本地 IP 地址，中止操作。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:660
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:662
 msgid "Failed to retrieve local IP address."
 msgstr "无法获取本地 IP 地址。"
 
@@ -4353,7 +4334,7 @@ msgstr "绿色"
 msgid "Group permissions"
 msgstr "组权限"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1818
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1826
 msgid "H&igh"
 msgstr "高(&I)"
 
@@ -4879,7 +4860,7 @@ msgstr "密钥文件"
 msgid "Key identifier:"
 msgstr "密钥标识:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1821
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1829
 msgid "L&owest"
 msgstr "最低(&O)"
 
@@ -5324,7 +5305,7 @@ msgstr "新站点"
 msgid "Next to the transfer queue"
 msgstr "在传输队列旁边"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:372
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:400
 msgid "No"
 msgstr "否"
 
@@ -5332,7 +5313,7 @@ msgstr "否"
 msgid "No category to export selected"
 msgstr "没有选定要导出的分类目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1918
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1926
 msgid "No command given, aborting."
 msgstr "没有给出命令，中止操作。"
 
@@ -5345,7 +5326,7 @@ msgstr "没有创建目录"
 msgid "No entries found matching '%s'."
 msgstr "没有找到匹配“%s”的记录。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:615
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:617
 msgid "No external IP address set, trying default."
 msgstr "没有设定外部 IP 地址，尝试使用默认值。"
 
@@ -5518,7 +5499,7 @@ msgid ""
 "well as the fallback mode if enabled."
 msgstr "在接下来的几个页面里将要设置选择的传输模式以及退回模式(如果启用)。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:382
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:410
 msgid "Once"
 msgstr "一次"
 
@@ -5909,7 +5890,7 @@ msgstr ""
 "请输入原始 FTP 命令。\n"
 "使用原始的 ftp 命令将会清空目录缓存。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1912
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1920
 msgid ""
 "Please enter the complete path of a program and its arguments. This command "
 "will be executed when the queue has finished processing.\n"
@@ -6141,8 +6122,8 @@ msgstr "协议(&T):"
 msgid "Pro&xy password:"
 msgstr "代理密码(&X):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1808
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:112
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1816
 msgid "Process &Queue"
 msgstr "处理队列(&Q)"
 
@@ -6174,7 +6155,7 @@ msgstr "代理用户(&U):"
 msgid "Proxy authentication failed"
 msgstr "代理认证失败"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:114
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:108
 #, c-format
 msgid "Proxy handshake failed: %s"
 msgstr "代理握手失败: %s"
@@ -6222,7 +6203,7 @@ msgstr "公钥算法:"
 msgid "Public permissions"
 msgstr "公共权限"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2838
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2846
 msgid "Queue has been fully processed"
 msgstr "队列已全部处理"
 
@@ -6265,7 +6246,7 @@ msgstr "快速搜索无法在目录对比时使用。"
 msgid "Quoting rules"
 msgstr "引号规则"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1833
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1841
 msgid "R&eboot system once"
 msgstr "重启系统(&E)"
 
@@ -6350,7 +6331,7 @@ msgstr "真的要从您的计算机上删除所有选定的文件和/或目录�
 msgid "Reason"
 msgstr "原因"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2831
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2839
 msgid "Reboot now"
 msgstr "马上重启"
 
@@ -6382,7 +6363,7 @@ msgstr "在版本信息中收到了无效字符"
 msgid "Received too long response line from server, closing connection."
 msgstr "从服务器收到过长的响应行，断开连接。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:449
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:477
 msgid "Received too long response line, closing connection."
 msgstr "收到过长的响应行，断开连接。"
 
@@ -6620,7 +6601,7 @@ msgstr "读取“%s”的目录列表..."
 msgid "Retrieving directory listing..."
 msgstr "读取目录列表..."
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:630
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:632
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:710
 #, c-format
 msgid "Retrieving external IP address from %s"
@@ -6643,7 +6624,7 @@ msgstr "显示正在被编辑的文件(&H)..."
 msgid "S&how the Site Manager on startup"
 msgstr "启动时显示站点管理器(&H)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1834
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1842
 msgid "S&hutdown system once"
 msgstr "关闭系统(&H)"
 
@@ -6655,7 +6636,7 @@ msgstr "正常启动(&T)"
 msgid "S&top"
 msgstr "停止(&T)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1835
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1843
 msgid "S&uspend system once"
 msgstr "挂起系统(&U)"
 
@@ -6954,7 +6935,7 @@ msgstr "发出 FTP 保持连接命令(&K)"
 msgid "Send custom command to the server otherwise not available"
 msgstr "发送自定义命令到服务器，如果可用的话"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:720
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:722
 msgid "Sending keep-alive command"
 msgstr "发出保持连接命令"
 
@@ -6983,23 +6964,23 @@ msgstr "服务器证书"
 msgid "Server does not support non-ASCII characters."
 msgstr "服务器不支持非 ASCII 字符。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:273
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:246
 #, c-format
 msgid "Server does not support resume of files > %d GB."
 msgstr "服务器不支持续传大于 %d GB 的文件。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:270
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:243
 #, c-format
 msgid ""
 "Server does not support resume of files > %d GB. End transfer since file "
 "sizes match."
 msgstr "服务器不支持续传大于 %d GB 的文件。当文件大小吻合时传输终止。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:528
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:501
 msgid "Server does not support resume of files > 2GB."
 msgstr "服务器不支持续传大于 2 GB 的文件。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:524
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:497
 msgid "Server does not support resume of files > 4GB."
 msgstr "服务器不支持续传大于 4 GB 的文件。"
 
@@ -7012,7 +6993,7 @@ msgstr "服务器主机密匙"
 msgid "Server instructed us to wait %d seconds before sending next request"
 msgstr "服务器要求等待 %d 秒后再发起请求"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:281
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:254
 #, c-format
 msgid ""
 "Server may not support resume of files > %d GB. End transfer since file "
@@ -7043,7 +7024,7 @@ msgstr "服务器请求使用不支持的 quality-of-protection (QoP): %s"
 msgid "Server returned empty path."
 msgstr "服务器发送了空路径。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:190
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:194
 msgid ""
 "Server sent an additional login prompt. You need to use the interactive "
 "login type."
@@ -7102,7 +7083,7 @@ msgstr "服务器:"
 msgid "Session details"
 msgstr "会话细节"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1816
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1824
 msgid "Set &Priority"
 msgstr "设定优先级(&P)"
 
@@ -7120,7 +7101,7 @@ msgstr "设置"
 msgid "Settings directory:"
 msgstr "设置文件目录:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1826
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1834
 msgid "Sh&ow notification bubble"
 msgstr "显示气泡通知(&O)"
 
@@ -7157,7 +7138,7 @@ msgstr "显示可用的 TLS 密码"
 msgid "Shows this help dialog"
 msgstr "显示这个帮助对话框"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2827
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2835
 msgid "Shutdown now"
 msgstr "马上关闭系统"
 
@@ -7262,7 +7243,7 @@ msgstr "跳过文件"
 msgid "Skipping download of %s"
 msgstr "跳过下载 %s"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:32
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:57
 #, c-format
 msgid "Skipping non-existing key file \"%s\""
 msgstr "跳过不存在的密匙文件“%s”"
@@ -7362,14 +7343,14 @@ msgid "Started update check on %s\n"
 msgstr "于 %s 上启动了检查更新\n"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:39
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:37
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:44
 #: ../../../source/FileZilla3/locales/../src/engine/storj/file_transfer.cpp:40
 #, c-format
 msgid "Starting download of %s"
 msgstr "开始下载 %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:42
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:40
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:47
 #: ../../../source/FileZilla3/locales/../src/engine/storj/file_transfer.cpp:43
 #, c-format
 msgid "Starting upload of %s"
@@ -7394,7 +7375,7 @@ msgstr "状态"
 msgid "Status:"
 msgstr "状态:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1809
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1817
 msgid "Stop and remove &all"
 msgstr "停止并删除所有(&A)"
 
@@ -7427,7 +7408,7 @@ msgstr "成功的传输"
 msgid "Summary of test results:"
 msgstr "测试结果总结:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2835
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2843
 msgid "Suspend now"
 msgstr "马上暂停"
 
@@ -7537,7 +7518,7 @@ msgstr "测试成功"
 msgid "Test results"
 msgstr "测试结果"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:285
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:258
 msgid "Testing resume capabilities of server"
 msgstr "正在检测服务器能否续传"
 
@@ -7602,7 +7583,7 @@ msgid ""
 "The custom time format is invalid or contains unsupported format specifiers."
 msgstr "自定义时间格式无效或包含不支持的格式限定符。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:117
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:111
 #, c-format
 msgid "The data connection could not be established: %s"
 msgstr "无法建立数据连接: %s"
@@ -7795,7 +7776,7 @@ msgstr "无法下载新版本，请稍后重试。"
 msgid "The new version has been saved in your Downloads directory."
 msgstr "新版本已经被保存在您的 下载 文件夹。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1566
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1574
 msgid "The queue will not be saved."
 msgstr "队列将不会被保存。"
 
@@ -7870,11 +7851,11 @@ msgid ""
 "settings to have effect."
 msgstr "已导入设置，您需要重新启动 FileZilla 使所有设置生效。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2830
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2838
 msgid "The system will soon reboot unless you click Cancel."
 msgstr "除非您按下取消，否则系统将会马上重启。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2826
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2834
 msgid "The system will soon shut down unless you click Cancel."
 msgstr "除非您按下取消，否则系统将会马上关闭。"
 
@@ -8060,7 +8041,7 @@ msgstr "传输队列"
 msgid "Transfer Settings"
 msgstr "传输设置"
 
-#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:424
+#: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:417
 #, c-format
 msgid "Transfer connection interrupted: %s"
 msgstr "传输连接被打断: %s"
@@ -8078,7 +8059,7 @@ msgstr "正在传输"
 msgid "Transfers"
 msgstr "传输"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2708
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2716
 msgid "Transfers finished"
 msgstr "传输完成"
 
@@ -8090,11 +8071,11 @@ msgstr "把没有扩展名的文件作为 ASCII 格式文件对待(&W)"
 msgid "Treat the &following filetypes as ASCII files:"
 msgstr "把以下的文件类型作为 ASCII 格式文件对待(&F):"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:368
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:396
 msgid "Trust changed Hostkey:"
 msgstr "信任改变后的主机密钥:"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:365
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:393
 msgid "Trust new Hostkey:"
 msgstr "信任新的主机密钥:"
 
@@ -8564,7 +8545,7 @@ msgstr "输入了错误的主密码，无法解密该项。"
 msgid "Yellow"
 msgstr "黄色"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:379
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:407
 msgid "Yes"
 msgstr "是"
 
@@ -8758,7 +8739,7 @@ msgid ""
 "should work properly."
 msgstr "连接到其它服务应该没有问题，文件传输也能正常工作了。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2834
+#: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2842
 msgid "Your computer will suspend unless you click Cancel."
 msgstr "如果不按下 取消，系统将会马上挂起。"
 
@@ -8822,11 +8803,11 @@ msgstr ""
 "fzputtygen 无法启动。\n"
 "请确认该执行程序和 FileZilla 执行程序在相同的目录内。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:126
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:174
 msgid "fzsftp belongs to a different version of FileZilla"
 msgstr "fzsftp 与当前 FileZilla 版本不匹配"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:166
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:214
 msgid "fzsftp could not be started"
 msgstr "fzsftp 无法启动"
 
@@ -8941,6 +8922,12 @@ msgstr ""
 #~ "默认情况下使用任何可用的本地端口来进行主动模式传输。如果您想限制 "
 #~ "FileZilla 只使用一个小范围内的端口，请在下面填入端口范围。"
 
+#~ msgid "Can't write data to file."
+#~ msgstr "无法将数据写入文件。"
+
+#~ msgid "Can't write data to file: %s"
+#~ msgstr "无法将数据写入文件: %s"
+
 #~ msgid "Cannot assign requested address"
 #~ msgstr "无法分配请求的地址"
 
@@ -8959,11 +8946,17 @@ msgstr ""
 #~ msgid "Connection reset by peer"
 #~ msgstr "连接被对方复位"
 
+#~ msgid "Could not spawn IO thread"
+#~ msgstr "无法生成 IO 线程"
+
 #~ msgid "D&ouble-click action on directories:"
 #~ msgstr "双击目录操作(&O):"
 
 #~ msgid "FTP Engine not initialized, can't connect"
 #~ msgstr "FTP 引擎没有初始化，无法连接"
+
+#~ msgid "Failed to open \"%s\" for appending/writing"
+#~ msgstr "打开“%s”追加/写入失败"
 
 #~ msgid "File descriptor not a socket"
 #~ msgstr "文件描述符不是套接字"
