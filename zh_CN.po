@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2021-02-19 05:30+0100\n"
-"PO-Revision-Date: 2020-10-29 14:32+0800\n"
+"PO-Revision-Date: 2021-02-19 17:03+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -977,11 +977,11 @@ msgstr "服务器(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1220
 msgid "&Set as local directory and close dialog"
-msgstr ""
+msgstr "设为本地目录并关闭对话框(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1228
 msgid "&Set as remote directory and close dialog"
-msgstr ""
+msgstr "设为远程目录并关闭对话框(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:575
 msgid "&Settings"
@@ -2564,13 +2564,13 @@ msgstr "无法添加当前连接到站点管理器"
 #: ../../../source/FileZilla3/locales/../src/engine/string_reader.cpp:122
 #, c-format
 msgid "Could not allocate memory to open '%s' for reading."
-msgstr ""
+msgstr "无法分配内存用于打开并读取“%s”。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:301
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:520
 #, c-format
 msgid "Could not allocate memory to open '%s' for writing."
-msgstr ""
+msgstr "无法分配内存用于打开并写入“%s”。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:908
 msgid "Could not complete operation"
@@ -2687,7 +2687,7 @@ msgstr "无法得到 fzputtygen 的回应。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:106
 msgid "Could not get reply from fzstorj."
-msgstr ""
+msgstr "无法得到 fzstorj 的回应。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1114
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1625
@@ -2755,12 +2755,12 @@ msgstr ""
 #: ../../../source/FileZilla3/locales/../src/interface/updater.cpp:813
 #, c-format
 msgid "Could not obtain size of '%s'"
-msgstr "无法获取“%s”的大小"
+msgstr "无法获得“%s”的大小"
 
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:302
 #, c-format
 msgid "Could not obtain size of '%s'."
-msgstr ""
+msgstr "无法获得“%s”的大小。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/updater.cpp:826
 #, c-format
@@ -2770,12 +2770,12 @@ msgstr "无法打开“%s”"
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:239
 #, c-format
 msgid "Could not open '%s' for reading."
-msgstr ""
+msgstr "无法打开并读取“%s”。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:320
 #, c-format
 msgid "Could not open '%s' for writing."
-msgstr ""
+msgstr "无法打开并写入“%s”。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2678
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1477
@@ -2809,7 +2809,7 @@ msgstr "无法读取“%s”"
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:361
 #, c-format
 msgid "Could not read from '%s'."
-msgstr ""
+msgstr "无法读取“%s”。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:991
 msgid "Could not read from data socket."
@@ -2833,20 +2833,20 @@ msgstr "无法恢复访问目录"
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:463
 #: ../../../source/FileZilla3/locales/../src/engine/string_reader.cpp:72
 #: ../../../source/FileZilla3/locales/../src/engine/string_reader.cpp:155
-#, c-format
+#, fuzzy, c-format
 msgid "Could not seek to offset %d in '%s' of size %d."
-msgstr ""
+msgstr "定位 %d 的偏移在“%s”大小为 %d 中失败。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:295
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:327
-#, c-format
+#, fuzzy, c-format
 msgid "Could not seek to offset %d in '%s'."
-msgstr ""
+msgstr "定位 %d 的偏移在“%s”中失败。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:451
-#, c-format
+#, fuzzy, c-format
 msgid "Could not seek to offset %d within '%s'."
-msgstr ""
+msgstr "定位 %d 的偏移在“%s”中失败。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:211
 msgid "Could not send command to fzputtygen."
@@ -2859,12 +2859,12 @@ msgstr "无法将命令发送到 fzstorj。"
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:319
 #, c-format
 msgid "Could not spawn worker thread for reading '%s'."
-msgstr ""
+msgstr "无法为“%s”启动读取线程。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:341
 #, c-format
 msgid "Could not spawn worker thread for writing '%s'."
-msgstr ""
+msgstr "无法为“%s”启动写入线程。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:355
 msgid "Could not start transfer"
@@ -2873,12 +2873,12 @@ msgstr "无法启动传输"
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:420
 #, c-format
 msgid "Could not sync '%s' to disk."
-msgstr ""
+msgstr "无法将“%s”写入磁盘。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:331
 #, c-format
 msgid "Could not truncate '%s' to offset %d."
-msgstr ""
+msgstr "无法将“%s”截断至 %d 偏移。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:329
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:826
@@ -2928,7 +2928,7 @@ msgstr "无法写入密钥文件: %s"
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:382
 #, c-format
 msgid "Could not write to '%s'."
-msgstr ""
+msgstr "无法写入“%s”。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:354
 msgid "Could not write to local file"
@@ -8210,7 +8210,7 @@ msgstr "未知错误代码 %d"
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:271
 #, c-format
 msgid "Unexpected end-of-file on '%s'"
-msgstr ""
+msgstr "“%s”意外的文件结束"
 
 #: ../../../source/FileZilla3/locales/../src/interface/update_dialog.cpp:174
 msgid "Unfortunately information about the new update could not be retrieved."
