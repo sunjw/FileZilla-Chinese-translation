@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2021-03-26 05:30+0100\n"
-"PO-Revision-Date: 2021-03-26 14:39+0800\n"
+"PO-Revision-Date: 2021-03-26 15:05+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -232,16 +232,16 @@ msgstr "调整服务器时间，时间差值(&A):"
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:701
 msgid ""
 "&Always allow insecure data connections for this server in future sessions."
-msgstr ""
+msgstr "总是允许在以后与该服务器的会话中使用不安全的数据连接(&A)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:633
 #, c-format
 msgid "&Always allow insecure plain %s for this server."
-msgstr "总是允许在这台服务器上执行不安全的明文 %s (&A)。"
+msgstr "总是允许在该服务器上执行不安全的明文 %s (&A)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:386
 msgid "&Always trust this certificate in future sessions."
-msgstr "在以后的会话中信任该证书(&A)。"
+msgstr "在以后的会话中总是信任该证书(&A)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:84
 msgid "&Always trust this host, add this key to the cache"
@@ -1400,7 +1400,7 @@ msgid ""
 msgstr ""
 "一个本地文件名无法被解码。\n"
 "请确保 LC_CTYPE (或者 LC_ALL) 环境变量设置正确。\n"
-"除非解决了这个问题，不然文件在文件列表中可能会不显示。\n"
+"除非解决该问题，不然文件在文件列表中可能会不显示。\n"
 "本次会话将不再显示该警告。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:60
@@ -1420,13 +1420,13 @@ msgid ""
 "from the user. Use this option to force the server to show all files."
 msgstr ""
 "一个正常的服务器总是会显示所有文件，但有些配置不恰当的服务器会把文件隐藏起"
-"来。通过这个选项强制服务器显示所有文件。"
+"来。通过该选项强制服务器显示所有文件。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_ftp.cpp:65
 msgid ""
 "A proper server does not require this. Contact the server administrator if "
 "you need this."
-msgstr "正常的服务器是不需要这项的，如果您需要的话请联系服务器管理员。"
+msgstr "正常的服务器是不需要这项的，如果需要的话请您联系服务器管理员。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:298
 msgid ""
@@ -1494,7 +1494,7 @@ msgstr "在文件列表上面"
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:366
 msgid "Access &Grant:"
-msgstr ""
+msgstr "访问授权(&G):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:378
 msgid "Access &Key:"
@@ -1837,7 +1837,7 @@ msgstr "书签"
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:594
 msgid ""
 "Broken server, it claims to have processed a request before it got fully set"
-msgstr ""
+msgstr "有问题的服务器，在发送完整请求前已回复"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:145
 msgid "Browse..."
@@ -3426,7 +3426,7 @@ msgstr "您真的要发送“%s”给服务器吗?"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1199
 msgid "Do you want to reopen this file?"
-msgstr "您真的要重新打开这个文件吗？"
+msgstr "您真的要重新打开该文件吗？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:108
 msgid "Docs"
@@ -4545,9 +4545,9 @@ msgid ""
 "you should try active mode. You can set the transfer mode on a per-server "
 "basis in the Site Manager."
 msgstr ""
-"如果这个向导最后的自动测试成功，但您仍然不能向某个特定的服务器传输文件，那么"
-"可能是服务器的配置有问题，您可以尝试使用主动模式。您可以在站点管理器中设置特"
-"定服务器的传输模式。"
+"如果该向导最后的自动测试成功，但您仍然不能向某个特定的服务器传输文件，那么可"
+"能是服务器的配置有问题，您可以尝试使用主动模式。您可以在站点管理器中设置特定"
+"服务器的传输模式。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:95
 msgid ""
@@ -4565,13 +4565,13 @@ msgstr "如果主机密钥的更换有异，请联系服务器管理员。"
 msgid ""
 "If the problem persists, some router and/or firewall keeps blocking "
 "FileZilla."
-msgstr "如果这个问题仍然存在，则是某些路由器和/或防火墙一直在阻止 FileZilla。"
+msgstr "如果该问题仍然存在，则是某些路由器和/或防火墙一直在阻止 FileZilla。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:579
 msgid ""
 "If the problem persists, some router and/or firewall keeps interrupting the "
 "connection."
-msgstr "如果这个问题仍然存在，则是某些路由器和/或防火墙仍在打断该连接。"
+msgstr "如果该问题仍然存在，则是某些路由器和/或防火墙仍在打断该连接。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:67
 msgid ""
@@ -4594,11 +4594,11 @@ msgstr ""
 msgid ""
 "If this problem persists, please contact your router or firewall "
 "manufacturer for a solution."
-msgstr "如果这个问题仍然存在，请联系您的路由器或防火墙的制造商。"
+msgstr "如果该问题仍然存在，请联系您的路由器或防火墙的制造商。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:599
 msgid "If this problem stays, please contact your router manufacturer."
-msgstr "如果这个问题仍然存在，请联系您的路由器制造商。"
+msgstr "如果该问题仍然存在，请联系您的路由器制造商。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_fileexists.cpp:59
 #: ../../../source/FileZilla3/locales/../src/interface/defaultfileexistsdlg.cpp:68
@@ -4636,7 +4636,7 @@ msgstr "如果关闭 FileZilla，您所做的改变将会丢失。"
 msgid ""
 "If you continue, transferred files may be intercepted or their contents "
 "replaced by an attacker."
-msgstr ""
+msgstr "如果继续，文件传输可能被劫持或者被攻击者替换内容。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:623
 msgid ""
@@ -4763,7 +4763,7 @@ msgstr "不安全的 %s 连接"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:676
 msgid "Insecure FTP data connection"
-msgstr ""
+msgstr "不安全的 FTP 数据连接"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:170
 msgid "Insecure algorithm!"
@@ -4941,9 +4941,9 @@ msgid ""
 "incorrect listings if this option is enabled. Although FileZilla performs "
 "some tests to check if the server supports this feature, the test may fail."
 msgstr ""
-"同样地并非所有服务器都支持这个功能，当您启用“显示隐藏文件”时可能会回传不正确"
-"的列表。虽然 FileZilla 会先执行一些测试看看服务器是否支持这个功能，但这些测试"
-"也可能会失败。"
+"同样的并非所有服务器都支持该功能，当您启用“显示隐藏文件”时可能会回传不正确的"
+"列表。虽然 FileZilla 会先执行一些测试看看服务器是否支持，但这些测试也可能会失"
+"败。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:437
 msgid "Key exchange"
@@ -5536,7 +5536,7 @@ msgstr "尚未生效！"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:780
 msgid "Note that this feature is only supported using the FTP protocol."
-msgstr "注意这个功能只支持使用 FTP 协议。"
+msgstr "注意该功能只支持使用 FTP 协议。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:91
 msgid "Note: This only works with plain, unencrytped FTP connections."
@@ -5612,7 +5612,7 @@ msgstr "每周一次"
 msgid ""
 "Only continue after you have spoken to the server administrator or server "
 "hosting provider."
-msgstr ""
+msgstr "请和系统管理员或服务提供商确认后再继续操作。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:45
 msgid "Only use plain FTP (insecure)"
@@ -7233,7 +7233,7 @@ msgstr "显示可用的 TLS 密码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:6
 msgid "Shows this help dialog"
-msgstr "显示这个帮助对话框"
+msgstr "显示该帮助对话框"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2812
 msgid "Shutdown now"
@@ -7573,13 +7573,13 @@ msgstr "TLS 连接已建立。"
 msgid ""
 "TLS session resumption on data connection failed. Closing control connection "
 "to start over."
-msgstr ""
+msgstr "TLS 数据连接会话恢复失败。关闭连接并重新开始。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:691
 msgid ""
 "TLS session resumption on the data connection is an important security "
 "feature to protect against data connection stealing attacks."
-msgstr ""
+msgstr "TLS 数据连接会话恢复是一种很重要的安全功能，以保护数据不被攻击者偷窃。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:455
 msgid "TTL expired"
@@ -8014,7 +8014,7 @@ msgstr "该服务器不支持 FTP over TLS。"
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:689
 msgid ""
 "This server does not support TLS session resumption on the data connection."
-msgstr ""
+msgstr "该服务器不支持 TLS 数据连接会话恢复。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:8
 msgid ""
@@ -8457,7 +8457,7 @@ msgstr "使用服务器的外部地址来代替"
 msgid ""
 "Use this if you're behind a router and have a static external IP address."
 msgstr ""
-"如果您的计算机处于路由器后面，并且有一个静态外部 IP 地址，请使用这个选项。"
+"如果您的计算机处于路由器后面，并且有一个静态外部 IP 地址，请使用该选项。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:240
 msgid ""
@@ -8465,8 +8465,8 @@ msgid ""
 "above server once each session as soon as you use active mode for the first "
 "time. Only the version of FileZilla you're using is submitted to the server."
 msgstr ""
-"如果您有动态 IP 地址，请使用这个选项。使用主动模式时，FileZilla 会在每次会话"
-"中会联系一次以上服务器。只有您使用的 FileZilla 的版本号会被提交到服务器。"
+"如果您有动态 IP 地址，请使用该选项。使用主动模式时，FileZilla 会在每次会话中"
+"会联系一次以上服务器。只有您使用的 FileZilla 的版本号会被提交到服务器。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:47
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:156
@@ -8548,23 +8548,22 @@ msgstr "正在等待重试..."
 msgid ""
 "Warning! You have previously connected to this server and it has supported "
 "TLS session resumption on the data connection."
-msgstr ""
+msgstr "警告！您之前连接过该服务器，服务器曾经支持 TLS 数据连接会话恢复。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:608
 msgid ""
 "Warning! You have previously connected to this server using FTP over TLS, "
 "yet the server has now rejected FTP over TLS."
 msgstr ""
-"警告！您之前通过 FTP over TLS 连接过这台服务器，但现在该服务器拒绝 FTP over "
-"TLS。"
+"警告！您之前通过 FTP over TLS 连接过该服务器，但现在服务器拒绝 FTP over TLS。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:612
 msgid "Warning! You have previously connected to this server using TLS."
-msgstr "警告！您之前通过 TLS 连接过这台服务器。"
+msgstr "警告！您之前通过 TLS 连接过该服务器。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:974
 msgid "Warning, ignoring data connection from wrong IP."
-msgstr "警告，忽略从错误 IP 接入的数据。"
+msgstr "警告，忽略错误 IP 的数据连接。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_updatecheck.cpp:98
 msgid ""
@@ -8676,7 +8675,7 @@ msgstr "您使用的是最新版本的 FileZilla。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:108
 msgid "You can always open this dialog again through the help menu."
-msgstr "您总是可以在帮助菜单中再次打开这个对话框。"
+msgstr "您总是可以在帮助菜单中再次打开该对话框。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/update_dialog.cpp:139
 #: ../../../source/FileZilla3/locales/../src/interface/update_dialog.cpp:185
@@ -8752,7 +8751,7 @@ msgstr "请输入一个远程目录。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:180
 msgid "You have to enter a resolver."
-msgstr "您输入了一个解析器。"
+msgstr "请输入一个解析器。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:175
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:165
@@ -8790,11 +8789,11 @@ msgstr "请输入一个主密码。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:65
 msgid "You need to enter a name for the bookmark."
-msgstr "请为该书签命名。"
+msgstr "请输入书签名称。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:118
 msgid "You need to enter a name for the log file."
-msgstr "请为日志文件输入文件名。"
+msgstr "请输入日志文件名。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1861
 msgid "You need to enter a properly quoted command."
@@ -8815,13 +8814,13 @@ msgstr "请输入一个值。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:709
 msgid "You need to enter an access grant."
-msgstr ""
+msgstr "请输入访问授权。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:84
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:504
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:966
 msgid "You need to enter at least one path, empty bookmarks are not supported."
-msgstr "您至少要输入一个路径，不支持空书签。"
+msgstr "请输入至少一个路径，不支持空书签。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:90
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:510
@@ -8829,13 +8828,13 @@ msgstr "您至少要输入一个路径，不支持空书签。"
 msgid ""
 "You need to enter both a local and a remote path to enable synchronized "
 "browsing for this bookmark."
-msgstr "您需要输入本地和远程路径来为这个书签启用同步浏览。"
+msgstr "请输入本地和远程路径，使该书签启用同步浏览。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1029
 msgid ""
 "You need to enter both a local and a remote path to enable synchronized "
 "browsing for this site."
-msgstr "您需要输入本地和远程路径来为这个站点启用同步浏览。"
+msgstr "请输入本地和远程路径，使该站点启用同步浏览。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:292
 msgid ""
@@ -9424,7 +9423,7 @@ msgstr ""
 #~ "您真的要继续吗？"
 
 #~ msgid "&Always allow insecure plain FTP for this server."
-#~ msgstr "总是允许不安全的明文 FTP 连接这台服务器(&A)。"
+#~ msgstr "总是允许不安全的明文 FTP 连接该服务器(&A)。"
 
 #~ msgid "&New Site"
 #~ msgstr "新站点(&N)"
