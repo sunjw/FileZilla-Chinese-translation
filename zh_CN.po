@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2021-05-31 05:30+0200\n"
-"PO-Revision-Date: 2021-03-26 15:05+0800\n"
+"PO-Revision-Date: 2021-05-31 15:12+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -3490,7 +3490,7 @@ msgstr "下载选定的文件和目录"
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:766
 #, c-format
 msgid "Download: %s/s"
-msgstr ""
+msgstr "下载: %s/s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1423
 msgid "Downloading"
@@ -5173,7 +5173,7 @@ msgstr "最低的可用端口号必须在 1024 到 65535 之间。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1297
 msgid "MFA D&evice Serial:"
-msgstr ""
+msgstr "MFA 设备序列号(&E):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:378
 msgid "Mac:"
@@ -5264,7 +5264,7 @@ msgstr "消息日志"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:60
 msgid "Message log positio&n:"
-msgstr "消息日志位置(&N)："
+msgstr "消息日志位置(&N):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:65
 msgid "MiB"
@@ -5356,7 +5356,7 @@ msgstr "需要指定字符编码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:766
 msgid "Network activity:"
-msgstr ""
+msgstr "网络活动:"
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:446
 msgid "Network unreachable"
@@ -5709,7 +5709,7 @@ msgstr "选项"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1251
 msgid "Options:"
-msgstr ""
+msgstr "选项:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:32
 msgid "Orange"
@@ -7522,7 +7522,7 @@ msgstr "存储帐号(&A):"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:28
 msgid "Storj (using legacy API key)"
-msgstr ""
+msgstr "Storj (使用传统的 API key)"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:41
 msgid "Storj - Decentralized Cloud Storage"
@@ -8419,7 +8419,7 @@ msgstr "上传该文件到服务器？"
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:766
 #, c-format
 msgid "Upload: %s/s"
-msgstr ""
+msgstr "上传: %s/s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1426
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1459
@@ -8814,6 +8814,8 @@ msgid ""
 "You have to enter a valid access grant.\n"
 "Error: %s"
 msgstr ""
+"请输入一个有效的访问授权。\n"
+"错误: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1337
 msgid "You have to enter a writable local directory."
