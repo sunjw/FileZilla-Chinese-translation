@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2021-09-30 05:30+0200\n"
-"PO-Revision-Date: 2021-05-31 15:12+0800\n"
+"PO-Revision-Date: 2021-09-30 15:47+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -118,7 +118,7 @@ msgstr "%s (? B/秒)"
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:75
 #, c-format
 msgid "%s (insecure)"
-msgstr ""
+msgstr "%s (不安全)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:77
 #, c-format
@@ -1122,7 +1122,7 @@ msgstr "使用同步浏览(&U)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:79
 msgid "&Use system trust store to validate TLS certificates"
-msgstr ""
+msgstr "使用系统信任存储验证TLS证书(&U)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:60
 msgid "&Use system's default editor for text files"
@@ -5280,7 +5280,7 @@ msgstr "MiB"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:72
 msgid "Minimum allowed TLS &version:"
-msgstr ""
+msgstr "允许的最低 TLS 版本(&V):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:943
 msgid "Minutes"
@@ -5511,7 +5511,7 @@ msgstr "没有搜索结果"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/options.cpp:246
 msgid "No settings loaded to save."
-msgstr ""
+msgstr "没有需要保存的已加载设置。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:213
 msgid "No sites available"
@@ -7636,7 +7636,7 @@ msgstr "TLS 连接已建立。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:67
 msgid "TLS options"
-msgstr ""
+msgstr "TLS 选项"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:445
 msgid ""
@@ -8337,7 +8337,7 @@ msgstr "未知证书"
 #: ../../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:13
 #: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:188
 msgid "Unknown error"
-msgstr ""
+msgstr "未知错误"
 
 #: ../../../source/FileZilla3/locales/../src/engine/misc.cpp:59
 #, c-format
