@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
-"POT-Creation-Date: 2021-09-30 05:30+0200\n"
-"PO-Revision-Date: 2021-05-31 15:12+0800\n"
+"POT-Creation-Date: 2021-12-31 05:30+0100\n"
+"PO-Revision-Date: 2021-09-30 15:47+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -47,19 +47,19 @@ msgid "%d directory"
 msgid_plural "%d directories"
 msgstr[0] "%d 个目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1436
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1281
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1683
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1448
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1291
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1693
 #, c-format
 msgid "%d directory with its contents"
 msgid_plural "%d directories with their contents"
 msgstr[0] "%d 个目录及其内容"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1435
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1447
 #: ../../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:57
 #: ../../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:82
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1280
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1682
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1290
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1692
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
@@ -118,7 +118,7 @@ msgstr "%s (? B/秒)"
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:75
 #, c-format
 msgid "%s (insecure)"
-msgstr ""
+msgstr "%s (不安全)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:77
 #, c-format
@@ -177,7 +177,7 @@ msgstr "%u - 用户名"
 msgid "%w - Proxy password"
 msgstr "%w - 代理服务器密码"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1264
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1265
 msgid "&AWS S3 encryption"
 msgstr "AWS S3 加密(&A)"
 
@@ -190,22 +190,22 @@ msgid "&About..."
 msgstr "关于(&A)..."
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:372
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:373
 msgid "&Access key ID:"
 msgstr "访问密钥 ID (&A):"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:400
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:401
 msgid "&Account ID:"
 msgstr "帐号 ID (&A):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:136
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:137
 msgid "&Account:"
 msgstr "帐号(&A):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:80
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_ftp.cpp:55
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1147
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1148
 msgid "&Active"
 msgstr "主动(&A)"
 
@@ -218,7 +218,7 @@ msgid "&Add directory..."
 msgstr "添加目录(&A)..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:813
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1069
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1081
 msgid "&Add files to queue"
 msgstr "添加文件到队列(&A)"
 
@@ -231,7 +231,7 @@ msgstr "添加密钥文件(&A)..."
 msgid "&Add to queue"
 msgstr "添加到队列(&A)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:931
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:932
 msgid "&Adjust server time, offset by:"
 msgstr "调整服务器时间，时间差值(&A):"
 
@@ -257,7 +257,7 @@ msgstr "总是信任该主机，并将该密钥加入缓存(&A)"
 msgid "&Always use default editor"
 msgstr "总是使用默认编辑器(&A)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1785
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1806
 msgid "&Always use selection for all unassociated files"
 msgstr "总是对未设置关联的文件类型使用该选择"
 
@@ -275,11 +275,11 @@ msgstr "向您的操作系统查询外部 IP 地址(&A)"
 msgid "&Auto"
 msgstr "自动(&A)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1058
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1059
 msgid "&Autodetect"
 msgstr "自动检测(&A)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:55
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:56
 msgid "&Background color:"
 msgstr "背景颜色(&B)"
 
@@ -298,16 +298,16 @@ msgid "&Bookmarks"
 msgstr "书签(&B)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:53
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:92
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:93
 msgid "&Browse"
 msgstr "浏览(&B)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:681
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:775
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:71
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1807
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:912
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:275
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1828
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:913
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:276
 msgid "&Browse..."
 msgstr "浏览(&B)..."
 
@@ -347,7 +347,7 @@ msgstr "设置速度限制(&C)..."
 msgid "&Configure..."
 msgstr "配置(&C)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:340
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:341
 msgid "&Connect"
 msgstr "连接(&C)"
 
@@ -362,7 +362,7 @@ msgstr "复制到剪贴板(&C)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:823
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1108
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1076
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1088
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:911
 msgid "&Create directory"
 msgstr "创建目录(&C)"
@@ -396,7 +396,7 @@ msgstr "登录重试延时(&D):"
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1112
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:276
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:100
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:332
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:333
 msgid "&Delete"
 msgstr "删除(&D)"
 
@@ -426,7 +426,7 @@ msgid ""
 "&Disable synchronized browsing and continue changing the remote directory"
 msgstr "停止同步浏览并且继续修改远程目录(&D)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1206
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1224
 msgid "&Discard local file then download and edit file anew"
 msgstr "放弃本地文件，重新下载并编辑(&D)"
 
@@ -442,7 +442,7 @@ msgstr "显示实时传输速度而非平均速度(&D)"
 msgid "&Display size in bytes"
 msgstr "以字节为单位显示(&D)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1453
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1454
 msgid "&Domain:"
 msgstr ""
 
@@ -462,7 +462,7 @@ msgstr "双击目录操作(&D):"
 msgid "&Double-click action on files:"
 msgstr "双击文件操作(&D):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1066
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1078
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:903
 msgid "&Download"
 msgstr "下载(&D)"
@@ -471,7 +471,7 @@ msgstr "下载(&D)"
 msgid "&Download to:"
 msgstr "下载到(&D):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1228
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1238
 msgid "&Download..."
 msgstr "下载(&D)..."
 
@@ -493,10 +493,10 @@ msgstr "编辑(&E)"
 msgid "&Edit filter rules..."
 msgstr "编辑过滤器规则(&E)..."
 
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2440
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:71
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:110
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:574
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2438
 msgid "&Enable"
 msgstr "启用(&E)"
 
@@ -509,11 +509,11 @@ msgstr "启用压缩(&E)"
 msgid "&Enable speed limits"
 msgstr "启用速度限制(&E)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1068
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1069
 msgid "&Encoding:"
 msgstr "编码(&E):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:104
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:105
 msgid "&Encryption:"
 msgstr "加密(&E):"
 
@@ -534,7 +534,7 @@ msgid "&Export Site Manager entries"
 msgstr "导出站点管理器记录(&E)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:39
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1890
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1889
 msgid "&Export..."
 msgstr "导出(&E)..."
 
@@ -550,11 +550,11 @@ msgstr "文件(&F)"
 msgid "&File Attributes..."
 msgstr "文件属性(&F)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1086
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1098
 msgid "&File permissions..."
 msgstr "文件权限(&F)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:89
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:90
 msgid "&File:"
 msgstr "文件(&F):"
 
@@ -574,11 +574,11 @@ msgstr "过滤器(&F)"
 msgid "&Filters:"
 msgstr "过滤器(&F):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:825
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:848
 msgid "&Finish editing"
 msgstr "结束编辑(&F)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:829
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:852
 msgid "&Finish editing and delete local file"
 msgstr "结束编辑并删除本地文件(&F)"
 
@@ -618,9 +618,9 @@ msgstr "&HTTP/1.1 使用 CONNECT 方式"
 msgid "&Help"
 msgstr "帮助(&H)"
 
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2447
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:76
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:697
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2445
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:707
 msgid "&Hide identical files"
 msgstr "隐藏相同的文件(&H)"
 
@@ -632,9 +632,9 @@ msgstr "最高(&H)"
 msgid "&Highest available port:"
 msgstr "最高可用端口(&H):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:43
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:93
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:350
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:40
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:94
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:351
 msgid "&Host:"
 msgstr "主机(&H):"
 
@@ -662,7 +662,7 @@ msgstr "保持本地目录路径相对于搜索的根目录(&K)"
 msgid "&Keep remote path structure relative to search root"
 msgstr "保持远程目录路径相对于搜索的根目录(&K)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:140
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:141
 msgid "&Key file:"
 msgstr "密钥文件(&K):"
 
@@ -674,7 +674,7 @@ msgstr "文件和目录面板布局(&L):"
 msgid "&Limit local ports used by FileZilla"
 msgstr "限制 FilaZila 使用的本地端口(&L)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1151
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1152
 msgid "&Limit number of simultaneous connections"
 msgstr "限制并发连接数(&L)"
 
@@ -683,11 +683,11 @@ msgid "&Local directory tree"
 msgstr "本地目录树(&L)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:666
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:269
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:270
 msgid "&Local directory:"
 msgstr "本地目录(&L):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:656
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:666
 msgid "&Local search"
 msgstr "本地搜索(&L)"
 
@@ -695,7 +695,7 @@ msgstr "本地搜索(&L)"
 msgid "&Log to file"
 msgstr "日志文件(&L)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:119
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:120
 msgid "&Logon Type:"
 msgstr "登录类型(&L):"
 
@@ -711,11 +711,11 @@ msgstr "管理书签(&M)..."
 msgid "&Manual transfer..."
 msgstr "手动传输(&M)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:49
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:54
 msgid "&Master password:"
 msgstr "主密码(&M):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1155
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1156
 msgid "&Maximum number of connections:"
 msgstr "最大连接数(&M):"
 
@@ -747,11 +747,11 @@ msgstr "网络配置向导(&N)..."
 msgid "&New"
 msgstr "新建(&N)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:328
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:329
 msgid "&New site"
 msgstr "新站点(&N)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1800
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1802
 msgid "&New version available!"
 msgstr "有新版本！(&N)"
 
@@ -759,8 +759,8 @@ msgstr "有新版本！(&N)"
 msgid "&Next >"
 msgstr "下一步(&N) >"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:838
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1239
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:861
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1257
 msgid "&No"
 msgstr "否(&N)"
 
@@ -778,7 +778,7 @@ msgstr "正常(&N)"
 msgid "&Numeric value:"
 msgstr "数字值(&N):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:60
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:65
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:281
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:155
 #: ../../../source/FileZilla3/locales/../src/interface/defaultfileexistsdlg.cpp:72
@@ -787,9 +787,9 @@ msgstr "数字值(&N):"
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:72
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:216
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:317
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:178
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:179
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:308
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:344
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:345
 #: ../../../source/FileZilla3/locales/../src/interface/speedlimits_dialog.cpp:71
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:638
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:706
@@ -809,7 +809,7 @@ msgstr "打开(&O)"
 msgid "&Overwrite"
 msgstr "覆盖(&O)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1148
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1149
 msgid "&Passive"
 msgstr "被动(&P)"
 
@@ -821,8 +821,8 @@ msgstr "密码(&P):"
 msgid "&Play sound"
 msgstr "播放声音(&P)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:59
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:98
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:56
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:99
 msgid "&Port:"
 msgstr "端口(&P):"
 
@@ -830,7 +830,7 @@ msgstr "端口(&P):"
 msgid "&Preserve timestamps of transferred files"
 msgstr "保留传输文件的时间戳(&P)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:374
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:375
 msgid "&Profile"
 msgstr ""
 
@@ -838,7 +838,7 @@ msgstr ""
 msgid "&Queue"
 msgstr "队列(&Q)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:67
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:64
 msgid "&Quickconnect"
 msgstr "快速连接(&Q)"
 
@@ -876,15 +876,15 @@ msgid "&Remember password until FileZilla is closed"
 msgstr "在 FileZilla 关闭前记住密码(&R)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:693
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:277
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:278
 msgid "&Remote directory:"
 msgstr "远程目录(&R):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:102
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:103
 msgid "&Remote path:"
 msgstr "远程路径(&R):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:657
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:667
 msgid "&Remote search"
 msgstr "远程搜索(&R)"
 
@@ -903,11 +903,11 @@ msgstr "移除选定(&R)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:829
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1113
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1083
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1095
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:916
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:275
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:101
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:331
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:332
 msgid "&Rename"
 msgstr "重命名(&R)"
 
@@ -915,11 +915,11 @@ msgstr "重命名(&R)"
 msgid "&Rename..."
 msgstr "重命名(&R)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1204
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1222
 msgid "&Reopen local file"
 msgstr "重新打开本地文件(&R)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:52
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:57
 msgid "&Repeat password:"
 msgstr "再次输入密码(&R):"
 
@@ -967,7 +967,7 @@ msgstr "站点(&S)"
 msgid "&Save as..."
 msgstr "保存为(&S)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:661
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:671
 msgid "&Search"
 msgstr "搜索(&S)"
 
@@ -975,11 +975,11 @@ msgstr "搜索(&S)"
 msgid "&Search remote files..."
 msgstr "搜索远程文件(&S)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1273
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1274
 msgid "&Select a key:"
 msgstr "选择一个密钥(&S):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:319
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:320
 msgid "&Select entry:"
 msgstr "选择记录(&S):"
 
@@ -991,16 +991,16 @@ msgstr "选择语言(&S):"
 msgid "&Select the columns that should be displayed:"
 msgstr "设置要显示的栏目(&S):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:119
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:120
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:118
 msgid "&Server"
 msgstr "服务器(&S)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1221
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1231
 msgid "&Set as local directory and close dialog"
 msgstr "设为本地目录并关闭对话框(&S)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1229
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1239
 msgid "&Set as remote directory and close dialog"
 msgstr "设为远程目录并关闭对话框(&S)"
 
@@ -1069,7 +1069,7 @@ msgstr "主题(&T):"
 msgid "&Transfer"
 msgstr "传输(&T)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1143
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1144
 msgid "&Transfer mode:"
 msgstr "传输模式(&T):"
 
@@ -1086,7 +1086,7 @@ msgstr "把点文件作为 ASCII 文件对待(&T)"
 msgid "&Trust this certificate on the listed alternative hostnames."
 msgstr "信任该证书所列的可选主机名(&T)。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1491
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1509
 msgid "&Unedit"
 msgstr "放弃修改(&U)"
 
@@ -1103,7 +1103,7 @@ msgstr "上传(&U)"
 msgid "&Upload to:"
 msgstr "上传至(&U):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1220
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1230
 msgid "&Upload..."
 msgstr "上传(&U)..."
 
@@ -1112,17 +1112,17 @@ msgstr "上传(&U)..."
 msgid "&Uploads:"
 msgstr "上传(&U):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1790
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1811
 msgid "&Use custom program"
 msgstr "使用自定义程序(&U)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:926
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:927
 msgid "&Use synchronized browsing"
 msgstr "使用同步浏览(&U)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:79
 msgid "&Use system trust store to validate TLS certificates"
-msgstr ""
+msgstr "使用系统信任存储验证TLS证书(&U)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:60
 msgid "&Use system's default editor for text files"
@@ -1141,22 +1141,22 @@ msgid "&Use thousands separator"
 msgstr "使用千位分隔符(&U)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:180
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:124
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:353
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:456
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:125
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:354
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:457
 msgid "&User:"
 msgstr "用户(&U):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:49
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:46
 msgid "&Username:"
 msgstr "用户名(&U):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1794
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1796
 #, c-format
 msgid "&Version %s"
 msgstr "版本 %s (&V)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1447
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1448
 msgid "&Version 3"
 msgstr ""
 
@@ -1164,8 +1164,8 @@ msgstr ""
 msgid "&View"
 msgstr "查看(&V)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1073
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1230
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1085
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1240
 msgid "&View/Edit"
 msgstr "查看/编辑(&V)"
 
@@ -1181,8 +1181,8 @@ msgstr "在检查更新时，检查(&W):"
 msgid "&Write"
 msgstr "写入(&W)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:835
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1236
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:858
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1254
 msgid "&Yes"
 msgstr "是(&Y)"
 
@@ -1204,13 +1204,13 @@ msgstr "“%s”不是目录。"
 msgid "'%s' is not a supported protocol."
 msgstr "不支持“%s”协议。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:598
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:599
 msgid ""
 "'Normal' and 'Account' logontypes are not available. Your entry has been "
 "changed to 'Ask for password'."
 msgstr "“正常”和“帐户”登录类型不可用。您的记录已更改为“询问密码”。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:692
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:691
 msgid ""
 "'quote' is usually a local command used by commandline clients to send the "
 "arguments following 'quote' to the server. You might want to enter the raw "
@@ -1393,15 +1393,15 @@ msgstr ""
 "有一些服务器不允许被动模式或者配置错误。这样的情况下您必须使用主动模式。在主"
 "动模式下，FileZilla 打开一个端口并且请求服务器来连接。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:794
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:817
 msgid "A file previously opened has been changed."
 msgstr "之前打开的文件被修改。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1168
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1186
 msgid "A file with that name is already being transferred."
 msgstr "该名称的文件已在进行传输。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1172
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1190
 msgid ""
 "A file with that name is still being edited. Please close it and try again."
 msgstr "该名称的文件仍在编辑，请将其关闭后再试一次。"
@@ -1420,7 +1420,7 @@ msgstr ""
 "本次会话将不再显示该警告。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:60
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:56
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:61
 msgid ""
 "A lost master password cannot be recovered! Please thoroughly memorize your "
 "password."
@@ -1430,7 +1430,7 @@ msgstr "主密码一旦丢失无法恢复！请牢记您的密码。"
 msgid "A new version of FileZilla is available:"
 msgstr "有新版的 FileZilla 可用:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:762
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:761
 msgid ""
 "A proper server always shows all files, but some broken servers hide files "
 "from the user. Use this option to force the server to show all files."
@@ -1483,7 +1483,7 @@ msgid "A&utomatically remove successful transfers"
 msgstr "自动移除成功的传输(&U)"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:360
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:361
 msgid "API &Key:"
 msgstr ""
 
@@ -1491,11 +1491,11 @@ msgstr ""
 msgid "API Key:"
 msgstr ""
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:165
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:166
 msgid "ASCII"
 msgstr "ASCII"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1267
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1268
 msgid "AWS &KMS encryption"
 msgstr "AWS KMS 加密(&K)"
 
@@ -1508,11 +1508,11 @@ msgid "Above the file lists"
 msgstr "在文件列表上面"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:368
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:369
 msgid "Access &Grant:"
 msgstr "访问授权(&G):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:383
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:384
 msgid "Access &Key:"
 msgstr "访问密钥(&K):"
 
@@ -1520,8 +1520,8 @@ msgstr "访问密钥(&K):"
 msgid "Access to some local directories could not be restored:"
 msgstr "无法恢复访问某些本地目录:"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:711
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:737
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:712
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:738
 msgid "Account"
 msgstr "帐号"
 
@@ -1529,11 +1529,11 @@ msgstr "帐号"
 msgid "Action after queue &completion"
 msgstr "队列完成后执行动作(&C)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1486
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1504
 msgid "Action on selected file:"
 msgstr "所选文件的动作:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1202
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1220
 msgid "Action to perform:"
 msgstr "执行动作:"
 
@@ -1583,7 +1583,7 @@ msgid "Add selected directory to the transfer queue"
 msgstr "添加选中的文件夹到传输队列"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:813
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1069
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1081
 msgid "Add selected files and folders to the transfer queue"
 msgstr "添加选中的文件和文件夹到传输队列"
 
@@ -1596,7 +1596,7 @@ msgstr "添加到队列"
 msgid "Address type not supported"
 msgstr "不支持该地址类型"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:74
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:75
 msgid "Advanced"
 msgstr "高级"
 
@@ -1691,13 +1691,13 @@ msgstr ""
 "在保存传输队列到“%s”时发生了一个错误。\n"
 "队列中的一些项可能没有保存。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1675
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1674
 msgid ""
 "An item with the same name as the dragged item already exists at the target "
 "location."
 msgstr "目标位置已存在与所拖拽项目同名的文件。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:741
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:742
 msgid "Anonymous"
 msgstr "匿名"
 
@@ -1706,7 +1706,7 @@ msgid ""
 "Another remote operation is already in progress, cannot change directory now."
 msgstr "另一个远程操作正在进行，现在无法更改目录。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:775
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:774
 msgid "Any changes made in the Site Manager could not be saved."
 msgstr "站点管理器的任何更改都无法保存。"
 
@@ -1723,7 +1723,7 @@ msgid "App&ly to directories only"
 msgstr "只应用到目录(&L)"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:402
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:403
 msgid "Application &Key:"
 msgstr "应用程序密钥(&K):"
 
@@ -1753,8 +1753,8 @@ msgstr "作为传输队列面板中的标签"
 msgid "Ask for action"
 msgstr "询问操作"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:702
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:731
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:703
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:732
 msgid "Ask for password"
 msgstr "询问密码"
 
@@ -1766,7 +1766,7 @@ msgstr "向操作系统询问端口。"
 msgid "Ask your operating system for the external IP address"
 msgstr "向您的操作系统询问外部 IP 地址"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:96
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:100
 msgid "Asking questions in the FileZilla Forums"
 msgstr "在 FileZilla 论坛里提问"
 
@@ -1794,7 +1794,7 @@ msgstr "认证失败。"
 msgid "Author:"
 msgstr "作者:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:161
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:162
 msgid "Auto"
 msgstr "自动"
 
@@ -1807,11 +1807,11 @@ msgstr "自动对文件进行分类"
 msgid "B <Unit symbol for bytes. Only translate first letter>"
 msgstr "B <字节单位符号。只传送第一个字母>"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:901
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:902
 msgid "B&ypass proxy"
 msgstr "绕过代理(&Y)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:105
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:109
 msgid "Basic usage instructions"
 msgstr "基本使用说明"
 
@@ -1819,12 +1819,12 @@ msgstr "基本使用说明"
 msgid "Behaviour"
 msgstr "行为"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1438
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1465
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1456
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1483
 msgid "Being edited"
 msgstr "正在编辑"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:168
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:169
 msgid "Binary"
 msgstr "二进制"
 
@@ -1838,7 +1838,7 @@ msgstr "蓝色"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:315
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:426
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:386
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:387
 msgid "Bookmark"
 msgstr "书签"
 
@@ -1855,7 +1855,7 @@ msgid ""
 "Broken server, it claims to have processed a request before it got fully set"
 msgstr "有问题的服务器，在发送完整请求前已回复"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:145
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:146
 msgid "Browse..."
 msgstr "浏览..."
 
@@ -1888,19 +1888,19 @@ msgstr "取消当前操作(&C)"
 msgid "C&lear all"
 msgstr "全部清除(&C)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:658
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:668
 msgid "C&omparative search"
 msgstr "对比搜索"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1084
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1096
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:917
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1237
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1247
 msgid "C&opy URL(s) to clipboard"
 msgstr "复制 URL 到剪贴板(&O)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1085
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1097
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:918
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1234
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1244
 msgid "C&opy URL(s) with password to clipboard"
 msgstr "将 URL 和密码一起复制到到剪贴板(&O)"
 
@@ -1908,7 +1908,7 @@ msgstr "将 URL 和密码一起复制到到剪贴板(&O)"
 msgid "C&ustom"
 msgstr "自定义(&U)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1278
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1279
 msgid "C&ustom KMS ARN:"
 msgstr "自定义 KMS ARN (&U):"
 
@@ -1935,12 +1935,12 @@ msgstr "计算服务器时差..."
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1072
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1127
 #: ../../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:76
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:64
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:69
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:285
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:160
 #: ../../../source/FileZilla3/locales/../src/interface/defaultfileexistsdlg.cpp:76
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1232
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1815
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1250
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1836
 #: ../../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:103
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:126
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:143
@@ -1949,9 +1949,9 @@ msgstr "计算服务器时差..."
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:76
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:220
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:322
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:183
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:184
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:312
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:347
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:348
 #: ../../../source/FileZilla3/locales/../src/interface/speedlimits_dialog.cpp:76
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:398
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:645
@@ -1972,7 +1972,7 @@ msgstr "取消当前操作"
 msgid "Cannot access '%s', no media inserted or drive not ready."
 msgstr "无法访问“%s”，没有媒介插入或者驱动器未准备好。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:663
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:662
 msgid "Cannot add server to Site Manager"
 msgstr "无法添加服务器到站点管理器"
 
@@ -2001,10 +2001,10 @@ msgid "Cannot create new filter"
 msgstr "无法创建新过滤器"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1931
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1114
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1340
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1626
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2070
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1132
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1358
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1636
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2080
 msgid "Cannot edit file"
 msgstr "无法编辑文件"
 
@@ -2027,11 +2027,11 @@ msgid "Cannot load key file"
 msgstr "无法加载密钥文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:777
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1007
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1006
 msgid "Cannot rename entry"
 msgstr "无法重命名记录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1675
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1687
 msgid "Cannot rename file"
 msgstr "无法重命名文件"
 
@@ -2044,19 +2044,19 @@ msgstr "无法保存过滤器集合"
 msgid "Cannot select filter"
 msgstr "无法选择过滤器"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1861
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1866
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1880
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1882
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1887
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1901
 msgid "Cannot set file association"
 msgstr "无法设置文件关联"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1390
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1408
 msgid "Cannot show dialog"
 msgstr "无法显示对话框"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1149
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1168
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1314
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1167
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1186
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1332
 msgid "Cannot view/edit selected file"
 msgstr "无法查看/编辑所选的文件"
 
@@ -2104,7 +2104,7 @@ msgstr "需要确认:"
 msgid "Change file attributes"
 msgstr "改变文件属性"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1086
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1098
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:924
 msgid "Change the file permissions."
 msgstr "改变文件权限。"
@@ -2117,7 +2117,7 @@ msgstr "修改日志文件设置需要重启 FileZilla。"
 msgid "Character encoding issue"
 msgstr "字符编码问题"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:88
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:89
 msgid "Charset"
 msgstr "字符集"
 
@@ -2171,17 +2171,17 @@ msgstr "文件 %s 的校验值匹配\n"
 msgid "Checksum mismatch on file %s\n"
 msgstr "文件 %s 的校验值不匹配\n"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:196
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:197
 msgid "Choose a key file"
 msgstr "选择密钥文件"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:916
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:917
 msgid "Choose the default local directory"
 msgstr "选择默认的本地目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:139
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:430
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1953
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1952
 msgid "Choose the local directory"
 msgstr "选择本地目录"
 
@@ -2210,7 +2210,7 @@ msgstr "清空布局缓存(&L)"
 msgid "Clear auto&update data"
 msgstr "清除自动更新数据(&U)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:213
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:208
 msgid "Clear history"
 msgstr "清除历史记录"
 
@@ -2223,7 +2223,7 @@ msgstr "清除历史记录"
 msgid "Clear private data"
 msgstr "清除个人信息"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:212
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:207
 msgid "Clear quickconnect bar"
 msgstr "清除快速连接栏"
 
@@ -2247,9 +2247,9 @@ msgstr "关闭"
 msgid "Close &all other tabs"
 msgstr "关闭所有其它的标签(&A)"
 
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1262
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1284
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:46
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1263
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1285
 msgid "Close FileZilla"
 msgstr "关闭 FileZilla"
 
@@ -2257,7 +2257,7 @@ msgstr "关闭 FileZilla"
 msgid "Close all running instances of FileZilla"
 msgstr "关闭所有运行的 FileZilla 实例"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2391
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2393
 msgid "Close quick search and continue comparing?"
 msgstr "关闭快速搜索，继续对比？"
 
@@ -2265,7 +2265,7 @@ msgstr "关闭快速搜索，继续对比？"
 msgid "Closes current tab"
 msgstr "关闭当前标签"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:59
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:60
 msgid "Co&mments:"
 msgstr "注释(&M):"
 
@@ -2283,8 +2283,8 @@ msgstr "命令及其参数需要正确的使用引号。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:215
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:237
-#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:84
-#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:106
+#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:86
+#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:108
 msgid "Command failed"
 msgstr "命令执行失败"
 
@@ -2316,13 +2316,13 @@ msgstr "一般名称:"
 msgid "Communication tainted by router or firewall"
 msgstr "通讯已受路由器或防火墙影响"
 
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2444
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:74
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2442
 msgid "Compare &modification time"
 msgstr "比较修改时间(&M)"
 
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2443
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:73
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2441
 msgid "Compare file&size"
 msgstr "比较文件大小(&S)"
 
@@ -2332,7 +2332,7 @@ msgid ""
 "received from your server administrator or server hosting provider."
 msgstr "比较这里显示的指纹与您的服务器管理员或服务提供商提供的证书指纹。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:694
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:704
 msgid "Compare:"
 msgstr "比较:"
 
@@ -2369,7 +2369,7 @@ msgid "Concurrent transfers"
 msgstr "并发传输"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:132
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:688
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:698
 msgid "Conditions are c&ase sensitive"
 msgstr "条件是区分大小写的(&A)"
 
@@ -2385,21 +2385,21 @@ msgstr "配置被动模式"
 msgid "Configure port range"
 msgstr "配置端口范围"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:106
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:110
 msgid "Configuring FileZilla and your network"
 msgstr "配置 FileZilla 和您的网络"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1687
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1697
 msgid "Confirm deletion"
 msgstr "确认删除"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1896
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1440
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1452
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1098
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1126
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1144
 #: ../../../source/FileZilla3/locales/../src/interface/file_utils.h:43
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1638
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2034
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1648
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2044
 msgid "Confirmation needed"
 msgstr "需要确认"
 
@@ -2407,7 +2407,7 @@ msgstr "需要确认"
 msgid "Congratulations, your configuration seems to be working."
 msgstr "祝贺您，您的配置看起来能正常运作。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:210
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:205
 msgid "Connect bypassing proxy settings"
 msgstr "绕过代理设置连接"
 
@@ -2525,7 +2525,7 @@ msgstr[0] "%d 秒后无活动，连接超时"
 msgid "Connection timed out."
 msgstr "连接超时。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1064
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1074
 msgid "Connection to server lost."
 msgstr "与服务器的连接丢失。"
 
@@ -2555,12 +2555,12 @@ msgstr "复制 (%d) / %s"
 msgid "Copy of %s"
 msgstr "复制 %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1085
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1097
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:918
 msgid "Copy the URLs of the selected items to clipboard, including password."
 msgstr "复制选中项的 URL 和密码到剪贴板。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1084
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1096
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:917
 msgid "Copy the URLs of the selected items to clipboard."
 msgstr "复制选中项的 URL 到剪贴板。"
@@ -2610,9 +2610,9 @@ msgstr "无法连接到服务器"
 msgid "Could not connect to server: %s"
 msgstr "无法连接到服务器: %s"
 
-#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:347
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:69
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:90
+#: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:347
 #: ../../../source/FileZilla3/locales/../src/engine/storj/storjcontrolsocket.cpp:233
 msgid "Could not convert command to server encoding"
 msgstr "无法将命令转换成服务器的编码"
@@ -2622,9 +2622,9 @@ msgstr "无法将命令转换成服务器的编码"
 msgid "Could not convert private key"
 msgstr "无法转换私钥"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2682
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2695
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1462
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1926
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1936
 msgid "Could not copy URLs"
 msgstr "无法复制 URL"
 
@@ -2657,11 +2657,11 @@ msgstr "无法创建日志锁 (logging mutex): %s"
 msgid "Could not create security-scoped bookmark from URL:"
 msgstr ""
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1314
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1332
 msgid "Could not create temporary file name."
 msgstr "无法创建临时文件名。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2323
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2335
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:888
 msgid ""
 "Could not determine the target of the Drag&Drop operation.\n"
@@ -2689,7 +2689,7 @@ msgid "Could not generate custom login sequence."
 msgstr "无法生成自定义登录过程。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:149
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:106
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:111
 msgid "Could not generate key"
 msgstr "无法生成密钥"
 
@@ -2710,12 +2710,12 @@ msgstr "无法从 URL 获得路径"
 msgid "Could not get reply from fzputtygen."
 msgstr "无法得到 fzputtygen 的回应。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:106
+#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:108
 msgid "Could not get reply from fzstorj."
 msgstr "无法得到 fzstorj 的回应。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1114
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1626
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1132
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1636
 msgid "Could not get temporary directory to download file into."
 msgstr "找不到放置下载文件所需的临时目录。"
 
@@ -2803,10 +2803,10 @@ msgstr "无法打开并读取“%s”。"
 msgid "Could not open '%s' for writing."
 msgstr "无法打开并写入“%s”。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2682
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2695
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1462
 #: ../../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:220
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1926
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1936
 msgid "Could not open clipboard"
 msgstr "无法打开剪贴板"
 
@@ -2823,7 +2823,7 @@ msgstr "无法打开日志文件: %s"
 msgid "Could not parse remote path."
 msgstr "无法解析远程路径。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:132
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:127
 msgid "Could not parse server address:"
 msgstr "无法解析服务器地址:"
 
@@ -2878,7 +2878,7 @@ msgstr "定位 %d 的偏移在“%s”中失败。"
 msgid "Could not send command to fzputtygen."
 msgstr "无法将命令发送到 fzputtygen。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:84
+#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:86
 msgid "Could not send command to fzstorj."
 msgstr "无法将命令发送到 fzstorj。"
 
@@ -2907,7 +2907,7 @@ msgid "Could not truncate '%s' to offset %d."
 msgstr "无法将“%s”截断至 %d 偏移。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:329
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:798
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:797
 #, c-format
 msgid ""
 "Could not write \"%s\", any changes to the Site Manager could not be saved: "
@@ -2926,14 +2926,14 @@ msgstr "无法写入“%s”，不能添加该全局书签: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:422
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:479
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1936
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1935
 #, c-format
 msgid "Could not write \"%s\", the selected sites could not be exported: %s"
 msgstr "无法写入“%s”，不能导出所选择的站点: %s"
 
+#: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:185
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:28
 #: ../../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:11
-#: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:185
 #, c-format
 msgid "Could not write \"%s\":"
 msgstr "无法写入“%s”:"
@@ -2969,7 +2969,7 @@ msgstr "无法写入套接字: %s"
 msgid "Country:"
 msgstr "国家:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1078
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1090
 msgid "Crea&te new file"
 msgstr "创建新文件(&T)"
 
@@ -2983,37 +2983,37 @@ msgstr "创建缺失的远程目录并进入该目录(&M)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:823
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1108
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1076
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1088
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:911
 msgid "Create a new subdirectory in the current directory"
 msgstr "在当前目录创建一个新的子目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:824
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1109
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1077
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1089
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:912
 msgid "Create a new subdirectory in the current directory and change into it"
 msgstr "在当前目录创建一个新的子目录并进入该目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1078
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1090
 msgid "Create a new, empty file in the current directory"
 msgstr "在当前目录创建一个新的空文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:824
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1109
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1077
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1089
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:912
 msgid "Create director&y and enter it"
 msgstr "创建目录并进入(&Y)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:994
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1227
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1338
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1350
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1297
 msgid "Create directory"
 msgstr "创建目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2771
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2784
 msgid "Create empty file"
 msgstr "创建空文件"
 
@@ -3075,15 +3075,15 @@ msgstr ""
 msgid "Cus&tom"
 msgstr "自定义(&T)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1281
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1282
 msgid "Cus&tomer encryption"
 msgstr ""
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1276
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1277
 msgid "Custom KMS ARN"
 msgstr "自定义 KMS ARN"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1390
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1391
 msgid "Custom KMS ARN id cannot be empty."
 msgstr "自定义 KMS ARN id 不能为空。"
 
@@ -3091,20 +3091,20 @@ msgstr "自定义 KMS ARN id 不能为空。"
 msgid "Custom filter set"
 msgstr "自定义过滤器集合"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1402
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1403
 msgid "Custom key cannot be empty."
 msgstr "自定义密钥不能为空。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1416
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1417
 msgid "Custom key length must be 256-bit."
 msgstr "自定义密钥长度必须为 256-bit。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:122
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:154
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:123
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:155
 msgid "Custom server"
 msgstr "自定义服务器"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1286
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1287
 msgid "Customer Ke&y:"
 msgstr ""
 
@@ -3112,7 +3112,7 @@ msgstr ""
 msgid "Cyan"
 msgstr "青色"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:160
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:161
 msgid "D&ata type"
 msgstr "数据类型(&A)"
 
@@ -3120,14 +3120,14 @@ msgstr "数据类型(&A)"
 msgid "D&ecimal prefixes using SI symbols (e.g. 1 KB = 1000 bytes)"
 msgstr "使用 SI 式十进制前缀(例如 1 KB = 1000 bytes)(&E)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1146
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1147
 msgid "D&efault"
 msgstr "默认(&E)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1082
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1094
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:915
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1223
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1231
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1233
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1241
 msgid "D&elete"
 msgstr "删除(&E)"
 
@@ -3140,7 +3140,7 @@ msgid "D&isable all"
 msgstr "全部禁用(&I)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:45
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:39
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:44
 msgid "D&o not save passwords"
 msgstr "不要保存密码(&O)"
 
@@ -3148,7 +3148,7 @@ msgstr "不要保存密码(&O)"
 msgid "D&uplicate"
 msgstr "复制(&U)"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:65
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:66
 msgid "DOS-like with virtual paths"
 msgstr "带虚拟路径的 DOS 式"
 
@@ -3185,15 +3185,15 @@ msgstr "调试"
 msgid "Debugging settings"
 msgstr "调试设置"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:905
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:906
 msgid "Default &local directory:"
 msgstr "默认本地目录(&L):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1275
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1276
 msgid "Default (AWS/S3)"
 msgstr "默认(AWS/S3)"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:57
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:58
 msgid "Default (Autodetect)"
 msgstr "默认(自动检测)"
 
@@ -3207,11 +3207,11 @@ msgstr "默认编辑器命令格式不正确。"
 msgid "Default file exists action"
 msgstr "文件存在时的默认操作"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:923
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:924
 msgid "Default r&emote directory:"
 msgstr "默认远程目录(&E):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1023
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1024
 msgid ""
 "Default remote path cannot be parsed. Make sure it is a valid absolute path "
 "for the selected server type."
@@ -3250,7 +3250,7 @@ msgid_plural ""
 "attempt..."
 msgstr[0] "由于上一次尝试连接失败，将推迟连接 %d 秒..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1058
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1057
 msgid "Delete Site Manager entries"
 msgstr "删除站点管理器记录"
 
@@ -3260,7 +3260,7 @@ msgid "Delete selected directory"
 msgstr "删除所选的目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:828
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1082
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1094
 msgid "Delete selected files and directories"
 msgstr "删除选定的文件和目录"
 
@@ -3292,7 +3292,7 @@ msgid "Details for new key:"
 msgstr "新密钥的详细资料:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:71
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:723
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:722
 msgid "Detected newer version of FileZilla"
 msgstr "有新版的 FileZilla"
 
@@ -3313,13 +3313,13 @@ msgid "Directory access permissions"
 msgstr "目录访问权限"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_filelists.cpp:64
-#: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:493
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:927
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:281
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2391
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2411
+#: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:494
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:928
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:282
 #: ../../../source/FileZilla3/locales/../src/interface/toolbar.cpp:115
 #: ../../../source/FileZilla3/locales/../src/interface/view.cpp:109
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2389
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2409
 msgid "Directory comparison"
 msgstr "目录对比"
 
@@ -3339,7 +3339,7 @@ msgstr "目录列表过滤器(&F)..."
 msgid "Directory listing aborted by user"
 msgstr "目录列表被用户终止"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2150
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2162
 msgid "Directory listing failed"
 msgstr "目录列表失败"
 
@@ -3365,7 +3365,7 @@ msgid ""
 "Disable synchronized browsing and continue changing the remote directory?"
 msgstr "关闭同步浏览并且继续修改本地目录？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:764
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:763
 msgid ""
 "Disable this option again if you will not be able to see the correct "
 "directory contents anymore."
@@ -3407,12 +3407,12 @@ msgstr "显示关于对话框"
 msgid "Do &not use default editor"
 msgstr "不使用默认编辑器(&N)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1219
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1237
 msgid "Do the same with &all selected files already being edited"
 msgstr "对所有正在编辑的选中文件执行相同操作(&A)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1266
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1289
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1265
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1288
 msgid "Do you really want to close FileZilla?"
 msgstr "您真的要关闭 FileZilla？"
 
@@ -3425,7 +3425,7 @@ msgstr "您真的要删除站点管理器里的所有记录和传输队列？"
 msgid "Do you really want to delete all Site Manager entries?"
 msgstr "您真的要删除站点管理器里的所有记录？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1060
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1059
 msgid "Do you really want to delete the selected entries?"
 msgstr "您真的要删除选定的记录？"
 
@@ -3433,20 +3433,20 @@ msgstr "您真的要删除选定的记录？"
 msgid "Do you really want to delete the transfer queue?"
 msgstr "您真的要删除传输队列？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:693
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:692
 #, c-format
 msgid "Do you really want to send '%s' to the server?"
 msgstr "您真的要发送“%s”给服务器吗?"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1199
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1217
 msgid "Do you want to reopen this file?"
 msgstr "您真的要重新打开该文件吗？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:108
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:109
 msgid "Docs"
 msgstr "文档"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:101
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:105
 msgid "Documentation"
 msgstr "文档"
 
@@ -3462,7 +3462,7 @@ msgstr "点文件的文件名是以一个点开始的，例如: .htaccess"
 msgid "Double-click action"
 msgstr "双击操作"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:70
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:71
 msgid "Download"
 msgstr "下载"
 
@@ -3481,8 +3481,8 @@ msgid "Download limit: none"
 msgstr "下载限制: 无"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:749
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1333
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1338
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1343
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1348
 msgid "Download search results"
 msgstr "下载搜索结果"
 
@@ -3490,7 +3490,7 @@ msgstr "下载搜索结果"
 msgid "Download selected directory"
 msgstr "下载选定的目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1066
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1078
 msgid "Download selected files and directories"
 msgstr "下载选定的文件和目录"
 
@@ -3499,7 +3499,7 @@ msgstr "下载选定的文件和目录"
 msgid "Download: %s/s"
 msgstr "下载: %s/s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1423
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1441
 msgid "Downloading"
 msgstr "正在下载"
 
@@ -3530,11 +3530,11 @@ msgstr "在不同的 FileZilla 的实例间拖放还未被实现。"
 msgid "Drag&drop between different servers has not been implemented yet."
 msgstr "在不同服务器之间拖放还未实现。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1518
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1519
 msgid "Dropbox for Business:"
 msgstr ""
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:333
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:334
 msgid "Dupl&icate"
 msgstr "复制(&I)"
 
@@ -3543,7 +3543,7 @@ msgid "E&nable all"
 msgstr "全部启用(&N)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:816
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1072
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1084
 msgid "E&nter directory"
 msgstr "进入目录(&N)"
 
@@ -3578,7 +3578,7 @@ msgid ""
 "Edit the file with the configured editor and upload changes to the server."
 msgstr "使用设置的编辑器编辑文件并上传修改后的文件到服务器。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1614
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1624
 msgid "Editing directories is not supported"
 msgstr "不支持编辑目录"
 
@@ -3587,7 +3587,7 @@ msgstr "不支持编辑目录"
 msgid "Editing failed"
 msgstr "编辑失败"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1614
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1624
 msgid "Editing search results"
 msgstr "编辑搜索结果"
 
@@ -3605,7 +3605,7 @@ msgstr "电子邮件:"
 msgid "Empty command"
 msgstr "空命令"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2153
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2165
 msgid "Empty directory listing"
 msgstr "空目录列表"
 
@@ -3632,7 +3632,7 @@ msgid "Enable invalid character &filtering"
 msgstr "启用无效字符过滤(&F)"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:362
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:363
 msgid "Encr&yption Passphrase:"
 msgstr "加密密码(&Y):"
 
@@ -3656,7 +3656,7 @@ msgstr "加密细节"
 msgid "Encryption passphrase is not set"
 msgstr "未设置加密密码"
 
-#: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:495
+#: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:496
 msgid "End comparison and change sorting order?"
 msgstr "结束对比并改变排序？"
 
@@ -3676,7 +3676,7 @@ msgstr "输入 0 表示无速度限制。"
 msgid "Enter command"
 msgstr "输入命令"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:675
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:674
 msgid "Enter custom command"
 msgstr "输入自定义命令"
 
@@ -3708,11 +3708,11 @@ msgid "Enter password"
 msgstr "输入密码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:816
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1072
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1084
 msgid "Enter selected directory"
 msgstr "进入所选的目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:45
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:42
 msgid ""
 "Enter the address of the server. To specify the server protocol, prepend the "
 "host with the protocol identifier. If no protocol is specified, the default "
@@ -3745,7 +3745,7 @@ msgstr ""
 "为文件“%s”输入密码。\n"
 "请注意转换后的文件仍使用该密码。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:61
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:58
 msgid ""
 "Enter the port on which the server listens. The default for FTP is 21, the "
 "default for SFTP is 22."
@@ -3759,17 +3759,17 @@ msgstr "输入用户名"
 msgid "Enter username and password"
 msgstr "输入用户名和密码"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:163
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:268
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:164
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:269
 msgid "Entered file would transfer as ASCII"
 msgstr "输入的文件将会以 ASCII 模式传输"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:271
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:272
 msgid "Entered file would transfer as binary"
 msgstr "输入的文件将会以二进制模式传输"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:149
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:106
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:111
 msgid "Error"
 msgstr "错误"
 
@@ -3786,6 +3786,7 @@ msgstr "导入出错"
 msgid "Error loading queue"
 msgstr "加载队列出错"
 
+#: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:156
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:178
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:340
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:796
@@ -3795,18 +3796,17 @@ msgstr "加载队列出错"
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:570
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:67
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:138
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1782
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1816
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1792
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1826
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:44
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:281
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:358
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:446
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:544
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:650
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:716
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:776
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:715
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:775
 #: ../../../source/FileZilla3/locales/../src/interface/wrapengine.cpp:946
-#: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:156
 msgid "Error loading xml file"
 msgstr "导入 XML 文件出错"
 
@@ -3816,21 +3816,21 @@ msgstr "保存队列出错"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:182
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:197
-#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:51
-#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:66
+#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:53
+#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:68
 msgid "Error starting program"
 msgstr "启动程序出错"
 
+#: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:190
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:376
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:931
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:330
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:423
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:480
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:799
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1937
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:798
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1936
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:29
 #: ../../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:15
-#: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:190
 msgid "Error writing xml file"
 msgstr "写入 XML 文件出错"
 
@@ -3897,11 +3897,11 @@ msgstr "FTP"
 msgid "FTP - File Transfer Protocol"
 msgstr "FTP - 文件传输协议"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:20
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:21
 msgid "FTP - File Transfer Protocol with optional encryption"
 msgstr "FTP - 可选加密的文件传输协议"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:26
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:27
 msgid "FTP - Insecure File Transfer Protocol"
 msgstr "FTP - 不安全的文件传输协议"
 
@@ -3928,11 +3928,11 @@ msgstr "FTP 使用另一些连接来传输数据。这些额外的连接有两�
 msgid "FTP: File Types"
 msgstr "FTP: 文件类型"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:25
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:26
 msgid "FTPES - FTP over explicit TLS"
 msgstr "FTPES - 通过显式 TLS 的 FTP"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:24
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:25
 msgid "FTPS - FTP over implicit TLS"
 msgstr "FTPS - 通过隐式 TLS 的 FTP"
 
@@ -3956,7 +3956,7 @@ msgstr "切换语言失败"
 msgid "Failed to convert command to 8 bit charset"
 msgstr "转换命令到 8 bit 编码失败"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1675
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1674
 msgid "Failed to copy or move sites"
 msgstr "无法复制或移动站点"
 
@@ -4087,11 +4087,11 @@ msgstr "传输失败"
 msgid "Fall back to active mode"
 msgstr "退回主动模式"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:695
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:705
 msgid "Fil&e sizes"
 msgstr "文件大小(&E)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:105
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:106
 msgid "Fil&e:"
 msgstr "文件(&E):"
 
@@ -4111,7 +4111,7 @@ msgstr "文件中不包含任何可导入的数据。"
 msgid "File editing"
 msgstr "文件编辑"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1687
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1699
 msgid "File exists"
 msgstr "文件已存在"
 
@@ -4119,7 +4119,7 @@ msgstr "文件已存在"
 msgid "File exists action"
 msgstr "对已存在文件的操作"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:785
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:808
 msgid "File has changed"
 msgstr "文件已改变"
 
@@ -4129,12 +4129,12 @@ msgstr "文件列表"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:194
 #: ../../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:437
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1918
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1939
 msgid "File not found"
 msgstr "文件未找到"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:639
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1031
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:649
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1041
 #: ../../../source/FileZilla3/locales/../src/interface/toolbar.cpp:117
 msgid "File search"
 msgstr "文件搜索"
@@ -4170,7 +4170,7 @@ msgstr "文件传输成功"
 msgid "File transfer successful, transferred %s in %s"
 msgstr "文件传输成功，传输了 %s (用时%s)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1265
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1264
 msgid "File transfers still in progress."
 msgstr "文件传输仍在进行。"
 
@@ -4188,7 +4188,7 @@ msgstr "FileZilla 现在可以测试您的配置以确保所有配置正常。"
 msgid "FileZilla is already connected to a server."
 msgstr "FileZilla 已经连接了一台服务器。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1568
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1570
 msgid "FileZilla needs to be restarted for the language change to take effect."
 msgstr "改变语言需要重启 FileZilla 才会生效。"
 
@@ -4203,7 +4203,7 @@ msgstr "文件列表状态栏(&B)"
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:85
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:288
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:337
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1409
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1427
 #: ../../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:100
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:177
 msgid "Filename"
@@ -4215,7 +4215,7 @@ msgstr "文件名"
 msgid "Filename cannot be constructed for directory %s and filename %s"
 msgstr "无法为目录 %s 和文件名 %s 构造文件名"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1675
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1687
 msgid "Filename invalid"
 msgstr "文件名无效"
 
@@ -4224,7 +4224,7 @@ msgid "Filename unchanged"
 msgstr "文件名没有改变"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:50
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:799
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:822
 msgid "Filename:"
 msgstr "文件名:"
 
@@ -4238,7 +4238,7 @@ msgid ""
 "|"
 msgstr "文件名不能包含以下任何字符: / \\ : * ? \" < > |"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1394
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1412
 msgid "Files currently being edited"
 msgstr "正在编辑的文件"
 
@@ -4313,11 +4313,11 @@ msgstr "过滤目录列表"
 msgid "Filter validation failed"
 msgstr "过滤器核对失败"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:689
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:699
 msgid "Find &files"
 msgstr "查找文件(&F)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:690
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:700
 msgid "Find d&irectories"
 msgstr "查找目录(&I)"
 
@@ -4355,11 +4355,11 @@ msgid ""
 "settings will not be saved."
 msgstr "当前会话将使用默认设置，并且任何设置的修改都不会被保存。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1149
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1167
 msgid "Forbidden character in file extension."
 msgstr "文件扩展名中禁止使用的字符。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1062
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1063
 msgid "Force &UTF-8"
 msgstr "强制 UTF-8 (&U)"
 
@@ -4367,7 +4367,7 @@ msgstr "强制 UTF-8 (&U)"
 msgid "Force showing &hidden files"
 msgstr "强制显示隐藏文件(&H)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:759
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:758
 msgid "Force showing hidden files"
 msgstr "强制显示隐藏文件"
 
@@ -4396,11 +4396,11 @@ msgstr "从 %s 到 %s"
 msgid "Function %s failed"
 msgstr "函数 %s 失败"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:107
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:111
 msgid "Further documentation"
 msgstr "更多文档"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:46
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:47
 msgid "General"
 msgstr "常规"
 
@@ -4417,7 +4417,7 @@ msgstr "通用代理"
 msgid "Get external IP address from the following URL:"
 msgstr "从以下 URL 得到外部 IP 地址:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:92
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:96
 msgid "Getting help"
 msgstr "获得帮助"
 
@@ -4446,7 +4446,7 @@ msgstr "组权限"
 msgid "H&igh"
 msgstr "高(&I)"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:23
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:24
 msgid "HTTPS - HTTP over TLS"
 msgstr "HTTPS - 通过 TLS 的 HTTP"
 
@@ -4487,7 +4487,7 @@ msgid "Host key mismatch"
 msgstr "主机密钥不匹配"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:393
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:394
 msgid "Host name of identity service"
 msgstr "认证服务主机名"
 
@@ -4514,7 +4514,7 @@ msgstr "主机:"
 msgid "Hostkey algorithm:"
 msgstr "主机密匙算法:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:938
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:939
 msgid "Hours,"
 msgstr "小时，"
 
@@ -4532,16 +4532,16 @@ msgid "IPv6 addresses are not supported with SOCKS4 proxy"
 msgstr "SOCKS4 代理不支持 IPv6 地址"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:391
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:392
 msgid "Identity &host:"
 msgstr "认证主机(&H):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1445
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1446
 msgid "Identity (Keystone):"
 msgstr ""
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:453
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:454
 msgid "Identity service path:"
 msgstr "认证服务路径:"
 
@@ -4648,7 +4648,7 @@ msgstr ""
 "如果您点击了测试，FileZilla 会连接到 probe.filezilla-project.org 并且进行一些"
 "简单测试。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1288
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1287
 msgid "If you close FileZilla, your changes will be lost."
 msgstr "如果关闭 FileZilla，您所做的改变将会丢失。"
 
@@ -4793,8 +4793,8 @@ msgstr "不安全的算法！"
 msgid "Insecure server, it does not support FTP over TLS."
 msgstr "不安全的服务器，不支持 FTP over TLS。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:708
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:735
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:709
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:736
 msgid "Interactive"
 msgstr "交互式"
 
@@ -4860,8 +4860,8 @@ msgstr "无效主机名，在闭合括号之后只能是冒号加端口号。"
 msgid "Invalid hostname: %s"
 msgstr "无效的主机名: %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:94
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:99
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:104
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:93
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:98
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:236
@@ -4884,7 +4884,7 @@ msgid "Invalid port given. The port has to be a value from 1 to 65535."
 msgstr "给定的端口无效，端口号必须是一个 1 到 65535 间的值。"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site.cpp:201
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:178
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:173
 msgid ""
 "Invalid protocol specified. Valid protocols are:\n"
 "ftp:// for normal FTP with optional encryption,\n"
@@ -4911,7 +4911,7 @@ msgstr "无效的正则表达式"
 msgid "Invalid response code"
 msgstr "无效的响应码"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1031
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1041
 #, c-format
 msgid "Invalid search conditions: %s"
 msgstr "无效的搜索条件: %s"
@@ -4955,7 +4955,7 @@ msgstr "司法管辖州或省:"
 msgid "Keep directories on top"
 msgstr "保持目录在上方"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:763
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:762
 msgid ""
 "Keep in mind that not all servers support this feature and may return "
 "incorrect listings if this option is enabled. Although FileZilla performs "
@@ -4973,8 +4973,8 @@ msgstr "密钥交换"
 msgid "Key exchange:"
 msgstr "密钥交换:"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:705
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:733
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:706
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:734
 msgid "Key file"
 msgstr "密钥文件"
 
@@ -4991,7 +4991,7 @@ msgstr "最低(&O)"
 msgid "Language"
 msgstr "语言"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1568
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1570
 msgid "Language changed"
 msgstr "语言已经更改"
 
@@ -5005,13 +5005,13 @@ msgstr "最近修改"
 msgid "Layout"
 msgstr "布局"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:261
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:262
 msgid "Leave empty to keep existing data."
 msgstr "不输入以保持现有信息不变。"
 
 #. @translator: Keep this string as short as possible
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:95
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:259
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:260
 msgid "Leave empty to keep existing password."
 msgstr "不输入以保持现有密码不变。"
 
@@ -5057,20 +5057,20 @@ msgstr "列表:"
 msgid "Lo&west available port:"
 msgstr "最低可用端口(&W):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1455
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1703
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1473
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1721
 msgid "Local"
 msgstr "本地"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1186
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1196
 msgid "Local &directory:"
 msgstr "本地目录(&D):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:87
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:88
 msgid "Local file"
 msgstr "本地文件"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:368
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:369
 msgid "Local file does not exist."
 msgstr "本地文件不存在。"
 
@@ -5080,16 +5080,16 @@ msgstr "本地文件不存在。"
 msgid "Local file is %s\n"
 msgstr "本地文件为 %s\n"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:364
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:365
 msgid "Local file is a directory instead of a regular file."
 msgstr "本地文件是一个目录而不是一个文件。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:395
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:396
 msgid "Local file is not a valid filename."
 msgstr "本地文件不是一个有效的文件名。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1043
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1049
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1053
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1059
 msgid "Local file search"
 msgstr "本地文件搜索"
 
@@ -5101,7 +5101,7 @@ msgstr "本地过滤器:"
 msgid "Local path handling:"
 msgstr "本地路径处理:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:709
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:719
 msgid "Local results:"
 msgstr "本地结果:"
 
@@ -5131,7 +5131,7 @@ msgstr "已登录"
 msgid "Logging"
 msgstr "日志"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:449
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:450
 msgid "Login (optional):"
 msgstr "登录(可选的):"
 
@@ -5179,7 +5179,7 @@ msgstr "最低"
 msgid "Lowest available port has to be a number between 1024 and 65535."
 msgstr "最低的可用端口号必须在 1024 到 65535 之间。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1297
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1298
 msgid "MFA D&evice Serial:"
 msgstr "MFA 设备序列号(&E):"
 
@@ -5224,15 +5224,15 @@ msgstr "错误的响应头: %s"
 msgid "Malformed response: %s"
 msgstr "错误的响应: %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:56
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:352
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:358
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:364
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:368
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:375
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:381
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:387
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:395
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:57
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:353
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:359
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:365
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:369
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:376
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:382
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:388
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:396
 msgid "Manual transfer"
 msgstr "手动传输"
 
@@ -5245,19 +5245,19 @@ msgstr "主密码(&P):"
 msgid "Master password:"
 msgstr "主密码:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:673
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:683
 msgid "Match all of the following"
 msgstr "匹配以下所有"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:674
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:684
 msgid "Match any of the following"
 msgstr "匹配以下任意一个"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:675
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:685
 msgid "Match none of the following"
 msgstr "不匹配以下任何内容"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:676
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:686
 msgid "Match not all of the following"
 msgstr "不匹配以下所有内容"
 
@@ -5266,7 +5266,7 @@ msgid "Maximum simultaneous &transfers:"
 msgstr "最大并发传输(&T):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:490
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1896
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1898
 msgid "Message log"
 msgstr "消息日志"
 
@@ -5280,13 +5280,13 @@ msgstr "MiB"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:72
 msgid "Minimum allowed TLS &version:"
-msgstr ""
+msgstr "允许的最低 TLS 版本(&V):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:943
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:944
 msgid "Minutes"
 msgstr "分钟"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:696
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:706
 msgid "Modification tim&e"
 msgstr "修改时间(&E)"
 
@@ -5307,12 +5307,12 @@ msgid "My Documents"
 msgstr "我的文档"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:203
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:702
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:705
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:701
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:704
 msgid "My Sites"
 msgstr "我的站点"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1261
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1262
 msgid "N&o encryption"
 msgstr "不加密(&O)"
 
@@ -5326,7 +5326,7 @@ msgid "Name"
 msgstr "名字"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:777
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1007
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1006
 msgid "Name already exists"
 msgstr "名称已经存在"
 
@@ -5335,8 +5335,8 @@ msgstr "名称已经存在"
 msgid "Name of bookmark already exists."
 msgstr "该名称的书签已经存在。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:861
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:909
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:862
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:910
 msgid "Name or email address"
 msgstr "名称或电子邮件地址"
 
@@ -5354,15 +5354,15 @@ msgstr "自然排序"
 msgid "Need to enter filter name"
 msgstr "需要输入过滤器名"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1043
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1053
 msgid "Need to enter valid local path"
 msgstr "需要输入正确的本地路径"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1071
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1081
 msgid "Need to enter valid remote path"
 msgstr "需要输入正确的远程路径"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1122
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1123
 msgid "Need to specify a character encoding"
 msgstr "需要指定字符编码"
 
@@ -5378,7 +5378,7 @@ msgstr "无法连接网络"
 msgid "Never"
 msgstr "从不"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:329
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:330
 msgid "New &folder"
 msgstr "新文件夹(&F)"
 
@@ -5387,7 +5387,7 @@ msgid "New &tab"
 msgstr "新标签(&T)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:274
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:330
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:331
 msgid "New Book&mark"
 msgstr "新建书签(&M)"
 
@@ -5406,17 +5406,17 @@ msgstr "新建书签(&M)"
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:644
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:901
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:389
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1859
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1858
 msgid "New bookmark"
 msgstr "新建书签"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1231
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1351
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1363
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1311
 msgid "New directory"
 msgstr "创建目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:87
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:91
 #, c-format
 msgid "New features and improvements in %s"
 msgstr "%s 中的新功能和改进"
@@ -5425,13 +5425,13 @@ msgstr "%s 中的新功能和改进"
 msgid "New filter"
 msgstr "新过滤器"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:876
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:875
 msgid "New folder"
 msgstr "新文件夹"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:301
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:315
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1832
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1831
 msgid "New site"
 msgstr "新站点"
 
@@ -5455,7 +5455,7 @@ msgstr "没有给出命令，中止操作。"
 msgid "No directory added"
 msgstr "没有创建目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1421
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1420
 #, c-format
 msgid "No entries found matching '%s'."
 msgstr "没有找到匹配“%s”的记录。"
@@ -5464,7 +5464,7 @@ msgstr "没有找到匹配“%s”的记录。"
 msgid "No external IP address set, trying default."
 msgstr "没有设定外部 IP 地址，尝试使用默认值。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1390
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1408
 msgid "No files are currently being edited."
 msgstr "没有正在编辑的文件。"
 
@@ -5487,31 +5487,31 @@ msgstr "没有图像可用"
 msgid "No name for the filterset given."
 msgstr "没有给过滤器集合指定名称。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1746
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1767
 msgid "No program associated with filetype"
 msgstr "文件格式没有关联程序"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1756
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1777
 msgid "No program has been associated to edit dotfiles."
 msgstr "点文件没有关联程序。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1753
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1774
 msgid "No program has been associated to edit extensionless files."
 msgstr "无扩展名文件没有关联程序。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1759
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1780
 #, c-format
 msgid "No program has been associated to edit files with the extension '%s'."
 msgstr "扩展名为“%s”的文件没有关联程序。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:715
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:721
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:725
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:731
 msgid "No search results"
 msgstr "没有搜索结果"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/options.cpp:246
 msgid "No settings loaded to save."
-msgstr ""
+msgstr "没有需要保存的已加载设置。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:213
 msgid "No sites available"
@@ -5532,12 +5532,12 @@ msgstr "未指定用户名。"
 msgid "None"
 msgstr "无"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:125
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:126
 msgid "None selected yet"
 msgstr "尚未选择项目"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:699
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:729
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:700
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:730
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:96
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:993
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:1055
@@ -5554,11 +5554,11 @@ msgstr "并非所有项目都可被重新列队以传输。"
 msgid "Not connected"
 msgstr "未连接"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2147
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2159
 msgid "Not connected to any server"
 msgstr "没有连接到任何服务器"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:663
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:662
 msgid "Not connected to any server."
 msgstr "没有连接到任何服务器。"
 
@@ -5570,7 +5570,7 @@ msgstr "未连接。"
 msgid "Not yet valid!"
 msgstr "尚未生效！"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:761
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:760
 msgid "Note that this feature is only supported using the FTP protocol."
 msgstr "注意该功能只支持使用 FTP 协议。"
 
@@ -5607,14 +5607,14 @@ msgstr "重试的次数必须在 0 和 99 之间。"
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:990
 #: ../../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:72
 #: ../../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:132
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1229
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1506
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1812
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1247
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1524
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1833
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:123
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:140
 #: ../../../source/FileZilla3/locales/../src/interface/listctrlex.cpp:736
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:394
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:115
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:119
 msgid "OK"
 msgstr "确定"
 
@@ -5654,7 +5654,7 @@ msgstr "请和系统管理员或服务提供商确认后再继续操作。"
 msgid "Only use plain FTP (insecure)"
 msgstr "只使用明文 FTP (不安全)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1500
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1518
 msgid "Op&en file"
 msgstr "打开文件(&E)"
 
@@ -5689,16 +5689,16 @@ msgstr "打开文件。"
 msgid "Open the settings dialog of FileZilla"
 msgstr "打开 FileZilla 的设置对话框"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:809
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:832
 msgid "Opened as:"
 msgstr "打开为:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1926
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1938
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:367
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1334
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2065
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2076
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:390
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1352
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2075
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2086
 msgid "Opening failed"
 msgstr "打开失败"
 
@@ -5723,7 +5723,7 @@ msgstr "操作系统:"
 msgid "Options"
 msgstr "选项"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1251
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1252
 msgid "Options:"
 msgstr "选项:"
 
@@ -5813,7 +5813,7 @@ msgstr "PORT 命令已受路由器或防火墙影响。"
 msgid "Pa&ssive (recommended)"
 msgstr "被动(推荐)(&S)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2583
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2585
 msgid "Parameter not a valid URL"
 msgstr "参数不是有效的 URL"
 
@@ -5822,9 +5822,9 @@ msgstr "参数不是有效的 URL"
 msgid "Parsing %d bytes of version information.\n"
 msgstr "解析版本信息的 %d 个字节。\n"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:54
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:132
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:354
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:51
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:133
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:355
 msgid "Pass&word:"
 msgstr "密码(&W):"
 
@@ -5864,12 +5864,12 @@ msgstr "路径"
 msgid "Path cannot be constructed for directory %s and subdir %s"
 msgstr "无法为目录 %s 和子目录 %s 构造路径"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2541
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2543
 msgid "Path not found:"
 msgstr "路径未找到:"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:871
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:883
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:872
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:884
 msgid "Path of identity service"
 msgstr "认证服务路径"
 
@@ -5877,10 +5877,10 @@ msgstr "认证服务路径"
 msgid "Paths"
 msgstr "路径"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1435
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1589
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1673
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1684
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1453
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1607
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1691
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1702
 msgid "Pending removal"
 msgstr "等待移除"
 
@@ -6026,7 +6026,7 @@ msgstr "请输入您用以获取外部地址的 URL"
 msgid "Please enter an upload speed limit greater or equal to 0 %s/s."
 msgstr "请输入大于等于 0 %s/s 的上传速度限制。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:675
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:674
 msgid ""
 "Please enter raw FTP command.\n"
 "Using raw ftp commands will clear the directory cache."
@@ -6048,12 +6048,12 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:994
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1227
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1338
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1350
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1297
 msgid "Please enter the name of the directory which should be created:"
 msgstr "请输入将要创建的目录名:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2771
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2784
 msgid "Please enter the name of the file which should be created:"
 msgstr "请输入将要创建的文件名:"
 
@@ -6122,7 +6122,7 @@ msgstr ""
 "墙认为只有木马或其它有害软件才会用到的端口。这可能会引发一个错误的警告，您可"
 "以安全地忽略掉。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:802
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:801
 msgid ""
 "Please note that preserving timestamps on uploads on FTP, FTPS and FTPES "
 "servers only works if they support the MFMT command."
@@ -6210,11 +6210,11 @@ msgid "Preallocation"
 msgstr "预分配"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:202
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1509
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1508
 msgid "Predefined Sites"
 msgstr "预定义的站点"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:801
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:800
 msgid "Preserving file timestamps"
 msgstr "保留文件时间戳"
 
@@ -6250,15 +6250,15 @@ msgstr ""
 msgid "Private &keys:"
 msgstr "私钥(&K):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:386
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:387
 msgid "Pro&ject ID:"
 msgstr "项目 ID (&J):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:394
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:395
 msgid "Pro&ject:"
 msgstr "项目(&J):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:88
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:89
 msgid "Pro&tocol:"
 msgstr "协议(&T):"
 
@@ -6278,13 +6278,13 @@ msgstr "处理队列(&Q)"
 msgid "Processed %s in %s."
 msgstr "已处理 %s 个文件， %s 个目录。"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:714
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:739
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:715
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:740
 msgid "Profile"
 msgstr ""
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:396
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:397
 msgid "Project (or tenant) name or ID"
 msgstr "项目(或租户)名称或 ID"
 
@@ -6392,7 +6392,7 @@ msgstr "快速搜索无法在目录对比时使用。"
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:41
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:78
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit_associations.cpp:33
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1800
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1821
 msgid "Quoting rules"
 msgstr "引号规则"
 
@@ -6409,7 +6409,7 @@ msgstr "远程目录(&E)"
 msgid "R&eset and requeue selected files"
 msgstr "重置并重新请求所选的文件(&E)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:690
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:689
 msgid "Raw FTP command"
 msgstr "原始 FTP 命令"
 
@@ -6418,11 +6418,11 @@ msgid "Re&ad"
 msgstr "读取(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:825
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1079
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1091
 msgid "Re&fresh"
 msgstr "刷新(&F)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1255
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1256
 msgid "Re&gion:"
 msgstr ""
 
@@ -6444,27 +6444,27 @@ msgstr "读取(&D)"
 msgid "Read-only"
 msgstr "只读"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1147
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1146
 msgid "Really cancel current operation?"
 msgstr "真的要取消当前操作吗？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1432
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1679
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1444
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1689
 #, c-format
 msgid "Really delete %d directory with its contents from the server?"
 msgid_plural ""
 "Really delete %d directories with their contents from the server?"
 msgstr[0] "确实要从服务器上删除 %d 个目录及其内容吗？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1429
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1676
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1441
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1686
 #, c-format
 msgid "Really delete %d file from the server?"
 msgid_plural "Really delete %d files from the server?"
 msgstr[0] "确实要从服务器上删除 %d 个文件吗？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1437
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1684
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1449
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1694
 #, c-format
 msgid "Really delete %s and %s from the server?"
 msgstr "确实要从服务器上删除 %s 和 %s 吗？"
@@ -6563,21 +6563,21 @@ msgstr "重定向地址无效或未被支持: %s"
 msgid "Refresh the file and folder lists"
 msgstr "刷新文件和文件夹列表"
 
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:27
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:32
 msgid "Remember passwords?"
 msgstr "记住密码？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1419
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1437
 msgid "Remote"
 msgstr "远程"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:100
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:101
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:1273
 msgid "Remote file"
 msgstr "远程文件"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1064
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1071
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1074
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1081
 msgid "Remote file search"
 msgstr "远程文件搜索"
 
@@ -6585,7 +6585,7 @@ msgstr "远程文件搜索"
 msgid "Remote filters:"
 msgstr "远程过滤器:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1411
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1429
 msgid "Remote path"
 msgstr "远程路径"
 
@@ -6598,7 +6598,7 @@ msgstr ""
 "默认远程路经无法解析。请确认是否是有效的绝对路径并且被当前站点的服务器模式"
 "(%s)支持。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:923
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:922
 #, c-format
 msgid ""
 "Remote path cannot be parsed. Make sure it is a valid absolute path and is "
@@ -6609,11 +6609,11 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:489
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:494
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:926
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:925
 msgid "Remote path cannot be parsed. Make sure it is a valid absolute path."
 msgstr "远程路经无法解析。请确认是否是有效的绝对路径。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:387
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:388
 msgid "Remote path could not be parsed."
 msgstr "无法解析远程路经。"
 
@@ -6621,11 +6621,11 @@ msgstr "无法解析远程路经。"
 msgid "Remote path handling:"
 msgstr "远程路径处理:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:817
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:840
 msgid "Remote path:"
 msgstr "远程路径:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:710
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:720
 msgid "Remote results:"
 msgstr "远程结果:"
 
@@ -6644,8 +6644,8 @@ msgid "Remove &selected"
 msgstr "删除选定(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_fileexists.cpp:52
-#: ../../../source/FileZilla3/locales/../src/interface/defaultfileexistsdlg.cpp:51
 #: ../../../source/FileZilla3/locales/../src/interface/asyncrequestqueue.cpp:384
+#: ../../../source/FileZilla3/locales/../src/interface/defaultfileexistsdlg.cpp:51
 msgid "Rename file"
 msgstr "重命名文件"
 
@@ -6655,7 +6655,7 @@ msgid "Rename selected directory"
 msgstr "重命令选定的文件夹"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:829
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1083
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1095
 msgid "Rename selected files and directories"
 msgstr "重命令选定的文件和文件夹"
 
@@ -6669,7 +6669,7 @@ msgstr "“%s”改名为“%s”"
 msgid "Repeat password:"
 msgstr "再次输入密码:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:97
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:101
 msgid "Reporting bugs and feature requests"
 msgstr "报告错误以及请求功能"
 
@@ -6720,7 +6720,7 @@ msgstr "响应:"
 msgid "Restore ta&bs and reconnect"
 msgstr "恢复打开的标签并重新连接(&B)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:701
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:711
 msgid "Results:"
 msgstr "结果:"
 
@@ -6753,7 +6753,7 @@ msgstr "读取目录列表..."
 msgid "Retrieving external IP address from %s"
 msgstr "从 %s 得到外部 IP 地址"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1295
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1296
 msgid "Ro&le ARN:"
 msgstr ""
 
@@ -6762,8 +6762,8 @@ msgid "Root certificate"
 msgstr "根证书"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:358
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:366
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:359
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:367
 msgid "S&atellite:"
 msgstr ""
 
@@ -6783,7 +6783,7 @@ msgstr "关闭系统(&H)"
 msgid "S&tart normally"
 msgstr "正常启动(&T)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:664
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:674
 msgid "S&top"
 msgstr "停止(&T)"
 
@@ -6818,7 +6818,7 @@ msgid "SQLite:"
 msgstr "SQLite:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:47
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:40
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:45
 msgid "Sa&ve passwords protected by a master password"
 msgstr "保存主密码保护的密码(&V)"
 
@@ -6831,7 +6831,7 @@ msgid "Satellite:"
 msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:43
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:38
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:43
 msgid "Sav&e passwords"
 msgstr "保存密码(&E)"
 
@@ -6839,11 +6839,11 @@ msgstr "保存密码(&E)"
 msgid "Save settings?"
 msgstr "保存设置吗？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:592
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:593
 msgid "Saving of password has been disabled by your system administrator."
 msgstr "您的系统管理员禁止了保存密码。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:595
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:596
 msgid "Saving of passwords has been disabled by you."
 msgstr "您禁止了保存密码。"
 
@@ -6851,17 +6851,17 @@ msgstr "您禁止了保存密码。"
 msgid "Scale factor:"
 msgstr "放大倍数:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:670
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:680
 msgid "Search &conditions:"
 msgstr "搜索条件(&C):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:662
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:667
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1189
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:672
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:677
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1199
 msgid "Search &directory:"
 msgstr "搜索目录(&D):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1378
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1377
 msgid "Search for entries containing the entered text."
 msgstr "搜索包含所输入文字的记录。"
 
@@ -6869,7 +6869,7 @@ msgstr "搜索包含所输入文字的记录。"
 msgid "Search for files recursively."
 msgstr "递归搜索文件。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1421
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1420
 msgid "Search result"
 msgstr "搜索结果"
 
@@ -6877,20 +6877,20 @@ msgstr "搜索结果"
 msgid "Search server for files"
 msgstr "在服务器上搜索文件"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1378
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1377
 msgid "Search sites"
 msgstr "搜索站点"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:652
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:662
 msgid "Search type:"
 msgstr "搜索类型:"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:377
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:378
 msgid "Secret Access &Key:"
 msgstr "秘密访问密钥(&K):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1290
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1291
 msgid "Security Token Service:"
 msgstr ""
 
@@ -6903,7 +6903,7 @@ msgstr "安全信息"
 msgid "See also: https://wiki.filezilla-project.org/Network_Configuration"
 msgstr "参见: https://wiki.filezilla-project.org/Network_Configuration"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:123
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:124
 msgid "Sele&ct server"
 msgstr "选择服务器(&C)"
 
@@ -6921,7 +6921,7 @@ msgid ""
 msgstr "请选择目标文件存在时的默认操作。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:173
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1897
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1918
 msgid "Select default editor"
 msgstr "选择默认编辑器"
 
@@ -6959,7 +6959,7 @@ msgid "Select file for exported settings"
 msgstr "选择需要导出设定的文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/export.cpp:39
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1902
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1901
 msgid "Select file for exported sites"
 msgstr "选择用于导出站点的文件"
 
@@ -6967,7 +6967,7 @@ msgstr "选择用于导出站点的文件"
 msgid "Select file to import settings from"
 msgstr "选择需要导入设定的文件"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:304
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:305
 msgid "Select file to upload"
 msgstr "选择要上传的文件"
 
@@ -6975,15 +6975,15 @@ msgstr "选择要上传的文件"
 msgid "Select filename for converted key file"
 msgstr "为转换的密钥文件输入文件名"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1762
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1783
 msgid "Select how these files should be opened."
 msgstr "选择如何打开这些文件。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1320
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1330
 msgid "Select target download directory"
 msgstr "选择下载目标文件夹"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:300
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:301
 msgid "Select target filename"
 msgstr "选择目标文件名"
 
@@ -6995,7 +6995,7 @@ msgstr "选择要导出的分类:"
 msgid "Select the private data you would like to delete."
 msgstr "请选择您要删除的个人信息。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1277
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1287
 #, c-format
 msgid "Selected %d directory with its contents for transfer."
 msgid_plural "Selected %d directories with their contents for transfer."
@@ -7007,7 +7007,7 @@ msgid "Selected %d directory."
 msgid_plural "Selected %d directories."
 msgstr[0] "选择了 %d 个文件夹。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1274
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1284
 #, c-format
 msgid "Selected %d file for transfer."
 msgid_plural "Selected %d files for transfer."
@@ -7025,7 +7025,7 @@ msgid "Selected %d file. Total size: At least %s"
 msgid_plural "Selected %d files. Total size: At least %s"
 msgstr[0] "选择了 %d 个文件。大小总共: 至少 %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1282
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1292
 #, c-format
 msgid "Selected %s and %s for transfer."
 msgstr "选择了 %s 和 %s 进行传输。"
@@ -7041,12 +7041,12 @@ msgid "Selected %s and %s. Total size: At least %s"
 msgstr "选择了 %s 和 %s。大小总共: 至少 %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:194
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1866
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1918
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1887
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1939
 msgid "Selected editor does not exist."
 msgstr "所选的编辑器不存在。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1181
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1199
 msgid "Selected file already being edited"
 msgstr "所选文件正在被编辑"
 
@@ -7054,11 +7054,11 @@ msgstr "所选文件正在被编辑"
 msgid "Selected file is already loaded"
 msgstr "所选的文件已经加载"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1172
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1190
 msgid "Selected file is already opened"
 msgstr "所选的文件已打开"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1289
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1307
 msgid "Selected file is still being edited"
 msgstr "所选文件已在编辑"
 
@@ -7102,11 +7102,11 @@ msgstr "序列号:"
 msgid "Serial:"
 msgstr "序列号:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:891
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:892
 msgid "Server &type:"
 msgstr "服务器类型(&T):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1259
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1260
 msgid "Server Side Encryption:"
 msgstr "服务器端加密:"
 
@@ -7228,8 +7228,8 @@ msgstr "服务器至本地密码:"
 msgid "Server/Local file"
 msgstr "服务器/本地文件"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:814
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:132
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:837
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:133
 msgid "Server:"
 msgstr "服务器:"
 
@@ -7267,7 +7267,7 @@ msgstr "显示目录列表(&R)"
 msgid "Show &welcome dialog..."
 msgstr "显示欢迎对话框(&W)..."
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2412
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2414
 msgid "Show both directory trees and continue comparing?"
 msgstr "要显示两边的目录树并进行对比吗？"
 
@@ -7280,7 +7280,7 @@ msgstr "显示细节"
 msgid "Show details about custom date and time formats"
 msgstr "显示有关自定义日期时间格式的详细信息"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1222
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1232
 msgid "Show in file &manager"
 msgstr "在文件管理器中打开(&M)"
 
@@ -7300,7 +7300,7 @@ msgstr "马上关闭系统"
 msgid "Signature algorithm:"
 msgstr "签名算法:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:109
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:110
 msgid "Signup"
 msgstr "注册"
 
@@ -7308,36 +7308,36 @@ msgstr "注册"
 msgid "Site &Manager entries"
 msgstr "站点管理器记录(&M)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:301
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:302
 msgid "Site Manager"
 msgstr "站点管理器"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:599
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:600
 msgid "Site Manager - Cannot remember password"
 msgstr "站点管理器 - 无法记住密码"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:551
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:562
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:620
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:637
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:652
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:664
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:698
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:717
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:742
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1023
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1036
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1122
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1390
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1402
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1416
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:928
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:937
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:944
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:552
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:563
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:621
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:638
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:653
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:665
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:699
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:718
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:743
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1024
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1037
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1123
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1391
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1403
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1417
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:927
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:936
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:943
 msgid "Site Manager - Invalid data"
 msgstr "站点管理器 - 无效数据"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:291
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:292
 msgid "Site Manager already open"
 msgstr "站点管理器已经打开"
 
@@ -7404,7 +7404,7 @@ msgstr "跳过不存在的密匙文件“%s”"
 msgid "Skipping upload of %s"
 msgstr "跳过上传 %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1287
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1286
 msgid "Some files are still being edited or need to be uploaded."
 msgstr "部分文件正被编辑或者需要上传。"
 
@@ -7419,7 +7419,7 @@ msgstr "一些处于路由器后面的远程服务器使用了错误的配置，
 msgid "Sort directories inline"
 msgstr "在原位置排序目录列表"
 
-#: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:494
+#: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:495
 msgid "Sort order cannot be changed if comparing directories."
 msgstr "对比目录时不能改变目录排序。"
 
@@ -7477,7 +7477,7 @@ msgstr "仅稳定版"
 msgid "Stable, beta and nightly versions"
 msgstr "稳定，Beta 及每日编译版(Nightly)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:173
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:174
 msgid "Start transfer &immediately"
 msgstr "立即开始传输(&I)"
 
@@ -7512,7 +7512,7 @@ msgstr "启动给定路径下的本地站点"
 msgid "State or province:"
 msgstr "州或省:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1412
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1430
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:1273
 msgid "Status"
 msgstr "状态"
@@ -7532,15 +7532,15 @@ msgid "Stop recursive operation"
 msgstr "停止递归操作"
 
 #. @translator: Keep short
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:382
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:383
 msgid "Storage &account:"
 msgstr "存储帐号(&A):"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:28
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:29
 msgid "Storj (using legacy API key)"
 msgstr "Storj (使用传统的 API key)"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:41
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:42
 msgid "Storj - Decentralized Cloud Storage"
 msgstr "Storj - 去中心化的云端存储"
 
@@ -7595,18 +7595,18 @@ msgstr "同步浏览"
 msgid "Synchronized browsing has been disabled."
 msgstr "同步浏览已经被关闭。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:135
-#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:179
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:130
+#: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:174
 msgid "Syntax error"
 msgstr "语法错误"
 
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2545
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2587
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:83
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:88
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:93
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:100
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:105
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2543
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2585
 msgid "Syntax error in command line"
 msgstr "命令行语法错误"
 
@@ -7636,7 +7636,7 @@ msgstr "TLS 连接已建立。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:67
 msgid "TLS options"
-msgstr ""
+msgstr "TLS 选项"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:445
 msgid ""
@@ -7662,11 +7662,11 @@ msgstr "目标文件已经存在"
 msgid "Target file:"
 msgstr "目标文件:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2789
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2802
 msgid "Target filename already exists!"
 msgstr "目标文件名已经存在！"
 
-#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1687
+#: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1699
 msgid "Target filename already exists, really continue?"
 msgstr "目标文件名已经存在，是否继续？"
 
@@ -7686,15 +7686,15 @@ msgstr "测试结果"
 msgid "Testing resume capabilities of server"
 msgstr "正在检测服务器能否续传"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1401
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1419
 msgid "The &following files are currently being edited:"
 msgstr "以下文件已被编辑(&F):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:715
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:714
 msgid "The Site Manager cannot be used unless the file gets repaired."
 msgstr "需要修复文件，否则无法打开站点管理器。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:290
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:291
 msgid ""
 "The Site Manager is opened in another instance of FileZilla 3.\n"
 "Do you want to continue? Any changes made in the Site Manager won't be saved "
@@ -7716,7 +7716,7 @@ msgstr ""
 msgid "The address you entered was: %s"
 msgstr "您输入的地址是: %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1880
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1901
 msgid "The associated program could not be found."
 msgstr "无法找到关联的程序。"
 
@@ -7752,11 +7752,11 @@ msgstr "自定义时间格式无效或包含不支持的格式限定符。"
 msgid "The data connection could not be established: %s"
 msgstr "无法建立数据连接: %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1784
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1805
 msgid "The default editor for text files is:"
 msgstr "文本文件的默认编辑器:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1771
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1792
 msgid "The default editor for this file type is:"
 msgstr "此类型文件的默认编辑器:"
 
@@ -7767,7 +7767,7 @@ msgid "The entered filter name already exists, please choose a different name."
 msgstr "您输入的过滤器名称已经存在，请另选一个名称。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:200
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:94
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:99
 msgid "The entered passwords are not the same."
 msgstr "输入的密码不同。"
 
@@ -7787,8 +7787,8 @@ msgstr ""
 "请输入一个新的名字:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1930
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1339
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2069
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1357
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2079
 #, c-format
 msgid ""
 "The file '%s' cannot be opened:\n"
@@ -7818,8 +7818,8 @@ msgid "The file '%s' could not be loaded."
 msgstr "文件“%s”无法加载。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1926
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1334
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2065
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1352
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2075
 #, c-format
 msgid ""
 "The file '%s' could not be opened:\n"
@@ -7829,8 +7829,8 @@ msgstr ""
 "系统中没有设置此类型文件关联的程序。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1938
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:367
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2076
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:390
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2086
 #, c-format
 msgid ""
 "The file '%s' could not be opened:\n"
@@ -7840,7 +7840,7 @@ msgstr ""
 "关联的程序打开失败"
 
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:70
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:722
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:721
 #, c-format
 msgid ""
 "The file '%s' has been created by a more recent version of FileZilla.\n"
@@ -7882,7 +7882,7 @@ msgstr "以下字符将被替换: %s"
 msgid "The following characters will be replaced: %s"
 msgstr "以下字符将被替换: %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:71
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:75
 msgid "The free open source FTP solution"
 msgstr "免费且开源的 FTP 解决方案"
 
@@ -7928,7 +7928,7 @@ msgid ""
 msgstr "最低的可用端口必须小于或等于最高的。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:209
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:99
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:104
 msgid "The master password needs to be at least 8 characters long."
 msgstr "主密码至少需要 8 个字符。"
 
@@ -7963,11 +7963,11 @@ msgid ""
 "The selected file contains importable data for the following categories:"
 msgstr "所选的文件可导入以下分类:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1190
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1208
 msgid "The selected file is already being edited:"
 msgstr "所选的文件正在被编辑:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1289
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1307
 msgid ""
 "The selected file is still opened in some other program, please close it."
 msgstr "所选文件仍被其它程序打开，请关闭它。"
@@ -7980,7 +7980,7 @@ msgstr "无法添加该服务器。"
 msgid "The server sent an unexpected or unrecognized reply."
 msgstr "服务器发送了意外的或不可识别的回应。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1057
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1058
 msgid "The server uses following charset encoding for filenames:"
 msgstr "服务器使用以下的字符集编码来处理文件名:"
 
@@ -8104,15 +8104,15 @@ msgstr "超时"
 msgid "Title:"
 msgstr "标题:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2390
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2392
 msgid "To compare directories quick search must be closed."
 msgstr "对比目录必须关闭快速搜索。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2410
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2412
 msgid "To compare directories, both file lists have to be aligned."
 msgstr "两边的文件列表必须排列整齐才能对比目录。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2411
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2413
 msgid "To do this, the directory trees need to be both shown or both hidden."
 msgstr "两边的目录树必须同时显示或隐藏才能执行此动作。"
 
@@ -8186,7 +8186,7 @@ msgstr "追踪:"
 msgid "Transfer"
 msgstr "传输"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:69
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:70
 msgid "Transfer &direction"
 msgstr "传输目录(&D)"
 
@@ -8202,7 +8202,7 @@ msgstr "传输模式"
 msgid "Transfer Queue"
 msgstr "传输队列"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:81
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:82
 msgid "Transfer Settings"
 msgstr "传输设置"
 
@@ -8262,7 +8262,7 @@ msgid "Try again"
 msgstr "重试"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:603
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1410
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1428
 msgid "Type"
 msgstr "类型"
 
@@ -8274,7 +8274,7 @@ msgstr "FTP 代理服务器类型:"
 msgid "Type of generic proxy:"
 msgstr "代理服务器类型:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1494
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1512
 msgid "U&pload"
 msgstr "上传(&P)"
 
@@ -8316,8 +8316,8 @@ msgstr "单位:"
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:495
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:505
 #: ../../../source/FileZilla3/locales/../src/engine/sizeformatting_base.cpp:63
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1441
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1468
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1459
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1486
 msgid "Unknown"
 msgstr "未知"
 
@@ -8334,10 +8334,10 @@ msgstr "未知 SOCKS 协议版本: %d"
 msgid "Unknown certificate"
 msgstr "未知证书"
 
-#: ../../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:13
 #: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:188
+#: ../../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:13
 msgid "Unknown error"
-msgstr ""
+msgstr "未知错误"
 
 #: ../../../source/FileZilla3/locales/../src/engine/misc.cpp:59
 #, c-format
@@ -8369,7 +8369,7 @@ msgstr "未知的根元素，该文件似乎不是由 FileZilla 生成的。"
 msgid "Unknown transfer encoding"
 msgstr "未知的传输编码方式"
 
-#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1794
+#: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1796
 msgid "Unknown version"
 msgstr "未知版本"
 
@@ -8390,7 +8390,7 @@ msgstr "除非问题被修复，主动模式 FTP 不会工作，只能使用被�
 msgid "Unsupported redirect"
 msgstr "不支持的重定向"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1497
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1515
 msgid "Up&load and unedit"
 msgstr "上传并放弃修改(&L)"
 
@@ -8399,7 +8399,7 @@ msgstr "上传并放弃修改(&L)"
 msgid "Updates"
 msgstr "更新"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:74
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:75
 msgid "Upload"
 msgstr "上传"
 
@@ -8407,7 +8407,7 @@ msgstr "上传"
 msgid "Upload &limit:"
 msgstr "上传限制(&L):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1432
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1450
 msgid "Upload failed"
 msgstr "上传失败"
 
@@ -8421,7 +8421,7 @@ msgid "Upload limit: none"
 msgstr "上传限制: 无"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:850
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1347
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1357
 msgid "Upload search results"
 msgstr "上传搜索结果"
 
@@ -8433,11 +8433,11 @@ msgstr "上传选定的目录"
 msgid "Upload selected files and directories"
 msgstr "上传选定的文件和目录"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:828
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:851
 msgid "Upload this file back to the server?"
 msgstr "上传该文件回服务器？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:824
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:847
 msgid "Upload this file to the server?"
 msgstr "上传该文件到服务器？"
 
@@ -8446,19 +8446,19 @@ msgstr "上传该文件到服务器？"
 msgid "Upload: %s/s"
 msgstr "上传: %s/s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1426
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1459
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1630
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1444
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1477
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1648
 msgid "Uploading"
 msgstr "正在上传"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1429
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1633
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1447
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1651
 msgid "Uploading and pending removal"
 msgstr "正在上传和等待移除"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1462
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1636
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1480
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1654
 msgid "Uploading and unediting"
 msgstr "正上传并放弃修改"
 
@@ -8466,7 +8466,7 @@ msgstr "正上传并放弃修改"
 msgid "Us&e system defaults for current language"
 msgstr "使用系统默认语言为当前语言(&E)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1064
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1065
 msgid "Use &custom charset"
 msgstr "使用自定义的字符集(&C)"
 
@@ -8474,16 +8474,16 @@ msgstr "使用自定义的字符集(&C)"
 msgid "Use &custom editor:"
 msgstr "使用自定义编辑器(&C):"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1778
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1799
 msgid "Use &default editor for text files"
 msgstr "使用默认的文本编辑器(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:709
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:280
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:281
 msgid "Use &synchronized browsing"
 msgstr "使用同步浏览(&S)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1520
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1521
 msgid "Use &team root namespace"
 msgstr ""
 
@@ -8499,11 +8499,11 @@ msgstr "使用默认动作"
 msgid "Use explicit FTP over TLS if available"
 msgstr "如果可用，使用显式的 FTP over TLS"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:120
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:121
 msgid "Use server currently connected to"
 msgstr "使用当前连接到的服务器"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:121
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:122
 msgid "Use server from site manager"
 msgstr "使用从站点管理器选择的服务器"
 
@@ -8511,7 +8511,7 @@ msgstr "使用从站点管理器选择的服务器"
 msgid "Use system &defaults for current language"
 msgstr "为当前语言使用系统默认设置(&D)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1767
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1788
 msgid "Use system association"
 msgstr "使用系统关联"
 
@@ -8548,11 +8548,11 @@ msgstr ""
 msgid "User:"
 msgstr "用户:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:637
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:638
 msgid "Username cannot be a series of spaces"
 msgstr "用户名不能是一系列的空格"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1060
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1061
 msgid "Uses UTF-8 if the server supports it, else uses local charset."
 msgstr "如果服务器支持，使用 UTF-8，否则使用本地字符集。"
 
@@ -8569,7 +8569,7 @@ msgstr "使用明文 %s 是不安全的。"
 msgid "Using secure HTTPS"
 msgstr "使用安全的 HTTPS"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1073
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1074
 msgid ""
 "Using the wrong charset can result in filenames not displaying properly."
 msgstr "使用错误的字符集可能导致文件名显示不正确。"
@@ -8662,19 +8662,19 @@ msgstr "警告: 潜在的安全隐患！"
 msgid "WebDAV"
 msgstr ""
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:39
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:40
 msgid "WebDAV using HTTP (insecure)"
 msgstr "通过 HTTP 的 WebDAV (不安全)"
 
-#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:29
+#: ../../../source/FileZilla3/locales/../src/engine/server.cpp:30
 msgid "WebDAV using HTTPS"
 msgstr "通过 HTTPS 的 WebDAV"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:52
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:56
 msgid "Welcome to FileZilla"
 msgstr "欢迎使用 FileZilla"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:84
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:88
 msgid "What's new"
 msgstr "更新"
 
@@ -8682,7 +8682,7 @@ msgstr "更新"
 msgid "What's new:"
 msgstr "更新:"
 
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:36
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:41
 msgid ""
 "When allowing FileZilla to remember passwords, you can reconnect without "
 "having to re-enter the password after restarting FileZilla."
@@ -8703,7 +8703,7 @@ msgstr "已连接服务器的情况下，需要创建一个新的连接(&A):"
 msgid "Widescreen"
 msgstr "宽屏"
 
-#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:34
+#: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:39
 msgid "Would you like FileZilla to remember passwords?"
 msgstr "您想让 FileZilla 记住密码吗？"
 
@@ -8748,7 +8748,7 @@ msgstr "您似乎正在使用纯 IPv6 主机。此向导不支持这种环境。
 msgid "You are using the latest version of FileZilla."
 msgstr "您使用的是最新版本的 FileZilla。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:109
+#: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:113
 msgid "You can always open this dialog again through the help menu."
 msgstr "您总是可以在帮助菜单中再次打开该对话框。"
 
@@ -8794,33 +8794,33 @@ msgstr "您没有权限列出该目录内容"
 msgid "You have selected at least one symbolic link."
 msgstr "您选择了至少一个符号链接。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1127
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1639
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1145
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1649
 msgid ""
 "You have selected more than 10 files for editing, do you really want to "
 "continue?"
 msgstr "您选择编辑超过 10 个文件，真的要继续吗？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:1897
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2035
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:2045
 msgid ""
 "You have selected more than 10 files or directories to open, do you really "
 "want to continue?"
 msgstr "您选择打开超过 10 个文件或目录，真的要继续吗？"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:551
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:552
 msgid "You have to enter a hostname."
 msgstr "请输入一个主机名称。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:664
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:665
 msgid "You have to enter a key file path"
 msgstr "请输入一个密钥文件路径"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1333
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1343
 msgid "You have to enter a local directory."
 msgstr "请输入一个本地目录。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1347
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1357
 msgid "You have to enter a remote directory."
 msgstr "请输入一个远程目录。"
 
@@ -8833,7 +8833,7 @@ msgstr "请输入一个解析器。"
 msgid "You have to enter a valid IPv4 address."
 msgstr "请输入正确的 IPv4 地址。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:741
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:742
 #, c-format
 msgid ""
 "You have to enter a valid access grant.\n"
@@ -8842,15 +8842,15 @@ msgstr ""
 "请输入一个有效的访问授权。\n"
 "错误: %s"
 
-#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1338
+#: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1348
 msgid "You have to enter a writable local directory."
 msgstr "请输入一个可写入的本地目录。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:652
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:653
 msgid "You have to enter an account name"
 msgstr "请输入账户名称"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:620
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:621
 msgid "You have to specify a user name"
 msgstr "请输入一个用户名"
 
@@ -8872,7 +8872,7 @@ msgstr "请输入书签名称。"
 msgid "You need to enter a name for the log file."
 msgstr "请输入日志文件名。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1861
+#: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1882
 msgid "You need to enter a properly quoted command."
 msgstr "请输入一个正确格式的命令。"
 
@@ -8885,29 +8885,29 @@ msgstr "请输入一个代理主机。"
 msgid "You need to enter a proxy port in the range from 1 to 65535"
 msgstr "请输入一个代理服务器端口(从 1 到 65535)"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:698
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:699
 msgid "You need to enter a value."
 msgstr "请输入一个值。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:717
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:718
 msgid "You need to enter an access grant."
 msgstr "请输入访问授权。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:84
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:504
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:937
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:936
 msgid "You need to enter at least one path, empty bookmarks are not supported."
 msgstr "请输入至少一个路径，不支持空书签。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:90
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:510
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:944
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:943
 msgid ""
 "You need to enter both a local and a remote path to enable synchronized "
 "browsing for this bookmark."
 msgstr "请输入本地和远程路径，使该书签启用同步浏览。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1036
+#: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1037
 msgid ""
 "You need to enter both a local and a remote path to enable synchronized "
 "browsing for this site."
@@ -8919,19 +8919,19 @@ msgid ""
 "files into or to upload files from."
 msgstr "您需要授予 FileZilla 访问下载目录和上传目录的权限。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:358
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:359
 msgid "You need to specify a local file."
 msgstr "您需要指定一个本地文件。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:375
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:376
 msgid "You need to specify a remote file."
 msgstr "您需要指定一个远程文件。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:381
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:382
 msgid "You need to specify a remote path."
 msgstr "您需要指定一个远程路经。"
 
-#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:352
+#: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:353
 msgid "You need to specify a server."
 msgstr "您需要指定一个服务器。"
 
@@ -8988,7 +8988,7 @@ msgstr "结束于"
 msgid "equals"
 msgstr "相等"
 
-#: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:532
+#: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:533
 msgid "file"
 msgstr "文件"
 
@@ -9018,8 +9018,8 @@ msgstr "fzstorj 与当前 FileZilla 版本不匹配"
 msgid "fzstorj could not be started"
 msgstr "fzstorj 无法启动"
 
-#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:51
-#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:66
+#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:53
+#: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:68
 msgid ""
 "fzstorj could not be started.\n"
 "Please make sure this executable exists in the same directory as the main "
