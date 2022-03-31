@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2022-03-31 05:30+0200\n"
-"PO-Revision-Date: 2022-03-31 16:46+0800\n"
+"PO-Revision-Date: 2022-03-31 16:57+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -832,7 +832,7 @@ msgstr "保留传输文件的时间戳(&P)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:381
 msgid "&Profile"
-msgstr ""
+msgstr "配置文件(&P)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:389
 msgid "&Queue"
@@ -3675,7 +3675,7 @@ msgstr "加密细节"
 
 #: ../../../source/FileZilla3/locales/../src/engine/storj/connect.cpp:103
 msgid "Encryption passphrase is not set"
-msgstr "未设置加密密码"
+msgstr "没有设置加密密码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:494
 msgid "End comparison and change sorting order?"
@@ -4471,11 +4471,11 @@ msgstr "GnuTLS:"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/input_parser.cpp:95
 msgid "Got overlong input line, aborting."
-msgstr ""
+msgstr "得到过长的输入行，中止操作。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/input_parser.cpp:73
 msgid "Got unexpected EOF from child process."
-msgstr ""
+msgstr "从子进程得到意外的 EOF。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:27
 msgid "Green"
@@ -5493,7 +5493,7 @@ msgstr "没有选定要导出的分类目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:289
 msgid "No code given."
-msgstr ""
+msgstr "没有给出代码。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1897
 msgid "No command given, aborting."
@@ -5538,7 +5538,7 @@ msgstr "没有给过滤器集合指定名称。"
 #: ../../../source/FileZilla3/locales/../src/commonui/xml_file.cpp:221
 #, c-format
 msgid "No permission to open '%s'"
-msgstr ""
+msgstr "没有权限打开“%s”"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1747
 msgid "No program associated with filetype"
@@ -5600,7 +5600,7 @@ msgstr "正常"
 #: ../../../source/FileZilla3/locales/../src/commonui/xml_file.cpp:224
 #, c-format
 msgid "Not a file or does not exist: '%s'"
-msgstr ""
+msgstr "不是一个文件或者文件不存在: “%s”"
 
 #: ../../../source/FileZilla3/locales/../src/interface/queueview_failed.cpp:326
 #: ../../../source/FileZilla3/locales/../src/interface/queueview_failed.cpp:355
@@ -6102,7 +6102,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:138
 msgid "Please enter the 2FA code for this server:"
-msgstr ""
+msgstr "请为该服务器输入 2FA 代码:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1891
 msgid ""
@@ -6351,7 +6351,7 @@ msgstr "已处理 %s 个文件， %s 个目录。"
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:715
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:740
 msgid "Profile"
-msgstr ""
+msgstr "配置文件"
 
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:403
@@ -6517,7 +6517,7 @@ msgstr "只读"
 #: ../../../source/FileZilla3/locales/../src/commonui/xml_file.cpp:247
 #, c-format
 msgid "Reading from '%s' failed."
-msgstr ""
+msgstr "读取“%s”时失败。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1146
 msgid "Really cancel current operation?"
@@ -8427,7 +8427,7 @@ msgstr "未知错误 %u"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/input_parser.cpp:152
 #, c-format
 msgid "Unknown eventType %d"
-msgstr ""
+msgstr "未知的 eventType %d"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:4
 msgid "Unknown host key"
