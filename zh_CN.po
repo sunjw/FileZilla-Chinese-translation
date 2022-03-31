@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2022-03-31 05:30+0200\n"
-"PO-Revision-Date: 2021-09-30 15:47+0800\n"
+"PO-Revision-Date: 2022-03-31 16:46+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -444,7 +444,7 @@ msgstr "以字节为单位显示(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1465
 msgid "&Domain:"
-msgstr "域名(&D):"
+msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/conditionaldialog.cpp:28
 msgid "&Don't show this dialog again."
@@ -832,7 +832,7 @@ msgstr "保留传输文件的时间戳(&P)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:381
 msgid "&Profile"
-msgstr "配置文件(&P)"
+msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:389
 msgid "&Queue"
@@ -1627,7 +1627,7 @@ msgstr "算法:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:202
 msgid "All files"
-msgstr ""
+msgstr "所有文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2695
 msgid "All files have been successfully transferred"
@@ -1861,7 +1861,7 @@ msgstr "书签"
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:600
 msgid ""
 "Broken server, it claims to have processed a request before it got fully set"
-msgstr "有问题的服务器，在发送完整请求前已回复"
+msgstr "有问题的服务器，在发送完整请求前已回应"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:146
 msgid "Browse..."
@@ -2551,7 +2551,7 @@ msgstr "测试服务器的连接失败。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:326
 msgid "Consider using the interactive login type."
-msgstr ""
+msgstr "考虑使用交互登录类型。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:91
 msgid "Convert key file"
@@ -2729,7 +2729,7 @@ msgstr "无法得到 fzstorj 的回应。"
 #: ../../../source/FileZilla3/locales/../src/commonui/xml_file.cpp:234
 #, c-format
 msgid "Could not get size of '%s'"
-msgstr ""
+msgstr "无法得到“%s”的大小"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1636
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1112
@@ -2876,18 +2876,18 @@ msgstr "无法恢复访问目录"
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:463
 #: ../../../source/FileZilla3/locales/../src/engine/string_reader.cpp:72
 #: ../../../source/FileZilla3/locales/../src/engine/string_reader.cpp:155
-#, c-format
+#, fuzzy, c-format
 msgid "Could not seek to offset %d in '%s' of size %d."
 msgstr "定位 %d 的偏移在“%s”大小为 %d 中失败。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:295
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:330
-#, c-format
+#, fuzzy, c-format
 msgid "Could not seek to offset %d in '%s'."
 msgstr "定位 %d 的偏移在“%s”中失败。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:454
-#, c-format
+#, fuzzy, c-format
 msgid "Could not seek to offset %d within '%s'."
 msgstr "定位 %d 的偏移在“%s”中失败。"
 
@@ -2897,7 +2897,7 @@ msgstr "无法将命令发送到 fzputtygen。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:659
 msgid "Could not send command to fzsftp executable"
-msgstr ""
+msgstr "无法将命令发送到 fzsftp 可执行文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:89
 msgid "Could not send command to fzstorj."
@@ -3098,7 +3098,7 @@ msgstr "自定义(&T)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1293
 msgid "Cus&tomer encryption"
-msgstr ""
+msgstr "自定义加密(&T)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1288
 msgid "Custom KMS ARN"
@@ -3127,7 +3127,7 @@ msgstr "自定义服务器"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1298
 msgid "Customer Ke&y:"
-msgstr ""
+msgstr "自定义密钥(&Y):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:30
 msgid "Cyan"
@@ -3735,7 +3735,7 @@ msgstr "进入所选的目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:137
 msgid "Enter the 2FA code"
-msgstr ""
+msgstr "输入 2FA 代码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:42
 msgid ""
@@ -3799,9 +3799,9 @@ msgid "Error"
 msgstr "错误"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/xml_file.cpp:227
-#, c-format
+#, fuzzy, c-format
 msgid "Error %d opening '%s'"
-msgstr ""
+msgstr "错误 %d 发生在打开“%s”时"
 
 #: ../../../source/FileZilla3/locales/../src/interface/export.cpp:33
 msgid "Error exporting settings"
@@ -3881,7 +3881,7 @@ msgstr "示例"
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:270
 #, c-format
 msgid "Excess data read from '%s'"
-msgstr "从“%s”读取了多余的数据"
+msgstr "从“%s”中读取到多余的数据"
 
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:95
 msgid "Exe&cute"
@@ -3989,7 +3989,7 @@ msgstr "转换命令到 8 bit 编码失败"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/input_parser.cpp:111
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/input_parser.cpp:124
 msgid "Failed to convert reply to local character set."
-msgstr ""
+msgstr "转换回应到本地字符集时失败。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1674
 msgid "Failed to copy or move sites"
@@ -6351,7 +6351,7 @@ msgstr "已处理 %s 个文件， %s 个目录。"
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:715
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:740
 msgid "Profile"
-msgstr "配置文件"
+msgstr ""
 
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:403
@@ -6387,7 +6387,7 @@ msgstr "代理主机以“[”开始，但没有闭合括号。"
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:297
 #, c-format
 msgid "Proxy reply: %s"
-msgstr "代理回复: %s"
+msgstr "代理回应: %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:468
 #, c-format
@@ -6401,7 +6401,7 @@ msgstr "代理请求失败: %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:507
 msgid "Proxy request failed: Unknown address type in CONNECT reply"
-msgstr "代理请求失败: CONNECT 回复了未知的地址类型"
+msgstr "代理请求失败: CONNECT 回应了未知的地址类型"
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:358
 msgid "Proxy sent data while we haven't sent out request yet"
@@ -7266,13 +7266,13 @@ msgstr "服务器在请求头发送前发送了数据"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/rawtransfer.cpp:381
 msgid "Server sent passive reply with unroutable address. Passive mode failed."
-msgstr "服务器发回了不可路由的地址。被动模式失败。"
+msgstr "服务器回应不可路由的地址。被动模式失败。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/rawtransfer.cpp:376
 msgid ""
 "Server sent passive reply with unroutable address. Using server address "
 "instead."
-msgstr "服务器发回了不可路由的地址。使用服务器地址代替。"
+msgstr "服务器回应不可路由的地址。使用服务器地址代替。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:509
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:527
@@ -8565,7 +8565,7 @@ msgstr "使用同步浏览(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1532
 msgid "Use &team root namespace"
-msgstr "使用团队根命名空间(&T)"
+msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:177
 msgid "Use Regular Expressions"
