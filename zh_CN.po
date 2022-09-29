@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2022-09-29 05:30+0200\n"
-"PO-Revision-Date: 2022-03-31 16:59+0800\n"
+"PO-Revision-Date: 2022-09-29 15:43+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -1540,7 +1540,7 @@ msgstr "队列完成后执行动作(&C)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1483
 msgid "Action on selected file:"
-msgstr "所选文件的动作:"
+msgstr "选中文件的动作:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1199
 msgid "Action to perform:"
@@ -2071,7 +2071,7 @@ msgstr "无法显示对话框"
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1165
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1311
 msgid "Cannot view/edit selected file"
-msgstr "无法查看/编辑所选的文件"
+msgstr "无法查看/编辑选择的文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:175
 msgid "Case Insensitive"
@@ -2884,7 +2884,7 @@ msgstr "无法写入“%s”，不能添加该全局书签: %s"
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:479
 #, c-format
 msgid "Could not write \"%s\", the selected sites could not be exported: %s"
-msgstr "无法写入“%s”，不能导出所选择的站点: %s"
+msgstr "无法写入“%s”，不能导出选择的站点: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Options.cpp:182
 #: ../../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:16
@@ -3166,7 +3166,7 @@ msgid ""
 "Default remote path cannot be parsed. Make sure it is a valid absolute path "
 "for the selected server type."
 msgstr ""
-"默认远程路经无法解析。请确认是否有效绝对路径，并且被所选择的服务器类型支持。"
+"默认远程路经无法解析。请确认是否有效绝对路径，并且被选择的服务器类型支持。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_language.cpp:68
 msgid "Default system language"
@@ -3207,12 +3207,12 @@ msgstr "删除站点管理器记录"
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1120
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:931
 msgid "Delete selected directory"
-msgstr "删除所选的目录"
+msgstr "删除选择的目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:828
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1065
 msgid "Delete selected files and directories"
-msgstr "删除选定的文件和目录"
+msgstr "删除选择的文件和目录"
 
 #: ../../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:402
 #, c-format
@@ -3359,7 +3359,7 @@ msgstr "不使用默认编辑器(&N)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1216
 msgid "Do the same with &all selected files already being edited"
-msgstr "对所有正在编辑的选中文件执行相同操作(&A)"
+msgstr "对所有选中的正在编辑的文件执行相同操作(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1265
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1288
@@ -3660,7 +3660,7 @@ msgstr "输入密码"
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:816
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1055
 msgid "Enter selected directory"
-msgstr "进入所选的目录"
+msgstr "进入选择的目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:136
 msgid "Enter the 2FA code"
@@ -5422,11 +5422,11 @@ msgstr "没有选定要导出的分类目录"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:288
 msgid "No code given."
-msgstr "没有给出代码。"
+msgstr "没有指定代码。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1891
 msgid "No command given, aborting."
-msgstr "没有给出命令，中止操作。"
+msgstr "没有指定命令，中止操作。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:325
 msgid "No directory added"
@@ -5447,13 +5447,13 @@ msgstr "没有正在编辑的文件。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:216
 msgid "No filter name given"
-msgstr "没有给过滤器指定名称"
+msgstr "没有指定过滤器名称"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site.cpp:188
 #: ../../../source/FileZilla3/locales/../src/commonui/site.cpp:283
 #: ../../../source/FileZilla3/locales/../src/commonui/site.cpp:304
 msgid "No host given, please enter a host."
-msgstr "没有给出主机，请输入一个主机。"
+msgstr "没有指定主机，请输入一个主机。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_themes.cpp:91
 msgid "No images available"
@@ -5462,11 +5462,11 @@ msgstr "没有图像可用"
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:260
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:330
 msgid "No name for the filterset given."
-msgstr "没有给过滤器集合指定名称。"
+msgstr "没有指定过滤器集合名称。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/local_path.cpp:422
 msgid "No path given"
-msgstr ""
+msgstr "没有指定路径"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/xml_file.cpp:221
 #, c-format
@@ -5797,7 +5797,7 @@ msgstr "代理主机(&R):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:202
 msgid "PEM files"
-msgstr ""
+msgstr "PEM 文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:507
 msgid "PORT command tainted by router or firewall."
@@ -5805,7 +5805,7 @@ msgstr "PORT 命令已受路由器或防火墙影响。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:202
 msgid "PPK files"
-msgstr ""
+msgstr "PPK 文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_ftp.cpp:53
 msgid "Pa&ssive (recommended)"
@@ -6409,7 +6409,7 @@ msgstr "远程目录(&E)"
 #: ../../../source/FileZilla3/locales/../src/interface/queueview_failed.cpp:37
 #: ../../../source/FileZilla3/locales/../src/interface/queueview_successful.cpp:30
 msgid "R&eset and requeue selected files"
-msgstr "重置并重新请求所选的文件(&E)"
+msgstr "重置并重新请求选中的文件(&E)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:689
 msgid "Raw FTP command"
@@ -7051,23 +7051,23 @@ msgstr "选择了 %s 和 %s。大小总共: 至少 %s"
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1866
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1918
 msgid "Selected editor does not exist."
-msgstr "所选的编辑器不存在。"
+msgstr "选择的编辑器不存在。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1178
 msgid "Selected file already being edited"
-msgstr "所选文件正在被编辑"
+msgstr "选择的文件正在被编辑"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:168
 msgid "Selected file is already loaded"
-msgstr "所选的文件已经加载"
+msgstr "选择的文件已经加载"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1169
 msgid "Selected file is already opened"
-msgstr "所选的文件已打开"
+msgstr "选择的文件已打开"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1286
 msgid "Selected file is still being edited"
-msgstr "所选文件已在编辑"
+msgstr "选择的文件已在编辑"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:221
 msgid "Selected filter only works for local files."
@@ -7078,7 +7078,7 @@ msgid ""
 "Selected global bookmark and current server use a different server type.\n"
 "Use site-specific bookmarks for this server."
 msgstr ""
-"所选择的全局书签和当前服务器使用了不同的服务器类型。\n"
+"选择的全局书签和当前服务器使用了不同的服务器类型。\n"
 "为该服务器使用站点特定书签。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:309
@@ -7087,7 +7087,7 @@ msgstr "选择的端口通常是被其他协议使用。"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site.cpp:341
 msgid "Selected protocol has no concept of usernames."
-msgstr ""
+msgstr "选择的协议没有用户名。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:253
 msgid "Self-signed server certificate"
@@ -7967,21 +7967,21 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:94
 msgid "The selected categories have been imported."
-msgstr "已导入所选的分类。"
+msgstr "已导入选中的分类。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:299
 msgid ""
 "The selected file contains importable data for the following categories:"
-msgstr "所选的文件可导入以下分类:"
+msgstr "选择的文件可导入以下分类:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1187
 msgid "The selected file is already being edited:"
-msgstr "所选的文件正在被编辑:"
+msgstr "选择的文件正在被编辑:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1286
 msgid ""
 "The selected file is still opened in some other program, please close it."
-msgstr "所选文件仍被其它程序打开，请关闭它。"
+msgstr "选择的文件仍被其它程序打开，请关闭它。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:280
 msgid "The server could not be added."
@@ -8729,7 +8729,7 @@ msgstr "写入(&I)"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:218
 msgid "Wrong ALPN on data connection"
-msgstr ""
+msgstr "数据连接时错误的 ALPN"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:458
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:464
@@ -9587,7 +9587,7 @@ msgstr ""
 #~ "This can be dangerous and might damage your system.\n"
 #~ "Do you really want to continue?"
 #~ msgstr ""
-#~ "所选的文件将会直接执行。\n"
+#~ "选中的文件将会直接执行。\n"
 #~ "这很危险，可能会破坏您的系统。\n"
 #~ "您真的要继续吗？"
 
@@ -9604,7 +9604,7 @@ msgstr ""
 #~ msgstr "清除站点管理器记录"
 
 #~ msgid "Do you really want to delete selected entry?"
-#~ msgstr "您真的想删除所选的记录？"
+#~ msgstr "您真的想删除选中的记录？"
 
 #~ msgid "E-&mail account:"
 #~ msgstr "电子邮件账号(&M):"
