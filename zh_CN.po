@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2023-02-01 05:30+0100\n"
-"PO-Revision-Date: 2023-02-01 15:47+0800\n"
+"PO-Revision-Date: 2023-11-03 17:06+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:60
@@ -8001,6 +8001,8 @@ msgid ""
 "necessary data is submitted. It is collected in anonymized, aggregate form "
 "only."
 msgstr ""
+"检查更新时，需要提交 FileZilla 版本、操作系统和 CPU 架构等信息。只有必要的数"
+"据才会被提交。这些数据仅以匿名、汇总的形式收集。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2451
 msgid "To compare directories quick search must be closed."
