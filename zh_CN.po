@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2024-04-28 05:30+0200\n"
-"PO-Revision-Date: 2022-03-31 16:59+0800\n"
+"PO-Revision-Date: 2024-04-28 15:55+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:60
@@ -183,7 +183,7 @@ msgstr "AWS S3 加密(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2124
 msgid "&Abort previous connection and connect in current tab"
-msgstr "放弃之前的连接并在当前标签中连接(&A)"
+msgstr "放弃之前的连接并在当前标签页中连接(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:156
 msgid "&About..."
@@ -365,7 +365,7 @@ msgstr "创建目录(&C)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/context_control.cpp:503
 msgid "&Create new tab"
-msgstr "创建新标签(&C)"
+msgstr "创建新标签页(&C)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:163
 msgid "&Debug"
@@ -1744,7 +1744,7 @@ msgstr "归档"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:64
 msgid "As tab in the transfer queue pane"
-msgstr "作为传输队列面板中的标签"
+msgstr "作为传输队列面板中的标签页"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_fileexists.cpp:46
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:98
@@ -1974,8 +1974,8 @@ msgid ""
 "Cannot close tab while busy.\n"
 "Cancel current operation and close tab?"
 msgstr ""
-"不能关闭工作中的标签。\n"
-"取消当前操作并关闭标签？"
+"不能关闭工作中的标签页。\n"
+"取消当前操作并关闭标签页？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/listingcomparison.cpp:78
 msgid ""
@@ -2179,7 +2179,7 @@ msgstr "密码:"
 #: ../../../source/FileZilla3/locales/../src/interface/context_control.cpp:506
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:37
 msgid "Cl&ose tab"
-msgstr "关闭标签(&O)"
+msgstr "关闭标签页(&O)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:55
 msgid "Classic"
@@ -2228,7 +2228,7 @@ msgstr "关闭"
 
 #: ../../../source/FileZilla3/locales/../src/interface/context_control.cpp:507
 msgid "Close &all other tabs"
-msgstr "关闭所有其它的标签(&A)"
+msgstr "关闭所有其它的标签页(&A)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1313
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1335
@@ -2246,7 +2246,7 @@ msgstr "关闭快速搜索，继续对比？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:37
 msgid "Closes current tab"
-msgstr "关闭当前标签"
+msgstr "关闭当前标签页"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:58
 msgid "Co&mments:"
@@ -2401,11 +2401,11 @@ msgstr "连接失败: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:100
 msgid "Connect in current tab"
-msgstr "在当前标签中连接"
+msgstr "在当前标签页中连接"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:99
 msgid "Connect in new tab"
-msgstr "在新标签中连接"
+msgstr "在新标签页中连接"
 
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:8
 msgid "Connect to specified Site Manager site"
@@ -3749,7 +3749,7 @@ msgstr "错误:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2122
 msgid "Establish connection in a new tab"
-msgstr ""
+msgstr "在新标签页中建立连接"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit_associations.cpp:31
 msgid "Example: png \"c:\\program files\\viewer\\viewer.exe\" -open"
@@ -4634,7 +4634,7 @@ msgstr "如果您的路由器总是变换 IP 地址，请联系您的路由器�
 
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:46
 msgid "Import Settings"
-msgstr ""
+msgstr "导入设置"
 
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:108
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:115
@@ -5247,7 +5247,7 @@ msgstr "新文件夹(&F)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:35
 msgid "New &tab"
-msgstr "新标签(&T)"
+msgstr "新标签页(&T)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:331
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:332
@@ -5571,7 +5571,7 @@ msgstr "打开失败"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:35
 msgid "Opens a new tab"
-msgstr "打开一个新的标签"
+msgstr "打开一个新的标签页"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:31
 msgid "Opens the Site Manager"
@@ -6119,7 +6119,7 @@ msgstr "优先级"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_updatecheck.cpp:70
 msgid "Privacy policy"
-msgstr ""
+msgstr "隐私政策"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:53
 msgid "Private &keys:"
@@ -6602,7 +6602,7 @@ msgstr "响应:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:93
 msgid "Restore ta&bs and reconnect"
-msgstr "恢复打开的标签并重新连接(&B)"
+msgstr "恢复打开的标签页并重新连接(&B)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:701
 msgid "Results:"
@@ -8040,7 +8040,7 @@ msgstr "太多重定向"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:305
 msgid "Too many symbolic links"
-msgstr ""
+msgstr "太多符号链接"
 
 #: ../../../source/FileZilla3/locales/../src/engine/logging.cpp:124
 #: ../../../source/FileZilla3/locales/../src/interface/StatusView.cpp:312
@@ -8263,7 +8263,7 @@ msgstr "上传并放弃修改(&L)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:68
 msgid "Update cached key for this host"
-msgstr ""
+msgstr "更新该主机缓存的密钥"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_updatecheck.cpp:102
 #: ../../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:148
@@ -8974,7 +8974,7 @@ msgstr ""
 #~ msgstr "取消(&C)"
 
 #~ msgid "&Establish connection in a new tab"
-#~ msgstr "在新标签中建立连接(&E)"
+#~ msgstr "在新标签页中建立连接(&E)"
 
 #~ msgid "&Name:"
 #~ msgstr "名字(&N):"
