@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2026-05-13 05:30+0200\n"
-"PO-Revision-Date: 2026-05-13 13:55+0800\n"
+"PO-Revision-Date: 2026-05-13 14:00+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -420,12 +420,12 @@ msgstr "目录对比(&D)"
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:1131
 msgid ""
 "&Disable synchronized browsing and continue changing the local directory"
-msgstr "停止同步浏览并且继续修改本地目录(&D)"
+msgstr "关闭同步浏览并且继续修改本地目录(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:1226
 msgid ""
 "&Disable synchronized browsing and continue changing the remote directory"
-msgstr "停止同步浏览并且继续修改远程目录(&D)"
+msgstr "关闭同步浏览并且继续修改远程目录(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1182
 msgid "&Discard local file then download and edit file anew"
@@ -601,11 +601,11 @@ msgstr "在远程递归操作期间强制刷新目录列表(&F)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:83
 msgid "&Get external IP address from the following URL:"
-msgstr "从以下 URL 得到外部 IP 地址(&G):"
+msgstr "从以下 URL 获取外部 IP 地址(&G):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:150
 msgid "&Getting help..."
-msgstr "获得帮助(&G)..."
+msgstr "获取帮助(&G)..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:67
 msgid "&Global bookmark"
@@ -2765,7 +2765,7 @@ msgstr "无法获取文件属性: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:1177
 msgid "Could not get full remote path."
-msgstr "无法得到完整的远程路径。"
+msgstr "无法获取完整的远程路径。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/cwd.cpp:199
 #, c-format
@@ -2774,21 +2774,21 @@ msgstr "无法获取初始目录: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:98
 msgid "Could not get native path from CFURL"
-msgstr "无法从 CFURL 获得原始路径"
+msgstr "无法从 CFURL 获取原始路径"
 
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:185
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:231
 msgid "Could not get path from URL"
-msgstr "无法从 URL 获得路径"
+msgstr "无法从 URL 获取路径"
 
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:113
 msgid "Could not get reply from fzstorj."
-msgstr "无法得到 fzstorj 的回应。"
+msgstr "无法获取 fzstorj 的回应。"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/xml_file.cpp:247
 #, c-format
 msgid "Could not get size of '%s'"
-msgstr "无法得到“%s”的大小"
+msgstr "无法获取“%s”的大小"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1090
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1684
@@ -2826,8 +2826,8 @@ msgid ""
 "'%s'.\n"
 "Synchronized browsing has been disabled."
 msgstr ""
-"无法获得远程目录“%s”对应的本地目录。\n"
-"同步浏览已经被禁用。"
+"无法获取远程目录“%s”对应的本地目录。\n"
+"同步浏览已关闭。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:341
 #, c-format
@@ -2836,13 +2836,13 @@ msgid ""
 "'%s'.\n"
 "Synchronized browsing has been disabled."
 msgstr ""
-"无法获得本地目录“%s”对应的远程目录。\n"
-"同步浏览已经被禁用。"
+"无法获取本地目录“%s”对应的远程目录。\n"
+"同步浏览已关闭。"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/updater.cpp:867
 #, c-format
 msgid "Could not obtain size of '%s'"
-msgstr "无法获得“%s”的大小"
+msgstr "无法获取“%s”的大小"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/updater.cpp:880
 #, c-format
@@ -3085,15 +3085,15 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:433
 msgid "Current transfer type is set to ASCII."
-msgstr "当前的传送类型被设置到 ASCII 模式。"
+msgstr "当前的传输类型被设置为 ASCII 模式。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:441
 msgid "Current transfer type is set to automatic detection."
-msgstr "当前的传送类型为自动检测。"
+msgstr "当前的传输类型为自动检测。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:437
 msgid "Current transfer type is set to binary."
-msgstr "当前的传送类型被设置为二进制模式。"
+msgstr "当前的传输类型被设置为二进制模式。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:66
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:57
@@ -4447,11 +4447,11 @@ msgstr "通用代理"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:155
 msgid "Get external IP address from the following URL:"
-msgstr "从以下 URL 得到外部 IP 地址:"
+msgstr "从以下 URL 获取外部 IP 地址:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:96
 msgid "Getting help"
-msgstr "获得帮助"
+msgstr "获取帮助"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:276
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:336
@@ -6683,7 +6683,7 @@ msgid ""
 "Remote path cannot be parsed. Make sure it is a valid absolute path and is "
 "supported by the servertype (%s) selected on the parent site."
 msgstr ""
-"远程路径无法解析。请确认是否是有效的绝对路径并且被父站点选择的服务器模式(%s)"
+"远程路径无法解析。请确认是否是有效的绝对路径并且受父站点所选服务器类型 (%s) "
 "支持。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:548
@@ -6843,7 +6843,7 @@ msgstr "读取目录列表..."
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:872
 #, c-format
 msgid "Retrieving external IP address from %s"
-msgstr "从 %s 得到外部 IP 地址"
+msgstr "从 %s 获取外部 IP 地址"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:141
 msgid "Retrying..."
@@ -7694,7 +7694,7 @@ msgstr "同步浏览"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:457
 msgid "Synchronized browsing has been disabled."
-msgstr "同步浏览已经被关闭。"
+msgstr "同步浏览已关闭。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:130
 #: ../../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:174
@@ -9539,7 +9539,7 @@ msgstr ""
 #~ msgstr "无法分配内存用于打开并写入“%s”。"
 
 #~ msgid "Could not obtain size of '%s'."
-#~ msgstr "无法获得“%s”的大小。"
+#~ msgstr "无法获取“%s”的大小。"
 
 #~ msgid "Could not open '%s' for reading."
 #~ msgstr "无法打开并读取“%s”。"
