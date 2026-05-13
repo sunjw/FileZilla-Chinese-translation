@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2026-05-13 05:30+0200\n"
-"PO-Revision-Date: 2026-05-13 13:22+0800\n"
+"PO-Revision-Date: 2026-05-13 13:44+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -2187,8 +2187,7 @@ msgstr "字符编码问题"
 msgid ""
 "Characters that are not supported by the local operating system in filenames "
 "are replaced if downloading such a file."
-msgstr ""
-"下载此类文件时，文件名中不受本地操作系统支持的字符会被替换。"
+msgstr "下载此类文件时，文件名中不受本地操作系统支持的字符会被替换。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:90
 msgid "Charset"
@@ -4876,8 +4875,8 @@ msgid ""
 "directory listings. If the server you are connecting to does not support "
 "UTF-8, select a different character encoding in the Site Manager."
 msgstr ""
-"收到无效字符序列。部分或全部文件可能不会显示在目录列表中。如果您连接的服务"
-"器不支持 UTF-8，请在站点管理器中选择其他字符编码。"
+"收到无效字符序列。部分或全部文件可能不会显示在目录列表中。如果您连接的服务器"
+"不支持 UTF-8，请在站点管理器中选择其他字符编码。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/controlsocket.cpp:510
 #, c-format
@@ -4885,8 +4884,7 @@ msgid ""
 "Invalid character sequence received. The server does not appear to use the "
 "custom character encoding (%s) you have configured in the Site Manager."
 msgstr ""
-"收到无效字符序列。服务器似乎未使用您在站点管理器中配置的自定义字符编码 "
-"(%s)。"
+"收到无效字符序列。服务器似乎未使用您在站点管理器中配置的自定义字符编码 (%s)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:539
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:549
@@ -7796,8 +7794,8 @@ msgid ""
 "proceed, your login credentials and any data exchanged with this server "
 "could get compromised."
 msgstr ""
-"您正在连接的 SFTP 服务器使用了不安全的算法。如果继续，您的登录凭据以及与"
-"该服务器交换的任何数据都可能被泄露。"
+"您正在连接的 SFTP 服务器使用了不安全的算法。如果继续，您的登录凭据以及与该服"
+"务器交换的任何数据都可能被泄露。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:717
 msgid "The Site Manager cannot be used unless the file gets repaired."
@@ -7878,8 +7876,7 @@ msgid ""
 "The entered encoding is not valid. Please enter a valid encoding name, such "
 "as CP1252, ISO8859-1, SHIFT-JIS, ..."
 msgstr ""
-"输入的编码无效。请输入有效的编码名称，例如 CP1252、ISO8859-1、SHIFT-"
-"JIS 等。"
+"输入的编码无效。请输入有效的编码名称，例如 CP1252、ISO8859-1、SHIFT-JIS 等。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:221
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:292
@@ -8090,8 +8087,8 @@ msgid ""
 "keyboard-interactive prompt named \"Password\". Sending password as "
 "response. Select interactive login type to force an interactive prompt."
 msgstr ""
-"服务器不支持密码身份验证，但发送了一个名为 \"Password\" 的键盘交互式提示。"
-"正在将密码作为响应发送。请选择交互式登录类型以强制使用交互式提示。"
+"服务器不支持密码身份验证，但发送了一个名为 \"Password\" 的键盘交互式提示。正"
+"在将密码作为响应发送。请选择交互式登录类型以强制使用交互式提示。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:384
 msgid ""
@@ -8099,8 +8096,8 @@ msgid ""
 "we already have sent the password. Select interactive login type to force an "
 "interactive prompt."
 msgstr ""
-"服务器发送了一个名为 \"Password\" 的键盘交互式提示，但我们已经发送过密码。"
-"请选择交互式登录类型以强制使用交互式提示。"
+"服务器发送了一个名为 \"Password\" 的键盘交互式提示，但我们已经发送过密码。请"
+"选择交互式登录类型以强制使用交互式提示。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:759
 msgid "The server sent an unexpected or unrecognized reply."
