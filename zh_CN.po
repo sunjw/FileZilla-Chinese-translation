@@ -445,7 +445,7 @@ msgstr "以字节为单位显示(&D)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1831
 msgid "&Domain:"
-msgstr ""
+msgstr "域(&D):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/conditionaldialog.cpp:28
 msgid "&Don't show this dialog again."
@@ -597,7 +597,7 @@ msgstr "跟踪符号链接，删除目标目录内容(&F)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:105
 msgid "&Force refresh of directory listings during remote recursive operations"
-msgstr ""
+msgstr "在远程递归操作期间强制刷新目录列表(&F)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:83
 msgid "&Get external IP address from the following URL:"
@@ -657,7 +657,7 @@ msgstr "安装新版(&I)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:153
 msgid "&Jurisdiction:"
-msgstr ""
+msgstr "司法管辖区(&J):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1350
 msgid "&Keep local path structure relative to search root"
@@ -738,7 +738,7 @@ msgstr "最小化到托盘(&M)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:79
 msgid "&Name"
-msgstr ""
+msgstr "名称(&N)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_filelists.cpp:49
 msgid "&Name sorting mode:"
@@ -838,7 +838,7 @@ msgstr "保留传输文件的时间戳(&P)"
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:514
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:526
 msgid "&Profile:"
-msgstr ""
+msgstr "配置文件(&P):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:69
 msgid "&Queue"
@@ -1261,7 +1261,7 @@ msgstr "(10-9999，0 表示禁用)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:89
 msgid "(changed)"
-msgstr ""
+msgstr "(已更改)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:73
 msgid "(example: %H-%M-%S)"
@@ -1281,7 +1281,7 @@ msgstr "(以 %s/s)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:103
 msgid "(insecure)"
-msgstr ""
+msgstr "(不安全)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:41
 #, c-format
@@ -1500,11 +1500,11 @@ msgstr "自动移除成功的传输(&U)"
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:499
 msgid "API &Key:"
-msgstr ""
+msgstr "API 密钥(&K):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:40
 msgid "API Key:"
-msgstr ""
+msgstr "API 密钥:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:166
 msgid "ASCII"
@@ -1537,7 +1537,7 @@ msgstr "无法恢复访问某些本地目录:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:607
 msgid "Acco&unt ID:"
-msgstr ""
+msgstr "帐户 ID(&U):"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:761
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:790
@@ -1640,7 +1640,7 @@ msgstr "算法:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:95
 msgid "Algorithms"
-msgstr ""
+msgstr "算法"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:293
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:296
@@ -1667,7 +1667,7 @@ msgstr "失败后允许退回到其他传输模式(&F)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1519
 msgid "Allow SSH agent keys of unknown type"
-msgstr ""
+msgstr "允许未知类型的 SSH 代理密钥"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:113
 msgid "Allow fallback to other transfer mode on failure"
@@ -1675,11 +1675,11 @@ msgstr "失败后允许退回到其他传输模式"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1517
 msgid "Allow peer identification string not terminated by CRLF"
-msgstr ""
+msgstr "允许对端标识字符串不以 CRLF 结尾"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:124
 msgid "Allow use of the insecure algorithms with this server."
-msgstr ""
+msgstr "允许对此服务器使用不安全算法。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2099
 msgid "Already connected"
@@ -1746,7 +1746,7 @@ msgstr "另一个远程操作正在进行，现在无法更改目录。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:195
 msgid "Answer the challenge received by the server to authenticate."
-msgstr ""
+msgstr "应答服务器发来的挑战以进行身份验证。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:777
 msgid "Any changes made in the Site Manager could not be saved."
@@ -1772,7 +1772,7 @@ msgstr "应用程序密钥(&K):"
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:767
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:794
 msgid "Application Default Credentials"
-msgstr ""
+msgstr "应用程序默认凭据"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:127
 msgid "Apply"
@@ -1835,20 +1835,20 @@ msgstr "属性"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:142
 msgid "Authenticating with public key"
-msgstr ""
+msgstr "正在使用公钥进行身份验证"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:166
 msgid "Authentication failed"
-msgstr ""
+msgstr "身份验证失败"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:182
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:189
 msgid "Authentication required"
-msgstr ""
+msgstr "需要身份验证"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:233
 msgid "Authentication successful"
-msgstr ""
+msgstr "身份验证成功"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_themes.cpp:149
 msgid "Author:"
@@ -1872,7 +1872,7 @@ msgstr "绕过代理(&Y)"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:152
 msgid "Bad key info"
-msgstr ""
+msgstr "密钥信息错误"
 
 #: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:109
 msgid "Basic usage instructions"
@@ -2057,6 +2057,8 @@ msgid ""
 "that can be encoded using the custom character encoding (%s) you have "
 "configured in the Site Manager."
 msgstr ""
+"无法转换为服务器的字符集。您只能使用能以站点管理器中配置的自定义字符编码 "
+"(%s) 编码的字符。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:216
 msgid "Cannot create new filter"
@@ -2101,7 +2103,7 @@ msgstr "无法重命名文件"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:356
 msgid "Cannot resume, could not get size of local file"
-msgstr ""
+msgstr "无法续传，无法获取本地文件大小"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:260
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:330
@@ -2166,7 +2168,7 @@ msgstr "证书细节"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:202
 msgid "Challenge"
-msgstr ""
+msgstr "挑战"
 
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:55
 msgid "Change file attributes"
@@ -2186,6 +2188,7 @@ msgid ""
 "Characters that are not supported by the local operating system in filenames "
 "are replaced if downloading such a file."
 msgstr ""
+"下载此类文件时，文件名中不受本地操作系统支持的字符会被替换。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_site.cpp:90
 msgid "Charset"
@@ -2375,7 +2378,7 @@ msgstr "注释"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:571
 msgid "Comment:"
-msgstr ""
+msgstr "注释:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:504
 msgid "Common name:"
@@ -2416,7 +2419,7 @@ msgstr "对比值必须在 0 和 1440 分钟之间。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1516
 msgid "Compatibility flags:"
-msgstr ""
+msgstr "兼容性标志:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:56
 msgid "Compiled for:"
@@ -2687,7 +2690,7 @@ msgstr "无法基于此次传输生成 URI。"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/mkd.cpp:76
 #, c-format
 msgid "Could not create directory: %s"
-msgstr ""
+msgstr "无法创建目录: %s"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/updater.cpp:555
 #, c-format
@@ -2702,7 +2705,7 @@ msgstr "无法创建日志锁 (logging mutex): %s"
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:179
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:225
 msgid "Could not create security-scoped bookmark from URL:"
-msgstr ""
+msgstr "无法从 URL 创建安全作用域书签:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1290
 msgid "Could not create temporary file name."
@@ -2711,12 +2714,12 @@ msgstr "无法创建临时文件名。"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/delete.cpp:61
 #, c-format
 msgid "Could not delete %s: %s"
-msgstr ""
+msgstr "无法删除 %s: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2305
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:880
 msgid "Could not determine the target of the Drag&Drop operation."
-msgstr ""
+msgstr "无法确定拖放操作的目标。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2303
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:878
@@ -2753,13 +2756,13 @@ msgstr "无法生成密钥"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/cwd.cpp:211
 #, c-format
 msgid "Could not get directory information: %s"
-msgstr ""
+msgstr "无法获取目录信息: %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/chmod.cpp:33
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:479
 #, c-format
 msgid "Could not get file attributes: %s"
-msgstr ""
+msgstr "无法获取文件属性: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:1177
 msgid "Could not get full remote path."
@@ -2768,7 +2771,7 @@ msgstr "无法得到完整的远程路径。"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/cwd.cpp:199
 #, c-format
 msgid "Could not get initial directory: %s"
-msgstr ""
+msgstr "无法获取初始目录: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:98
 msgid "Could not get native path from CFURL"
@@ -2857,21 +2860,21 @@ msgstr "无法打开剪贴板"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/list.cpp:145
 #, c-format
 msgid "Could not open directory: %s"
-msgstr ""
+msgstr "无法打开目录: %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/logfile_writer.cpp:238
 msgid "Could not open log file for writing."
-msgstr ""
+msgstr "无法打开日志文件进行写入。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:493
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:506
 #, c-format
 msgid "Could not open remote file, server sent error %s. Description: %s"
-msgstr ""
+msgstr "无法打开远程文件，服务器返回错误 %s。描述: %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/chmod.cpp:61
 msgid "Could not parse new permissions"
-msgstr ""
+msgstr "无法解析新权限"
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:137
 msgid "Could not parse remote path."
@@ -2884,11 +2887,11 @@ msgstr "无法解析服务器地址:"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/list.cpp:148
 #, c-format
 msgid "Could not read directory: %s"
-msgstr ""
+msgstr "无法读取目录: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:162
 msgid "Could not read file"
-msgstr ""
+msgstr "无法读取文件"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/updater.cpp:889
 #, c-format
@@ -2902,7 +2905,7 @@ msgstr "无法读取数据套接字。"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:488
 #, c-format
 msgid "Could not read from remote file, server sent error %s. Description: %s"
-msgstr ""
+msgstr "无法从远程文件读取数据，服务器返回错误 %s。描述: %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:67
 #, c-format
@@ -2912,7 +2915,7 @@ msgstr "无法读取套接字: %s"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:99
 #, c-format
 msgid "Could not read key file '%s'."
-msgstr ""
+msgstr "无法读取密钥文件“%s”。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:519
 msgid "Could not receive data from server."
@@ -2921,12 +2924,12 @@ msgstr "无法从服务器接收数据。"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/rename.cpp:40
 #, c-format
 msgid "Could not rename file or directory: %s"
-msgstr ""
+msgstr "无法重命名文件或目录: %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/rmd.cpp:35
 #, c-format
 msgid "Could not rename file: %s"
-msgstr ""
+msgstr "无法重命名文件: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:124
 msgid "Could not restore directory access"
@@ -2939,7 +2942,7 @@ msgstr "无法将命令发送到 fzstorj。"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/chmod.cpp:41
 #, c-format
 msgid "Could not set file attributes: %s"
-msgstr ""
+msgstr "无法设置文件属性: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:407
 msgid "Could not start transfer"
@@ -2984,7 +2987,7 @@ msgstr "无法写入本地文件"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:510
 #, c-format
 msgid "Could not write to remote file, server sent error %s. Description: %s"
-msgstr ""
+msgstr "无法写入远程文件，服务器返回错误 %s。描述: %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/controlsocket.cpp:745
 #: ../../../source/FileZilla3/locales/../src/engine/controlsocket.cpp:843
@@ -3299,7 +3302,7 @@ msgstr "正在删除符号链接"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/delete.cpp:82
 msgid "Deletion succeeded."
-msgstr ""
+msgstr "删除成功。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1055
 msgid "Desktop"
@@ -3352,11 +3355,11 @@ msgstr "保存日志文件的目录不存在或文件名无效。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/mkd.cpp:72
 msgid "Directory creation succeeded."
-msgstr ""
+msgstr "目录创建成功。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/rmd.cpp:39
 msgid "Directory deletion succeeded."
-msgstr ""
+msgstr "目录删除成功。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:65
 msgid "Directory listing &filters..."
@@ -3691,7 +3694,7 @@ msgstr "输入 0 表示无速度限制。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:514
 msgid "Enter SSH keyfile password"
-msgstr ""
+msgstr "输入 SSH 密钥文件密码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1903
 msgid "Enter command"
@@ -3837,7 +3840,7 @@ msgstr "保存队列出错"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:175
 msgid "Error saving trusted hostkeys"
-msgstr ""
+msgstr "保存受信任主机密钥时出错"
 
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:53
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:68
@@ -4349,7 +4352,7 @@ msgstr "查找目录(&I)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:88
 msgid "Fingerprint"
-msgstr ""
+msgstr "指纹"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:295
 msgid "Fingerprint (SHA-1):"
@@ -4363,7 +4366,7 @@ msgstr "指纹(SHA-256):"
 #: ../../../source/FileZilla3/locales/../src/interface/sftp_crypt_info_dlg.cpp:29
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:82
 msgid "Fingerprint:"
-msgstr ""
+msgstr "指纹:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:242
 msgid "Firewall and router configuration wizard"
@@ -4424,7 +4427,7 @@ msgstr "函数 %s 失败"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:186
 msgid "Further authentication required"
-msgstr ""
+msgstr "需要进一步身份验证"
 
 #: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:111
 msgid "Further documentation"
@@ -4466,13 +4469,13 @@ msgstr "GnuTLS:"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:44
 msgid "Google Cloud Storage with Service Account"
-msgstr ""
+msgstr "使用 Service Account 的 Google Cloud Storage"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/filetransfer.cpp:447
 msgid ""
 "Got a short read not at the end of a file, this is not permissiable on "
 "normal files"
-msgstr ""
+msgstr "在文件末尾之前发生了短读取，这在普通文件中是不允许的"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:28
 msgid "Green"
@@ -4524,7 +4527,7 @@ msgstr "主机密钥不匹配"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:117
 msgid "Host key signature:"
-msgstr ""
+msgstr "主机密钥签名:"
 
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:543
@@ -4556,7 +4559,7 @@ msgstr "主机密匙算法:"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:108
 msgid "Hostkey is trusted"
-msgstr ""
+msgstr "主机密钥可信"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1173
 msgid "Hours,"
@@ -4582,7 +4585,7 @@ msgstr "认证主机(&H):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1823
 msgid "Identity (Keystone):"
-msgstr ""
+msgstr "身份（Keystone）:"
 
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:603
@@ -4818,7 +4821,7 @@ msgstr "无法获取最新版本 FileZilla 的信息。请稍后重试。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1556
 msgid "Initial re&gion:"
-msgstr ""
+msgstr "初始区域(&G):"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:297
 msgid "Initializing TLS..."
@@ -4835,7 +4838,7 @@ msgstr "不安全的 FTP 数据连接"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:21
 msgid "Insecure SFTP server"
-msgstr ""
+msgstr "不安全的 SFTP 服务器"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:171
 msgid "Insecure algorithm!"
@@ -4847,7 +4850,7 @@ msgstr "不安全的服务器，不支持 FTP over TLS。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:230
 msgid "Instructions:"
-msgstr ""
+msgstr "说明:"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:758
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:788
@@ -4873,6 +4876,8 @@ msgid ""
 "directory listings. If the server you are connecting to does not support "
 "UTF-8, select a different character encoding in the Site Manager."
 msgstr ""
+"收到无效字符序列。部分或全部文件可能不会显示在目录列表中。如果您连接的服务"
+"器不支持 UTF-8，请在站点管理器中选择其他字符编码。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/controlsocket.cpp:510
 #, c-format
@@ -4880,6 +4885,8 @@ msgid ""
 "Invalid character sequence received. The server does not appear to use the "
 "custom character encoding (%s) you have configured in the Site Manager."
 msgstr ""
+"收到无效字符序列。服务器似乎未使用您在站点管理器中配置的自定义字符编码 "
+"(%s)。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:539
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:549
@@ -4929,7 +4936,7 @@ msgstr "无效的路径"
 
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:169
 msgid "Invalid permissions"
-msgstr ""
+msgstr "无效权限"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site.cpp:180
 #: ../../../source/FileZilla3/locales/../src/commonui/site.cpp:303
@@ -4990,7 +4997,7 @@ msgstr "颁发者"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:296
 msgid "JSON files"
-msgstr ""
+msgstr "JSON 文件"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:518
 msgid "Jurisdiction country:"
@@ -5006,7 +5013,7 @@ msgstr "司法管辖州或省:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:519
 msgid "Jurisdiction:"
-msgstr ""
+msgstr "司法管辖区:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_filelists.cpp:45
 msgid "Keep directories on top"
@@ -5024,7 +5031,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:556
 msgid "Key details"
-msgstr ""
+msgstr "密钥详情"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sftp_crypt_info_dlg.cpp:21
 msgid "Key exchange"
@@ -5079,7 +5086,7 @@ msgstr "不输入以保持现有密码不变。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:97
 msgid "License and copyright information"
-msgstr ""
+msgstr "许可证和版权信息"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:55
 msgid "Limit for concurrent &downloads:"
@@ -5122,7 +5129,7 @@ msgstr "最低可用端口(&W):"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:275
 #, c-format
 msgid "Loaded %u distinct keys"
-msgstr ""
+msgstr "已加载 %u 个不同的密钥"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1437
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1685
@@ -5511,7 +5518,7 @@ msgstr "没有图像可用"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:225
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:385
 msgid "No more authentication methods available"
-msgstr ""
+msgstr "没有更多可用的身份验证方法"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:260
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:330
@@ -5590,7 +5597,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/cwd.cpp:153
 msgid "Not a directory"
-msgstr ""
+msgstr "不是目录"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/xml_file.cpp:237
 #, c-format
@@ -5604,7 +5611,7 @@ msgstr "并非所有项目都可被重新列队以传输。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:207
 msgid "Not available"
-msgstr ""
+msgstr "不可用"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:228
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:1484
@@ -5888,7 +5895,7 @@ msgstr "被动模式已经被设为默认传输模式。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:175
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:49
 #: ../../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:139
@@ -5929,7 +5936,7 @@ msgstr "等待移除"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:133
 msgid "Permanently &remember this choice"
-msgstr ""
+msgstr "永久记住此选择(&R)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:112
 msgid "Permission"
@@ -6110,12 +6117,12 @@ msgstr "请输入将要创建的文件名:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:525
 msgid "Please enter the password of SSH private key file."
-msgstr ""
+msgstr "请输入 SSH 私钥文件的密码。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:522
 msgid ""
 "Please enter the password of the SSH private key file to log into the server."
-msgstr ""
+msgstr "请输入 SSH 私钥文件的密码以登录到服务器。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:301
 msgid "Please enter username and password for this server:"
@@ -6346,7 +6353,7 @@ msgstr "项目(或租户)名称或 ID"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:237
 msgid "Prompt:"
-msgstr ""
+msgstr "提示:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:367
 msgid "Protocol:"
@@ -6567,12 +6574,12 @@ msgstr "已收到的数据被损坏"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:338
 #, c-format
 msgid "Received error %s with description '%s'"
-msgstr ""
+msgstr "收到错误 %s，描述为“%s”"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:335
 #, c-format
 msgid "Received error %s without any further description"
-msgstr ""
+msgstr "收到错误 %s，没有进一步描述"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/updater.cpp:612
 msgid "Received invalid character in version information"
@@ -6581,7 +6588,7 @@ msgstr "在版本信息中收到了无效字符"
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:170
 #, c-format
 msgid "Received multi-line response with more than %u lines."
-msgstr ""
+msgstr "收到超过 %u 行的多行响应。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/ftpcontrolsocket.cpp:115
 msgid "Received too long response line from server, closing connection."
@@ -6635,7 +6642,7 @@ msgstr "刷新文件和文件夹列表"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1617
 msgid "Regio&n:"
-msgstr ""
+msgstr "区域(&N):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:32
 msgid "Remember passwords?"
@@ -6735,7 +6742,7 @@ msgstr "重命令选定的文件和文件夹"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/rename.cpp:54
 msgid "Rename succeeded."
-msgstr ""
+msgstr "重命名成功。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/rename.cpp:22
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/rename.cpp:17
@@ -6771,11 +6778,11 @@ msgstr "请求 %s"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:234
 msgid "Requesting SFTP subsystem"
-msgstr ""
+msgstr "正在请求 SFTP 子系统"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:219
 msgid "Requesting keyboard-interactive authentication"
-msgstr ""
+msgstr "正在请求键盘交互式身份验证"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:45
 msgid "Require explicit FTP over TLS"
@@ -6842,15 +6849,15 @@ msgstr "从 %s 得到外部 IP 地址"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/transfersocket.cpp:141
 msgid "Retrying..."
-msgstr ""
+msgstr "正在重试..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1603
 msgid "Ro&le ARN:"
-msgstr ""
+msgstr "角色 ARN(&L):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1619
 msgid "Ro&le name:"
-msgstr ""
+msgstr "角色名称(&L):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:258
 msgid "Root certificate"
@@ -6860,7 +6867,7 @@ msgstr "根证书"
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:497
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:505
 msgid "S&atellite:"
-msgstr ""
+msgstr "卫星(&A):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:43
 msgid "S&how files currently being edited..."
@@ -6892,7 +6899,7 @@ msgstr "同步浏览(&Y)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1612
 msgid "S3 via IAM Identity Center (formerly SSO):"
-msgstr ""
+msgstr "通过 IAM Identity Center（原 SSO）的 S3:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:130
 msgid "SFTP"
@@ -6900,7 +6907,7 @@ msgstr "SFTP"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:242
 msgid "SFTP subsystem initialized"
-msgstr ""
+msgstr "SFTP 子系统已初始化"
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:169
 #, c-format
@@ -6927,7 +6934,7 @@ msgstr "与主题相同，该证书是自签名的"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:31
 msgid "Satellite:"
-msgstr ""
+msgstr "卫星:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:51
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:43
@@ -7196,11 +7203,11 @@ msgstr "发出保持连接命令"
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:210
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:325
 msgid "Sending password"
-msgstr ""
+msgstr "正在发送密码"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:391
 msgid "Sending password as response"
-msgstr ""
+msgstr "正在将密码作为响应发送"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:515
 msgid "Serial number:"
@@ -7213,7 +7220,7 @@ msgstr "序列号:"
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:110
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:531
 msgid "Server"
-msgstr ""
+msgstr "服务器"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1120
 msgid "Server &type:"
@@ -7229,7 +7236,7 @@ msgstr "服务器证书"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/chmod.cpp:51
 msgid "Server did not return old permissions to update"
-msgstr ""
+msgstr "服务器未返回旧权限，无法更新"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:428
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:487
@@ -7328,7 +7335,7 @@ msgstr "设定优先级(&P)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:96
 msgid "Set group-ID"
-msgstr ""
+msgstr "设置 group-ID"
 
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:94
 msgid "Set-user-ID"
@@ -7566,7 +7573,7 @@ msgstr "稳定，Beta 及每日编译版(Nightly)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1621
 msgid "Start &URL:"
-msgstr ""
+msgstr "起始 URL(&U):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:174
 msgid "Start transfer &immediately"
@@ -7616,7 +7623,7 @@ msgstr "状态:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:98
 msgid "Sticky bit"
-msgstr ""
+msgstr "粘滞位"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1800
 msgid "Stop and remove &all"
@@ -7789,6 +7796,8 @@ msgid ""
 "proceed, your login credentials and any data exchanged with this server "
 "could get compromised."
 msgstr ""
+"您正在连接的 SFTP 服务器使用了不安全的算法。如果继续，您的登录凭据以及与"
+"该服务器交换的任何数据都可能被泄露。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:717
 msgid "The Site Manager cannot be used unless the file gets repaired."
@@ -7862,13 +7871,15 @@ msgstr "此类型文件的默认编辑器:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:169
 msgid "The entered chmod is invalid"
-msgstr ""
+msgstr "输入的 chmod 无效"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1488
 msgid ""
 "The entered encoding is not valid. Please enter a valid encoding name, such "
 "as CP1252, ISO8859-1, SHIFT-JIS, ..."
 msgstr ""
+"输入的编码无效。请输入有效的编码名称，例如 CP1252、ISO8859-1、SHIFT-"
+"JIS 等。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:221
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:292
@@ -7939,7 +7950,7 @@ msgstr ""
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:105
 #, c-format
 msgid "The file '%s' does not contain any private keys"
-msgstr ""
+msgstr "文件“%s”不包含任何私钥"
 
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:91
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:724
@@ -7955,7 +7966,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:171
 msgid "The file does not contain a valid or recognized private key"
-msgstr ""
+msgstr "该文件不包含有效或可识别的私钥"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:161
 msgid "The file selected as default editor does not exist."
@@ -8079,6 +8090,8 @@ msgid ""
 "keyboard-interactive prompt named \"Password\". Sending password as "
 "response. Select interactive login type to force an interactive prompt."
 msgstr ""
+"服务器不支持密码身份验证，但发送了一个名为 \"Password\" 的键盘交互式提示。"
+"正在将密码作为响应发送。请选择交互式登录类型以强制使用交互式提示。"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/connect.cpp:384
 msgid ""
@@ -8086,6 +8099,8 @@ msgid ""
 "we already have sent the password. Select interactive login type to force an "
 "interactive prompt."
 msgstr ""
+"服务器发送了一个名为 \"Password\" 的键盘交互式提示，但我们已经发送过密码。"
+"请选择交互式登录类型以强制使用交互式提示。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:759
 msgid "The server sent an unexpected or unrecognized reply."
@@ -8363,7 +8378,7 @@ msgstr "把以下的文件类型作为 ASCII 格式文件对待(&F):"
 msgid ""
 "Truncating directory listing to %u items, you can increase this limit in the "
 "settings file."
-msgstr ""
+msgstr "正在将目录列表截断为 %u 个项目，您可以在设置文件中提高此限制。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifyhostkeydialog.cpp:120
 msgid "Trust the new key and carry on connecting?"
@@ -8591,7 +8606,7 @@ msgstr "使用同步浏览(&S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1898
 msgid "Use &team root namespace"
-msgstr ""
+msgstr "使用团队根命名空间(&T)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/list_search_panel.cpp:177
 msgid "Use Regular Expressions"
@@ -8599,7 +8614,7 @@ msgstr "使用正则表达式"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1559
 msgid "Use a&ccelerated endpoint"
-msgstr ""
+msgstr "使用加速端点(&C)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/defaultfileexistsdlg.cpp:44
 msgid "Use default action"
@@ -8655,7 +8670,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1521
 msgid "Use with caution, compatibility flags may degrade connection security"
-msgstr ""
+msgstr "请谨慎使用，兼容性标志可能会降低连接安全性"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:43
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:127
@@ -8858,7 +8873,7 @@ msgstr "您可以从 FileZilla 网站下载最新版本:"
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:112
 msgid ""
 "You can enter a textual mode change (chmod), or the new mode bits in octal."
-msgstr ""
+msgstr "您可以输入文本形式的模式变更（chmod），也可以输入八进制的新模式位。"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site.cpp:182
 msgid "You can leave the port field empty to use the default port."
@@ -8949,7 +8964,7 @@ msgstr "请输入账户名称"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1799
 msgid "You have to enter both role name and start URL."
-msgstr ""
+msgstr "您必须同时输入角色名称和起始 URL。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:775
 msgid "You have to specify a user name"
@@ -9210,7 +9225,7 @@ msgstr ""
 #~ msgstr "认证失败。"
 
 #~ msgid "Challenge:"
-#~ msgstr "需要确认:"
+#~ msgstr "挑战:"
 
 #~ msgid "Changing logfile settings requires restart of FileZilla."
 #~ msgstr "修改日志文件设置需要重启 FileZilla。"
