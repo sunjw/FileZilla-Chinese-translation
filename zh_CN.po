@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: FileZilla 3\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2026-05-13 05:30+0200\n"
-"PO-Revision-Date: 2026-05-13 13:47+0800\n"
+"PO-Revision-Date: 2026-05-13 13:55+0800\n"
 "Last-Translator: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language-Team: Sun Junwen <sunjw8888@gmail.com>\n"
 "Language: zh_CN\n"
@@ -677,7 +677,7 @@ msgstr "文件和目录面板布局(&L):"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:52
 msgid "&Limit local ports used by FileZilla"
-msgstr "限制 FilaZila 使用的本地端口(&L)"
+msgstr "限制 FileZilla 使用的本地端口(&L)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1315
 msgid "&Limit number of simultaneous connections"
@@ -2817,7 +2817,7 @@ msgid ""
 "Disable synchronized browsing and continue changing the remote directory?"
 msgstr ""
 "无法获得远程目录“%s”对应的本地目录。\n"
-"关闭同步浏览并且继续修改本地目录？"
+"关闭同步浏览并且继续修改远程目录？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:448
 #, c-format
@@ -2836,7 +2836,7 @@ msgid ""
 "'%s'.\n"
 "Synchronized browsing has been disabled."
 msgstr ""
-"无法获得远程目录“%s”对应的本地目录。\n"
+"无法获得本地目录“%s”对应的远程目录。\n"
 "同步浏览已经被禁用。"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/updater.cpp:867
@@ -3237,7 +3237,7 @@ msgid ""
 "Default remote path cannot be parsed. Make sure it is a valid absolute path "
 "for the selected server type."
 msgstr ""
-"默认远程路经无法解析。请确认是否有效绝对路径，并且被选择的服务器类型支持。"
+"默认远程路径无法解析。请确认是否为有效的绝对路径，并且受所选服务器类型支持。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_language.cpp:68
 msgid "Default system language"
@@ -6674,8 +6674,8 @@ msgid ""
 "Remote path cannot be parsed. Make sure it is a valid absolute path and is "
 "supported by the current site's servertype (%s)."
 msgstr ""
-"默认远程路经无法解析。请确认是否是有效的绝对路径并且被当前站点的服务器模式"
-"(%s)支持。"
+"远程路径无法解析。请确认是否是有效的绝对路径，并且受当前站点的服务器类型 "
+"(%s) 支持。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:933
 #, c-format
@@ -6690,11 +6690,11 @@ msgstr ""
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:553
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:936
 msgid "Remote path cannot be parsed. Make sure it is a valid absolute path."
-msgstr "远程路经无法解析。请确认是否是有效的绝对路径。"
+msgstr "远程路径无法解析。请确认是否是有效的绝对路径。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:393
 msgid "Remote path could not be parsed."
-msgstr "无法解析远程路经。"
+msgstr "无法解析远程路径。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1348
 msgid "Remote path handling:"
@@ -6731,12 +6731,12 @@ msgstr "重命名文件"
 #: ../../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1146
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:911
 msgid "Rename selected directory"
-msgstr "重命令选定的文件夹"
+msgstr "重命名选定的文件夹"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:837
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1067
 msgid "Rename selected files and directories"
-msgstr "重命令选定的文件和文件夹"
+msgstr "重命名选定的文件和文件夹"
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/rename.cpp:54
 msgid "Rename succeeded."
@@ -8057,7 +8057,7 @@ msgid ""
 "Disable synchronized browsing and continue changing the remote directory?"
 msgstr ""
 "远程目录“%s”不在同步根目录 (%s) 下面。\n"
-"关闭同步浏览并且继续修改本地目录？"
+"关闭同步浏览并且继续修改远程目录？"
 
 #: ../../../source/FileZilla3/locales/../src/interface/import.cpp:115
 msgid "The selected categories have been imported."
@@ -9042,7 +9042,7 @@ msgstr "您需要指定一个远程文件。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:387
 msgid "You need to specify a remote path."
-msgstr "您需要指定一个远程路经。"
+msgstr "您需要指定一个远程路径。"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:358
 msgid "You need to specify a server."
